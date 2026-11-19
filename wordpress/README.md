@@ -32,6 +32,10 @@ The November 2026 Nepali migration covers 57 published guides, four articles, ei
 
 Nepali pages use locally hosted Noto Sans Devanagari (400–700), with script-appropriate line height and heading spacing; English retains DM Sans and Instrument Serif. The font's OFL license is bundled in `assets/fonts/`. Static and enhanced interface labels use the same dictionary. Internal routing/filter keys and form option values remain stable; Nepali search includes translated destination names. The design build copies the dictionary into the theme for releases.
 
+For a content-only live sync, run `tools/export-nepali-sync.php` through local WP-CLI. Transfer its private JSON output and `tools/sync-nepali-live.php` to a folder outside the live document root. Back up the live database, then run the sync script with the payload path for a read-only preview. It matches English records by language/type/slug, matches attachments by upload path, and stops if English content differs. Append `apply` to create/update linked Nepali records, translated ACF values, terms, menus and image descriptions; append `verify` for a subsequent check. A content snapshot and verification report remain beside the payload. No credentials, database backups or runtime payload belong in Git.
+
+The header language control shows only other available languages. It sits beside search and theme controls, with the main navigation on its own row on small screens.
+
 Short values and units stay in a single field. Gutenberg and block widgets are disabled. ACF logo and Customizer logo reference the same attachment ID in both directions.
 
 The theme owns its destination registration and fields. Changing to a different theme hides those editing screens; database records remain intact.

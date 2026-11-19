@@ -3,6 +3,15 @@
 defined('ABSPATH') || exit;
 
 function gj_is_nepali(){return function_exists('pll_current_language') && pll_current_language('slug')==='ne';}
+function gj_language_switcher(){
+    if(!function_exists('pll_the_languages'))return;
+    $links='';
+    foreach((array)pll_the_languages(['raw'=>1,'hide_if_empty'=>1])as$language){
+        if(!empty($language['current_lang'])||empty($language['url']))continue;
+        $links.='<a href="'.esc_url($language['url']).'" lang="'.esc_attr($language['slug']).'" hreflang="'.esc_attr($language['slug']).'">'.esc_html($language['name']).'</a>';
+    }
+    if($links)echo '<nav class="language-switcher" aria-label="'.esc_attr(gj_is_nepali()?'भाषा बदल्नुहोस्':'Change language').'">'.$links.'</nav>';
+}
 function gj_canonical_title($id){$english=function_exists('pll_get_post')?pll_get_post($id,'en'):0;return get_post_field('post_title',$english?:$id);}
 function gj_canonical_term_name($term){$english=function_exists('pll_get_term')?pll_get_term($term->term_id,'en'):0;$source=$english?get_term($english,$term->taxonomy):$term;return $source&&!is_wp_error($source)?$source->name:$term->name;}
 function gj_canonical_terms($id,$taxonomy){
