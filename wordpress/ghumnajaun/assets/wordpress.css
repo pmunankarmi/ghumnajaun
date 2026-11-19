@@ -31,3 +31,10 @@ body.admin-bar #gj .trip-main > section { scroll-margin-top: calc(var(--trip-hea
 
 /* Reserve the logo box before its SVG finishes loading. */
 #gj .brand-logo {aspect-ratio:321 / 64;object-fit:contain;}
+
+/* Text links stay lightweight and readable in both article and guide layouts. */
+#gj .gj-related-reading {margin-top:28px;}
+#gj .gj-related-reading h2 {margin-bottom:12px;}
+#gj .gj-related-reading ul {padding-left:22px;line-height:1.8;}
+#gj .gj-related-reading li + li {margin-top:8px;}
+#gj .gj-related-reading a {color:var(--orange);text-decoration:underline;text-underline-offset:3px;}

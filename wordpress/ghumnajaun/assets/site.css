@@ -662,6 +662,13 @@ body.admin-bar #gj .trip-main > section { scroll-margin-top: calc(var(--trip-hea
 /* Reserve the logo box before its SVG finishes loading. */
 #gj .brand-logo {aspect-ratio:321 / 64;object-fit:contain;}
 
+/* Text links stay lightweight and readable in both article and guide layouts. */
+#gj .gj-related-reading {margin-top:28px;}
+#gj .gj-related-reading h2 {margin-bottom:12px;}
+#gj .gj-related-reading ul {padding-left:22px;line-height:1.8;}
+#gj .gj-related-reading li + li {margin-top:8px;}
+#gj .gj-related-reading a {color:var(--orange);text-decoration:underline;text-underline-offset:3px;}
+
 /* Devanagari needs more leading and neutral tracking for its vowel marks. */
 html:lang(ne) #gj {font-family:'Noto Sans Devanagari','DM Sans',sans-serif;font-size:16px;line-height:1.8;}
 html:lang(ne) #gj :is(button,input,select,textarea) {font-family:inherit;line-height:1.6;}
