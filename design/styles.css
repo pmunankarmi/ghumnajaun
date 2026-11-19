@@ -427,6 +427,9 @@ html:has(.search-dialog[open]){overflow:hidden}
 #gj .trip-history-copy{max-width:68ch;margin:0 0 14px;color:var(--muted)}
 #gj .trip-main h3{font-size:clamp(23px,2.6vw,29px);line-height:1.08}
 #gj .trip-section-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,3vw,36px);align-items:start}
+/* Classic-editor spacing must not occupy a card position in the visit grid. */
+#gj [data-trip-visit] > p:empty,#gj [data-trip-visit] > br{display:none}
+#gj [data-trip-visit]:has(> .trip-card:only-of-type){grid-template-columns:minmax(0,1fr)}
 #gj .trip-section-grid:has(> :only-child),#gj .trip-section-grid:has(> [hidden]){grid-template-columns:minmax(0,1fr)}
 #gj .trip-activities,#gj .trip-day-plan{list-style:none;margin:0 0 16px;padding:0}
 #gj .trip-activities li + li,#gj .trip-day-plan li + li{border-top:1px solid var(--line)}
