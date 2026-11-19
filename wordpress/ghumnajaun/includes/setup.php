@@ -43,7 +43,7 @@ add_action('admin_notices',function(){if(!function_exists('acf_add_local_field_g
 class GJ_Flat_Nav extends Walker_Nav_Menu {
  public function start_lvl(&$output,$depth=0,$args=null){}
  public function end_lvl(&$output,$depth=0,$args=null){}
- public function start_el(&$output,$item,$depth=0,$args=null,$id=0){$output.='<a class="page-link" href="'.esc_url($item->url).'"'.(in_array('current-menu-item',$item->classes??[],true)?' aria-current="page"':'').'>'.esc_html($item->title).'</a>';}
+ public function start_el(&$output,$item,$depth=0,$args=null,$id=0){$data='';$parts=wp_parse_url($item->url);if(($parts['host']??'')===wp_parse_url(home_url(),PHP_URL_HOST)){if(untrailingslashit($parts['path']??'')===untrailingslashit(wp_parse_url(home_url('/explore/'),PHP_URL_PATH))){parse_str($parts['query']??'',$query);$data=' data-filter="'.esc_attr($query['category']??'All').'"';}elseif(untrailingslashit($parts['path']??'')===untrailingslashit(wp_parse_url(home_url('/blog/'),PHP_URL_PATH)))$data=' data-page="blog"';}$output.='<a class="page-link" href="'.esc_url($item->url).'"'.$data.(in_array('current-menu-item',$item->classes??[],true)?' aria-current="page"':'').'>'.esc_html($item->title).'</a>';}
  public function end_el(&$output,$item,$depth=0,$args=null){}
 }
 // Local's macOS PHP-FPM can abort in Apple's asynchronous IPv6 resolver.
