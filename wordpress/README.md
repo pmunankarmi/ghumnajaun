@@ -30,9 +30,9 @@ The theme owns its destination registration and fields. Changing to a different 
 
 Repository: https://github.com/pmunankarmi/ghumnajaun
 
-A push affecting the theme or `design/` on `main` runs `.github/workflows/theme-release.yml`. The workflow rebuilds the original design assets, lints PHP, packages only the theme, assigns an increasing `1.1.BUILD` version, and publishes a GitHub release containing `ghumnajaun.zip`.
+A push affecting the theme or `design/` on `main` runs `.github/workflows/theme-release.yml`. The workflow rebuilds the original design assets, lints PHP, packages only the theme, assigns an increasing `1.1.BUILD` version, and publishes a GitHub release containing `ghumnajaun.zip` and a public `ghumnajaun-update.json` manifest.
 
-The active theme checks the repository's latest release about every five minutes. It offers and installs newer versions through WordPress's native theme upgrader. The admin displays the installed version and last update status. An open administrator screen also triggers background checks without an Update button. Public-site requests trigger normal WP-Cron.
+The active theme checks the repository's latest public release manifest about every five minutes, avoiding GitHub's anonymous API rate limit. It offers and installs newer versions through WordPress's native theme upgrader. The admin displays the installed version and last update status. An open administrator screen also triggers background checks without an Update button. Public-site requests trigger normal WP-Cron.
 
 This requires GitHub Actions, a public repository/release, outbound HTTPS, a running Local site and writable theme files. It is polling, not instant push delivery. A closed Local app or idle site with no admin tab cannot perform work. For unattended production operation, configure a host scheduler to run WordPress cron at least every five minutes.
 

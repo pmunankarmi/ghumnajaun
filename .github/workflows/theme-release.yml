@@ -29,9 +29,10 @@ jobs:
           printf '%s\n' "$VERSION" > dist/version.txt
           cd dist
           zip -rq ghumnajaun.zip ghumnajaun
+          printf '{"version":"%s","package":"https://github.com/pmunankarmi/ghumnajaun/releases/download/v%s/ghumnajaun.zip"}\n' "$VERSION" "$VERSION" > ghumnajaun-update.json
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           VERSION=$(cat dist/version.txt)
-          gh release create "v${VERSION}" dist/ghumnajaun.zip --title "Ghumna Jaun ${VERSION}" --notes "Automatic theme build from ${GITHUB_SHA}. Admin content is preserved." --latest
+          gh release create "v${VERSION}" dist/ghumnajaun.zip dist/ghumnajaun-update.json --title "Ghumna Jaun ${VERSION}" --notes "Automatic theme build from ${GITHUB_SHA}. Admin content is preserved." --latest

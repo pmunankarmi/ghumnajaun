@@ -6,11 +6,11 @@ add_action('init',function(){if(!wp_next_scheduled('gj_github_update'))wp_schedu
 add_action('switch_theme',function(){wp_clear_scheduled_hook('gj_github_update');});
 function gj_release(){
  $cached=get_transient('gj_github_release');if($cached!==false)return $cached;
- $r=wp_remote_get('https://api.github.com/repos/pmunankarmi/ghumnajaun/releases/latest',['timeout'=>15,'headers'=>['Accept'=>'application/vnd.github+json','User-Agent'=>'GhumnaJaun-WordPress']]);
+ $r=wp_remote_get('https://github.com/pmunankarmi/ghumnajaun/releases/latest/download/ghumnajaun-update.json',['timeout'=>20,'headers'=>['Accept'=>'application/json','User-Agent'=>'GhumnaJaun-WordPress']]);
  if(is_wp_error($r)||wp_remote_retrieve_response_code($r)!==200){update_option('gj_update_status',['time'=>time(),'message'=>'GitHub release unavailable; current theme remains active.'],false);set_transient('gj_github_release',[],300);return [];}
- $data=json_decode(wp_remote_retrieve_body($r),true);$version=ltrim($data['tag_name']??'','v');
- if(!preg_match('/^\d+\.\d+\.\d+$/',$version)||!empty($data['prerelease'])||!empty($data['draft']))return [];
- foreach($data['assets']??[]as$asset){$url=$asset['browser_download_url']??'';if(($asset['name']??'')==='ghumnajaun.zip'&&str_starts_with($url,'https://github.com/pmunankarmi/ghumnajaun/releases/download/')){$release=['theme'=>'ghumnajaun','new_version'=>$version,'url'=>'https://github.com/pmunankarmi/ghumnajaun','package'=>$url,'requires'=>'6.5','requires_php'=>'8.0'];set_transient('gj_github_release',$release,300);return $release;}}
+ $data=json_decode(wp_remote_retrieve_body($r),true);$version=$data['version']??'';$url=$data['package']??'';
+ if(!preg_match('/^\d+\.\d+\.\d+$/',$version)||$url!=='https://github.com/pmunankarmi/ghumnajaun/releases/download/v'.$version.'/ghumnajaun.zip')return [];
+ $release=['theme'=>'ghumnajaun','new_version'=>$version,'url'=>'https://github.com/pmunankarmi/ghumnajaun','package'=>$url,'requires'=>'6.5','requires_php'=>'8.0'];set_transient('gj_github_release',$release,300);return $release;
  return [];
 }
 add_filter('pre_set_site_transient_update_themes',function($transient){if(!is_object($transient))$transient=new stdClass();$r=gj_release();if($r&&version_compare($r['new_version'],wp_get_theme('ghumnajaun')->get('Version'),'>'))$transient->response['ghumnajaun']=$r;return $transient;});
@@ -29,5 +29,5 @@ add_action('gj_github_update',function(){
 add_action('admin_footer',function(){if(!current_user_can('update_themes'))return; ?>
 <script>setInterval(()=>fetch(ajaxurl,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'action=gj_update_tick&_ajax_nonce=<?php echo esc_js(wp_create_nonce('gj_update_tick')); ?>'}),300000);</script>
 <?php });
-add_action('wp_ajax_gj_update_tick',function(){check_ajax_referer('gj_update_tick');if(!current_user_can('update_themes'))wp_send_json_error(null,403);if(!wp_next_scheduled('gj_github_update')||wp_next_scheduled('gj_github_update')>time()+10)wp_schedule_single_event(time(),'gj_github_update');spawn_cron();wp_send_json_success();});
+add_action('wp_ajax_gj_update_tick',function(){check_ajax_referer('gj_update_tick');if(!current_user_can('update_themes'))wp_send_json_error(null,403);do_action('gj_github_update');wp_send_json_success();});
 add_action('admin_notices',function(){if(!current_user_can('update_themes'))return;$status=get_option('gj_update_status');echo '<div class="notice notice-info"><p>Ghumna Jaun '.esc_html(wp_get_theme()->get('Version')).' · Automatic GitHub updates enabled (main branch releases, approximately every five minutes while the site is running).';if($status)echo ' '.esc_html($status['message']);echo '</p></div>';});
