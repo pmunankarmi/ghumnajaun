@@ -30,7 +30,7 @@ The theme owns its destination registration and fields. Changing to a different 
 
 Repository: https://github.com/pmunankarmi/ghumnajaun
 
-A push affecting `wordpress/ghumnajaun/` on `main` runs `.github/workflows/theme-release.yml`. The workflow lints PHP, packages only the theme, assigns an increasing `1.1.BUILD` version, and publishes a GitHub release containing `ghumnajaun.zip`.
+A push affecting the theme or `design/` on `main` runs `.github/workflows/theme-release.yml`. The workflow rebuilds the original design assets, lints PHP, packages only the theme, assigns an increasing `1.1.BUILD` version, and publishes a GitHub release containing `ghumnajaun.zip`.
 
 The active theme checks the repository's latest release about every five minutes. It offers and installs newer versions through WordPress's native theme upgrader. The admin displays the installed version and last update status. An open administrator screen also triggers background checks without an Update button. Public-site requests trigger normal WP-Cron.
 
@@ -58,9 +58,10 @@ From this repository:
 
 1. Create a clean Local site and activate ACF Pro and Polylang.
 2. Run `node tools/extract-content.cjs` if prototype data changed.
-3. Run `python3 tools/cache-photos.py` to cache referenced originals in `/tmp/ghumnajaun-media`. The optional panorama helper downloads its smaller image.
-4. Install the `wordpress/ghumnajaun` directory in wp-content/themes and activate it.
-5. Run `wp eval-file /absolute/path/to/tools/finish-wordpress.php` using the site's PHP/MySQL connection.
+3. Run `node tools/build-design-runtime.cjs` to copy the latest original CSS/layouts and build the WordPress-connected interaction script.
+4. Run `python3 tools/cache-photos.py` to cache referenced originals in `/tmp/ghumnajaun-media`. The optional panorama helper downloads its smaller image.
+5. Install the `wordpress/ghumnajaun` directory in wp-content/themes and activate it.
+6. Run `wp eval-file /absolute/path/to/tools/finish-wordpress.php` using the site's PHP/MySQL connection.
 
 The project-specific `tools/install-local.sh` and `tools/wp-local.sh` use this machine's Local paths. Imported destination/page records are reused, preserving later editorial edits. `finish-wordpress.php` fills missing media and initializes languages/menus; it is a setup tool, not an update hook.
 
@@ -73,3 +74,11 @@ List/search supports `page`, capped `per_page` (maximum 50), `city`, `type`, `ca
 ## Local macOS compatibility
 
 An observed PHP-FPM crash in the macOS asynchronous IPv6 resolver is avoided by using IPv4 for WordPress HTTP requests only when `WP_ENVIRONMENT_TYPE=local` and PHP runs on Darwin. HTTPS certificate verification remains enabled. Production transport is unchanged.
+
+## Original HTML design fidelity
+
+`design/styles.css` is the canonical visual stylesheet. The build copies it byte-for-byte into the theme. The original HTML section markup is kept in `views/` (not `templates/`, so WordPress recognizes a classic theme). `assets/design.js` is generated from the original prototype interactions and reads published WordPress/ACF data. Server-rendered content is present before JavaScript runs.
+
+CSS and JavaScript URLs include their SHA-256 content hashes, so any deployed change creates a fresh asset URL. Run `node tools/build-design-runtime.cjs` after changes to the original design; GitHub Actions runs it automatically for releases. Code changes do not re-import or overwrite admin content.
+
+The starting-point selector, city cards, outing chips, banner slider, destination gallery/popups, sticky guide navigation, consent controls and original contact-form layout are retained. Source-only sample restaurant records remain drafts.

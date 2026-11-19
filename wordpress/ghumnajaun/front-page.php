@@ -1,12 +1,1 @@
-<?php get_header(); $cover=gj_option('home_cover'); ?>
-<section data-screen="home"><div class="hero home-hero">
-<?php if($cover)echo wp_get_attachment_image($cover,'full',false,['class'=>'wp-hero-photo','fetchpriority'=>'high']); ?>
-<div class="hero-copy"><p class="eyebrow"><?php echo esc_html(gj_option('home_eyebrow','DAY TRIPS FROM KATHMANDU VALLEY')); ?></p><h1><?php echo esc_html(gj_option('home_title','Where shall we go today?')); ?></h1></div>
-<p class="wp-home-intro"><?php echo esc_html(gj_option('home_intro','Find your next day out, from ancient squares to peaceful hills.')); ?></p>
-<form class="search" action="<?php echo esc_url(home_url('/explore/')); ?>" method="get"><label>Find a place<input type="search" name="q" placeholder="Place, area or activity"></label><button class="primary">Explore nearby</button></form></div>
-<div class="body home-content"><section><h2>Find your kind of outing</h2><div class="chips"><?php foreach(get_terms(['taxonomy'=>'outing','hide_empty'=>true])as$term): ?><a class="page-link" href="<?php echo esc_url(get_term_link($term)); ?>"><?php echo esc_html($term->name); ?></a><?php endforeach; ?></div></section>
-<section><h2>Browse by city</h2><div class="chips"><?php foreach(get_terms(['taxonomy'=>'place_city','hide_empty'=>true])as$term): ?><a class="page-link" href="<?php echo esc_url(get_term_link($term)); ?>"><?php echo esc_html($term->name); ?></a><?php endforeach; ?></div></section>
-<section><div class="flex-heading"><h2>Day trips from Kathmandu Valley</h2><a class="page-link" href="<?php echo esc_url(home_url('/explore/')); ?>">View all places ↗</a></div><?php $featured=gj_option('featured_destinations',[]);gj_cards($featured?['post__in'=>$featured,'orderby'=>'post__in','posts_per_page'=>6]:['posts_per_page'=>6]); ?></section>
-<section><h2>Family trips with kids</h2><?php gj_cards(['posts_per_page'=>3,'tax_query'=>[['taxonomy'=>'outing','field'=>'slug','terms'=>'kids']]]); ?></section>
-<section><h2>From the blog</h2><div class="row row-cols-1 row-cols-md-3 g-4 wp-cards"><?php $posts=new WP_Query(['post_type'=>'post','posts_per_page'=>3]);while($posts->have_posts()):$posts->the_post(); ?><div class="col"><a class="place" href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large'); ?><div class="info"><h3><?php the_title(); ?></h3><p><?php echo esc_html(get_the_excerpt()); ?></p></div></a></div><?php endwhile;wp_reset_postdata(); ?></div></section></div></section>
-<?php get_footer(); ?>
+<?php get_header();echo gj_design_template('index');get_footer(); ?>

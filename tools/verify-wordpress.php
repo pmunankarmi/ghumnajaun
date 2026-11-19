@@ -1,6 +1,7 @@
 <?php
 if(!defined('WP_CLI'))exit;
 function gj_check($ok,$message){if(!$ok)WP_CLI::error($message);WP_CLI::log('PASS '.$message);}
+gj_check(!wp_is_block_theme(),'Theme is classic, not block');
 $published=(int)wp_count_posts('destination')->publish;$drafts=(int)wp_count_posts('destination')->draft;
 gj_check($published===57&&$drafts===2,'57 published guides and 2 draft samples');
 $bhaktapur=get_posts(['post_type'=>'destination','title'=>'Bhaktapur Durbar Square','posts_per_page'=>1])[0];$id=$bhaktapur->ID;
@@ -20,7 +21,7 @@ $language=new WP_REST_Request('GET','/ghumnajaun/v1/destinations');$language->se
 wp_set_current_user($old_user);
 $old=get_field('address',$id);try{update_field('field_gj_address',$old.' [verification]',$id);$detail=rest_do_request(new WP_REST_Request('GET','/ghumnajaun/v1/destinations/'.$id));gj_check($detail->get_data()['guide']['address']===$old.' [verification]','Saved ACF edits appear in API');}finally{update_field('field_gj_address',$old,$id);}
 $logo=get_theme_mod('custom_logo');$other=get_post_thumbnail_id($id);try{update_field('field_gj_site_logo',$other,'option');gj_check(get_theme_mod('custom_logo')===$other,'ACF logo updates Customizer');set_theme_mod('custom_logo',$logo);gj_check((int)get_field('site_logo','option')===(int)$logo,'Customizer logo updates ACF');}finally{update_field('field_gj_site_logo',$logo,'option');}
-foreach(['/','/explore/','/destination/bhaktapur-durbar-square/','/about/','/contact/','/blog/','/outing/kids/']as$path){$r=wp_remote_get(home_url($path),['timeout'=>20]);gj_check(!is_wp_error($r)&&wp_remote_retrieve_response_code($r)===200,'HTTP 200 '.$path);if($path==='/destination/bhaktapur-durbar-square/'){$html=wp_remote_retrieve_body($r);gj_check(str_contains($html,'TouristAttraction')&&str_contains($html,'rel="canonical"')&&str_contains($html,'property="og:image"'),'Destination SEO metadata and schema');gj_check(str_contains($html,'55 Window Palace')&&str_contains($html,'Nyatapola Temple'),'Destination guide is server rendered');}}
+foreach(['/','/explore/','/destination/bhaktapur-durbar-square/','/about/','/contact/','/blog/','/outing/kids/']as$path){$r=wp_remote_get(home_url($path),['timeout'=>20]);gj_check(!is_wp_error($r)&&wp_remote_retrieve_response_code($r)===200,'HTTP 200 '.$path);gj_check(!str_contains(wp_remote_retrieve_body($r),'Warning:')&&!str_contains(wp_remote_retrieve_body($r),'Fatal error:'),'No PHP errors '.$path);if($path==='/destination/bhaktapur-durbar-square/'){$html=wp_remote_retrieve_body($r);gj_check(str_contains($html,'TouristAttraction')&&str_contains($html,'rel="canonical"')&&str_contains($html,'property="og:image"'),'Destination SEO metadata and schema');gj_check(str_contains($html,'55 Window Palace')&&str_contains($html,'Nyatapola Temple'),'Destination guide is server rendered');}}
 gj_check((int)get_option('blog_public')===0,'Local site is noindex');
 gj_check((bool)wp_next_scheduled('gj_github_update'),'Automatic GitHub check is scheduled');
 WP_CLI::success('WordPress verification passed.');

@@ -5,7 +5,7 @@ add_action('acf/init',function(){
     $field=function($name,$label,$type='text',$extra=[]){return array_merge(['key'=>'field_gj_'.$name,'name'=>$name,'label'=>$label,'type'=>$type],$extra);};
     $row=function($name,$label,$subs)use($field){return $field($name,$label,'repeater',['layout'=>'block','button_label'=>'Add item','sub_fields'=>$subs]);};
     $fields=[
-        $field('address','Address'),$field('latitude','Latitude','number',['step'=>'any']),$field('longitude','Longitude','number',['step'=>'any']),
+        $field('card_label','Card subtitle'),$field('address','Address'),$field('latitude','Latitude','number',['step'=>'any']),$field('longitude','Longitude','number',['step'=>'any']),
         $field('history','History','wysiwyg'),
         $field('gallery','Photo gallery','gallery',['return_format'=>'id']),
         $row('facts','Visit facts',[$field('fact_label','Label'),$field('fact_value','Value (include units)'),$field('fact_note','Note')]),
@@ -21,7 +21,7 @@ add_action('acf/init',function(){
     acf_add_local_field_group(['key'=>'group_gj_guide','title'=>'Destination guide','fields'=>$fields,'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'destination']]],'show_in_rest'=>true]);
     acf_add_local_field_group(['key'=>'group_gj_options','title'=>'Branding and homepage','fields'=>[
         $field('site_logo','Site logo','image',['return_format'=>'id']),$field('home_eyebrow','Homepage eyebrow'),$field('home_title','Homepage headline'),$field('home_intro','Homepage introduction','textarea'),
-        $field('home_cover','Homepage cover','image',['return_format'=>'id']),$field('featured_destinations','Featured destinations','relationship',['post_type'=>['destination'],'return_format'=>'id']),$field('contact_recipient','Contact recipient','email'),
+        $field('home_cities','Homepage cities','taxonomy',['taxonomy'=>'place_city','field_type'=>'multi_select','return_format'=>'id','multiple'=>1]),$field('home_banners','Homepage banner destinations','relationship',['post_type'=>['destination'],'return_format'=>'id']),$field('home_cover','Homepage cover','image',['return_format'=>'id']),$field('featured_destinations','Featured destinations','relationship',['post_type'=>['destination'],'return_format'=>'id']),$field('contact_recipient','Contact recipient','email'),
     ],'location'=>[[['param'=>'options_page','operator'=>'==','value'=>'gj-settings']]]]);
     acf_add_local_field_group(['key'=>'group_gj_credits','title'=>'Photo attribution','fields'=>[$field('photo_author','Photographer / author'),$field('photo_source','Source URL','url'),$field('photo_license','License')],'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'attachment']]]]);
     acf_add_local_field_group(['key'=>'group_gj_seo','title'=>'Search appearance','fields'=>[$field('seo_title','SEO title'),$field('seo_description','Meta description','textarea',['rows'=>2]),$field('seo_noindex','Hide from search engines','true_false')],'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'destination']],[['param'=>'post_type','operator'=>'==','value'=>'page']],[['param'=>'post_type','operator'=>'==','value'=>'post']]]]);

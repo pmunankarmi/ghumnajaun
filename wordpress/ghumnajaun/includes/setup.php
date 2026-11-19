@@ -18,11 +18,15 @@ add_filter('pll_get_post_types', function($types){ $types['destination']='destin
 add_filter('pll_get_taxonomies', function($types){ foreach(['place_city','place_type','outing'] as $t)$types[$t]=$t; return $types; });
 add_action('after_switch_theme',function(){ do_action('gj_register_ready'); flush_rewrite_rules(); });
 add_action('wp_enqueue_scripts', function () {
-    $base=get_template_directory_uri(); $v=wp_get_theme()->get('Version');
+    $base=get_template_directory_uri();
     wp_enqueue_style('gj-grid','https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap-grid.min.css',[], '5.3.8');
-    wp_enqueue_style('gj-design',$base.'/assets/styles.css',['gj-grid'],$v);
-    wp_enqueue_style('gj-wordpress',$base.'/assets/wordpress.css',['gj-design'],$v);
-    wp_enqueue_script('gj-theme',$base.'/assets/theme.js',[],$v,true);
+    wp_enqueue_style('gj-swiper','https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.css',[],'11.2.10');
+    wp_enqueue_style('gj-aos','https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css',[],'2.3.4');
+    foreach(['design'=>'styles.css','wordpress'=>'wordpress.css']as$key=>$file)wp_enqueue_style('gj-'.$key,$base.'/assets/'.$file,['gj-grid','gj-swiper','gj-aos'],hash_file('sha256',get_template_directory().'/assets/'.$file));
+    wp_enqueue_script('gj-swiper','https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js',[],'11.2.10',true);
+    wp_enqueue_script('gj-aos','https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js',[],'2.3.4',true);
+    wp_enqueue_script('gj-runtime',$base.'/assets/design.js',['gj-swiper','gj-aos'],hash_file('sha256',get_template_directory().'/assets/design.js'),true);
+    wp_add_inline_script('gj-runtime','window.GJ='.wp_json_encode(gj_design_data(),JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT).';','before');
 });
 function gj_value($name,$id=null,$default='') { $id=$id?:get_the_ID(); $v=function_exists('get_field')?get_field($name,$id):get_post_meta($id,$name,true); return ($v===false||$v===null||$v==='')?$default:$v; }
 function gj_option($name,$default=''){ return function_exists('get_field')?(get_field($name,'option')?:$default):$default; }

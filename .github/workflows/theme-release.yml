@@ -2,7 +2,7 @@ name: Publish WordPress theme
 on:
   push:
     branches: [main]
-    paths: ['wordpress/ghumnajaun/**', '.github/workflows/theme-release.yml']
+    paths: ['wordpress/ghumnajaun/**', 'design/**', 'tools/build-design-runtime.cjs', '.github/workflows/theme-release.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build original design assets
+        run: node tools/build-design-runtime.cjs
       - name: Validate PHP
         run: find wordpress/ghumnajaun -name '*.php' -print0 | xargs -0 -n1 php -l
       - name: Package theme

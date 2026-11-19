@@ -1,9 +1,11 @@
 <?php
 defined('ABSPATH') || exit;
-function gj_contact_form(){ ?>
-<form class="wp-contact" id="gj-contact-form" method="post" action="<?php echo esc_url(admin_url('admin-ajax.php')); ?>"><input type="hidden" name="action" value="gj_contact"><?php wp_nonce_field('gj_contact','gj_nonce'); ?>
-<label>Name<input name="name" required maxlength="100" autocomplete="name"></label><label>Email<input name="email" type="email" required maxlength="254" autocomplete="email"></label><label>Topic<select name="subject"><option>Suggest a place</option><option>Update a guide</option><option>Listings and collaborations</option><option>General enquiry</option></select></label><label>Message<textarea name="body" required maxlength="3000" rows="6"></textarea></label><label hidden aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label><button class="primary" type="submit">Send message</button><p id="gj-contact-status" role="status"></p></form>
-<?php }
+function gj_contact_form(){
+ $form=file_get_contents(get_template_directory().'/views/contact-form.html');
+ $form=str_replace('action="contact-send.php"','action="'.esc_url(admin_url('admin-ajax.php')).'"',$form);
+ $form=str_replace('</form>','<input type="hidden" name="action" value="gj_contact">'.wp_nonce_field('gj_contact','gj_nonce',false,false).'</form>',$form);
+ echo gj_legacy_links($form);
+}
 add_action('wp_ajax_gj_contact','gj_send_contact');add_action('wp_ajax_nopriv_gj_contact','gj_send_contact');
 function gj_send_contact(){
  if(!check_ajax_referer('gj_contact','gj_nonce',false))wp_send_json_error(['message'=>'Please reload the page and try again.'],403);

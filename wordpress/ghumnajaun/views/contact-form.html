@@ -1,0 +1,33 @@
+<form class="contact-form" id="gj-contact-form" action="contact-send.php" method="post">
+        <h2>Write to us</h2>
+        <p id="gj-contact-note">Send us a message and we’ll reply by email. <a class="trip-inline-link" href="privacy-policy.html">Privacy Policy</a></p>
+        <div class="contact-honeypot" aria-hidden="true"><label for="gj-contact-website">Leave this field empty</label><input id="gj-contact-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <label for="gj-contact-name">Your name</label>
+            <input id="gj-contact-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="gj-contact-email">Your email</label>
+            <input id="gj-contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+          </div>
+          <div class="col-12">
+            <label for="gj-contact-subject">What’s it about?</label>
+            <select id="gj-contact-subject" name="subject" required>
+              <option value="">Choose a topic</option>
+              <option>Suggest a place</option>
+              <option>Update a guide</option>
+              <option>Listings and collaborations</option>
+              <option>General enquiry</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="gj-contact-message">Your message</label>
+            <textarea id="gj-contact-message" name="body" rows="6" maxlength="3000" required></textarea>
+          </div>
+        </div>
+        <p class="contact-validation-summary" id="gj-contact-errors" role="alert" hidden></p>
+        <p class="contact-send-status" id="gj-contact-status" role="status" hidden></p>
+        <button class="primary" type="submit" aria-describedby="gj-contact-note">Send message</button>
+        <noscript><p>Please enable JavaScript to send this form, or <a class="trip-inline-link" href="mailto:hello@ghumnajaun.com">email hello@ghumnajaun.com</a>.</p></noscript>
+      </form>

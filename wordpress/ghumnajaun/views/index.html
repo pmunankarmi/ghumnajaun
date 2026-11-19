@@ -1,0 +1,36 @@
+
+<section data-screen="home">
+<div class="hero home-hero">
+<div class="swiper banner-slider" id="gj-banner" role="region" aria-label="Featured destinations">
+  <div class="swiper-wrapper" id="gj-banner-slides"></div>
+  <div class="banner-timer" id="gj-banner-timer" aria-hidden="true" hidden></div>
+  <div class="banner-controls">
+    <div class="banner-pagination" role="group" aria-label="Choose a featured destination" data-reveal="fade-up"></div>
+  </div>
+</div>
+<div class="hero-copy"><p class="eyebrow" data-reveal="fade-up">DAY TRIPS FROM KATHMANDU VALLEY</p><h1 data-reveal="fade-up">Where shall we<br>go today?</h1></div>
+<form class="search" action="explore.html" method="get" data-reveal="fade-up"><label>Starting from<select id="gj-start" name="from"><option>Kathmandu Valley</option><option>Kathmandu</option><option>Lalitpur</option><option>Bhaktapur</option></select></label><button class="primary" type="submit">Explore nearby</button></form><a href="destination.html?place=Nagarkot" class="hero-location page-link" id="gj-banner-place" data-reveal="fade-up" data-place="Nagarkot">Nagarkot <span class="link-arrow" aria-hidden="true">↗</span></a></div>
+<div class="body home-content">
+  <div class="browse"><h2 data-reveal="fade-up">Find your kind of outing</h2><div class="chips" id="gj-home-chips"></div></div>
+  <section aria-labelledby="gj-city-heading">
+    <h2 id="gj-city-heading" data-reveal="fade-up">Browse by city</h2>
+    <div class="row row-cols-2 row-cols-md-3 g-3 place-row" id="gj-cities"></div>
+  </section>
+  <section class="featured"><div class="flex-heading" data-reveal="fade-up"><div><p class="eyebrow">EXPLORE NEARBY</p><h2>Day trips from Kathmandu Valley</h2></div><a href="explore.html" data-filter="All" class="page-link">View all places <span class="link-arrow" aria-hidden="true">↗</span></a></div><div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 place-row" id="gj-featured"></div></section>
+  <section aria-labelledby="gj-family-heading">
+    <div class="flex-heading" data-reveal="fade-up">
+      <h2 id="gj-family-heading">Family trips with kids</h2>
+      <a href="explore.html?category=Kids" data-filter="Kids" class="page-link">View all kids’ outings <span class="link-arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 place-row" id="gj-family-trips"></div>
+  </section>
+  <aside class="dining-callout"><div class="row g-0 align-items-center"><div class="col-12 col-md-6" data-reveal="fade-up"><img id="gj-dining-image" alt="Nepali dal bhat thali, photographed in Kathmandu" loading="lazy"></div><div class="col-12 col-md-6 dining-copy" data-reveal="fade-up"><p class="eyebrow">SCENIC DINING</p><h2>Food with a view</h2><p>Head out of the city for lunch with a view of the hills.</p><a href="explore.html?category=Scenic%20dining" data-filter="Scenic dining" class="page-link">Explore scenic dining <span class="link-arrow" aria-hidden="true">↗</span></a></div></div></aside>
+  <section aria-labelledby="gj-blog-heading">
+    <div class="flex-heading" data-reveal="fade-up">
+      <h2 id="gj-blog-heading">From the blog</h2>
+      <a href="blog.html" class="page-link" data-page="blog">All travel guides <span class="link-arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 place-row" id="gj-blog-posts"></div>
+  </section>
+</div>
+</section>

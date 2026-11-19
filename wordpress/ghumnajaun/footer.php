@@ -5,4 +5,4 @@
   <li><span class="social-icon" role="img" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.5" cy="6.7" r="1.15"/></svg></span></li>
   <li><span class="social-icon" role="img" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 22v-9h3l.5-3.5H14V7.3c0-1 .3-1.7 1.8-1.7h1.9V2.4a24 24 0 0 0-2.8-.2c-2.8 0-4.8 1.7-4.8 4.9v2.4H7V13h3.1v9H14Z"/></svg></span></li>
 </ul>
-<nav class="footer-navigation" aria-label="Footer"><?php wp_nav_menu(['theme_location'=>'footer','container'=>false,'items_wrap'=>'%3$s','walker'=>new GJ_Flat_Nav()]); ?></nav></footer></div><?php wp_footer(); ?></body></html>
+<?php gj_footer_navigation(); ?></footer></div><?php wp_footer(); ?></body></html>

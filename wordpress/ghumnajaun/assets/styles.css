@@ -104,6 +104,15 @@ html:has(.search-dialog[open]){overflow:hidden}
 #gj .search-dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
 #gj .search-dialog-heading h2{font-size:32px}
 #gj .search-close{display:grid;place-items:center;width:44px;min-height:44px;padding:0}
+#gj .start-dialog .search-close{flex:none}
+#gj .start-dialog label{display:block;margin-bottom:6px;font-weight:600}
+#gj .start-dialog select{width:100%;min-height:44px;background:var(--surface)}
+#gj select option{color:var(--ink);background:var(--surface)}
+#gj .start-dialog p{margin:12px 0 18px;color:var(--muted);font-size:14px}
+#gj .start-dialog form > button{width:100%;min-height:44px}
+@media(max-width:700px){
+ #gj .start-dialog .search-dialog-heading h2{font-size:28px}
+}
 #gj .header-search{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:stretch;gap:8px}
 #gj .header-search input[type="search"]{min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:inherit;font:inherit}
 #gj .header-search input::placeholder{color:var(--muted)}
