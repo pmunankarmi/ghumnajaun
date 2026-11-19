@@ -56,7 +56,41 @@ s=s.replace('function setPhoto(image,photo,width){','function setPhoto(image,pho
 s=s.replace("[name,type,tags,...cities].join(' ')","[name,type,tags,...cities,...[name,type,...tags.split('|'),...cities].map(label=>window.GJ_NE?.[label]||label)].join(' ')");
 fs.copyFileSync('tools/data/ne-translations.json','wordpress/ghumnajaun/data/ne-translations.json');
 fs.copyFileSync('tools/data/ne-editorial-paragraphs.json','wordpress/ghumnajaun/data/ne-editorial-paragraphs.json');
+// Responsive image markup is used by cards and any later filter/search redraw.
+s=s.replace('const cards = (entries,distances)',`const responsiveAttrs = (photo,sizes='100vw') => {
+ if(!photo)return '';
+ const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;');
+ return (photo.width ? ' width="'+photo.width+'" height="'+photo.height+'"' : '')+(photo.srcset ? ' srcset="'+escape(photo.srcset)+'" sizes="'+escape(sizes)+'"' : '');
+};
+const cards = (entries,distances)`);
+s=s.replaceAll('data-original="${photo.src}" alt=', 'data-original="${photo.src}"${responsiveAttrs(photo,\'(max-width:575px) calc(100vw - 32px), (max-width:991px) calc(50vw - 32px), 360px\')} alt=');
+s=s.replace(' image.alt = photo.alt;',` image.alt = photo.alt;
+ if(photo.width && photo.height){image.width=photo.width;image.height=photo.height;}
+ if(photo.srcset){image.srcset=photo.srcset;image.sizes=width ? width+'px' : '100vw';}`);
+// Keep the server-rendered LCP image in place while enhancing the rest of a guide.
+s=s.replace("   slot('slides').innerHTML = details.photos.map", "   if(root.querySelector('[data-screen=\"detail\"] .trip-hero'))slot('slides').replaceChildren();\n   else slot('slides').innerHTML = details.photos.map");
+s=s.replace(' screen.replaceChildren(trip);',` const savedHero=screen.querySelector('.trip-hero');
+ const newHero=trip.querySelector('.trip-hero');
+ if(savedHero && newHero){
+  newHero.remove();
+  for(const child of [...screen.childNodes])if(child!==savedHero)child.remove();
+  screen.append(trip);
+ }else screen.replaceChildren(trip);`);
+// Homepage heroes also keep their original responsive image instead of replacing it.
+s=s.replace("if (view === 'home') find('banner-slides').innerHTML =", "if (view === 'home' && !find('banner-slides').querySelector('img')) find('banner-slides').innerHTML =");
+s=s.replace("const motion = window.matchMedia('(prefers-reduced-motion: reduce)');", `function loadBannerPhoto(index){
+ const image=find('banner-slides')?.children[index]?.querySelector('img');
+ if(image && !image.getAttribute('src'))setPhoto(image,bannerPhotos[bannerPlaces[index]] || photos[bannerPlaces[index]]);
+}
+const motion = window.matchMedia('(prefers-reduced-motion: reduce)');`);
+s=s.replace('   slideChange(slider) {', '   slideChange(slider) {\n     loadBannerPhoto(slider.realIndex);\n     setTimeout(()=>loadBannerPhoto((slider.realIndex+1)%bannerPlaces.length),1000);');
+s=s.replace('if (banner && !motion.matches) bannerTimer.hidden = false;', "if (banner && !motion.matches) bannerTimer.hidden = false;\nif(banner)setTimeout(()=>loadBannerPhoto(1),3000);");
+
 fs.writeFileSync('wordpress/ghumnajaun/assets/design.js',s);
 
 // Cache the Nepali UI dictionary as a versioned asset instead of repeating it in HTML.
 fs.writeFileSync('wordpress/ghumnajaun/assets/ne-dictionary.js','window.GJ_NE='+JSON.stringify(JSON.parse(fs.readFileSync('tools/data/ne-translations.json','utf8')))+';\n');
+
+// One local stylesheet removes chained CDN and Google Fonts render blockers.
+const cssFiles=['fonts.css','vendor/bootstrap-grid.min.css','vendor/swiper-bundle.min.css','vendor/aos.css','styles.css','wordpress.css','nepali.css'];
+fs.writeFileSync('wordpress/ghumnajaun/assets/site.css',cssFiles.map(file=>fs.readFileSync('wordpress/ghumnajaun/assets/'+file,'utf8').replace(/@import\s+url\([^)]*\)\s*;/g,'')).join('\n'));

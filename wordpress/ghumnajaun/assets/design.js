@@ -214,10 +214,15 @@ const chips = (items,active) => items.map(label => {
 const destinationGalleries = window.GJ.destinationGalleries;
 const photoFor = (name,dining) => dining ? photos.Dining : photos[name];
 const thumbnail = (photo,width = 960) => photo?.src || "";
+const responsiveAttrs = (photo,sizes='100vw') => {
+ if(!photo)return '';
+ const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;');
+ return (photo.width ? ' width="'+photo.width+'" height="'+photo.height+'"' : '')+(photo.srcset ? ' srcset="'+escape(photo.srcset)+'" sizes="'+escape(sizes)+'"' : '');
+};
 const cards = (entries,distances) => entries.map(([name,type,tags,,dining]) => {
  const photo = photoFor(name,dining);
  return `<div class="col" data-reveal="fade-up"><a class="place page-link" href="${pageUrl('destination.html',{place:name})}" data-place="${name}">
-   <span class="art">${photo ? `<img src="${thumbnail(photo)}" data-original="${photo.src}" alt="${photo.alt}" loading="lazy">` : '<span class="photo-pending">Photo pending</span>'}</span>
+   <span class="art">${photo ? `<img src="${thumbnail(photo)}" data-original="${photo.src}"${responsiveAttrs(photo,'(max-width:575px) calc(100vw - 32px), (max-width:991px) calc(50vw - 32px), 360px')} alt="${photo.alt}" loading="lazy">` : '<span class="photo-pending">Photo pending</span>'}</span>
    <span class="info"><span class="meta">${type}${dining ? ' · Sample listing' : ''}</span><strong>${name}</strong>${distances ? `<span class="place-distance">${Number.isFinite(distances[name]) ? (distances[name] < 1 ? 'Under 1' : '≈ ' + Math.round(distances[name])) + ' km away' : 'Distance unavailable'}</span>` : ''}<span class="card-foot">${dining ? dining.view + ' · About 1 hr (sample)' : tags.split('|').slice(0,2).join(' · ')} <span aria-hidden="true">↗</span></span></span>
  </a></div>`;
 }).join('');
@@ -227,7 +232,7 @@ function renderCities(){
    const count = cityPlaces(name).length;
    const countLabel = count + (count === 1 ? ' place to see' : ' places to see');
    return `<div class="col" data-reveal="fade-up"><a class="place city-card page-link" href="${pageUrl('explore.html',{city:name})}" data-city="${name}">
-     <span class="art"><img src="${thumbnail(photo)}" data-original="${photo.src}" alt="" loading="lazy"></span>
+     <span class="art"><img src="${thumbnail(photo)}" data-original="${photo.src}"${responsiveAttrs(photo,'(max-width:575px) calc(100vw - 32px), (max-width:991px) calc(50vw - 32px), 360px')} alt="" loading="lazy"></span>
      <span class="info"><strong>${name}</strong><span class="card-foot"><span>${countLabel}</span><span aria-hidden="true">↗</span></span></span>
    </a></div>`;
  }).join('');
@@ -371,7 +376,8 @@ function renderTrip(name,destination,directionsUrl,type,dining){
    slot('location').textContent = details.location.toUpperCase();
    slot('slider').setAttribute('aria-label',name + ' photos');
    slot('slider').querySelector('.trip-photo-dots').setAttribute('aria-label','Choose a destination photo');
-   slot('slides').innerHTML = details.photos.map((key,index) =>
+   if(root.querySelector('[data-screen="detail"] .trip-hero'))slot('slides').replaceChildren();
+   else slot('slides').innerHTML = details.photos.map((key,index) =>
      `<div class="swiper-slide"><img data-trip-photo="${key.replaceAll('&','&amp;')}" alt="" ${index ? 'loading="lazy"' : 'fetchpriority="high"'}></div>`
    ).join('');
    slot('facts').innerHTML=details.facts.map(([label,value,note])=>'<div><dt>'+label+'</dt><dd>'+value+'</dd><dd>'+note+'</dd></div>').join('')+'<div><dt data-trip-origin></dt><dd data-trip-distance></dd><dd>Straight-line distance</dd></div>';
@@ -629,7 +635,13 @@ function renderTrip(name,destination,directionsUrl,type,dining){
  slot('related').innerHTML = cards(related);
  const screen = root.querySelector('[data-screen="detail"]');
  screen.classList.add('destination-trip');
- screen.replaceChildren(trip);
+ const savedHero=screen.querySelector('.trip-hero');
+ const newHero=trip.querySelector('.trip-hero');
+ if(savedHero && newHero){
+  newHero.remove();
+  for(const child of [...screen.childNodes])if(child!==savedHero)child.remove();
+  screen.append(trip);
+ }else screen.replaceChildren(trip);
  const header = root.querySelector('header');
  const jumpMenu = screen.querySelector('.trip-jumps');
  const jumpLinks = [...jumpMenu.querySelectorAll('a:not([hidden])')];
@@ -762,7 +774,7 @@ function renderBlogCards(posts){
  find('blog-posts').innerHTML = posts.map(post => {
    const photo = photos[post.photo];
    return `<div class="col" data-reveal="fade-up"><a class="place page-link blog-card" href="${pageUrl('post.html',{slug:post.slug})}" data-post="${post.slug}">
-     <span class="art"><img src="${thumbnail(photo)}" data-original="${photo.src}" alt="" loading="lazy"></span>
+     <span class="art"><img src="${thumbnail(photo)}" data-original="${photo.src}"${responsiveAttrs(photo,'(max-width:575px) calc(100vw - 32px), (max-width:991px) calc(50vw - 32px), 360px')} alt="" loading="lazy"></span>
      <span class="info"><span class="meta">${post.category}</span><strong>${post.title}</strong><span>${post.intro}</span><span class="meta">Read guide ↗</span></span>
    </a></div>`;
  }).join('');
@@ -912,15 +924,21 @@ updateLinks();
 function setPhoto(image,photo,width){
  if(!image || !photo)return;
  image.alt = photo.alt;
+ if(photo.width && photo.height){image.width=photo.width;image.height=photo.height;}
+ if(photo.srcset){image.srcset=photo.srcset;image.sizes=width ? width+'px' : '100vw';}
  image.dataset.original = photo.src;
  image.src = thumbnail(photo,width);
 }
 const bannerPlaces = window.GJ.bannerPlaces;
 const bannerPhotos = window.GJ.bannerPhotos || {};
-if (view === 'home') find('banner-slides').innerHTML = bannerPlaces.map((name,index) => {
+if (view === 'home' && !find('banner-slides').querySelector('img')) find('banner-slides').innerHTML = bannerPlaces.map((name,index) => {
  const photo = bannerPhotos[name] || photos[name];
  return `<div class="swiper-slide"><img src="${thumbnail(photo)}" data-original="${photo.src}"${bannerPhotos[name] ? ` data-fallback="${photos[name].src}"` : ''} alt="" loading="${index === 0 ? 'eager' : 'lazy'}"></div>`;
 }).join('');
+function loadBannerPhoto(index){
+ const image=find('banner-slides')?.children[index]?.querySelector('img');
+ if(image && !image.getAttribute('src'))setPhoto(image,bannerPhotos[bannerPlaces[index]] || photos[bannerPlaces[index]]);
+}
 const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const bannerElement = find('banner');
 const bannerTimer = find('banner-timer');
@@ -934,6 +952,8 @@ const banner = bannerElement && window.Swiper ? new window.Swiper(bannerElement,
  a11y: {enabled: true, paginationBulletMessage: 'Show featured destination {{index}}'},
  on: {
    slideChange(slider) {
+     loadBannerPhoto(slider.realIndex);
+     setTimeout(()=>loadBannerPhoto((slider.realIndex+1)%bannerPlaces.length),1000);
      const name = bannerPlaces[slider.realIndex];
      const label = find('banner-place');
      label.dataset.place = name;
@@ -948,6 +968,7 @@ const banner = bannerElement && window.Swiper ? new window.Swiper(bannerElement,
  }
 }) : null;
 if (banner && !motion.matches) bannerTimer.hidden = false;
+if(banner)setTimeout(()=>loadBannerPhoto(1),3000);
 const aos = motion.matches ? null : window.AOS;
 function refreshReveals(){
  if (!aos) return;

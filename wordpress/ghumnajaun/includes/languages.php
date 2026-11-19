@@ -87,9 +87,7 @@ add_action('template_redirect',function(){if(gj_is_nepali()&&!is_feed()&&!is_emb
 add_action('wp_enqueue_scripts',function(){
     if(!gj_is_nepali())return;
     $file=get_template_directory().'/assets/nepali.js';
-    wp_enqueue_script('gj-nepali',get_template_directory_uri().'/assets/nepali.js',['gj-runtime'],hash_file('sha256',$file),true);
-    $css=get_template_directory().'/assets/nepali.css';
-    wp_enqueue_style('gj-nepali',get_template_directory_uri().'/assets/nepali.css',['gj-wordpress'],hash_file('sha256',$css));
+    wp_enqueue_script('gj-nepali',get_template_directory_uri().'/assets/nepali.js',['gj-runtime'],hash_file('sha256',$file),['in_footer'=>true,'strategy'=>'defer']);
 },20);
 
 function gj_bilingual_fields($fields) {

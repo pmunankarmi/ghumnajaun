@@ -1,36 +1,3 @@
-@font-face {
-  font-family: 'Noto Sans Devanagari';
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: normal;
-  font-display: swap;
-  src: url(fonts/noto-sans-devanagari-0.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Noto Sans Devanagari';
-  font-style: normal;
-  font-weight: 500;
-  font-stretch: normal;
-  font-display: swap;
-  src: url(fonts/noto-sans-devanagari-1.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Noto Sans Devanagari';
-  font-style: normal;
-  font-weight: 600;
-  font-stretch: normal;
-  font-display: swap;
-  src: url(fonts/noto-sans-devanagari-2.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Noto Sans Devanagari';
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-display: swap;
-  src: url(fonts/noto-sans-devanagari-3.ttf) format('truetype');
-}
-
 /* Devanagari needs more leading and neutral tracking for its vowel marks. */
 html:lang(ne) #gj {font-family:'Noto Sans Devanagari','DM Sans',sans-serif;font-size:16px;line-height:1.8;}
 html:lang(ne) #gj :is(button,input,select,textarea) {font-family:inherit;line-height:1.6;}
