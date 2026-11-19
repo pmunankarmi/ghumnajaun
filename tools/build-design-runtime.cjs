@@ -1,7 +1,7 @@
 const fs=require('fs');fs.copyFileSync('design/styles.css','wordpress/ghumnajaun/assets/styles.css');
 fs.mkdirSync('wordpress/ghumnajaun/views',{recursive:true});
 const homeSource=fs.readFileSync('design/index.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/social-icons.html',homeSource.match(/<ul class="social-icons"[\s\S]*?<\/ul>/)[0]);
-for(const name of ['index','destination','explore','blog','post']){const html=fs.readFileSync('design/'+name+'.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/'+name+'.html',html.slice(html.indexOf('<main>')+6,html.indexOf('</main>')));}
+for(const name of ['index','destination','explore','blog','post','about','contact','privacy-policy','terms-of-use','disclaimer','photo-credits']){const html=fs.readFileSync('design/'+name+'.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/'+name+'.html',html.slice(html.indexOf('<main>')+6,html.indexOf('</main>')));}
 const explore=fs.readFileSync('design/explore.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/explore-dialogs.html',explore.match(/<dialog class="search-dialog start-dialog"[\s\S]*?<\/dialog>/)[0]);
 const destination=fs.readFileSync('design/destination.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/dialogs.html',destination.slice(destination.indexOf('<dialog class="search-dialog stop-photo-dialog"'),destination.indexOf('<main>')));
 const contact=fs.readFileSync('design/contact.html','utf8');fs.writeFileSync('wordpress/ghumnajaun/views/contact-form.html',contact.match(/<form class="contact-form"[\s\S]*?<\/form>/)[0]);
@@ -40,6 +40,9 @@ s=s.replace("details.stays.map(([label,location,url]) =>","details.stays.map(([l
 s=s.replace("externalLink(url,'Hotel website')","externalLink(url,linkLabel||'Hotel website',plain?'':'page-link')");
 s=s.replace("details ? 'Find nearby restaurants' : 'More restaurants near the garden'","details.originalGardenLayout?'More restaurants near the garden':'Find nearby restaurants'");
 s=s.replace("details ? 'Find nearby stays' : 'More stays near the garden'","details.originalGardenLayout?'More stays near the garden':'Find nearby stays'");
+s=s.replace(" const walker = document.createTreeWalker(container,NodeFilter.SHOW_TEXT);"," container.querySelectorAll('.link-arrow:empty').forEach(arrow=>arrow.innerHTML=icon);\n const walker = document.createTreeWalker(container,NodeFilter.SHOW_TEXT);");
+s=s.replace("const entries = (city ? cityPlaces(city) : places).filter","const archiveEntries=window.GJ.archivePlaces?places.filter(entry=>window.GJ.archivePlaces.includes(entry[0])):places;\n const entries = (city ? cityPlaces(city) : archiveEntries).filter");
+s=s.replace(" find('results-title').textContent = title;"," if(window.GJ.archiveTitle)title=window.GJ.archiveTitle;\n find('results-title').textContent = title;");
 // Keep SEO titles controlled by WordPress rather than overwriting them after load.
 s=s.replace(/ document\.title = [^;]+;/g,'');
 s=s.replace('[...Object.values(photos),...Object.values(bannerPhotos)].map(photo => {','[...new Map([...Object.values(photos),...Object.values(bannerPhotos)].filter(photo=>photo.author && (photo.commons||photo.source)).map(photo=>[photo.src,photo])).values()].map(photo => {');

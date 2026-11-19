@@ -234,7 +234,8 @@ function results(){
    const picnicPoint = filter === picnicCategory ? destinationGuides[name]?.picnicPoint : null;
    return [name,distanceFrom(origin,picnicPoint || placePoints[name])];
  }));
- const entries = (city ? cityPlaces(city) : places).filter(([,type,tags]) =>
+ const archiveEntries=window.GJ.archivePlaces?places.filter(entry=>window.GJ.archivePlaces.includes(entry[0])):places;
+ const entries = (city ? cityPlaces(city) : archiveEntries).filter(([,type,tags]) =>
    filter === 'All' || filter === type || tags.split('|').includes(filter));
  const matches = searchQuery ? matchingPlaces(entries,searchQuery) : entries;
  if (!city) matches.sort((a,b) => distances[a[0]] - distances[b[0]]);
@@ -244,6 +245,7 @@ function results(){
  else if (filter === 'Scenic dining') title = filter;
  else if (filter === picnicCategory) title = 'Picnic spots';
  else if (filter === 'Kids') title = 'Places to go with kids';
+ if(window.GJ.archiveTitle)title=window.GJ.archiveTitle;
  find('results-title').textContent = title;
 
  find('origin').textContent = city ? 'Browse by city' : 'From ' + startingFrom;
@@ -985,6 +987,7 @@ decorateArrows(root);
 initializeCookieConsent();
 function decorateArrows(container){
  const icon = '<svg viewBox="0 0 24 24" focusable="false"><path d="M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z"/></svg>';
+ container.querySelectorAll('.link-arrow:empty').forEach(arrow=>arrow.innerHTML=icon);
  const walker = document.createTreeWalker(container,NodeFilter.SHOW_TEXT);
  const nodes = [];
  while (walker.nextNode()) {

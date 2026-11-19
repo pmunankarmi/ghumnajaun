@@ -20,7 +20,7 @@ function gj_design_data(){
   $guide=['summary'=>$summary,'stops'=>$stops,'bus'=>$f['bus']??'','transport'=>$f['car']??''];if(!empty($f['history'])){$history=wp_strip_all_tags($f['history']);if(preg_match('~<p[^>]*>(.*?)</p>~s',$f['history'],$historyMatch))$history=wp_strip_all_tags($historyMatch[1]);$sources=$f['sources']??[];$guide['history']=[$history,($f['history_source_title']??'')?:($sources[0]['source_title']??'Source'),($f['history_source_url']??'')?:($sources[0]['source_url']??home_url('/photo-credits/'))];}$out['destinationGuides'][$name]=$guide;
   $facts=[];foreach($f['facts']??[]as$fact)$facts[]=[esc_html($fact['fact_label']),esc_html($fact['fact_value']),!empty($fact['fact_note_url'])?'<a href="'.esc_url($fact['fact_note_url']).'" target="_blank" rel="noopener">'.esc_html($fact['fact_note']).'</a>':esc_html($fact['fact_note'])];if(!$facts)$facts=[['Outing',esc_html($type),''],['Visiting','Check local access',''],['Visit plan','See places to visit','']];
   $sources=[];foreach($f['sources']??[]as$s)$sources[]=[esc_html($s['source_title']),esc_url_raw($s['source_url'])];
-  $plan=[];foreach($f['day_plan']??[]as$s)$plan[]=[esc_html($s['stage_title']),esc_html($s['stage_description'])];
+  $plan=[];foreach($f['day_plan']??[]as$s){$copy=esc_html($s['stage_description']);if(!empty($s['stage_link_label'])&&!empty($s['stage_link_url']))$copy=str_replace(esc_html($s['stage_link_label']),'<a href="'.esc_url($s['stage_link_url']).'">'.esc_html($s['stage_link_label']).'</a>',$copy);$plan[]=[esc_html($s['stage_title']),$copy];}
   $meals=[];$mealLinks=[];$stays=[];foreach($f['dining_stays']??[]as$v){if(($v['venue_kind']??'meal')==='stay'){$stays[]=[esc_html($v['venue_title']),esc_html($v['venue_description']),esc_url_raw($v['venue_url']),esc_html($v['venue_links'][0]['venue_link_label']??'Hotel website'),get_post_meta($id,'_gj_import_key',true)==='Godawari Botanical Garden'];continue;}$links=[];foreach((($v['venue_links']??[])?:[])as$link)$links[]=[esc_html($link['venue_link_label']),esc_url_raw($link['venue_link_url'])];$meals[]=[($v['venue_stage']??'')?:'Nearby',esc_html($v['venue_title']),esc_html($v['venue_description']),esc_url_raw($v['venue_url']),$links[0][0]??'Visit website'];$mealLinks[]=$links;}
   if(!empty($f['guide_links'])){$sources=[];foreach($f['guide_links']as$link)$sources[]=[esc_html($link['guide_link_label']),esc_url_raw($link['guide_link_url'])];}
   $nearby=[];foreach($f['related']??[]as$related)if(get_post_status($related)==='publish')$nearby[]=[null,esc_html(get_the_title($related)),get_permalink($related)];
@@ -45,6 +45,7 @@ function gj_design_data(){
  $banners=gj_option('home_banners',[]);foreach($banners as$id)if(isset($names[$id]))$out['bannerPlaces'][]=$names[$id];if(!$out['bannerPlaces'])$out['bannerPlaces']=array_values(array_filter(['Nagarkot','Chandragiri Hills','Panauti','Kulekhani','Bheda Farm'],fn($n)=>isset($out['urls'][$n])));
  if(!$out['bannerPlaces'])$out['bannerPlaces']=array_slice(array_values($names),0,1);
  if(is_singular('destination'))$out['currentPlace']=get_post_field('post_title',get_queried_object_id());if(is_singular('post'))$out['currentPost']=get_post_field('post_name',get_queried_object_id());
+ if(is_tax(['outing','place_city','place_type'])){$term=get_queried_object();$out['archivePlaces']=array_map(fn($p)=>$p->post_title,get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'tax_query'=>[['taxonomy'=>$term->taxonomy,'terms'=>$term->term_id]]]));if($term->taxonomy==='place_type')$out['archiveTitle']=$term->name;}
  if(is_tax('outing'))$out['category']=get_queried_object()->name;if(is_tax('place_city'))$out['city']=get_queried_object()->name;
  return $out;
 }
@@ -66,7 +67,7 @@ function gj_design_template($name){
  }
  if($name==='blog')gj_dom_fill($doc,'//*[@id="gj-blog-posts"]',gj_design_blog_html());
  if($name==='explore'){
-  $names=array_column($data['places'],0);$term=get_queried_object();if(is_tax('outing'))$names=array_map(fn($p)=>$p->post_title,get_posts(['post_type'=>'destination','posts_per_page'=>-1,'tax_query'=>[['taxonomy'=>'outing','terms'=>$term->term_id]]]));
+  $names=$data['archivePlaces']??array_column($data['places'],0);$requestedCity=$data['city']??sanitize_text_field(wp_unslash($_GET['city']??''));if(isset($data['citySightseeing'][$requestedCity]))$names=$data['citySightseeing'][$requestedCity];$requestedCategory=$data['category']??sanitize_text_field(wp_unslash($_GET['category']??''));if($requestedCategory&&$requestedCategory!=='All'){$allowed=[];foreach($data['places']as$place)if(in_array($place[0],$names,true)&&($place[1]===$requestedCategory||in_array($requestedCategory,explode('|',$place[2]),true)))$allowed[]=$place[0];$names=$allowed;}
   $q=sanitize_text_field(wp_unslash($_GET['q']??''));if($q)$names=array_values(array_filter($names,fn($n)=>stripos($n,$q)!==false));
   gj_dom_fill($doc,'//*[@id="gj-list"]',gj_design_cards_html($names,$data));gj_dom_fill($doc,'//*[@id="gj-filters"]',gj_design_chips_html());gj_dom_fill($doc,'//*[@id="gj-count"]',count($names).' places');
  }
@@ -100,7 +101,7 @@ function gj_design_trip_html(){
 }
 function gj_footer_navigation(){
  $locations=get_nav_menu_locations();$items=wp_get_nav_menu_items($locations['footer']??0)?:[];
- echo '<div class="footer-navigation"><div class="footer-links">';foreach($items as$i=>$item){if($i===3)echo '</div><div class="footer-links footer-legal" aria-label="Policies">';echo '<a class="footer-link" href="'.esc_url($item->url).'">'.esc_html($item->title).'</a>';}echo '<button class="footer-cookie-preferences" type="button" data-cookie-preferences hidden>Cookie preferences</button></div></div>';
+ echo '<div class="footer-navigation"><div class="footer-links">';foreach($items as$i=>$item){if($i===3)echo '</div><div class="footer-links footer-legal" aria-label="Policies">';$class=$i===2?'footer-credits':($i<3?'footer-link':'');$current=is_page()&&untrailingslashit(get_permalink(get_queried_object_id()))===untrailingslashit($item->url);echo '<a class="'.$class.'" href="'.esc_url($item->url).'" data-reveal="fade-up"'.($current?' aria-current="page"':'').'>'.esc_html($item->title).'</a>';}echo '<button class="footer-cookie-preferences" type="button" data-cookie-preferences hidden>Cookie preferences</button></div></div>';
 }
 function gj_credit_items(){
  $data=gj_design_data();$unique=[];foreach(array_merge(array_values($data['photos']),array_values($data['bannerPhotos']??[]))as$photo){if(empty($photo['author'])||empty($photo['source'])&&empty($photo['commons']))continue;$unique[$photo['src']]=$photo;}return array_values($unique);
@@ -113,3 +114,5 @@ function gj_social_icons(){
 }
 
 function gj_rich_layout($html){$html=preg_replace('~<span\b[^>]*class=[\"\']link-arrow[\"\'][^>]*>.*?</span>~s','<span class="link-arrow" aria-hidden="true">↗</span>',$html);return wp_kses_post($html);}
+
+function gj_restore_page_reveals($content,$slug){$path=get_template_directory().'/views/'.$slug.'.html';if(!file_exists($path))return $content;$reference=gj_design_dom(file_get_contents($path));$actual=gj_design_dom($content);$refXpath=new DOMXPath($reference);$actualXpath=new DOMXPath($actual);foreach($refXpath->query('//*[@data-reveal]')as$node){$target=$actualXpath->query($node->getNodePath())->item(0);if($target&&$target->nodeName===$node->nodeName&&$target->getAttribute('class')===$node->getAttribute('class'))$target->setAttribute('data-reveal',$node->getAttribute('data-reveal'));}return gj_dom_html($actual);}
