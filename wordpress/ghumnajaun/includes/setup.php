@@ -51,3 +51,8 @@ class GJ_Flat_Nav extends Walker_Nav_Menu {
 if (PHP_OS_FAMILY==='Darwin' && wp_get_environment_type()==='local') {
  add_action('http_api_curl',function($handle){curl_setopt($handle,CURLOPT_IPRESOLVE,CURL_IPRESOLVE_V4);});
 }
+
+function gj_uses_reference_logo(){ $id=(int)get_theme_mod('custom_logo');return !$id || get_post_meta($id,'_gj_svg_logo_sha256',true)===hash_file('sha256',get_template_directory().'/assets/site-logo.svg'); }
+
+function gj_dark_logo(){ $id=(int)gj_option('site_logo_dark');return ($id?wp_get_attachment_image_url($id,'full'):false) ?: (gj_uses_reference_logo()?get_template_directory_uri().'/assets/logo-option-16-dark.svg':gj_logo()); }
+function gj_brand_logo(){ echo '<img class="brand-logo brand-logo--light" src="'.esc_url(gj_logo()).'" width="321" height="64" alt=""><img class="brand-logo brand-logo--dark" src="'.esc_url(gj_dark_logo()).'" width="321" height="64" alt="">'; }

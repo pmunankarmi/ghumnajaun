@@ -1,3 +1,3 @@
-</main><footer><div class="flex-heading" data-reveal="fade-up"><a href="<?php echo esc_url(home_url('/')); ?>" class="brand page-link" data-page="home" aria-label="Ghumna Jaun home"><img class="brand-logo" src="<?php echo esc_url(gj_logo()); ?>" width="321" height="64" alt=""></a><a href="<?php echo esc_url(home_url('/explore/')); ?>" data-filter="All" class="page-link">Explore places <span class="link-arrow" aria-hidden="true">↗</span></a></div>
+</main><footer><div class="flex-heading" data-reveal="fade-up"><a href="<?php echo esc_url(home_url('/')); ?>" class="brand page-link" data-page="home" aria-label="Ghumna Jaun home"><?php gj_brand_logo(); ?></a><a href="<?php echo esc_url(home_url('/explore/')); ?>" data-filter="All" class="page-link">Explore places <span class="link-arrow" aria-hidden="true">↗</span></a></div>
 <?php gj_social_icons(); ?>
 <?php gj_footer_navigation(); ?></footer></div><?php wp_footer(); ?></body></html>

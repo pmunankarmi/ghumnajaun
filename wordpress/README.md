@@ -93,6 +93,10 @@ Photo Credits uses the original `.photo-credits` wrapper and 75 unique source en
 
 Guide fields retain source visit-card markup, optional video, feature image, transport references, meal stages and links, separate accommodation rows, and nearby stops. Article bodies retain chapter, destination-link and source sections. Curated city-card destinations are editable on each City term. Initial values and one-time repair fixtures are in `tools/data/`; `tools/migrate-design-audit.php` saves the previous values in private metadata and does not repeat an already audited record.
 
-Site settings contains YouTube, TikTok, Instagram and Facebook URLs. Footer icons use those settings. The owner's supplied SVG is stored as a single logo attachment shared by ACF and Customizer, and is rendered unchanged in both light and dark mode. `tools/install-requested-logo.php` permits its validated SVG only during this one-time import; it does not enable general SVG uploads.
+Site settings contains YouTube, TikTok, Instagram and Facebook URLs. Footer icons use those settings. The owner's supplied light SVG is shared by ACF and Customizer. A separate dark-mode attachment uses the white-and-peach palette. `tools/install-requested-logo.php` permits its validated SVG only during this one-time import; it does not enable general SVG uploads.
 
 For a new development installation, run the initial importer, the one-time audit-content/guide migration scripts, and the requested-logo installer after copying the theme. Normal GitHub releases do not run these content migrations.
+
+## Light and dark logo options
+
+Site settings provides separate Light mode logo and Dark mode logo image pickers. The light logo remains synchronized with the WordPress Customizer Site Logo; the dark logo is an independent attachment. Both the header and footer switch automatically with the theme setting and the visitor's system color preference. The default dark SVG uses white and peach, matching the supplied reference.

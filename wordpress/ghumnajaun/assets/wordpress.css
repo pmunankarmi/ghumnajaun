@@ -3,8 +3,15 @@ body { margin: 0; }
 .screen-reader-text:focus { left: 12px; top: 12px; z-index: 99999; background: white; padding: 12px; }
 #gj .wp-content img { max-width: 100%; height: auto; }
 #gj nav[aria-label="Languages"] { display: flex; gap: 12px; list-style: none; }
-/* Render the selected attachment unchanged in both color modes. */
-body.wp-custom-logo #gj .brand-logo { content: normal; filter: none; }
+/* Each color mode uses its own editable logo attachment. */
+body #gj .brand-logo { content: normal; filter: none; }
+body #gj .brand-logo--dark { display: none; }
+:root[data-theme="dark"] body #gj .brand-logo--light { display: none; }
+:root[data-theme="dark"] body #gj .brand-logo--dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) body #gj .brand-logo--light { display: none; }
+  :root:not([data-theme]) body #gj .brand-logo--dark { display: block; }
+}
 /* Accommodate the logged-in toolbar without changing the public design. */
 body.admin-bar { --gj-admin-offset: 32px; }
 body.admin-bar #gj:has(.destination-trip) > header { top: var(--gj-admin-offset); }
