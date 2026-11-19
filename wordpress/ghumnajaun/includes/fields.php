@@ -29,4 +29,4 @@ add_action('acf/init',function(){
     acf_add_local_field_group(['key'=>'group_gj_seo','title'=>'Search appearance','fields'=>[$field('seo_title','SEO title'),$field('seo_description','Meta description','textarea',['rows'=>2]),$field('seo_noindex','Hide from search engines','true_false')],'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'destination']],[['param'=>'post_type','operator'=>'==','value'=>'page']],[['param'=>'post_type','operator'=>'==','value'=>'post']]]]);
 });
 
-add_action('admin_head',function(){if(($_GET['page']??'')!=='gj-settings')return;echo '<style>.acf-field[data-name="site_logo_dark"] .acf-image-uploader .image-wrap{background:#172720;padding:12px;border-radius:6px}.acf-field[data-name="site_logo_dark"] .acf-image-uploader img{display:block}</style>';});
+add_action('admin_head',function(){if(($_GET['page']??'')!=='gj-settings')return;echo '<style>.acf-field[data-name="site_logo_dark"] .acf-image-uploader .image-wrap{background:#172720;padding:12px;border-radius:6px}.acf-field[data-name="site_logo_dark"] .acf-image-uploader img{display:block;background:transparent}</style>';});
