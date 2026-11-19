@@ -82,3 +82,5 @@ An observed PHP-FPM crash in the macOS asynchronous IPv6 resolver is avoided by 
 CSS and JavaScript URLs include their SHA-256 content hashes, so any deployed change creates a fresh asset URL. Run `node tools/build-design-runtime.cjs` after changes to the original design; GitHub Actions runs it automatically for releases. Code changes do not re-import or overwrite admin content.
 
 The starting-point selector, city cards, outing chips, banner slider, destination gallery/popups, sticky guide navigation, consent controls and original contact-form layout are retained. Source-only sample restaurant records remain drafts.
+
+The managed updater scopes its VCS exception to this theme's explicit release-install operation. A Git repository in an ancestor such as the user's home directory therefore does not prevent the requested theme updates; other native WordPress update checks retain their VCS behavior.

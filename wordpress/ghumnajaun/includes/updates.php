@@ -22,8 +22,15 @@ add_action('gj_github_update',function(){
   $release=gj_release();if(!$release||!version_compare($release['new_version'],wp_get_theme()->get('Version'),'>'))return;
   require_once ABSPATH.'wp-admin/includes/admin.php';require_once ABSPATH.'wp-admin/includes/class-wp-upgrader.php';
   $transient=get_site_transient('update_themes');if(!is_object($transient))$transient=new stdClass();$transient->response['ghumnajaun']=$release;set_site_transient('update_themes',$transient);
-  $updater=new WP_Automatic_Updater();$result=$updater->update('theme',(object)$release);
-  update_option('gj_update_status',['time'=>time(),'message'=>$result===true?'Theme updated automatically to '.$release['new_version'].'.':'Update deferred or failed. Current version: '.wp_get_theme()->get('Version').'.'],false);
+  // The owner explicitly requested managed GitHub theme updates. A Git checkout
+  // elsewhere in an ancestor (for example the user's home directory) must not
+  // disable this one theme's updater. Scope the exception to this call only.
+  $managed_release=function($checkout,$context){return untrailingslashit($context)===untrailingslashit(get_theme_root('ghumnajaun'))?false:$checkout;};
+  add_filter('automatic_updates_is_vcs_checkout',$managed_release,10,2);
+  try{$updater=new WP_Automatic_Updater();$result=$updater->update('theme',(object)$release);}finally{remove_filter('automatic_updates_is_vcs_checkout',$managed_release,10);}
+  wp_clean_themes_cache();$installed=wp_get_theme('ghumnajaun')->get('Version');
+  $message=version_compare($installed,$release['new_version'],'>=')?'Theme updated automatically to '.$installed.'.':(is_wp_error($result)?$result->get_error_message():'Update deferred. Installed version: '.$installed.'.');
+  update_option('gj_update_status',['time'=>time(),'message'=>$message],false);
  }finally{delete_transient('gj_update_lock');}
 });
 add_action('admin_footer',function(){if(!current_user_can('update_themes'))return; ?>
