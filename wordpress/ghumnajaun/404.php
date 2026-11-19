@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="body wp-guide"><h1>That place wasn’t found</h1><p>Explore the guides to find your next day out.</p><a class="action" href="<?php echo esc_url(home_url('/explore/')); ?>">Explore places</a></div><?php get_footer(); ?>

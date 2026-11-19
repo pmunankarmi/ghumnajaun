@@ -1,0 +1,1 @@
+Continue from wordpress/README.md. The current implementation is a classic theme, not a custom core plugin. Source is wordpress/ghumnajaun; Local installation is /Users/puskar/Documents/Sites/ghumnajaun, http://ghumna-jaun.local. Preserve database content and uploads when updating theme code. Use the repository's main-branch release workflow and background updater.

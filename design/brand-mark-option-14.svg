@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Ghumna Jaun tilted badge</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 40c-3.8-4.1-3.8-10.1.4-14.3L25 13c4.1-4.1 10.7-4.1 14.8 0l5.2 5.2" stroke="#ad4e28" stroke-width="3.8"/>
+    <path d="M51 25c4 4.1 4 10.3-.2 14.5L38 52.2a10.5 10.5 0 0 1-14.8 0l-5.4-5.4" stroke="#214638" stroke-width="3.8"/>
+    <path d="M10.7 38.3c4.5 8.3 19.4 2.9 40.1-16.7" stroke="#ad4e28" stroke-width="3.8"/>
+    <circle cx="52.3" cy="14.3" r="2.15" fill="#214638"/>
+  </g>
+</svg>

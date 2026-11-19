@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Ghumna Jaun GJ emblem</title>
+  <rect width="64" height="64" rx="17" fill="#214638"/>
+  <circle cx="50" cy="15" r="5" fill="#efaa76"/>
+  <path d="M8 49 18 38a2 2 0 0 1 3 0l7 7 12-9a2 2 0 0 1 3 0l13 12v6H8Z" fill="#a8c1a1"/>
+  <path d="M8 54c12 0 16-5 26-6 5-.5 8 0 8 2s-8 4-10 8" fill="none" stroke="#214638" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="none" stroke="#faf3df" stroke-width="3.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 17a9 9 0 1 0 .5 13v-5h-6"/>
+    <path d="M36 15h6v13a5 5 0 0 1-8 4"/>
+  </g>
+</svg>

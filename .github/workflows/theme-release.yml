@@ -1,0 +1,35 @@
+name: Publish WordPress theme
+on:
+  push:
+    branches: [main]
+    paths: ['wordpress/ghumnajaun/**', '.github/workflows/theme-release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: theme-release
+  cancel-in-progress: false
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate PHP
+        run: find wordpress/ghumnajaun -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Package theme
+        env:
+          BUILD: ${{ github.run_number }}
+        run: |
+          mkdir -p dist/ghumnajaun
+          cp -R wordpress/ghumnajaun/. dist/ghumnajaun/
+          VERSION="1.1.${BUILD}"
+          sed -i "s/^Version:.*/Version: ${VERSION}/" dist/ghumnajaun/style.css
+          printf '%s\n' "$VERSION" > dist/version.txt
+          cd dist
+          zip -rq ghumnajaun.zip ghumnajaun
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(cat dist/version.txt)
+          gh release create "v${VERSION}" dist/ghumnajaun.zip --title "Ghumna Jaun ${VERSION}" --notes "Automatic theme build from ${GITHUB_SHA}. Admin content is preserved." --latest

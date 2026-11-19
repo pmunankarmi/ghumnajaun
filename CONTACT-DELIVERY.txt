@@ -1,0 +1,32 @@
+Contact form delivery
+
+The form posts to design/contact-send.php. Upload that file alongside
+contact.html, prototype.js and styles.css on the PHP-enabled web host.
+Also upload the updated privacy-policy.html.
+
+Requires PHP 8.0+ and a working PHP mail() transport on the hosting account.
+Recipient: ghumnajaun@gmail.com
+From: Ghumna Jaun <hello@ghumnajaun.com>
+Reply-To: the validated visitor email address
+
+The existing Python preview server on port 8765 cannot execute PHP.
+For a PHP preview, run:
+php -S 127.0.0.1:8766 -t design
+
+Before going live, confirm the host permits sending as hello@ghumnajaun.com,
+configure the domain's SPF/DKIM in the hosting panel, and send a real test
+message to verify inbox delivery. A successful mail() result means the
+hosting mail service accepted the message; it does not confirm inbox receipt.
+If the host disables mail(), configure a supported SMTP provider before launch.
+No SMTP credentials are stored in this project.
+
+The handler validates fields server-side, uses fixed recipients and subjects,
+checks request origin, includes a honeypot, and limits each client IP to five
+validated submission attempts per 15 minutes. It stores hashed IP keys and
+attempt timestamps in a private system temporary directory, never enquiry
+content. Old rate-limit files become eligible for periodic cleanup after 24h.
+
+Keep the send endpoint and frontend on the same origin. There is no automatic
+retry: visitors retain their message if a send fails or times out.
+
+WordPress backend work remains paused; this endpoint is independent of it.

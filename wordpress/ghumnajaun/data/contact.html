@@ -1,0 +1,63 @@
+
+<section class="body contact-page">
+  <div class="contact-heading">
+    <h1>Contact us</h1>
+    <p class="about-lead">Help us discover more places to go.</p>
+    <p>Suggest a favourite spot, share an update to a guide or tell us about your restaurant, stay or travel service.</p>
+  </div>
+  <div class="row g-4 contact-content">
+    <div class="col-12 col-md-5">
+      <section class="contact-email">
+        <h2>Get in touch</h2>
+        <a class="trip-inline-link" href="mailto:hello@ghumnajaun.com">hello@ghumnajaun.com <span class="link-arrow" aria-hidden="true">↗</span></a>
+      </section>
+      <section class="contact-topic">
+        <h3>Suggest a place</h3>
+        <p>Share its name, location and what makes it worth a visit. A map link helps us find it.</p>
+      </section>
+      <section class="contact-topic">
+        <h3>Update a guide</h3>
+        <p>Include the destination page and the detail that has changed, such as opening hours, fees or access.</p>
+      </section>
+      <section class="contact-topic">
+        <h3>Listings and collaborations</h3>
+        <p>Tell us about your venue or service, where it is based and how people can reach you.</p>
+      </section>
+    </div>
+    <div class="col-12 col-md-7">
+      <form class="contact-form" id="gj-contact-form" action="contact-send.php" method="post">
+        <h2>Write to us</h2>
+        <p id="gj-contact-note">Send us a message and we’ll reply by email. <a class="trip-inline-link" href="privacy-policy.html">Privacy Policy</a></p>
+        <div class="contact-honeypot" aria-hidden="true"><label for="gj-contact-website">Leave this field empty</label><input id="gj-contact-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <label for="gj-contact-name">Your name</label>
+            <input id="gj-contact-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="gj-contact-email">Your email</label>
+            <input id="gj-contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+          </div>
+          <div class="col-12">
+            <label for="gj-contact-subject">What’s it about?</label>
+            <select id="gj-contact-subject" name="subject" required>
+              <option value="">Choose a topic</option>
+              <option>Suggest a place</option>
+              <option>Update a guide</option>
+              <option>Listings and collaborations</option>
+              <option>General enquiry</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="gj-contact-message">Your message</label>
+            <textarea id="gj-contact-message" name="body" rows="6" maxlength="3000" required></textarea>
+          </div>
+        </div>
+        <p class="contact-validation-summary" id="gj-contact-errors" role="alert" hidden></p>
+        <p class="contact-send-status" id="gj-contact-status" role="status" hidden></p>
+        <button class="primary" type="submit" aria-describedby="gj-contact-note">Send message</button>
+        <noscript><p>Please enable JavaScript to send this form, or <a class="trip-inline-link" href="mailto:hello@ghumnajaun.com">email hello@ghumnajaun.com</a>.</p></noscript>
+      </form>
+    </div>
+  </div>
+</section>
