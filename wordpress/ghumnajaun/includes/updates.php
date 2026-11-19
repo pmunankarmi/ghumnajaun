@@ -34,7 +34,7 @@ add_action('gj_github_update',function(){
  }finally{delete_transient('gj_update_lock');}
 });
 add_action('admin_footer',function(){if(!current_user_can('update_themes'))return; ?>
-<script>setInterval(()=>fetch(ajaxurl,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'action=gj_update_tick&_ajax_nonce=<?php echo esc_js(wp_create_nonce('gj_update_tick')); ?>'}),300000);</script>
+<script>(()=>{const tick=()=>fetch(ajaxurl,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'action=gj_update_tick&_ajax_nonce=<?php echo esc_js(wp_create_nonce('gj_update_tick')); ?>'}).catch(()=>{});tick();setInterval(tick,300000);})();</script>
 <?php });
 add_action('wp_ajax_gj_update_tick',function(){check_ajax_referer('gj_update_tick');if(!current_user_can('update_themes'))wp_send_json_error(null,403);do_action('gj_github_update');wp_send_json_success();});
 add_action('admin_notices',function(){if(!current_user_can('update_themes'))return;$status=get_option('gj_update_status');echo '<div class="notice notice-info"><p>Ghumna Jaun '.esc_html(wp_get_theme()->get('Version')).' · Automatic GitHub updates enabled (main branch releases, approximately every five minutes while the site is running).';if($status)echo ' '.esc_html($status['message']);echo '</p></div>';});
