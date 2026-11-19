@@ -97,6 +97,8 @@ function gj_design_trip_html(){
  $raw=file_get_contents(get_template_directory().'/views/destination.html');preg_match('~<template[^>]*>(.*)</template>~s',$raw,$match);$doc=gj_design_dom($match[1]);$xp=new DOMXPath($doc);
  $fill=function($slot,$html)use($doc){gj_dom_fill($doc,'//*[@data-trip-'.$slot.']',$html);};
  $fill('title',esc_html($name));$fill('location',esc_html(strtoupper($details['location'])));$fill('intro',esc_html($guide['summary']));
+ foreach($xp->query('//*[@data-trip-slider]')as$n)$n->setAttribute('aria-label',$name.' photos');
+ foreach($xp->query('//*[contains(concat(" ",normalize-space(@class)," ")," trip-photo-dots " )]')as$n)$n->setAttribute('aria-label','Choose a destination photo');
  $slides='';foreach($details['photos']as$i=>$key){$photo=$data['photos'][$key];$slides.='<div class="swiper-slide"><img src="'.esc_url($photo['src']).'" data-trip-photo="'.esc_attr($key).'" alt="'.esc_attr($photo['alt']).'" '.($i?'loading="lazy"':'fetchpriority="high"').'></div>';}$fill('slides',$slides);
  $facts='';foreach($details['facts']as$f)$facts.='<div><dt>'.$f[0].'</dt><dd>'.$f[1].'</dd><dd>'.$f[2].'</dd></div>';$fill('facts',$facts);
  $activities='';foreach($details['activities']as$a){$photo=$data['photos'][$a[3]]??null;$activities.='<li>'.($photo?'<img class="trip-stop-photo" src="'.esc_url($photo['src']).'" alt="'.esc_attr($photo['alt']).'" loading="lazy">':'').'<div><h3>'.$a[0].'</h3><p>'.$a[1].'</p><a class="trip-inline-link" href="'.esc_url($a[2]).'" rel="noopener">View on map ↗</a></div></li>';}$fill('activities',$activities);

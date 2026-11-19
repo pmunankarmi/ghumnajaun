@@ -638,6 +638,10 @@ function renderTrip(name,destination,directionsUrl,type,dining){
  const savedHero=screen.querySelector('.trip-hero');
  const newHero=trip.querySelector('.trip-hero');
  if(savedHero && newHero){
+  for(const selector of ['[data-trip-slider]','.trip-photo-dots']){
+   const original=savedHero.querySelector(selector),enhanced=newHero.querySelector(selector);
+   if(original && enhanced)original.setAttribute('aria-label',enhanced.getAttribute('aria-label'));
+  }
   newHero.remove();
   for(const child of [...screen.childNodes])if(child!==savedHero)child.remove();
   screen.append(trip);

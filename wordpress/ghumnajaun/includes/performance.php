@@ -54,7 +54,7 @@ function gj_build_webp_variants($id){
  $uploads=wp_get_upload_dir();$variants=[];
  foreach(array_unique([min(480,$meta['width']),min(768,$meta['width']),min(1280,$meta['width']),min(1920,$meta['width'])])as$width){
   $editor=wp_get_image_editor($file);if(is_wp_error($editor))return false;
-  $editor->set_quality(78);$resized=$editor->resize($width,null,false);if(is_wp_error($resized))return false;
+  $editor->set_quality(78);if($width<$meta['width']){$resized=$editor->resize($width,null,false);if(is_wp_error($resized))return false;}
   $target=dirname($file).'/'.pathinfo($file,PATHINFO_FILENAME).'-gj-'.$width.'.webp';
   $saved=$editor->save($target,'image/webp');if(is_wp_error($saved))return false;
   $variants[]=['src'=>str_replace($uploads['basedir'],$uploads['baseurl'],$saved['path']),'width'=>$saved['width'],'height'=>$saved['height']];
