@@ -20,7 +20,17 @@ This implementation supersedes the earlier backend-plugin handoff. All project f
 - Site settings: homepage headline, introduction, cover, featured destinations, contact recipient and logo.
 - Appearance → Menus: primary and footer navigation.
 - Media: alt text, author, source URL and license. Photo Credits reads these records.
-- Languages: English and Nepali; add linked translations through Polylang's + buttons. No machine translations are generated.
+- Languages: English and Nepali; add linked translations through Polylang's + buttons. Existing content has an initial Nepali translation; theme updates never invoke translation services or overwrite editorial copy.
+
+Editable ACF text appears in English/नेपाली pairs, including nested guide rows, SEO and homepage settings. Both sets of ACF values synchronize when either linked translation is saved; removed repeater rows are also removed from its counterpart. Native titles, page bodies and excerpts remain independent Polylang translations. Images and other shared ACF values travel with the bilingual bundle. On Nepali routes, empty Nepali fields fall back to English. Existing linked records are synchronized on their next save; no bulk content overwrite runs on theme updates.
+
+The November 2026 Nepali migration covers 57 published guides, four articles, eight pages, two draft samples, 51 taxonomy terms, menus, homepage settings, and 1,472 nonempty paired ACF values. Google Translate supplied the first pass. A subsequent full dictionary review revised 780 entries for natural Nepali, consistent place names and respectful instructions. Linked paragraphs have separate reviewed templates so links can appear in natural Nepali sentence order. Storage keys and other technical identifiers retain their exact English values. Prices, schedules and factual claims were translated without re-verification.
+
+`tools/review-nepali.php BEFORE_DICTIONARY CONTENT_SNAPSHOT` previews editorial database changes. Append `apply` to update recognized generated text, paired fields, terms and media descriptions while preserving separate edits. Both input files are private working snapshots; database backups precede content edits. Reviewed paragraph templates live in `tools/data/ne-editorial-paragraphs.json` and are copied into the theme by the design build.
+
+`tools/export-nepali.php` creates a private working snapshot and ACF schema in `/tmp`. `tools/translate-nepali.py` builds a resumable dictionary in `tools/data/ne-translations.json`; it sends visible text to Google Translate and preserves HTML, URLs and technical fields. After taking a database backup, explicitly run `tools/populate-nepali.php` with WP-CLI to fill empty Nepali values and create linked records. `tools/verify-nepali.php` checks coverage, synchronization and preservation against the working snapshot. These are manual migration tools, never theme hooks. Preserve reviewed dictionary entries when adding future translations.
+
+Nepali pages use locally hosted Noto Sans Devanagari (400–700), with script-appropriate line height and heading spacing; English retains DM Sans and Instrument Serif. The font's OFL license is bundled in `assets/fonts/`. Static and enhanced interface labels use the same dictionary. Internal routing/filter keys and form option values remain stable; Nepali search includes translated destination names. The design build copies the dictionary into the theme for releases.
 
 Short values and units stay in a single field. Gutenberg and block widgets are disabled. ACF logo and Customizer logo reference the same attachment ID in both directions.
 

@@ -46,4 +46,9 @@ s=s.replace(" find('results-title').textContent = title;"," if(window.GJ.archive
 // Keep SEO titles controlled by WordPress rather than overwriting them after load.
 s=s.replace(/ document\.title = [^;]+;/g,'');
 s=s.replace('[...Object.values(photos),...Object.values(bannerPhotos)].map(photo => {','[...new Map([...Object.values(photos),...Object.values(bannerPhotos)].filter(photo=>photo.author && (photo.commons||photo.source)).map(photo=>[photo.src,photo])).values()].map(photo => {');
+// Search both original routing names and translated labels on Nepali pages.
+s=s.replace('function setPhoto(image,photo,width){','function setPhoto(image,photo,width){\n if(!image || !photo)return;');
+s=s.replace("[name,type,tags,...cities].join(' ')","[name,type,tags,...cities,...[name,type,...tags.split('|'),...cities].map(label=>window.GJ_NE?.[label]||label)].join(' ')");
+fs.copyFileSync('tools/data/ne-translations.json','wordpress/ghumnajaun/data/ne-translations.json');
+fs.copyFileSync('tools/data/ne-editorial-paragraphs.json','wordpress/ghumnajaun/data/ne-editorial-paragraphs.json');
 fs.writeFileSync('wordpress/ghumnajaun/assets/design.js',s);

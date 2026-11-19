@@ -72,7 +72,7 @@ const searchQuery = (query.get('q') || '').trim().slice(0,100);
 const normalizeSearch = value => value.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{M}\p{N}]+/gu,' ').trim();
 const searchIndex = new Map(places.map(([name,type,tags]) => {
  const cities = Object.keys(citySightseeing).filter(city => citySightseeing[city].includes(name));
- return [name,normalizeSearch([name,type,tags,...cities].join(' '))];
+ return [name,normalizeSearch([name,type,tags,...cities,...[name,type,...tags.split('|'),...cities].map(label=>window.GJ_NE?.[label]||label)].join(' '))];
 }));
 function matchingPlaces(entries,value){
  const terms = normalizeSearch(value).split(' ').filter(Boolean);
@@ -906,6 +906,7 @@ if (view === 'home') {
 }
 updateLinks();
 function setPhoto(image,photo,width){
+ if(!image || !photo)return;
  image.alt = photo.alt;
  image.dataset.original = photo.src;
  image.src = thumbnail(photo,width);

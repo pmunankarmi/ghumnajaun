@@ -2,7 +2,7 @@
 if(!defined('WP_CLI'))exit;
 function gj_check($ok,$message){if(!$ok)WP_CLI::error($message);WP_CLI::log('PASS '.$message);}
 gj_check(!wp_is_block_theme(),'Theme is classic, not block');
-$published=(int)wp_count_posts('destination')->publish;$drafts=(int)wp_count_posts('destination')->draft;
+$published=count(get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'lang'=>'en','fields'=>'ids']));$drafts=count(get_posts(['post_type'=>'destination','post_status'=>'draft','posts_per_page'=>-1,'lang'=>'en','fields'=>'ids']));
 gj_check($published===57&&$drafts===2,'57 published guides and 2 draft samples');
 $bhaktapur=get_posts(['post_type'=>'destination','title'=>'Bhaktapur Durbar Square','posts_per_page'=>1])[0];$id=$bhaktapur->ID;
 gj_check(count(get_field('gallery',$id))===4,'Bhaktapur gallery contains all four images');

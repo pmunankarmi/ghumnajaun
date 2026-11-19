@@ -36,7 +36,7 @@ add_filter('acf/update_value/name=site_logo',function($value){set_theme_mod('cus
 add_action('updated_option',function($name,$old,$new){if($name==='theme_mods_'.get_stylesheet() && ($old['custom_logo']??0)!==($new['custom_logo']??0) && function_exists('update_field'))update_field('field_gj_site_logo',absint($new['custom_logo']??0),'option');},10,3);
 add_filter('acf/load_value/name=site_logo',function($value){return absint(get_theme_mod('custom_logo'));});
 function gj_legacy_links($html){
-    return preg_replace_callback('/(href|action)="([a-z-]+)\.html([^"\n]*)"/',function($m){return $m[1].'="'.esc_url(home_url('/'.($m[2]==='index'?'':$m[2].'/').$m[3])).'"';},$html);
+    return preg_replace_callback('/(href|action)="([a-z-]+)\.html([^"\n]*)"/',function($m){return $m[1].'="'.esc_url(gj_home_url('/'.($m[2]==='index'?'':$m[2].'/').$m[3])).'"';},$html);
 }
 add_filter('the_content','gj_legacy_links');
 add_action('admin_notices',function(){if(!function_exists('acf_add_local_field_group'))echo '<div class="notice notice-warning"><p>Ghumna Jaun requires ACF Pro for guide fields and theme options.</p></div>';});
