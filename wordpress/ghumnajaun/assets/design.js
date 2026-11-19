@@ -208,7 +208,7 @@ const chips = (items,active) => items.map(label => {
  return `<a class="page-link" href="${pageUrl('explore.html',{city,category:label === 'All' ? null : label})}" data-filter="${label}" data-reveal="fade-up"${current}${extra}>${label}</a>`;
 }).join('');
 const destinationGalleries = window.GJ.destinationGalleries;
-const photoFor = (name,dining) => dining ? photos.Dining : photos[destinationGalleries[name]?.[0] || name];
+const photoFor = (name,dining) => dining ? photos.Dining : photos[name];
 const thumbnail = (photo,width = 960) => photo?.src || "";
 const cards = (entries,distances) => entries.map(([name,type,tags,,dining]) => {
  const photo = photoFor(name,dining);
@@ -376,30 +376,26 @@ function renderTrip(name,destination,directionsUrl,type,dining){
    const sources = details.sources || (details.source ? [details.source] : []);
    slot('feature-link').innerHTML = sources.map(([label,url]) => externalLink(url,label,'trip-inline-link')).join('');
    const feature = slot('feature');
-   if (details.photos[1]) {
-     feature.querySelector('img').dataset.tripPhoto = details.photos[1];
-     feature.querySelector('figcaption').textContent = photos[details.photos[1]].alt;
+   const featureKey=details.featurePhoto || details.photos[1];if (featureKey) {
+     feature.querySelector('img').dataset.tripPhoto = featureKey;
+     feature.querySelector('figcaption').textContent = details.featureCaption || photos[featureKey].alt;
    } else {
      feature.remove();
    }
-   trip.querySelector('#gj-vlog-title').remove();
-   slot('visit').innerHTML = details.visit.map(([title,notes,source]) =>
+   const vlog=trip.querySelector('#gj-vlog-title');if(details.videoUrl){vlog.querySelector('iframe').dataset.consentSrc=details.videoUrl;vlog.querySelector('iframe').title=name+' vlog on YouTube';vlog.setAttribute('aria-label',name+' vlog');}else vlog.remove();
+   slot('visit').innerHTML = details.visitHtml || details.visit.map(([title,notes,source]) =>
      `<div class="trip-card"><h3>${title}</h3><ul class="trip-visit-list">${notes.map(note => '<li>' + note + '</li>').join('')}</ul>${source ? externalLink(source[1],source[0]) : ''}</div>`
    ).join('');
-   slot('transport').innerHTML = details.transport.map(([title,note]) =>
-     `<div><h3>${title}</h3><p>${note}</p></div>`
+   slot('transport').innerHTML = details.transport.map(([title,note],index) =>
+     `<div><h3>${title}</h3><p>${note}</p>${(details.transportLinks?.[index] || []).map(([label,url])=>externalLink(url,label,'')).join('')}</div>`
    ).join('') + '<div class="trip-text-links" data-trip-travel-links></div>';
-   slot('meal-note').remove();
-   slot('meals').innerHTML = (details.meals || []).map(([stage,title,note,url,label]) =>
-     `<article class="trip-card"><p class="eyebrow">${stage.toUpperCase()}</p><h3>${title}</h3><p>${note}</p>${
-       url ? '<div class="trip-text-links">' + externalLink(url,label) + '</div>' : ''
-     }</article>`
-   ).join('');
+   if(details.mealNote)slot('meal-note').textContent=details.mealNote;else slot('meal-note').remove();
+   slot('meals').innerHTML = (details.meals || []).map(([stage,title,note,url,label],index)=>'<article class="trip-card"><p class="eyebrow">'+stage.toUpperCase()+'</p><h3>'+title+'</h3><p>'+note+'</p>'+((details.mealLinks?.[index] || (url?[[label,url]]:[])).length?'<div class="trip-text-links">'+(details.mealLinks?.[index] || [[label,url]]).map(([text,href])=>externalLink(href,text)).join('')+'</div>':'')+'</article>').join('');
    if (!details.meals) slot('meals').remove();
    const stays = slot('stays');
    if (details.stays) {
-     stays.innerHTML = details.stays.map(([label,location,url]) =>
-       `<li><strong>${label}</strong> <span>${location}</span> ${externalLink(url,'Hotel website')}</li>`
+     stays.innerHTML = details.stays.map(([label,location,url,linkLabel,plain]) =>
+       `<li><strong>${label}</strong> <span>${location}</span> ${externalLink(url,linkLabel||'Hotel website',plain?'':'page-link')}</li>`
      ).join('');
    } else {
      stays.remove();
@@ -616,8 +612,8 @@ function renderTrip(name,destination,directionsUrl,type,dining){
  ]).map(([query,label,url]) => url ? `<a class="page-link" href="${url}">${label} ↗</a>` : externalLink(mapSearch(query),label)).join('');
  const foodArea = details?.foodArea || destination;
  slot('food-links').innerHTML =
-   externalLink(mapSearch('Restaurants near ' + foodArea),details ? 'Find nearby restaurants' : 'More restaurants near the garden') +
-   externalLink(mapSearch('Hotels near ' + foodArea),details ? 'Find nearby stays' : 'More stays near the garden');
+   externalLink(mapSearch('Restaurants near ' + foodArea),details.originalGardenLayout?'More restaurants near the garden':'Find nearby restaurants') +
+   externalLink(mapSearch('Hotels near ' + foodArea),details.originalGardenLayout?'More stays near the garden':'Find nearby stays');
  const currentTags = place[2].split('|');
  const related = places.filter(entry => entry[0] !== name && !entry[4]).map(entry => {
    const sharedTags = entry[2].split('|').filter(tag => currentTags.includes(tag)).length;
@@ -913,7 +909,7 @@ function setPhoto(image,photo,width){
  image.src = thumbnail(photo,width);
 }
 const bannerPlaces = window.GJ.bannerPlaces;
-const bannerPhotos = {};
+const bannerPhotos = window.GJ.bannerPhotos || {};
 if (view === 'home') find('banner-slides').innerHTML = bannerPlaces.map((name,index) => {
  const photo = bannerPhotos[name] || photos[name];
  return `<div class="swiper-slide"><img src="${thumbnail(photo)}" data-original="${photo.src}"${bannerPhotos[name] ? ` data-fallback="${photos[name].src}"` : ''} alt="" loading="${index === 0 ? 'eager' : 'lazy'}"></div>`;
@@ -960,7 +956,7 @@ if (aos) {
 }
 
 const creditList = find('credits');
-if (creditList) creditList.innerHTML = [...new Map([...Object.values(photos),...Object.values(bannerPhotos)].map(photo=>[photo.src,photo])).values()].map(photo => {
+if (creditList) creditList.innerHTML = [...new Map([...Object.values(photos),...Object.values(bannerPhotos)].filter(photo=>photo.author && (photo.commons||photo.source)).map(photo=>[photo.src,photo])).values()].map(photo => {
  const license = photo.license === 'PD' ? 'Public domain' : photo.license === 'BY'
   ? '<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
   : '<a href="https://creativecommons.org/licenses/by-sa/' + photo.license + '/">CC BY-SA ' + photo.license + '</a>';

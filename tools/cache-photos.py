@@ -1,5 +1,6 @@
 import json,urllib.request,pathlib,hashlib,concurrent.futures,time
 D=json.load(open('wordpress/ghumnajaun/data/content.json'))
+D['photos'].update({'Banner: '+name:photo for name,photo in D.get('bannerPhotos',{}).items()})
 CACHE=pathlib.Path('/tmp/ghumnajaun-media');CACHE.mkdir(exist_ok=True)
 def download(item):
  name,p=item;url=p['src']

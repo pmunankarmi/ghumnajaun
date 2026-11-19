@@ -1,0 +1,5243 @@
+[
+  {
+    "bus": "If your bus stops near Ratna Park, continue on foot to Pradarshani Marg in Bhrikutimandap.",
+    "car": "Use the Kathmandu Fun Park pin for drop-off and check parking near the entrance.",
+    "facts": [
+      {
+        "label": "Opening hours",
+        "link": "",
+        "note": "Confirm ride availability at the park",
+        "value": "Check before you go"
+      },
+      {
+        "label": "Entry and rides",
+        "link": "",
+        "note": "Check entry and individual ride charges",
+        "value": "Ask at the gate"
+      },
+      {
+        "label": "Suggested visit",
+        "link": "",
+        "note": "Allow extra time for queues",
+        "value": "1–2 hours"
+      }
+    ],
+    "feature": {
+      "caption": "View across Kathmandu Fun Park at Bhrikutimandap",
+      "photo": "Bhrikutimandap Fun Park View"
+    },
+    "gallery": [
+      "Kathmandu Fun Park",
+      "Bhrikutimandap Fun Park View"
+    ],
+    "guideLinks": [
+      {
+        "label": "Department of Tourism listing",
+        "url": "https://www.tourismnpl.gov.np/LandmarkDetail/226/report"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "BHRIKUTIMANDAP, KATHMANDU",
+    "mealNote": "",
+    "meals": [
+      {
+        "description": "A sit-down meal at Hotel Royal Singi in Kamaladi if you’re approaching from Durbar Marg.",
+        "links": [
+          {
+            "label": "Restaurant details",
+            "url": "https://royalsingi.com/dine-drink/the-blvd/"
+          }
+        ],
+        "stage": "BEFORE THE VISIT",
+        "title": "The BLVD"
+      },
+      {
+        "description": "Take a break inside the park or look for food around Pradarshani Marg.",
+        "links": [],
+        "stage": "DURING THE VISIT",
+        "title": "Snacks at Bhrikutimandap"
+      },
+      {
+        "description": "Several food stalls in Basantapur if you’re heading toward Durbar Square.",
+        "links": [
+          {
+            "label": "Food court website",
+            "url": "https://food-court.basantapur.com/"
+          }
+        ],
+        "stage": "AFTER THE VISIT",
+        "title": "Basantapur Food Court"
+      }
+    ],
+    "name": "Kathmandu Fun Park",
+    "nearby": [
+      {
+        "label": "Ratna Park",
+        "url": "https://www.google.com/maps/search/?api=1&query=Shankhadhar+Park%2C+Ratna+Park%2C+Kathmandu%2C+Nepal"
+      },
+      {
+        "label": "Kathmandu Durbar Square",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kathmandu+Durbar+Square%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Pair the park with a nearby green space or a heritage walk.",
+    "plan": [
+      {
+        "description": "Start with the park rides, checking availability at the gate.",
+        "title": "Morning"
+      },
+      {
+        "description": "Take a food break in Bhrikutimandap or head to Basantapur for lunch.",
+        "title": "Midday"
+      },
+      {
+        "description": "Add a short walk around Ratna Park or continue to Kathmandu Durbar Square.",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [
+      {
+        "description": "Kamaladi, Kathmandu",
+        "links": [
+          {
+            "label": "Hotel website",
+            "url": "https://royalsingi.com/rooms/"
+          }
+        ],
+        "title": "Hotel Royal Singi"
+      }
+    ],
+    "stops": [
+      {
+        "description": "Ask which rides are operating and check height or age requirements at each ride.",
+        "map": "",
+        "photo": "Kathmandu Fun Park",
+        "title": "Choose a few rides"
+      },
+      {
+        "description": "The Department of Tourism lists places to sit and eat in the park.",
+        "map": "",
+        "photo": null,
+        "title": "Take a snack break"
+      },
+      {
+        "description": "Use Pradarshani Marg to reach the park and explore the surrounding area.",
+        "map": "",
+        "photo": null,
+        "title": "Walk around Bhrikutimandap"
+      }
+    ],
+    "summary": "A compact amusement park in Bhrikutimandap, Kathmandu Fun Park is a central stop for families looking for a few rides and a snack break. Its location makes it easy to combine with a short walk around Ratna Park or a longer outing to Basantapur.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Ratna Park",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ratna+Park%2C+Kathmandu%2C+Nepal"
+      },
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kathmandu+Fun+Park%2C+Bhrikutimandap"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kathmandu+Fun+Park%2C+Bhrikutimandap"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Tickets and hours</h3><ul class=\"trip-visit-list\"><li>Confirm opening hours and current prices at the entrance. Ask how individual rides are priced.</li></ul></div><div class=\"trip-card\"><h3>Visiting with kids</h3><ul class=\"trip-visit-list\"><li>Check ride restrictions before buying tickets.</li><li>Plan a meeting spot and allow time for breaks.</li></ul></div>"
+  },
+  {
+    "bus": "The museum recommends getting off at Swayambhu Ring Road and continuing on foot to the museum complex.",
+    "car": "Use the museum’s own pin for drop-off. It is below the stupa, so the Swayambhunath hilltop entrance is a separate stop.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Indoor museum"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Natural History Museum"
+    ],
+    "guideLinks": [
+      {
+        "label": "Natural History Museum visitor information",
+        "url": "https://nhmnepal.edu.np/plan-your-visit/"
+      }
+    ],
+    "history": "Tribhuvan University established the museum in 1975 at the foot of Swayambhu hill. Its collections document Nepal’s biodiversity for research and education.",
+    "historyLinks": [
+      {
+        "label": "Tribhuvan University museum journal",
+        "url": "https://www.nepjol.info/index.php/JNHM/article/view/19043/15581"
+      }
+    ],
+    "location": "INDOOR MUSEUM · SWAYAMBHU",
+    "mealNote": "",
+    "meals": [],
+    "name": "Natural History Museum",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Natural History Museum, Swayambhu, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look for Nepal’s preserved animal and insect specimens in the museum galleries.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Natural+History+Museum%2C+Swayambhu%2C+Kathmandu%2C+Nepal",
+        "photo": "Natural History Museum",
+        "title": "Natural History Museum, Swayambhu, Kathmandu"
+      }
+    ],
+    "summary": "Tribhuvan University’s museum below Swayambhu offers a close look at Nepal’s wildlife through preserved animals and insect specimens. It suits a short indoor outing and pairs naturally with a visit to the stupa above.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Natural+History+Museum%2C+Swayambhu%2C+Kathmandu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Natural+History+Museum%2C+Swayambhu%2C+Kathmandu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check the museum’s seasonal hours and Saturday closures. Bring student identification if you plan to ask for the student rate.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Indoor trampolines"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Jump KTM, Jhamsikhel"
+    ],
+    "guideLinks": [
+      {
+        "label": "Jump KTM Jhamsikhel branch",
+        "url": "https://jumpktm.com/jhamsikhel/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "INDOOR TRAMPOLINES · JHAMSIKHEL",
+    "mealNote": "",
+    "meals": [],
+    "name": "Jump KTM, Jhamsikhel",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Jump Jhamsikhel Indoor Trampoline Park, Lalitpur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Plan an indoor jumping session and ask the branch which session suits younger children.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Jump+Jhamsikhel+Indoor+Trampoline+Park%2C+Lalitpur%2C+Nepal",
+        "photo": "Jump KTM, Jhamsikhel",
+        "title": "Jump Jhamsikhel Indoor Trampoline Park, Lalitpur"
+      }
+    ],
+    "summary": "This indoor trampoline park in Jhamsikhel is a destination for active play in Lalitpur. Give children time to get comfortable on the equipment and check with the branch about age limits and suitable sessions.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Jump+Jhamsikhel+Indoor+Trampoline+Park%2C+Lalitpur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Jump+Jhamsikhel+Indoor+Trampoline+Park%2C+Lalitpur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Ask the Jhamsikhel branch about booking a session, grip socks, and rules for younger children.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Water and amusement park"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Whoopee Land"
+    ],
+    "guideLinks": [
+      {
+        "label": "Whoopee Land updates",
+        "url": "https://www.facebook.com/whoopee.land/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "WATER AND AMUSEMENT PARK · CHOBHAR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Whoopee Land",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Whoopee Land Amusement and Water Park, Chobhar",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Choose between the waterslides and amusement rides based on what is open.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Whoopee+Land+Amusement+and+Water+Park%2C+Chobhar%2C+Nepal",
+        "photo": "Whoopee Land",
+        "title": "Whoopee Land Amusement and Water Park, Chobhar"
+      }
+    ],
+    "summary": "Whoopee Land in Chobhar combines waterslides with amusement rides. Families can plan the outing around the water park or choose a shorter visit for the rides, depending on what is operating and what suits the group.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Whoopee+Land+Amusement+and+Water+Park%2C+Chobhar"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Whoopee+Land+Amusement+and+Water+Park%2C+Chobhar"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Confirm that the water rides are running before you pack swimwear. Check each attraction’s height restrictions at the park.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Water park"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Kathmandu Fun Valley"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kathmandu Fun Valley updates",
+        "url": "https://www.facebook.com/kathmandufunvalley/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "WATER PARK · PALANSE, BHAKTAPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Kathmandu Fun Valley",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Kathmandu Fun Valley, Palanse, Bhaktapur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Spend time at the wave pool and slides when those attractions are operating.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kathmandu+Fun+Valley%2C+Palanse%2C+Bhaktapur%2C+Nepal",
+        "photo": "Kathmandu Fun Valley",
+        "title": "Kathmandu Fun Valley, Palanse, Bhaktapur"
+      }
+    ],
+    "summary": "Kathmandu Fun Valley is a water park in Palanse near Sanga, built around pools and slides. It makes a different sort of family outing from the nearby temple and heritage visits, especially when the wave pool and water attractions are running.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kathmandu+Fun+Valley%2C+Palanse%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kathmandu+Fun+Valley%2C+Palanse%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check the latest pool and slide availability before travelling and ask about children’s access to individual attractions.</li></ul></div>"
+  },
+  {
+    "bus": "Ask for a bus to Kirtipur and confirm where to get off for the old town. Continue on foot to Bagh Bhairab Temple and check your return service before setting out.",
+    "car": "Use the temple pin to plan a drop-off near old Kirtipur. Allow time to walk through the narrow lanes from where the vehicle can stop.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Bagh Bhairab Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kirtipur Municipality heritage guide",
+        "url": "https://kirtipurmun.gov.np/heritage/baghbhairav/"
+      }
+    ],
+    "history": "Kirtipur Municipality traces the temple’s construction to the reign of King Shivadev, from 1099 to 1126, citing the Gopal dynasty chronicle. The town honours Bagh Bhairab as its protector and holds an annual jatra in his name.",
+    "historyLinks": [
+      {
+        "label": "Kirtipur Municipality heritage record",
+        "url": "https://kirtipurmun.gov.np/heritage/baghbhairav/"
+      }
+    ],
+    "location": "TEMPLE · KIRTIPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Bagh Bhairab Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Bagh Bhairab Temple, Kirtipur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look for the three-tiered Newar shrine dedicated to Bhairab in tiger form.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Bagh+Bhairab+Temple%2C+Kirtipur%2C+Nepal",
+        "photo": "Bagh Bhairab Temple",
+        "title": "Bagh Bhairab Temple, Kirtipur"
+      }
+    ],
+    "summary": "Bagh Bhairab Temple is a tiered shrine in old Kirtipur dedicated to Bhairab in tiger form. Make it the first stop on a walk through the old town and continue toward Uma Maheshwar Temple if you want a longer hilltop route.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bagh+Bhairab+Temple%2C+Kirtipur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bagh+Bhairab+Temple%2C+Kirtipur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Indrayani Temple (Luti Ajima)"
+    ],
+    "guideLinks": [
+      {
+        "label": "Tribhuvan University study of Kathmandu’s Ajima shrines",
+        "url": "https://elibrary.tucl.edu.np/JQ99OgQIizUxyjI9nB0on9OyLkqsGIf4/api/core/bitstreams/90244c66-d453-4c08-84af-22a382c5e3da/content"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · KATHMANDU",
+    "mealNote": "",
+    "meals": [],
+    "name": "Indrayani Temple (Luti Ajima)",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Lhuti Ajima, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Pause at the Indrayani shrine by the Bishnumati before walking toward Shobha Bhagwati.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Lhuti+Ajima%2C+Kathmandu%2C+Nepal",
+        "photo": "Indrayani Temple (Luti Ajima)",
+        "title": "Lhuti Ajima, Kathmandu"
+      }
+    ],
+    "summary": "Luti Ajima is a riverside Indrayani shrine near the Bishnumati. Combine time at the shrine with a short neighbourhood walk toward Shobha Bhagwati or nearby Bijeshwari.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Lhuti+Ajima%2C+Kathmandu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Lhuti+Ajima%2C+Kathmandu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Mhepi Ajima Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Tribhuvan University study of Kathmandu’s Ajima shrines",
+        "url": "https://elibrary.tucl.edu.np/JQ99OgQIizUxyjI9nB0on9OyLkqsGIf4/api/core/bitstreams/90244c66-d453-4c08-84af-22a382c5e3da/content"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · KATHMANDU",
+    "mealNote": "",
+    "meals": [],
+    "name": "Mhepi Ajima Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Mhepi Ajima Temple, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Follow the short uphill approach to the wooded shrine above the neighbourhood.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Mhepi+Ajima+Temple%2C+Kathmandu%2C+Nepal",
+        "photo": "Mhepi Ajima Temple",
+        "title": "Mhepi Ajima Temple, Kathmandu"
+      }
+    ],
+    "summary": "A wooded hill separates this Ajima shrine from the busy streets of Mhepi below. The hillside setting makes it a compact worship stop with a short walk as part of the visit.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Mhepi+Ajima+Temple%2C+Kathmandu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Mhepi+Ajima+Temple%2C+Kathmandu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Bijeshwari Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Wikimedia Commons temple photo and location",
+        "url": "https://commons.wikimedia.org/wiki/File:Bijeshwari_Bajra_Yogini_Temple_Rajesh_Dhungana_Kathmandu_(3).jpg"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · KATHMANDU",
+    "mealNote": "",
+    "meals": [],
+    "name": "Bijeshwari Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Bijeshwari Temple, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the Vajrayogini shrine near Shobha Bhagwati and pair it with nearby Luti Ajima.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Bijeshwari+Temple%2C+Kathmandu%2C+Nepal",
+        "photo": "Bijeshwari Temple",
+        "title": "Bijeshwari Temple, Kathmandu"
+      }
+    ],
+    "summary": "Bijeshwari is a Vajrayogini shrine near Shobha Bhagwati in Kathmandu. Its location close to the Bishnumati makes it easy to pair with Luti Ajima on a short pilgrimage walk.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bijeshwari+Temple%2C+Kathmandu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bijeshwari+Temple%2C+Kathmandu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Santaneshwor Mahadev Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Geotagged temple photo",
+        "url": "https://commons.wikimedia.org/wiki/File:Shree_Santaneshwor_Mahadev_Temple_20180828_152945.jpg"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · JHARUWARASI, LALITPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Santaneshwor Mahadev Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Santaneshwor Mahadev Temple, Jharuwarasi",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Allow time for worship at this Shiva shrine before continuing toward Godawari.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Santaneshwor+Mahadev+Temple%2C+Jharuwarasi%2C+Nepal",
+        "photo": "Santaneshwor Mahadev Temple",
+        "title": "Santaneshwor Mahadev Temple, Jharuwarasi"
+      }
+    ],
+    "summary": "Santaneshwor Mahadev is a Shiva shrine in Jharuwarasi, Lalitpur. Set aside time for worship and the approach to the temple, then continue toward Godawari if you want a second stop in the area.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Santaneshwor+Mahadev+Temple%2C+Jharuwarasi"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Santaneshwor+Mahadev+Temple%2C+Jharuwarasi"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple & pine grove"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Chonga Ganesh Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Bhaktapur.com temple guide",
+        "url": "https://www.bhaktapur.com/discover/chonga-ganesh-temple/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE & PINE GROVE · SALLAGHARI, BHAKTAPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Chonga Ganesh Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Chonga Ganesh Temple, Sallaghari, Bhaktapur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Start with darshan, then walk in the pine grove beside the temple.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chonga+Ganesh+Temple%2C+Sallaghari%2C+Bhaktapur%2C+Nepal",
+        "photo": "Chonga Ganesh Temple",
+        "title": "Chonga Ganesh Temple, Sallaghari, Bhaktapur"
+      }
+    ],
+    "summary": "The Chonga Ganesh shrine sits beside the Sallaghari pine grove in Bhaktapur. Start with darshan, then use a permitted spot in the grove if your group is staying for a picnic.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Chonga+Ganesh+Temple%2C+Sallaghari%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Chonga+Ganesh+Temple%2C+Sallaghari%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>The pine grove near the temple is used for picnics. Ask locally where groups can set up and whether cooking is allowed.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple & picnic area"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Surya Binayak Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Bhaktapur.com visitor guide",
+        "url": "https://www.bhaktapur.com/discover/suryabinayak-temple/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE & PICNIC AREA · SURYABINAYAK",
+    "mealNote": "",
+    "meals": [],
+    "name": "Surya Binayak Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Surya Binayak Temple, Bhaktapur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Follow the uphill approach through the wooded grounds to the Ganesh shrine.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Surya+Binayak+Temple%2C+Bhaktapur%2C+Nepal",
+        "photo": "Surya Binayak Temple",
+        "title": "Surya Binayak Temple, Bhaktapur"
+      }
+    ],
+    "summary": "This wooded hillside shrine is one of the Ganesh temples in the Four Binayak pilgrimage circuit. Allow time for the uphill approach, and plan a separate picnic stop on the surrounding hillside if visiting with a group.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Surya+Binayak+Temple%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Surya+Binayak+Temple%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>Picnic areas are available on the surrounding hillside. Check reservation arrangements before bringing a group.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Picnic park"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Tribhuvan Park"
+    ],
+    "guideLinks": [
+      {
+        "label": "Tribhuvan Park visitor information",
+        "url": "https://tribhuwanpark.org/about"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "PICNIC PARK · THANKOT",
+    "mealNote": "",
+    "meals": [],
+    "name": "Tribhuvan Park",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Tribhuwan Park, Thankot",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Take a walk around the grounds and settle in for a meal at a designated picnic spot.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Tribhuwan+Park%2C+Thankot%2C+Nepal",
+        "photo": "Tribhuvan Park",
+        "title": "Tribhuwan Park, Thankot"
+      }
+    ],
+    "summary": "Tribhuvan Park in Thankot is a public park with designated picnic grounds. It is suited to a group outing centred on a shared meal, with time to walk around the grounds before heading home.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Tribhuwan+Park%2C+Thankot"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Tribhuwan+Park%2C+Thankot"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>Check the park’s current picnic booking options and fees before a group visit.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Picnic park"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Balaju Baisdhara Park"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kathmandu Metropolitan City park information",
+        "url": "https://onlineticketing.kathmandu.gov.np/"
+      },
+      {
+        "label": "Kathmandu Metropolitan City schedule of picnic shelters",
+        "url": "https://law.kathmandu.gov.np/wp-content/uploads/2025/01/%E0%A4%95%E0%A4%BE%E0%A4%A0%E0%A4%AE%E0%A4%BE%E0%A4%A1%E0%A5%8C%E0%A4%82_%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A5%8B_%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95_%E0%A4%90%E0%A4%A8_%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB.pdf"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "PICNIC PARK · BALAJU, KATHMANDU",
+    "mealNote": "",
+    "meals": [],
+    "name": "Balaju Baisdhara Park",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Balaju Baisdhara Park, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Follow the garden paths past ponds and the historic stone water spouts.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Balaju+Baisdhara+Park%2C+Kathmandu%2C+Nepal",
+        "photo": "Balaju Baisdhara Park",
+        "title": "Balaju Baisdhara Park, Kathmandu"
+      }
+    ],
+    "summary": "Balaju Baisdhara Park combines ponds, garden paths and historic stone water spouts. The park works for a short city walk or a longer picnic in a designated shelter.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Balaju+Baisdhara+Park%2C+Kathmandu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Balaju+Baisdhara+Park%2C+Kathmandu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>Kathmandu Metropolitan City lists designated picnic spaces here. Ask the park about reservations and current fees.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Picnic park"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Manjushree Park"
+    ],
+    "guideLinks": [
+      {
+        "label": "Visit Kirtipur park guide",
+        "url": "https://visitkirtipur.com/places/"
+      }
+    ],
+    "history": "Kirtipur Municipality records that the gorge area was quarried for limestone for more than two decades before it was developed into Manjushree Park.",
+    "historyLinks": [
+      {
+        "label": "Kirtipur Municipality’s Chobhar account",
+        "url": "https://kirtipurmun.gov.np/heritage/jal-binayak/"
+      }
+    ],
+    "location": "PICNIC PARK · CHOBHAR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Manjushree Park",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Manjushree Park, Chobhar, Kirtipur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Walk the park paths for a view of where the Bagmati narrows through Chobhar Gorge.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Manjushree+Park%2C+Chobhar%2C+Kirtipur%2C+Nepal",
+        "photo": "Manjushree Park",
+        "title": "Manjushree Park, Chobhar, Kirtipur"
+      }
+    ],
+    "summary": "Manjushree Park overlooks Chobhar Gorge, where the Bagmati passes through a narrow channel. The lawns and paths make the gorge an easy outing, and nearby Jal Binayak adds a temple stop if you have time.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Manjushree+Park%2C+Chobhar%2C+Kirtipur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Manjushree+Park%2C+Chobhar%2C+Kirtipur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>A local family picnic spot. Check with park staff for garden rules and group arrangements.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Forest picnic grounds"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Sangdaha Picnic Spot"
+    ],
+    "guideLinks": [
+      {
+        "label": "Changunarayan Municipality tourism inventory",
+        "url": "https://changu-stag.naxa.com.np/tourism"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "FOREST PICNIC GROUNDS · CHANGUNARAYAN",
+    "mealNote": "",
+    "meals": [],
+    "name": "Sangdaha Picnic Spot",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Sangdaha Picnic Spot, Changunarayan",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look for the picnic shelters among the pines and take a short forest walk.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Sangdaha+Picnic+Spot%2C+Changunarayan%2C+Nepal",
+        "photo": "Sangdaha Picnic Spot",
+        "title": "Sangdaha Picnic Spot, Changunarayan"
+      }
+    ],
+    "summary": "Sangdaha is a wooded picnic area in Changunarayan with shelters among the pines. Plan the outing around a picnic and a short walk in the forest, with Changu Narayan Temple as a separate stop.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Sangdaha+Picnic+Spot%2C+Changunarayan"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Sangdaha+Picnic+Spot%2C+Changunarayan"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>The municipal inventory lists several picnic areas in the forest. Confirm current access, facilities, and cooking rules before visiting.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Hill walk"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "1,000 Steps, Dhulikhel"
+    ],
+    "guideLinks": [
+      {
+        "label": "Dhulikhel Municipality’s Kalidevi and 1,000 Steps listing",
+        "url": "https://dhulikhelmun.gov.np/en/node/796"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "HILL WALK · DHULIKHEL",
+    "mealNote": "",
+    "meals": [],
+    "name": "1,000 Steps, Dhulikhel",
+    "nearby": [
+      {
+        "label": "Kalidevi Temple, Dhulikhel",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kalidevi+Temple%2C+Dhulikhel%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "1,000 Steps, Dhulikhel",
+        "title": "Start here"
+      },
+      {
+        "description": "Kalidevi Temple, Dhulikhel",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Follow the stone steps uphill toward Kalidevi Temple, taking breaks as needed.",
+        "map": "https://www.google.com/maps/search/?api=1&query=1%2C000+Steps%2C+Dhulikhel%2C+Nepal",
+        "photo": null,
+        "title": "1,000 Steps, Dhulikhel"
+      },
+      {
+        "description": "Pause at the hilltop shrine after the climb up Dhulikhel’s 1,000 Steps.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kalidevi+Temple%2C+Dhulikhel%2C+Nepal",
+        "photo": "1,000 Steps, Dhulikhel",
+        "title": "Kalidevi Temple, Dhulikhel"
+      }
+    ],
+    "summary": "The stepped route climbs from Dhulikhel toward Kalidevi Temple. Make the staircase the main outing and take breaks on the way up, or combine part of the climb with an old-town walk.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Dhulikhel+1000+Steps"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Dhulikhel+1000+Steps"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Zoo"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Central Zoo"
+    ],
+    "guideLinks": [
+      {
+        "label": "National Trust for Nature Conservation visitor information",
+        "url": "https://ntnc.org.np/project/central-zoo"
+      }
+    ],
+    "history": "Rana prime minister Juddha Shamsher established the zoo as a private collection in 1932. It passed into government ownership after the political changes of 1950 and opened to the public in 1956.",
+    "historyLinks": [
+      {
+        "label": "National Trust for Nature Conservation report",
+        "url": "https://ntnc.org.np/sites/default/files/doc_publication/2018-11/NTNC_Annual%20Report%202014_Final_0.pdf"
+      }
+    ],
+    "location": "ZOO · JAWALAKHEL",
+    "mealNote": "",
+    "meals": [],
+    "name": "Central Zoo",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Central Zoo, Jawalakhel",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Pick a short loop through the animal exhibits and leave time for the aquarium or children’s area.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Central+Zoo%2C+Jawalakhel%2C+Nepal",
+        "photo": "Central Zoo",
+        "title": "Central Zoo, Jawalakhel"
+      }
+    ],
+    "summary": "Central Zoo in Jawalakhel brings together animal exhibits and spaces where children can take a break. Choose a manageable circuit through the grounds and leave time for the aquarium or children’s area.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Central+Zoo%2C+Jawalakhel"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Central+Zoo%2C+Jawalakhel"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check the official visitor page for tickets and opening days. Plan a shorter loop or a break at the children’s area for younger visitors.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Science centre"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Simulation Science Center"
+    ],
+    "guideLinks": [
+      {
+        "label": "Brihaspati Vidyasadan’s science centre visit",
+        "url": "https://bvs.edu.np/grade-2-explores-science/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "SCIENCE CENTRE · CHOBHAR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Simulation Science Center",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Simulation Science Center, Chobhar, Kirtipur",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Ask which hands-on demonstrations are available and whether your visit needs to be arranged in advance.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Simulation+Science+Center%2C+Chobhar%2C+Kirtipur%2C+Nepal",
+        "photo": "Simulation Science Center",
+        "title": "Simulation Science Center, Chobhar, Kirtipur"
+      }
+    ],
+    "summary": "This science centre in Chobhar is geared toward learning through hands-on demonstrations. It is a good fit for a school or family outing if a visit can be arranged, with Chobhar Gorge nearby for a second stop.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Simulation+Science+Center%2C+Chobhar%2C+Kirtipur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Simulation+Science+Center%2C+Chobhar%2C+Kirtipur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Confirm whether the centre accepts walk-ins or requires advance arrangements for a group.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Museum"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "National Museum of Nepal"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board’s National Museum guide",
+        "url": "https://ntb.gov.np/en/national-museum-of-nepal"
+      }
+    ],
+    "history": "The museum grew out of a weapons collection at Chhauni that was known as Chhauni Silkhana. The former arsenal building now houses the historical galleries. The complex later added galleries for art and Buddhist collections.",
+    "historyLinks": [
+      {
+        "label": "National Museum conference contribution",
+        "url": "https://www.mccy.gov.sg/-/media/Mccy-Ca/Feature/Resources/Conference-Papers/5th-Asian-Museums-National-Museums-Association-Conference-Publication/ANMA-Publication.pdf"
+      }
+    ],
+    "location": "MUSEUM · CHHAUNI",
+    "mealNote": "",
+    "meals": [],
+    "name": "National Museum of Nepal",
+    "nearby": [
+      {
+        "label": "Swayambhunath",
+        "url": "https://www.google.com/maps/search/?api=1&query=Swayambhunath%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "National Museum of Nepal, Chhauni",
+        "title": "Start here"
+      },
+      {
+        "description": "Swayambhunath",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Explore the historical, art and Buddhist collections in the museum buildings.",
+        "map": "https://www.google.com/maps/search/?api=1&query=National+Museum+of+Nepal%2C+Chhauni%2C+Nepal",
+        "photo": "National Museum of Nepal",
+        "title": "National Museum of Nepal, Chhauni"
+      },
+      {
+        "description": "Follow the stupa circuit for a view over Kathmandu after the museum visit.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Swayambhunath%2C+Nepal",
+        "photo": "Swayambhunath",
+        "title": "Swayambhunath"
+      }
+    ],
+    "summary": "The National Museum in Chhauni brings Nepal’s art and history together in several collections. Give yourself time to move between galleries, then pair the visit with Swayambhunath for a longer day in western Kathmandu.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+National+Museum+of+Nepal%2C+Chhauni"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+National+Museum+of+Nepal%2C+Chhauni"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Adinath Lokeshwar Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kirtipur Municipality’s Adinath heritage listing",
+        "url": "https://kirtipurmun.gov.np/heritage/adinath/index.html?lang=en"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · CHOBHAR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Adinath Lokeshwar Temple",
+    "nearby": [
+      {
+        "label": "Jal Binayak Temple, Chobhar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jal+Binayak+Temple%2C+Chobhar%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Adinath Lokeshwar Temple, Chobhar",
+        "title": "Start here"
+      },
+      {
+        "description": "Jal Binayak Temple, Chobhar",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Start with the hilltop shrine above Chobhar before heading down toward the river.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Adinath+Lokeshwar+Temple%2C+Chobhar%2C+Nepal",
+        "photo": "Adinath Lokeshwar Temple",
+        "title": "Adinath Lokeshwar Temple, Chobhar"
+      },
+      {
+        "description": "Visit the Ganesh shrine beside the Bagmati, close to Chobhar Gorge.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Jal+Binayak+Temple%2C+Chobhar%2C+Nepal",
+        "photo": "Four Binayak Ganesh Temples",
+        "title": "Jal Binayak Temple, Chobhar"
+      }
+    ],
+    "summary": "Adinath Lokeshwar Temple sits above Chobhar village. Its hilltop setting offers a different experience from the riverside shrine of Jal Binayak, which makes a natural second stop.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Adinath+Lokeshwar+Temple%2C+Chobhar"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Adinath+Lokeshwar+Temple%2C+Chobhar"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Bajra Barahi Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Tribhuvan University study of Chapagaon",
+        "url": "https://conference.ioe.edu.np/ioegc8/papers/ioegc-8-029-80038.pdf"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · CHAPAGAON",
+    "mealNote": "",
+    "meals": [],
+    "name": "Bajra Barahi Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Bajra Barahi Temple, Chapagaon",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Combine darshan at the Barahi shrine with a short walk in the surrounding grove.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Bajra+Barahi+Temple%2C+Chapagaon%2C+Nepal",
+        "photo": "Bajra Barahi Temple",
+        "title": "Bajra Barahi Temple, Chapagaon"
+      }
+    ],
+    "summary": "A Barahi shrine stands in a wooded grove outside Chapagaon. The visit combines worship with a short walk among the trees, with Chapagaon nearby for a stop in town.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bajra+Barahi+Temple%2C+Chapagaon"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bajra+Barahi+Temple%2C+Chapagaon"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Nil Barahi Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Visit Madhyapur temple guide",
+        "url": "https://visitmadhyapur.com/place/%E0%A4%A8%E0%A5%80%E0%A4%B2%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B9%E0%A5%80-%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%B0/"
+      }
+    ],
+    "history": "The shrine is tied to Bode’s Nil Barahi masked dance. Performers take on the roles of deities during the community observance, keeping the shrine connected to festival life beyond daily worship.",
+    "historyLinks": [
+      {
+        "label": "Bhaktapur.com’s account of the dance",
+        "url": "https://www.bhaktapur.com/nil-barahi-dance-an-amazing-dance-of-peace-war/"
+      }
+    ],
+    "location": "TEMPLE · BODE, MADHYAPUR THIMI",
+    "mealNote": "",
+    "meals": [],
+    "name": "Nil Barahi Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Nil Barahi Temple, Bode, Madhyapur Thimi",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the wooded Tigani shrine associated with Bode’s Nil Barahi masked dance.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Nil+Barahi+Temple%2C+Bode%2C+Madhyapur+Thimi%2C+Nepal",
+        "photo": "Nil Barahi Temple",
+        "title": "Nil Barahi Temple, Bode, Madhyapur Thimi"
+      }
+    ],
+    "summary": "Nil Barahi is a shrine in the wooded Tigani area near Bode. It is closely tied to the community’s masked dance tradition, and a visit can be paired with a walk through Bode itself.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Nil+Barahi+Temple%2C+Bode%2C+Madhyapur+Thimi"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Nil+Barahi+Temple%2C+Bode%2C+Madhyapur+Thimi"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "Aerial view of the Chandeshwori Temple area in Banepa against a wooded hillside",
+      "photo": "Chandeshwori Temple Aerial View"
+    },
+    "gallery": [
+      "Chandeshwori Temple Courtyard",
+      "Chandeshwori Temple Aerial View",
+      "Chandeshwori Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Banepa Municipality map",
+        "url": "https://banepamun.gov.np/sites/banepamun.gov.np/files/RoadMap1.pdf"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · BANEPA",
+    "mealNote": "",
+    "meals": [],
+    "name": "Chandeshwori Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Chandeshwori Temple, Banepa",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Pause in the courtyard to look at the tiered shrine and its carved details.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chandeshwori+Temple%2C+Banepa%2C+Nepal",
+        "photo": "Chandeshwori Temple Courtyard",
+        "title": "Chandeshwori Temple, Banepa"
+      }
+    ],
+    "summary": "This goddess temple lies north of Banepa’s centre and offers a quieter stop after the market. The temple and bazaar make a compact half-day outing with two distinct sides of the town.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Chandeshwori+Temple%2C+Banepa"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Chandeshwori+Temple%2C+Banepa"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Matsya Narayan Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "The Rising Nepal report from Machhegaun",
+        "url": "https://risingnepaldaily.com/news/29599"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · MACHHEGAUN",
+    "mealNote": "",
+    "meals": [],
+    "name": "Matsya Narayan Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Matsya Narayan Temple, Machhegaun",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the shrine dedicated to Matsya, the fish incarnation of Vishnu.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Matsya+Narayan+Temple%2C+Machhegaun%2C+Nepal",
+        "photo": "Matsya Narayan Temple",
+        "title": "Matsya Narayan Temple, Machhegaun"
+      }
+    ],
+    "summary": "The Vishnu shrine at Machhegaun is associated with Matsya, the deity’s fish incarnation. It is a local pilgrimage stop and the focus of the Purushottam Mela when the festival takes place.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Matsya+Narayan+Temple%2C+Machhegaun"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Matsya+Narayan+Temple%2C+Machhegaun"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "Gold-colored Nandi statue at Doleshwor Mahadev Temple in Sipadol",
+      "photo": "Doleshwor Mahadev Temple Nandi"
+    },
+    "gallery": [
+      "Doleshwor Mahadev Temple Courtyard",
+      "Doleshwor Mahadev Temple Nandi",
+      "Doleshwor Mahadev Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board pilgrimage guide",
+        "url": "https://ntb.gov.np/plan-your-trip/trip-ideas/pilgrimage-to-doleshwar-mahadev-temple"
+      }
+    ],
+    "history": "In 2009, the chief priest of Kedarnath formally recognised Doleshwor Mahadev as the head of Kedarnath in pilgrimage tradition. The association draws Shiva devotees to the temple in Sipadol.",
+    "historyLinks": [
+      {
+        "label": "Nepal Tourism Board pilgrimage guide",
+        "url": "https://ntb.gov.np/plan-your-trip/trip-ideas/pilgrimage-to-doleshwar-mahadev-temple"
+      }
+    ],
+    "location": "TEMPLE · SIPADOL, BHAKTAPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Doleshwor Mahadev Temple",
+    "nearby": [
+      {
+        "label": "Ashapuri Mahadev Temple, Suryabinayak",
+        "url": "https://www.google.com/maps/search/?api=1&query=Ashapuri+Mahadev+Temple%2C+Suryabinayak%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Doleshwor Mahadev Temple, Sipadol, Bhaktapur",
+        "title": "Start here"
+      },
+      {
+        "description": "Ashapuri Mahadev Temple, Suryabinayak",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "See the Nandi statue in the courtyard and allow time for worship at the Shiva shrine.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Doleshwor+Mahadev+Temple%2C+Sipadol%2C+Bhaktapur%2C+Nepal",
+        "photo": "Doleshwor Mahadev Temple Courtyard",
+        "title": "Doleshwor Mahadev Temple, Sipadol, Bhaktapur"
+      },
+      {
+        "description": "Continue to the gold-roofed Shiva temple for a second pilgrimage stop.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Ashapuri+Mahadev+Temple%2C+Suryabinayak%2C+Nepal",
+        "photo": "Ashapuri Mahadev Temple",
+        "title": "Ashapuri Mahadev Temple, Suryabinayak"
+      }
+    ],
+    "summary": "Doleshwor Mahadev is a Shiva pilgrimage site in Sipadol, Bhaktapur, associated with Kedarnath. Allow time for worship here, then continue to Ashapuri if you are planning a longer temple outing.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Doleshwor+Mahadev+Temple%2C+Sipadol%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Doleshwor+Mahadev+Temple%2C+Sipadol%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Take a bus toward Suryabinayak Chowk. Ask about onward transport to Ashapuri before leaving the chowk, and confirm your return arrangements.",
+    "car": "Use the Ashapuri temple pin in Suryabinayak Ward 8 for the drive. Check the final approach and drop-off locally.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Ashapuri Mahadev Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Suryabinayak Municipality tourism guide",
+        "url": "https://suryabinayaktourism.digitalmun.com/sites/aashapuri-mahadev-temple/"
+      }
+    ],
+    "history": "Suryabinayak Municipality records a local legend that a Shiva linga appeared from the ground after villagers prayed during a drought. The story explains the shrine’s association with the fulfilment of wishes.",
+    "historyLinks": [
+      {
+        "label": "Suryabinayak Municipality tourism profile",
+        "url": "https://suryabinayaktourism.digitalmun.com/sites/aashapuri-mahadev-temple/"
+      }
+    ],
+    "location": "TEMPLE · SURYABINAYAK, BHAKTAPUR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Ashapuri Mahadev Temple",
+    "nearby": [
+      {
+        "label": "Doleshwor Mahadev Temple, Sipadol",
+        "url": "https://www.google.com/maps/search/?api=1&query=Doleshwor+Mahadev+Temple%2C+Sipadol%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Ashapuri Mahadev Temple, Suryabinayak, Bhaktapur",
+        "title": "Start here"
+      },
+      {
+        "description": "Doleshwor Mahadev Temple, Sipadol",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look for the gold-roofed shrine and pause in the grounds after darshan.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Ashapuri+Mahadev+Temple%2C+Suryabinayak%2C+Bhaktapur%2C+Nepal",
+        "photo": "Ashapuri Mahadev Temple",
+        "title": "Ashapuri Mahadev Temple, Suryabinayak, Bhaktapur"
+      },
+      {
+        "description": "Stop at the Shiva shrine associated with Kedarnath and look for Nandi in the courtyard.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Doleshwor+Mahadev+Temple%2C+Sipadol%2C+Nepal",
+        "photo": "Doleshwor Mahadev Temple Courtyard",
+        "title": "Doleshwor Mahadev Temple, Sipadol"
+      }
+    ],
+    "summary": "Ashapuri Mahadev is a Shiva temple in Suryabinayak with a gold-roofed shrine. It can be a short visit on its own or the second stop on a pilgrimage outing from Doleshwor Mahadev.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Ashapuri+Mahadev+Temple%2C+Suryabinayak%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Ashapuri+Mahadev+Temple%2C+Suryabinayak%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Ichangu Narayan Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board pilgrimage guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/pilgrimage-sites-2/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · ICHANGU, NAGARJUN",
+    "mealNote": "",
+    "meals": [],
+    "name": "Ichangu Narayan Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Ichangu Narayan Temple, Ichangu, Nagarjun",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Spend time at one of the valley’s four Narayan shrines west of Swayambhu.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Ichangu+Narayan+Temple%2C+Ichangu%2C+Nagarjun%2C+Nepal",
+        "photo": "Ichangu Narayan Temple",
+        "title": "Ichangu Narayan Temple, Ichangu, Nagarjun"
+      }
+    ],
+    "summary": "Ichangu Narayan is a Vishnu shrine west of Swayambhu. It is one of the valley’s four Narayan shrines and makes a short temple stop on the Nagarjun side of Kathmandu.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Ichangu+Narayan+Temple%2C+Ichangu%2C+Nagarjun"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Ichangu+Narayan+Temple%2C+Ichangu%2C+Nagarjun"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Shikali Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Tribhuvan University study of Shikali Jatra",
+        "url": "https://elibrary.tucl.edu.np/JQ99OgQIizUxyjI9nB0on9OyLkqsGIf4/api/core/bitstreams/fb8f7101-8702-47bc-8801-d66667dcc782/content"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · KHOKANA",
+    "mealNote": "",
+    "meals": [],
+    "name": "Shikali Temple",
+    "nearby": [
+      {
+        "label": "Rudrayani Temple",
+        "url": "http://127.0.0.1:8765/destination.html?place=Rudrayani+Temple&category=Dharmik"
+      },
+      {
+        "label": "Karya Binayak Temple",
+        "url": "http://127.0.0.1:8765/destination.html?place=Karya+Binayak+Temple&category=Dharmik"
+      },
+      {
+        "label": "Rato Machhindranath Temple",
+        "url": "http://127.0.0.1:8765/destination.html?place=Rato+Machhindranath+Temple&category=Dharmik"
+      },
+      {
+        "label": "Jal Binayak Temple",
+        "url": "http://127.0.0.1:8765/destination.html?place=Jal+Binayak+Temple&category=Dharmik"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Visit Shikali Temple outside Khokana, then continue to Rudrayani Temple in the village",
+        "title": "Morning"
+      },
+      {
+        "description": "Stop for lunch before heading to Bungamati",
+        "title": "Midday"
+      },
+      {
+        "description": "Visit Karya Binayak and Rato Machhindranath Temple",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Walk out from the village to the shrine associated with Khokana’s Shikali Jatra.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Shikali+Temple%2C+Khokana%2C+Nepal",
+        "photo": "Shikali Temple",
+        "title": "Shikali Temple, Khokana"
+      }
+    ],
+    "summary": "Shikali Temple sits outside Khokana, away from the village’s central lanes. Start in the village at Rudrayani Temple or visit Shikali first, then walk into Khokana to see the setting of the community’s jatra.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Shikali+Temple%2C+Khokana"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Shikali+Temple%2C+Khokana"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>Ask locally where picnics are permitted around Khokana. Picnic facilities near the temple are unconfirmed.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Rudrayani Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "UNESCO Tentative List entry for Khokana",
+        "url": "https://whc.unesco.org/en/tentativelists/844/"
+      }
+    ],
+    "history": "The village’s temple sits within a traditional pattern of courtyards and lanes. Nepal’s heritage submission for Khokana documents the village’s mother-goddess shrine and mustard-oil production as part of its living heritage.",
+    "historyLinks": [
+      {
+        "label": "Khokana tentative-list entry",
+        "url": "https://whc.unesco.org/en/tentativelists/844/"
+      }
+    ],
+    "location": "TEMPLE · KHOKANA",
+    "mealNote": "",
+    "meals": [],
+    "name": "Rudrayani Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Rudrayani Temple, Khokana",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Start at the village shrine before exploring Khokana’s central lanes and courtyards.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Rudrayani+Temple%2C+Khokana%2C+Nepal",
+        "photo": "Rudrayani Temple",
+        "title": "Rudrayani Temple, Khokana"
+      }
+    ],
+    "summary": "Rudrayani Temple stands in central Khokana among the village’s lanes and courtyards. It gives a visit a clear starting point before exploring the settlement or continuing out to Shikali Temple.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Rudrayani+Temple%2C+Khokana"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Rudrayani+Temple%2C+Khokana"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Karya Binayak Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Wikimedia Commons temple record",
+        "url": "https://commons.wikimedia.org/wiki/File:KaryaBinayak_Temple.jpg"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE · BUNGAMATI",
+    "mealNote": "",
+    "meals": [],
+    "name": "Karya Binayak Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Karya Binayak Temple, Bungamati",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Stop at the Ganesh shrine before continuing to the Rato Machhindranath temple.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Karya+Binayak+Temple%2C+Bungamati%2C+Nepal",
+        "photo": "Karya Binayak Temple",
+        "title": "Karya Binayak Temple, Bungamati"
+      }
+    ],
+    "summary": "Karya Binayak is a Ganesh shrine in Bungamati. Pair it with the Rato Machhindranath shrine to experience two different places of worship on one village visit.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Karya+Binayak+Temple%2C+Bungamati"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Karya+Binayak+Temple%2C+Bungamati"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Rato Machhindranath Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board festival guide",
+        "url": "https://ntb.gov.np/en/ratharohan-of-rato-machindranath"
+      }
+    ],
+    "history": "Tradition identifies Bungamati as the birthplace of the deity also known as Bung Dhya. Lalitpur’s chariot procession honours Rato Machhindranath, who is associated with rain and the agricultural season.",
+    "historyLinks": [
+      {
+        "label": "Nepal Tourism Board festival guide",
+        "url": "https://ntb.gov.np/en/ratharohan-of-rato-machindranath"
+      }
+    ],
+    "location": "TEMPLE · BUNGAMATI",
+    "mealNote": "",
+    "meals": [],
+    "name": "Rato Machhindranath Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Rato Machhindranath Temple, Bungamati",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the shrine of Bung Dhya, the deity honoured in Lalitpur’s chariot festival.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Rato+Machhindranath+Temple%2C+Bungamati%2C+Nepal",
+        "photo": "Rato Machhindranath Temple",
+        "title": "Rato Machhindranath Temple, Bungamati"
+      }
+    ],
+    "summary": "This Bungamati shrine is associated with Rato Machhindranath, or Bung Dhya, the central deity of Lalitpur’s chariot festival. Plan the shrine as part of a walk through Bungamati and include Karya Binayak if you have time.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Rato+Machhindranath+Temple%2C+Bungamati"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Rato+Machhindranath+Temple%2C+Bungamati"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Four Binayak Ganesh Temples"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kirtipur Municipality’s Jal Binayak guide",
+        "url": "https://kirtipurmun.gov.np/heritage/jal-binayak/"
+      }
+    ],
+    "history": "Known locally as Kwoyena, Jal Binayak is one of the valley’s celebrated Ganesh shrines. Kirtipur Municipality dates the temple to the 16th century and notes that families come here for worship and ceremonies.",
+    "historyLinks": [
+      {
+        "label": "Kirtipur Municipality heritage record",
+        "url": "https://kirtipurmun.gov.np/heritage/jal-binayak/"
+      }
+    ],
+    "location": "TEMPLE · CHOBHAR",
+    "mealNote": "",
+    "meals": [],
+    "name": "Jal Binayak Temple",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Jal Binayak Temple, Chobhar",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the Ganesh shrine beside the Bagmati, close to Chobhar Gorge.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Jal+Binayak+Temple%2C+Chobhar%2C+Nepal",
+        "photo": "Four Binayak Ganesh Temples",
+        "title": "Jal Binayak Temple, Chobhar"
+      }
+    ],
+    "summary": "Jal Binayak is a Ganesh shrine beside the Bagmati at Chobhar. The riverside approach and nearby gorge make it a natural companion to Manjushree Park or the hilltop Adinath temple.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Jal+Binayak+Temple%2C+Chobhar"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Jal+Binayak+Temple%2C+Chobhar"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the current boarding point and any connection for Nagarkot. If you are going for sunrise, check whether a passenger service runs early enough.",
+    "car": "Set directions to the specific viewpoint or hotel you plan to visit. The village and view tower are separate stops.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Hill getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "Nagarkot View Tower",
+      "photo": "Nagarkot View Tower"
+    },
+    "gallery": [
+      "Nagarkot",
+      "Nagarkot View Tower"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/hill-stations/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "HILL GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Nagarkot",
+    "nearby": [
+      {
+        "label": "Changu Narayan Temple",
+        "url": "https://www.google.com/maps/search/?api=1&query=Changu+Narayan+Temple%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Start with a viewpoint visit",
+        "title": "Morning"
+      },
+      {
+        "description": "Choose a restaurant for lunch",
+        "title": "Midday"
+      },
+      {
+        "description": "Take a short walk, then return",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Go early for sunrise and look for the Himalayan skyline on a clear morning.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Nagarkot+View+Tower%2C+Nepal",
+        "photo": "Nagarkot View Tower",
+        "title": "Nagarkot View Tower"
+      },
+      {
+        "description": "Explore the hilltop Vishnu shrine and its stone sculpture on the return from Nagarkot.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Changu+Narayan+Temple%2C+Nepal",
+        "photo": "Changu Narayan Temple",
+        "title": "Changu Narayan Temple"
+      }
+    ],
+    "summary": "Nagarkot is a ridge getaway east of Kathmandu, best known for sunrise and long Himalayan views when the sky is clear. A short ridge walk and breakfast make an outing on their own, or you can add Changu Narayan on the return.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Nagarkot"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Nagarkot"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Heritage walk"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Panauti"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/pilgrimage-sites-2/"
+      }
+    ],
+    "history": "At the meeting of the Roshi and Punyamati rivers, the medieval complex grew around Indreshwor Mahadev Temple, traditionally dated to 1294. It also includes the 17th-century Brahmayani Temple and historic rest houses. Nepal submitted the complex to UNESCO’s Tentative List in 1996.",
+    "historyLinks": [
+      {
+        "label": "Panauti tentative-list entry",
+        "url": "https://whc.unesco.org/en/tentativelists/839/"
+      }
+    ],
+    "location": "HERITAGE WALK",
+    "mealNote": "",
+    "meals": [],
+    "name": "Panauti",
+    "nearby": [
+      {
+        "label": "Namo Buddha",
+        "url": "https://www.google.com/maps/search/?api=1&query=Namo+Buddha%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Explore the old town on foot",
+        "title": "Morning"
+      },
+      {
+        "description": "Visit Indreshwor Temple and stop for lunch",
+        "title": "Midday"
+      },
+      {
+        "description": "Allow time for a riverside walk",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "See the timber carvings at the temple, then walk toward the riverside ghats.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Indreshwor+Mahadev+Temple%2C+Panauti%2C+Nepal",
+        "photo": "Panauti",
+        "title": "Indreshwor Mahadev Temple, Panauti"
+      },
+      {
+        "description": "Continue from Panauti to the pilgrimage stupa and monastery as a separate stop.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Namo+Buddha%2C+Nepal",
+        "photo": null,
+        "title": "Namo Buddha"
+      }
+    ],
+    "summary": "Walk through Panauti’s old town toward Indreshwor Mahadev Temple and the riverside ghats. The compact lanes and courtyard shrines reward an unhurried visit, with Namo Buddha as a separate stop outside town.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Panauti"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Panauti"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Take a bus to Sankhu and confirm your current boarding point and return departure locally.",
+    "car": "Start in Sankhu for the town walk. Confirm drop-off and parking before the uphill temple approach.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "Sankhu town and hilltop temple",
+        "value": "Heritage and pilgrimage"
+      },
+      {
+        "label": "Temple approach",
+        "link": "",
+        "note": "Allow breaks on the climb",
+        "value": "Uphill walk with steps"
+      },
+      {
+        "label": "Suggested visit",
+        "link": "",
+        "note": "Allow extra time for Salinadi",
+        "value": "Half a day"
+      }
+    ],
+    "feature": {
+      "caption": "View at Bajrayogini Temple above Sankhu",
+      "photo": "Bajrayogini Temple View"
+    },
+    "gallery": [
+      "Sankhu & Bajrayogini",
+      "Bajrayogini Temple View"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board pilgrimage guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/pilgrimage-sites-2/"
+      }
+    ],
+    "history": "Sankhu dates to the Lichchhavi period and stood on an old trade route to Tibet. Nepal’s Department of Archaeology dates the hill’s main Bajrayogini temple complex to the mid-17th century. Nepal submitted the town and temple together to UNESCO’s Tentative List in 2008.",
+    "historyLinks": [
+      {
+        "label": "Sankhu and Vajrayogini tentative-list entry",
+        "url": "https://whc.unesco.org/en/tentativelists/5257/"
+      }
+    ],
+    "location": "SHANKHARAPUR, KATHMANDU",
+    "mealNote": "",
+    "meals": [
+      {
+        "description": "Find a snack before Sankhu if your route passes through Jorpati.",
+        "links": [
+          {
+            "label": "Find places in Jorpati",
+            "url": "https://www.google.com/maps/search/?api=1&query=Restaurants+in+Jorpati%2C+Kathmandu%2C+Nepal"
+          }
+        ],
+        "stage": "ON THE WAY",
+        "title": "Jorpati food stops"
+      },
+      {
+        "description": "Return to the bazaar for a meal after the temple walk.",
+        "links": [
+          {
+            "label": "Find places in Sankhu",
+            "url": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Sankhu+Bazaar%2C+Shankharapur%2C+Nepal"
+          }
+        ],
+        "stage": "DURING THE VISIT",
+        "title": "Sankhu Bazaar"
+      },
+      {
+        "description": "Stop for a meal near Boudhanath if you’re returning through Boudha.",
+        "links": [
+          {
+            "label": "Find places in Boudha",
+            "url": "https://www.google.com/maps/search/?api=1&query=Restaurants+near+Boudhanath+Stupa%2C+Kathmandu%2C+Nepal"
+          }
+        ],
+        "stage": "ON THE WAY BACK",
+        "title": "Boudha dining"
+      }
+    ],
+    "name": "Sankhu & Bajrayogini",
+    "nearby": [
+      {
+        "label": "Sankhu Bazaar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sankhu+Bazaar%2C+Shankharapur%2C+Nepal"
+      },
+      {
+        "label": "Salinadi",
+        "url": "https://www.google.com/maps/search/?api=1&query=Salinadi%2C+Sankhu%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Salinadi is another pilgrimage stop near Sankhu. Allow more time if you plan to visit both.",
+    "plan": [
+      {
+        "description": "Walk through Sankhu Bazaar and the historic settlement.",
+        "title": "Morning"
+      },
+      {
+        "description": "Climb to Bajrayogini Temple, then return to town for lunch.",
+        "title": "Midday"
+      },
+      {
+        "description": "Visit Salinadi or head back through Boudha for a meal.",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Start in the bazaar and walk through the old settlement.",
+        "map": "",
+        "photo": null,
+        "title": "Explore historic Sankhu"
+      },
+      {
+        "description": "Follow the uphill approach to the shrine above town, allowing time for the stone steps.",
+        "map": "",
+        "photo": "Sankhu & Bajrayogini",
+        "title": "Climb to Bajrayogini Temple"
+      },
+      {
+        "description": "Add the nearby pilgrimage area if there’s time after the temple.",
+        "map": "",
+        "photo": null,
+        "title": "Visit Salinadi"
+      }
+    ],
+    "summary": "Start in Sankhu’s old Newar lanes, where public squares and small shrines break up the walk through town. Stone steps lead uphill to Bajrayogini, a pilgrimage site for Hindu and Buddhist devotees that can be paired with Salinadi.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Sankhu Bus Park",
+        "url": "https://www.google.com/maps/search/?api=1&query=Sankhu+Bus+Park%2C+Shankharapur%2C+Nepal"
+      },
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bajrayogini+Temple%2C+Sankhu"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bajrayogini+Temple%2C+Sankhu"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Temple access</h3><ul class=\"trip-visit-list\"><li>Confirm current access or festival arrangements locally.</li><li>Follow posted guidance on footwear and photography.</li></ul></div><div class=\"trip-card\"><h3>Walking and picnic planning</h3><ul class=\"trip-visit-list\"><li>Wear shoes with grip for the stone steps and carry water.</li><li>Ask locally where picnics are permitted around Sankhu.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Allow time for cross-valley travel between temples. Confirm local worship times and follow each shrine’s photography guidance.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "Four stops across the valley",
+        "value": "Pilgrimage circuit"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "Surya Binayak Temple in Bhaktapur",
+      "photo": "Surya Binayak Temple"
+    },
+    "gallery": [
+      "Four Binayak Ganesh Temples",
+      "Surya Binayak Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kirtipur Municipality’s Jal Binayak guide",
+        "url": "https://kirtipurmun.gov.np/heritage/jal-binayak/"
+      },
+      {
+        "label": "Mary Shepherd Slusser’s Nepal Mandala",
+        "url": "https://pahar.in/pahar/Books%20and%20Articles/Nepal/1982%20Nepal%20Mandala--Cultural%20Study%20of%20Kathmandu%20Valley%20vol%201%20Text%20by%20Slusser%20s.pdf"
+      },
+      {
+        "label": "Tribhuvan University CNAS journal on Valley shrine groupings",
+        "url": "https://sources.mandala.library.virginia.edu/sites/mandala-sources.lib.virginia.edu/files/pdf-files/4270_0.pdf"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "PILGRIMAGE CIRCUIT",
+    "mealNote": "",
+    "meals": [],
+    "name": "Four Binayak Ganesh Temples",
+    "nearby": [
+      {
+        "label": "Chandra Binayak Temple, Chabahil",
+        "url": "https://www.google.com/maps/search/?api=1&query=Chandra+Binayak+Temple%2C+Chabahil%2C+Nepal"
+      },
+      {
+        "label": "Surya Binayak Temple, Bhaktapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Surya+Binayak+Temple%2C+Bhaktapur%2C+Nepal"
+      },
+      {
+        "label": "Jal Binayak Temple, Chobhar",
+        "url": "https://www.google.com/maps/search/?api=1&query=Jal+Binayak+Temple%2C+Chobhar%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Start at Ashok Binayak in Maru, then visit Chandra Binayak in Chabahil",
+        "title": "Morning"
+      },
+      {
+        "description": "Visit Surya Binayak in Bhaktapur and stop for lunch",
+        "title": "Midday"
+      },
+      {
+        "description": "Continue to Jal Binayak in Chobhar",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Also known as Maru Ganesh. Pair this stop with Kathmandu Durbar Square if time allows.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Ashok+Binayak+Temple%2C+Maru%2C+Nepal",
+        "photo": null,
+        "title": "Ashok Binayak Temple, Maru"
+      },
+      {
+        "description": "Also known as Rakta Binayak. Use the Chabahil pin when planning your route.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chandra+Binayak+Temple%2C+Chabahil%2C+Nepal",
+        "photo": null,
+        "title": "Chandra Binayak Temple, Chabahil"
+      },
+      {
+        "description": "Allow time for the uphill approach and check access if someone in your group has difficulty with stairs.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Surya+Binayak+Temple%2C+Bhaktapur%2C+Nepal",
+        "photo": null,
+        "title": "Surya Binayak Temple, Bhaktapur"
+      },
+      {
+        "description": "The shrine is by the Bagmati. Pair it with Kirtipur if you split the circuit over two days.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Jal+Binayak+Temple%2C+Chobhar%2C+Nepal",
+        "photo": null,
+        "title": "Jal Binayak Temple, Chobhar"
+      }
+    ],
+    "summary": "This route links four Ganesh shrines across the Kathmandu Valley: Ashok Binayak in Maru, Chandra Binayak in Chabahil, Surya Binayak in Bhaktapur and Jal Binayak in Chobhar. Plan the circuit as several stops with travel time between them, or split it into two outings.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Jal+Binayak+Temple%2C+Chobhar"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Jal+Binayak+Temple%2C+Chobhar"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Village getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Chitlang"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://ntb.gov.np/plan-your-trip/trip-ideas/chandragiri-chitlang-kulekhani"
+      }
+    ],
+    "history": "Chitlang lies on a historic approach to the Kathmandu Valley through Chandragiri. The Nepal Tourism Board records a local account that members of the Malla royal family took refuge there after Prithvi Narayan Shah’s conquest in the 18th century.",
+    "historyLinks": [
+      {
+        "label": "Nepal Tourism Board route history",
+        "url": "https://ntb.gov.np/en/plan-your-trip/trip-ideas/chandragiri-chitlang-kulekhani"
+      }
+    ],
+    "location": "VILLAGE GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Chitlang",
+    "nearby": [
+      {
+        "label": "Kulekhani Reservoir",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kulekhani+Reservoir%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Explore the village on foot",
+        "title": "Morning"
+      },
+      {
+        "description": "Stop for lunch",
+        "title": "Midday"
+      },
+      {
+        "description": "Leave time for the return drive",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Slow down with a walk through the village before returning from the reservoir.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chitlang%2C+Nepal",
+        "photo": "Chitlang",
+        "title": "Chitlang"
+      },
+      {
+        "description": "Continue from Chitlang toward Markhu for a change from village lanes to lakeside views.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kulekhani+Reservoir%2C+Nepal",
+        "photo": "Kulekhani",
+        "title": "Kulekhani Reservoir"
+      }
+    ],
+    "summary": "Chitlang is a village on the far side of Chandragiri, suited to a slow walk through the settlement before lunch. The outing can continue into the pasture country near Bheda Farm or down toward Kulekhani Reservoir.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Chitlang"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Chitlang"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Lakeside getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Kulekhani"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://ntb.gov.np/plan-your-trip/trip-ideas/chandragiri-chitlang-kulekhani"
+      }
+    ],
+    "history": "The area lies at the southern end of the historic Kathmandu approach through Chandragiri and Chitlang. Today Indra Sarowar is the reservoir that feeds the Kulekhani hydropower system.",
+    "historyLinks": [
+      {
+        "label": "Nepal Electricity Authority project review",
+        "url": "https://www.nea.org.np/admin/assets/uploads/supportive_docs/69894782.pdf"
+      }
+    ],
+    "location": "LAKESIDE GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Kulekhani",
+    "nearby": [
+      {
+        "label": "Chitlang",
+        "url": "https://www.google.com/maps/search/?api=1&query=Chitlang%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Head to the reservoir at Markhu",
+        "title": "Morning"
+      },
+      {
+        "description": "Stop for lunch by the lake",
+        "title": "Midday"
+      },
+      {
+        "description": "Explore the lakeside before heading home",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Start near Markhu and pause by the water for a short walk or lunch.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Indra+Sarowar+Reservoir%2C+Nepal",
+        "photo": "Kulekhani",
+        "title": "Indra Sarowar Reservoir"
+      },
+      {
+        "description": "Slow down with a walk through the village before returning from the reservoir.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chitlang%2C+Nepal",
+        "photo": "Chitlang",
+        "title": "Chitlang"
+      }
+    ],
+    "summary": "At Kulekhani, the hills around Indra Sarowar frame a quiet lakeside stop. Start near Markhu for a walk or a meal by the water, then continue to Chitlang if you have time for a village visit.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kulekhani"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kulekhani"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Confirm the last stretch of the approach with your driver before leaving Chitlang or Markhu.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Countryside outing"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Bheda Farm"
+    ],
+    "guideLinks": [
+      {
+        "label": "Chitlang Organic Village Resort farm guide",
+        "url": "https://www.chitlang.com/bheda-farm-chitlang/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "COUNTRYSIDE OUTING",
+    "mealNote": "",
+    "meals": [],
+    "name": "Bheda Farm",
+    "nearby": [
+      {
+        "label": "Kulekhani Reservoir, Markhu",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kulekhani+Reservoir%2C+Markhu%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Start from Chitlang or Markhu",
+        "title": "Morning"
+      },
+      {
+        "description": "Explore the farm area on foot",
+        "title": "Midday"
+      },
+      {
+        "description": "Combine the outing with a stop at Kulekhani",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Take in the open pasture views before continuing toward Markhu.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Bheda+Farm%2C+Chitlang%2C+Nepal",
+        "photo": "Bheda Farm",
+        "title": "Bheda Farm, Chitlang"
+      },
+      {
+        "description": "Pause in Markhu for a walk by the reservoir or a meal by the water.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kulekhani+Reservoir%2C+Markhu%2C+Nepal",
+        "photo": "Kulekhani",
+        "title": "Kulekhani Reservoir, Markhu"
+      }
+    ],
+    "summary": "The open slopes near Chitlang and Markhu make this a short countryside stop, with pasture views and room to slow down between destinations. Pair it with a longer walk in Chitlang or lunch by Kulekhani Reservoir.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bheda+Farm%2C+Chitlang"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bheda+Farm%2C+Chitlang"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the Pancha Mahalaxmi pin near Telkot and check the final turn before you leave the main road.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Mahalaxmi Temple, Telkot"
+    ],
+    "guideLinks": [
+      {
+        "label": "Changunarayan municipal transport plan",
+        "url": "https://changu-stag.naxa.com.np/media/publication_files/18.pdf"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE",
+    "mealNote": "",
+    "meals": [],
+    "name": "Mahalaxmi Temple, Telkot",
+    "nearby": [
+      {
+        "label": "Telkot, Bhaktapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Telkot%2C+Bhaktapur%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Shree Pancha Mahalaxmi Temple, Telkot, Bhaktapur",
+        "title": "Start here"
+      },
+      {
+        "description": "Telkot, Bhaktapur",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Visit the hillside shrine before heading farther up the Nagarkot ridge.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Shree+Pancha+Mahalaxmi+Temple%2C+Telkot%2C+Bhaktapur%2C+Nepal",
+        "photo": "Mahalaxmi Temple, Telkot",
+        "title": "Shree Pancha Mahalaxmi Temple, Telkot, Bhaktapur"
+      },
+      {
+        "description": "Make a short stop in Telkot between the temple and the ridge viewpoints.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Telkot%2C+Bhaktapur%2C+Nepal",
+        "photo": null,
+        "title": "Telkot, Bhaktapur"
+      }
+    ],
+    "summary": "Shree Pancha Mahalaxmi is a hillside temple near Telkot on the Bhaktapur side of the Nagarkot hills. It works as a short worship stop on a day that also includes Telkot or a viewpoint farther up the ridge.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Shree+Pancha+Mahalaxmi+Temple%2C+Telkot%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Shree+Pancha+Mahalaxmi+Temple%2C+Telkot%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Ask for a passenger vehicle from Kathmandu toward Kakani. Confirm the boarding point, the closest drop-off to the viewpoint, and your return ride.",
+    "car": "Set your navigation to Kakani Viewpoint. Use a separate pin for the memorial park if you are visiting both.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Hill getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Kakani"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/hill-stations/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "HILL GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Kakani",
+    "nearby": [
+      {
+        "label": "Kakani Memorial Park, Nuwakot",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kakani+Memorial+Park%2C+Nuwakot%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Kakani Viewpoint, Nuwakot",
+        "title": "Start here"
+      },
+      {
+        "description": "Kakani Memorial Park, Nuwakot",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look across the surrounding hills when the sky is clear.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kakani+Viewpoint%2C+Nuwakot%2C+Nepal",
+        "photo": "Kakani",
+        "title": "Kakani Viewpoint, Nuwakot"
+      },
+      {
+        "description": "Take a short walk around the memorial grounds after the viewpoint.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kakani+Memorial+Park%2C+Nuwakot%2C+Nepal",
+        "photo": null,
+        "title": "Kakani Memorial Park, Nuwakot"
+      }
+    ],
+    "summary": "Kakani makes an easygoing hill outing beyond Kathmandu, with space for a short walk and views across the surrounding hills when skies are clear. Start at the viewpoint and leave time for the memorial park or lunch before the return drive.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kakani"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kakani"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Monastery outing"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Namo Buddha"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/pilgrimage-sites-2/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "MONASTERY OUTING",
+    "mealNote": "",
+    "meals": [],
+    "name": "Namo Buddha",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Travel to Namo Buddha",
+        "title": "Morning"
+      },
+      {
+        "description": "Visit the monastery grounds",
+        "title": "Midday"
+      },
+      {
+        "description": "Pair the visit with Panauti if time allows",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Allow time for the uphill approach and a quiet walk around the monastery grounds.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Thrangu+Tashi+Yangtse+Monastery%2C+Namo+Buddha%2C+Nepal",
+        "photo": "Namo Buddha",
+        "title": "Thrangu Tashi Yangtse Monastery, Namo Buddha"
+      }
+    ],
+    "summary": "At Namo Buddha, a pilgrimage stupa and the hilltop Thrangu Tashi Yangtse Monastery offer two places to spend time. Plan for the uphill approach between stops and leave room for a quiet walk around the monastery grounds.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Namo+Buddha"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Namo+Buddha"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Start near the town centre and use a separate pin for Chandeshwori Temple.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Town outing"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Banepa"
+    ],
+    "guideLinks": [
+      {
+        "label": "Banepa Municipality map",
+        "url": "https://banepamun.gov.np/sites/banepamun.gov.np/files/RoadMap1.pdf"
+      }
+    ],
+    "history": "Medieval palm-leaf records cited by Banepa Municipality refer to the settlement by earlier names, including Vinayapuri. The municipality also traces the town’s commercial roots to its long trading relationship with Tibet.",
+    "historyLinks": [
+      {
+        "label": "Banepa Municipality’s history",
+        "url": "https://banepamun.gov.np/ne/node/3"
+      }
+    ],
+    "location": "TOWN OUTING",
+    "mealNote": "",
+    "meals": [],
+    "name": "Banepa",
+    "nearby": [
+      {
+        "label": "Chandeshwori Temple, Banepa",
+        "url": "https://www.google.com/maps/search/?api=1&query=Chandeshwori+Temple%2C+Banepa%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Banepa Bazaar, Kavre",
+        "title": "Start here"
+      },
+      {
+        "description": "Chandeshwori Temple, Banepa",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Walk through the market streets before heading north to the temple.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Banepa+Bazaar%2C+Kavre%2C+Nepal",
+        "photo": null,
+        "title": "Banepa Bazaar, Kavre"
+      },
+      {
+        "description": "Pause in the courtyard to look at the tiered shrine and its carved details.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chandeshwori+Temple%2C+Banepa%2C+Nepal",
+        "photo": "Chandeshwori Temple Courtyard",
+        "title": "Chandeshwori Temple, Banepa"
+      }
+    ],
+    "summary": "Banepa pairs a busy Kavre bazaar with quieter temple stops outside the centre. Walk through the market for a feel for the town, then make a separate stop at Chandeshwori Temple to the north.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Banepa"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Banepa"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Budhanilkantha"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/pilgrimage-sites-2/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE",
+    "mealNote": "",
+    "meals": [],
+    "name": "Budhanilkantha",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Budhanilkantha Temple, Kathmandu",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "See the stone Vishnu reclining on a serpent in the temple pool.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Budhanilkantha+Temple%2C+Kathmandu%2C+Nepal",
+        "photo": "Budhanilkantha",
+        "title": "Budhanilkantha Temple, Kathmandu"
+      }
+    ],
+    "summary": "The centrepiece of Budhanilkantha is a stone image of Vishnu reclining on a serpent in a temple pool. The courtyard is an active place of worship, so allow time for darshan and give devotees space around the shrine.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Budhanilkantha"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Budhanilkantha"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Confirm public access before taking the uphill approach to the monastery.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Monastery"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "White Gumba"
+    ],
+    "guideLinks": [
+      {
+        "label": "Druk Amitabha Mountain monastery",
+        "url": "https://www.drukpa-nuns.org/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "MONASTERY",
+    "mealNote": "",
+    "meals": [],
+    "name": "White Gumba",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Druk Amitabha Mountain Monastery, Nagarjun",
+        "title": "Start here"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Explore the hillside grounds when open to visitors and follow the monastery’s guidance.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Druk+Amitabha+Mountain+Monastery%2C+Nagarjun%2C+Nepal",
+        "photo": "White Gumba",
+        "title": "Druk Amitabha Mountain Monastery, Nagarjun"
+      }
+    ],
+    "summary": "White Gumba is the Druk Amitabha Mountain Buddhist campus in Nagarjun, home to a community of Drukpa nuns. The uphill visit is best planned around public access to the grounds, with time to take in the hillside setting.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Druk+Amitabha+Mountain+Monastery%2C+Nagarjun"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Druk+Amitabha+Mountain+Monastery%2C+Nagarjun"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Plan to explore the old town on foot and arrange a pickup point outside the narrow lanes.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Heritage and food"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Kirtipur"
+    ],
+    "guideLinks": [
+      {
+        "label": "Kirtipur Municipality heritage guide",
+        "url": "https://kirtipurmun.gov.np/heritage/baghbhairav/"
+      }
+    ],
+    "history": "Kirtipur was a fortified hill town in the Kathmandu Valley. It resisted Gorkha’s attempts to capture it before becoming part of Prithvi Narayan Shah’s expanding kingdom.",
+    "historyLinks": [
+      {
+        "label": "Kirtipur Municipality’s account",
+        "url": "https://kirtipurmun.gov.np/history/the-fall-of-kirtipur-and-its-integration-into-the-gorkha-kingdom?lang=en"
+      }
+    ],
+    "location": "HERITAGE AND FOOD",
+    "mealNote": "",
+    "meals": [],
+    "name": "Kirtipur",
+    "nearby": [
+      {
+        "label": "Uma Maheshwar Temple, Kirtipur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Uma+Maheshwar+Temple%2C+Kirtipur%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Bagh Bhairab Temple, Kirtipur",
+        "title": "Start here"
+      },
+      {
+        "description": "Uma Maheshwar Temple, Kirtipur",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look for the three-tiered Newar shrine dedicated to Bhairab in tiger form.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Bagh+Bhairab+Temple%2C+Kirtipur%2C+Nepal",
+        "photo": "Bagh Bhairab Temple",
+        "title": "Bagh Bhairab Temple, Kirtipur"
+      },
+      {
+        "description": "Continue through the old lanes to the hilltop shrine for a view over the valley.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Uma+Maheshwar+Temple%2C+Kirtipur%2C+Nepal",
+        "photo": null,
+        "title": "Uma Maheshwar Temple, Kirtipur"
+      }
+    ],
+    "summary": "Kirtipur is a hilltop Newar town best explored on foot, from Bagh Bhairab Temple through the lanes toward Uma Maheshwar Temple. Leave time for a Newari meal and look out for views of the valley between the buildings.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kirtipur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kirtipur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Ask for a Dhulikhel-bound bus and confirm the boarding point and last return. Get off near the town centre for the old-town walk.",
+    "car": "Choose the old town or the lower end of the 1,000 Steps as your drop-off, depending on where you want to start.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Hill getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Dhulikhel"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://trade.ntb.gov.np/tourist-destination/hill-stations/"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "HILL GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Dhulikhel",
+    "nearby": [
+      {
+        "label": "1,000 Steps, Dhulikhel",
+        "url": "https://www.google.com/maps/search/?api=1&query=1%2C000+Steps%2C+Dhulikhel%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Dhulikhel Old Town",
+        "title": "Start here"
+      },
+      {
+        "description": "1,000 Steps, Dhulikhel",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Wander through the lanes and squares for a gentler outing before the hill climb.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Dhulikhel+Old+Town%2C+Nepal",
+        "photo": null,
+        "title": "Dhulikhel Old Town"
+      },
+      {
+        "description": "Follow the stone steps uphill toward Kalidevi Temple, taking breaks as needed.",
+        "map": "https://www.google.com/maps/search/?api=1&query=1%2C000+Steps%2C+Dhulikhel%2C+Nepal",
+        "photo": null,
+        "title": "1,000 Steps, Dhulikhel"
+      }
+    ],
+    "summary": "Dhulikhel offers two different ways to spend the day: a walk through the old town or a climb toward Kalidevi Temple. Start in the lanes and squares if you prefer a gentler outing, or build the day around the 1,000 Steps and the hilltop views.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Dhulikhel"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Dhulikhel"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Hill getaway"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Chandragiri Hills"
+    ],
+    "guideLinks": [
+      {
+        "label": "Chandragiri Hills playground guide",
+        "url": "https://www.chandragirihills.com/amusement-park/"
+      }
+    ],
+    "history": "The ridge formed part of an old route into the Kathmandu Valley. Local tradition associates it with Prithvi Narayan Shah’s view of Kathmandu during the period of Gorkha expansion. Bhaleshwor Mahadev remains a pilgrimage stop on the ridge.",
+    "historyLinks": [
+      {
+        "label": "Chandragiri Hills historical account",
+        "url": "https://www.chandragirihills.com/history/"
+      }
+    ],
+    "location": "HILL GETAWAY",
+    "mealNote": "",
+    "meals": [],
+    "name": "Chandragiri Hills",
+    "nearby": [],
+    "nearbyNote": "",
+    "plan": [
+      {
+        "description": "Head to Chandragiri",
+        "title": "Morning"
+      },
+      {
+        "description": "Spend time at the viewpoint and stop for lunch",
+        "title": "Midday"
+      },
+      {
+        "description": "Leave time for the return journey",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Ride up to the ridge for the viewpoint, Bhaleshwor Mahadev Temple or the playground.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Chandragiri+Hills+Cable+Car%2C+Nepal",
+        "photo": null,
+        "title": "Chandragiri Hills Cable Car"
+      }
+    ],
+    "summary": "The cable car climbs from the valley to a ridge with mountain views on clear days. Spend time around Bhaleshwor Mahadev Temple, then choose between a viewpoint break and the playground if you are visiting with children.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Chandragiri+Hills+Cable+Car%2C+Thankot"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Chandragiri+Hills+Cable+Car%2C+Thankot"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check the cable car’s operating hours and ask about the last ride down before spending time at the playground.</li></ul></div>"
+  },
+  {
+    "bus": "Sajha Yatayat’s Ratnapark–Godawari route stops at Lagankhel and Satdobato. From Godawari Bus Park, continue on foot to the garden entrance.",
+    "car": "Set directions to the main entrance. Paid parking is available outside the gate.",
+    "facts": [
+      {
+        "label": "Opening hours",
+        "link": "https://nbg.gov.np/content/19/park-opening-hours/",
+        "note": "Official hours",
+        "value": "9 am–5 pm daily"
+      },
+      {
+        "label": "Nepali entry",
+        "link": "http://127.0.0.1:8765/destination.html?place=Godawari%20Botanical%20Garden#gj-visit",
+        "note": "See all ticket prices",
+        "value": "From NPR 20"
+      },
+      {
+        "label": "Suggested visit",
+        "link": "",
+        "note": "Allow longer for a picnic",
+        "value": "2–3 hours"
+      }
+    ],
+    "feature": {
+      "caption": "Fountain Pond, National Botanical Garden",
+      "photo": "Godawari Fountain Pond"
+    },
+    "gallery": [
+      "Godawari Garden View",
+      "Godawari Hillside",
+      "Godawari Garden Stream"
+    ],
+    "guideLinks": [
+      {
+        "label": "Official garden map",
+        "url": "https://www.nbg.gov.np/carousel-detail/1/"
+      }
+    ],
+    "history": "King Mahendra inaugurated the Royal Botanical Garden in 1962. It was renamed the National Botanical Garden in 2006 and continues to conserve living plant collections for research and public education.",
+    "historyLinks": [
+      {
+        "label": "National Botanical Garden fact sheet",
+        "url": "https://www.nbg.gov.np/pages/factsheet/"
+      }
+    ],
+    "location": "GODAWARI, LALITPUR",
+    "mealNote": "Stop at the garden gate or plan a meal along the Satdobato–Godawari road.",
+    "meals": [
+      {
+        "description": "Fried chicken and burgers in Satdobato, before heading south towards Godawari.",
+        "links": [
+          {
+            "label": "Route via Satdobato",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kathmandu%2C+Nepal&destination=National+Botanical+Garden%2C+Godawari%2C+Lalitpur%2C+Nepal&waypoints=The+Burger+House+and+Crunchy+Fried+Chicken%2C+Satdobato%2C+Lalitpur%2C+Nepal"
+          }
+        ],
+        "stage": "ON THE WAY",
+        "title": "The Burger House, Satdobato"
+      },
+      {
+        "description": "At the botanical garden gate, with Nepali dishes and options such as noodles and pizza.",
+        "links": [
+          {
+            "label": "View gate restaurant on map",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tulip+De+Restaurant%2C+H9WJ%2BQ3C%2C+Godawari%2C+Lalitpur%2C+Nepal"
+          }
+        ],
+        "stage": "AT THE GARDEN",
+        "title": "Tulip De’ Restaurant"
+      },
+      {
+        "description": "Stop for a Newari meal in Harisiddhi if you’re returning via Satdobato.",
+        "links": [
+          {
+            "label": "Return via Harisiddhi",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=National+Botanical+Garden%2C+Godawari%2C+Lalitpur%2C+Nepal&destination=Kathmandu%2C+Nepal&waypoints=Harisiddhi+Newa+Suli%2C+Harisiddhi%2C+Lalitpur%2C+Nepal"
+          },
+          {
+            "label": "View menu",
+            "url": "https://noshnepal.com/menu/restaurant/2170"
+          }
+        ],
+        "stage": "ON THE WAY BACK",
+        "title": "Harisiddhi Newa Suli"
+      }
+    ],
+    "name": "Godawari Botanical Garden",
+    "nearby": [
+      {
+        "label": "Godawari Kunda",
+        "url": "https://www.google.com/maps/search/?api=1&query=Godawari+Kunda%2C+Lalitpur%2C+Nepal"
+      },
+      {
+        "label": "Naudhara",
+        "url": "https://www.google.com/maps/search/?api=1&query=Naudhara%2C+Godawari%2C+Lalitpur%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Visit the spring at Godawari Kunda or stop at Naudhara to see its stone water spouts.",
+    "plan": [
+      {
+        "description": "Start with the garden paths and plant collections, then head to the ponds.",
+        "title": "Morning"
+      },
+      {
+        "description": "Have a packed lunch at a rest shelter or find a place to eat.",
+        "title": "Midday"
+      },
+      {
+        "description": "Visit Godawari Kunda before heading home.",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [
+      {
+        "description": "Kitini, Godawari Highway",
+        "links": [
+          {
+            "label": "Hotel website",
+            "url": "https://hotelgodawari.com/"
+          }
+        ],
+        "title": "Hotel Godawari"
+      },
+      {
+        "description": "Godawari, Lalitpur",
+        "links": [
+          {
+            "label": "Resort website",
+            "url": "https://www.bestwestern.com/en-us/book/hotel/kathmandu/best-western-plus-godawari-resort/78738/amenities"
+          }
+        ],
+        "title": "Best Western Plus Godawari Resort"
+      }
+    ],
+    "stops": [
+      {
+        "description": "Look for medicinal plants, orchids, and the rock garden. Use the garden map to pick a loop.",
+        "map": "",
+        "photo": "Godawari Garden View",
+        "title": "Explore the plant collections"
+      },
+      {
+        "description": "Stop by the Fountain Pond and look for the Coronation Pond on the garden map.",
+        "map": "",
+        "photo": "Godawari Fountain Pond",
+        "title": "Walk to the ponds"
+      },
+      {
+        "description": "Pack lunch or snacks for one of the designated rest shelters.",
+        "map": "",
+        "photo": null,
+        "title": "Bring a picnic"
+      }
+    ],
+    "summary": "Paths wind past ponds and themed plant collections at the foot of Phulchowki. Look for orchids, medicinal plants and the rock garden, then take a break at one of the designated shelters if you brought a picnic.",
+    "transportLinks": [
+      [
+        {
+          "label": "Sajha Yatayat routes",
+          "url": "https://sajhayatayat.com.np/short-routes/"
+        }
+      ],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Godawari Bus Park",
+        "url": "https://www.google.com/maps/search/?api=1&query=Godawari+Bus+Park%2C+Lalitpur%2C+Nepal"
+      },
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+National+Botanical+Garden%2C+Godawari%2C+Lalitpur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+National+Botanical+Garden%2C+Godawari%2C+Lalitpur"
+      }
+    ],
+    "video": "https://www.youtube-nocookie.com/embed/TDjDIh0q_4w",
+    "visitHtml": "\n        <div class=\"trip-card\">\n          <h3>Entry fees</h3>\n          <table class=\"trip-fees\">\n            <thead><tr><th scope=\"col\">Visitor</th><th scope=\"col\">Standard</th><th scope=\"col\">Under 10</th></tr></thead>\n            <tbody>\n              <tr><th scope=\"row\">Nepali</th><td>NPR 50</td><td>NPR 20</td></tr>\n              <tr><th scope=\"row\">Other SAARC</th><td>NPR 200</td><td>NPR 100</td></tr>\n              <tr><th scope=\"row\">Other visitors</th><td>NPR 500</td><td>NPR 200</td></tr>\n            </tbody>\n          </table>\n          <a href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee schedule <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a>\n        </div>\n        <div class=\"trip-card\">\n          <h3>Picnics and access</h3>\n          <ul class=\"trip-visit-list\">\n            <li>Pack prepared food for the rest shelters. Cooking and open fires are prohibited.</li>\n            <li>For a visit with kids, plan short garden loops with breaks at the shelters.</li>\n            <li>Some paths are wheelchair accessible. Ask at the gate about suitable routes and the electric shuttle.</li>\n          </ul>\n          <div class=\"trip-text-links\">\n            <a href=\"https://nbg.gov.np/pages/rules/\" target=\"_blank\" rel=\"noopener\">Garden rules <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a>\n            <a href=\"https://nbg.gov.np/services-list/\" target=\"_blank\" rel=\"noopener\">Visitor services <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a>\n          </div>\n        </div>\n      "
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Heritage walk"
+      },
+      {
+        "label": "Entry fees",
+        "link": "",
+        "note": "",
+        "value": "See ticket details"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Kathmandu Durbar Square"
+    ],
+    "guideLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley heritage guide",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "history": "Hanuman Dhoka was a royal palace precinct. The palace, temples and public squares show how court life and worship shared the centre of historic Kathmandu. The precinct is one of seven monument zones in the Kathmandu Valley World Heritage site.",
+    "historyLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley record",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "location": "HERITAGE WALK",
+    "mealNote": "",
+    "meals": [],
+    "name": "Kathmandu Durbar Square",
+    "nearby": [
+      {
+        "label": "Kumari Ghar, Basantapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Kumari+Ghar%2C+Basantapur%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Hanuman Dhoka Palace, Kathmandu",
+        "title": "Start here"
+      },
+      {
+        "description": "Kumari Ghar, Basantapur",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Explore the former royal palace precinct and its courtyards off Durbar Square.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Hanuman+Dhoka+Palace%2C+Kathmandu%2C+Nepal",
+        "photo": null,
+        "title": "Hanuman Dhoka Palace, Kathmandu"
+      },
+      {
+        "description": "Look up at the carved wooden windows of the Kumari’s residence from the square.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Kumari+Ghar%2C+Basantapur%2C+Nepal",
+        "photo": null,
+        "title": "Kumari Ghar, Basantapur"
+      }
+    ],
+    "summary": "Walk through Basantapur to see the Hanuman Dhoka palace precinct, tiered temples and carved windows around Kumari Ghar. The courtyards and squares sit in the middle of a working city, so the visit can extend into the surrounding lanes.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Kathmandu+Durbar+Square"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Kathmandu+Durbar+Square"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Published entry fees</h3><ul class=\"trip-visit-list\"><li>SAARC visitors · NPR 500</li><li>Other international visitors · NPR 1,000</li></ul><a class=\"page-link\" href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee table <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a></div><div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Heritage walk"
+      },
+      {
+        "label": "Entry fees",
+        "link": "",
+        "note": "",
+        "value": "See ticket details"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Patan Durbar Square"
+    ],
+    "guideLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley heritage guide",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "history": "Patan’s Durbar Square grew around its royal palace and the temples and public spaces beside it. The ensemble preserves examples of the valley’s Newar architecture and craftsmanship and is part of the Kathmandu Valley World Heritage site.",
+    "historyLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley record",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "location": "HERITAGE WALK",
+    "mealNote": "",
+    "meals": [],
+    "name": "Patan Durbar Square",
+    "nearby": [
+      {
+        "label": "Krishna Mandir, Patan Durbar Square",
+        "url": "https://www.google.com/maps/search/?api=1&query=Krishna+Mandir%2C+Patan+Durbar+Square%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Patan Museum, Lalitpur",
+        "title": "Start here"
+      },
+      {
+        "description": "Krishna Mandir, Patan Durbar Square",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Step inside the former palace to see religious art and examples of Newar craftsmanship.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Patan+Museum%2C+Lalitpur%2C+Nepal",
+        "photo": null,
+        "title": "Patan Museum, Lalitpur"
+      },
+      {
+        "description": "Pause in the square to look at the stone temple and its carved tiers.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Krishna+Mandir%2C+Patan+Durbar+Square%2C+Nepal",
+        "photo": null,
+        "title": "Krishna Mandir, Patan Durbar Square"
+      }
+    ],
+    "summary": "Patan’s royal square brings stone temples and brick palace courtyards together in the centre of Lalitpur. Spend time at Krishna Mandir and the Patan Museum to see Newar craftsmanship at street level and up close.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Patan+Durbar+Square"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Patan+Durbar+Square"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Published entry fees</h3><ul class=\"trip-visit-list\"><li>SAARC visitors · NPR 500</li><li>Other international visitors · NPR 1,000</li></ul><a class=\"page-link\" href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee table <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a></div><div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Heritage walk"
+      },
+      {
+        "label": "Entry fees",
+        "link": "",
+        "note": "",
+        "value": "See ticket details"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "Gilded carvings above the Golden Gate in Bhaktapur Durbar Square",
+      "photo": "Bhaktapur Golden Gate"
+    },
+    "gallery": [
+      "Bhaktapur Durbar Square Palace View",
+      "Bhaktapur Golden Gate",
+      "Bhaktapur Durbar Square",
+      "Bhaktapur Durbar Square Panorama"
+    ],
+    "guideLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley heritage guide",
+        "url": "https://whc.unesco.org/en/list/121/"
+      },
+      {
+        "label": "Bhaktapur Municipality guide to the squares",
+        "url": "https://www.bhaktapurmun.gov.np/en/node/4"
+      }
+    ],
+    "history": "Bhaktapur’s royal square was a centre of court and religious life. The palace, temples and squares preserve evidence of the city’s historic role and are included in the Kathmandu Valley World Heritage site.",
+    "historyLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley record",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "location": "HERITAGE WALK",
+    "mealNote": "",
+    "meals": [],
+    "name": "Bhaktapur Durbar Square",
+    "nearby": [
+      {
+        "label": "Nyatapola Temple, Taumadhi",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nyatapola+Temple%2C+Taumadhi%2C+Nepal"
+      },
+      {
+        "label": "Pottery Square, Bhaktapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pottery+Square%2C+Bhaktapur%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Walk through Durbar Square",
+        "title": "Morning"
+      },
+      {
+        "description": "Stop for Newari food",
+        "title": "Midday"
+      },
+      {
+        "description": "Continue exploring the old town",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Look up at the carved wooden windows along the palace façade, then see the Golden Gate beside it.",
+        "map": "https://www.google.com/maps/search/?api=1&query=55+Window+Palace%2C+Bhaktapur%2C+Nepal",
+        "photo": "Bhaktapur Durbar Square Palace View",
+        "title": "55 Window Palace, Bhaktapur"
+      },
+      {
+        "description": "Take in the five-tiered temple from Taumadhi Square and look for the guardian figures lining its staircase.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Nyatapola+Temple%2C+Taumadhi%2C+Nepal",
+        "photo": "Nyatapola Temple, Taumadhi",
+        "title": "Nyatapola Temple, Taumadhi"
+      },
+      {
+        "description": "Look for potters shaping clay on traditional wheels and earthenware set out to dry.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Pottery+Square%2C+Bhaktapur%2C+Nepal",
+        "photo": "Pottery Square, Bhaktapur",
+        "title": "Pottery Square, Bhaktapur"
+      }
+    ],
+    "summary": "Start among the palace buildings and carved façades of Durbar Square, then walk to Nyatapola in Taumadhi and on to Pottery Square. The route combines royal architecture with the everyday work and street life of old Bhaktapur.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Bhaktapur+Durbar+Square"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Bhaktapur+Durbar+Square"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Published entry fees</h3><ul class=\"trip-visit-list\"><li>SAARC visitors · NPR 500</li><li>Other international visitors · NPR 1,800</li></ul><a class=\"page-link\" href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee table <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a></div><div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Pilgrimage outing"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Pharping"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board Dakshinkali guide",
+        "url": "https://ntb.gov.np/en/dakshinkali-"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "PILGRIMAGE OUTING",
+    "mealNote": "",
+    "meals": [],
+    "name": "Pharping",
+    "nearby": [
+      {
+        "label": "Asura Cave, Pharping",
+        "url": "https://www.google.com/maps/search/?api=1&query=Asura+Cave%2C+Pharping%2C+Nepal"
+      },
+      {
+        "label": "Dakshinkali Temple",
+        "url": "https://www.google.com/maps/search/?api=1&query=Dakshinkali+Temple%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Vajrayogini Temple, Pharping",
+        "title": "Start here"
+      },
+      {
+        "description": "Asura Cave, Pharping",
+        "title": "If you have time"
+      },
+      {
+        "description": "Dakshinkali Temple",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Make time for the Vajrayogini shrine before continuing to the cave.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Vajrayogini+Temple%2C+Pharping%2C+Nepal",
+        "photo": null,
+        "title": "Vajrayogini Temple, Pharping"
+      },
+      {
+        "description": "Visit the Buddhist pilgrimage cave and give worshippers space in the small shrine area.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Asura+Cave%2C+Pharping%2C+Nepal",
+        "photo": null,
+        "title": "Asura Cave, Pharping"
+      },
+      {
+        "description": "Allow time for darshan at the shrine dedicated to Kali.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Dakshinkali+Temple%2C+Nepal",
+        "photo": "Dakshinkali Temple",
+        "title": "Dakshinkali Temple"
+      }
+    ],
+    "summary": "Pharping brings together Buddhist and Hindu pilgrimage sites on the southern side of the valley. Visit Asura Cave and Vajrayogini Temple as separate stops around town, then continue to Dakshinkali if you have time.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Pharping"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Pharping"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Ask for a bus toward Dakshinkali via Pharping. Confirm whether the service goes to the temple area and where to catch the last return.",
+    "car": "Follow the road via Pharping and set the destination to Dakshinkali Temple. Check the closest drop-off or parking on arrival.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple"
+      },
+      {
+        "label": "Visiting",
+        "link": "",
+        "note": "",
+        "value": "Check local access"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Dakshinkali Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Nepal Tourism Board visitor guide",
+        "url": "https://ntb.gov.np/en/dakshinkali-"
+      }
+    ],
+    "history": "",
+    "historyLinks": [],
+    "location": "TEMPLE",
+    "mealNote": "",
+    "meals": [],
+    "name": "Dakshinkali Temple",
+    "nearby": [
+      {
+        "label": "Pharping",
+        "url": "https://www.google.com/maps/search/?api=1&query=Pharping%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Visit Dakshinkali Temple and allow time for darshan",
+        "title": "Morning"
+      },
+      {
+        "description": "Stop for lunch in Pharping",
+        "title": "Midday"
+      },
+      {
+        "description": "Explore Pharping or head back",
+        "title": "Afternoon"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Allow time for darshan at the shrine dedicated to Kali.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Dakshinkali+Temple%2C+Nepal",
+        "photo": "Dakshinkali Temple",
+        "title": "Dakshinkali Temple"
+      },
+      {
+        "description": "Explore the town’s shrines after visiting Dakshinkali, or stop for a meal on the way back.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Pharping%2C+Nepal",
+        "photo": null,
+        "title": "Pharping"
+      }
+    ],
+    "summary": "This shrine south of Pharping is dedicated to Kali. Give yourself time for darshan at the temple and continue to Pharping for another pilgrimage stop or a meal on the way back.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Dakshinkali+Temple"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Dakshinkali+Temple"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Check which entrance suits your group. The main stairway involves a steep climb.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Stupa"
+      },
+      {
+        "label": "Entry fees",
+        "link": "",
+        "note": "",
+        "value": "See ticket details"
+      },
+      {
+        "label": "Visit plan",
+        "link": "",
+        "note": "",
+        "value": "See places to visit"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Swayambhunath"
+    ],
+    "guideLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley heritage guide",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "history": "UNESCO identifies the Swayambhu stupa as the Kathmandu Valley’s oldest Buddhist monument. The stupa and the religious buildings around it make up one of the valley’s seven World Heritage monument zones.",
+    "historyLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley record",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "location": "STUPA",
+    "mealNote": "",
+    "meals": [],
+    "name": "Swayambhunath",
+    "nearby": [
+      {
+        "label": "Natural History Museum, Swayambhu",
+        "url": "https://www.google.com/maps/search/?api=1&query=Natural+History+Museum%2C+Swayambhu%2C+Nepal"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Swayambhunath Stupa, Kathmandu",
+        "title": "Start here"
+      },
+      {
+        "description": "Natural History Museum, Swayambhu",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Walk around the hilltop stupa past prayer wheels and smaller shrines.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Swayambhunath+Stupa%2C+Kathmandu%2C+Nepal",
+        "photo": "Swayambhunath",
+        "title": "Swayambhunath Stupa, Kathmandu"
+      },
+      {
+        "description": "See preserved specimens of Nepal’s wildlife at the museum below the stupa.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Natural+History+Museum%2C+Swayambhu%2C+Nepal",
+        "photo": "Natural History Museum",
+        "title": "Natural History Museum, Swayambhu"
+      }
+    ],
+    "summary": "Swayambhunath crowns a hill above Kathmandu with a white stupa, prayer wheels and smaller shrines around its base. Follow the circuit at your own pace and pause where the hill opens onto views across the city.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Swayambhunath"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Swayambhunath"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Published entry fees</h3><ul class=\"trip-visit-list\"><li>SAARC visitors · NPR 50</li><li>Other international visitors · NPR 200</li></ul><a class=\"page-link\" href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee table <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a></div><div class=\"trip-card\"><h3>Before you go</h3><ul class=\"trip-visit-list\"><li>Check opening hours and access before leaving, especially if visiting on a holiday.</li></ul></div>"
+  },
+  {
+    "bus": "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop.",
+    "car": "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby.",
+    "facts": [
+      {
+        "label": "Outing",
+        "link": "",
+        "note": "",
+        "value": "Temple & nearby picnic grounds"
+      },
+      {
+        "label": "Entry fees",
+        "link": "",
+        "note": "",
+        "value": "See ticket details"
+      },
+      {
+        "label": "Picnics",
+        "link": "",
+        "note": "",
+        "value": "See picnic guidance"
+      }
+    ],
+    "feature": {
+      "caption": "",
+      "photo": null
+    },
+    "gallery": [
+      "Changu Narayan Temple"
+    ],
+    "guideLinks": [
+      {
+        "label": "Changunarayan Municipality tourism inventory",
+        "url": "https://changu-stag.naxa.com.np/tourism"
+      }
+    ],
+    "history": "A fifth-century inscription at Changu Narayan is one of the earliest recorded inscriptions in the Kathmandu Valley. The temple precinct and traditional settlement together form one of the Kathmandu Valley World Heritage monument zones.",
+    "historyLinks": [
+      {
+        "label": "UNESCO Kathmandu Valley record",
+        "url": "https://whc.unesco.org/en/list/121/"
+      }
+    ],
+    "location": "TEMPLE & NEARBY PICNIC GROUNDS · CHANGUNARAYAN",
+    "mealNote": "",
+    "meals": [],
+    "name": "Changu Narayan Temple",
+    "nearby": [
+      {
+        "label": "Changunarayan Picnic Spot, Bhaktapur",
+        "url": "https://www.google.com/maps/search/?api=1&query=Changunarayan+Picnic+Spot%2C+Bhaktapur%2C+Nepal"
+      },
+      {
+        "label": "Picnic ground pin",
+        "url": "https://www.google.com/maps/search/?api=1&query=27.716421%2C85.432199"
+      }
+    ],
+    "nearbyNote": "Open each location separately to plan the order of your stops.",
+    "plan": [
+      {
+        "description": "Changu Narayan Temple, Bhaktapur",
+        "title": "Start here"
+      },
+      {
+        "description": "Changunarayan Picnic Spot, Bhaktapur",
+        "title": "If you have time"
+      }
+    ],
+    "stays": [],
+    "stops": [
+      {
+        "description": "Take time for the stone sculptures and early inscription in the temple precinct.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Changu+Narayan+Temple%2C+Bhaktapur%2C+Nepal",
+        "photo": "Changu Narayan Temple",
+        "title": "Changu Narayan Temple, Bhaktapur"
+      },
+      {
+        "description": "Look for the forest picnic ground near the bus park, separate from the temple.",
+        "map": "https://www.google.com/maps/search/?api=1&query=Changunarayan+Picnic+Spot%2C+Bhaktapur%2C+Nepal",
+        "photo": null,
+        "title": "Changunarayan Picnic Spot, Bhaktapur"
+      }
+    ],
+    "summary": "The hilltop Vishnu temple sits inside the traditional settlement of Changu Narayan. Give yourself time for the stone sculpture and temple precinct, then make a separate stop at the forest picnic ground if that is part of your plan.",
+    "transportLinks": [
+      [],
+      []
+    ],
+    "travelLinks": [
+      {
+        "label": "Nearby petrol pumps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Petrol+pumps+near+Changu+Narayan+Temple%2C+Bhaktapur"
+      },
+      {
+        "label": "Nearby EV charging",
+        "url": "https://www.google.com/maps/search/?api=1&query=EV+charging+near+Changu+Narayan+Temple%2C+Bhaktapur"
+      }
+    ],
+    "video": "",
+    "visitHtml": "<div class=\"trip-card\"><h3>Published entry fees</h3><ul class=\"trip-visit-list\"><li>SAARC visitors · NPR 100</li><li>Other international visitors · NPR 300</li></ul><a class=\"page-link\" href=\"https://ntb.gov.np/en/plan-your-trip/before-you-come/heritage-site-entry-fees\" target=\"_blank\" rel=\"noopener\">Nepal Tourism Board fee table <span class=\"link-arrow\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" focusable=\"false\"><path d=\"M4 2h18v18h-4V8.8L4.8 22 2 19.2 15.2 6H4z\"></path></svg></span></a></div><div class=\"trip-card\"><h3>Picnic planning</h3><ul class=\"trip-visit-list\"><li>The municipality lists a picnic ground in the forest near the bus park, separate from the temple. Check access, fees, and group arrangements before visiting.</li></ul></div>"
+  }
+]

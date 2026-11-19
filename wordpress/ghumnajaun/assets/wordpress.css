@@ -1,1 +1,14 @@
-body{margin:0}.screen-reader-text{position:absolute;left:-10000px}.screen-reader-text:focus{left:12px;top:12px;z-index:99999;background:white;padding:12px}#gj .wp-content img{max-width:100%;height:auto}#gj nav[aria-label="Languages"]{display:flex;gap:12px;list-style:none}body.wp-custom-logo #gj .brand-logo{content:normal}:root[data-theme="dark"] body.wp-custom-logo #gj .brand-logo{filter:brightness(0) invert(1)}@media(prefers-color-scheme:dark){:root:not([data-theme]) body.wp-custom-logo #gj .brand-logo{filter:brightness(0) invert(1)}}#gj .trip-jumps{scroll-margin-top:32px}#gj .wp-contact{max-width:650px;margin:30px auto}#gj .wp-contact label{display:grid;gap:8px;margin:16px 0}#gj .wp-contact input,#gj .wp-contact textarea{font:inherit;padding:12px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;width:100%}#gj .trip-main>section{scroll-margin-top:100px}
+body { margin: 0; }
+.screen-reader-text { position: absolute; left: -10000px; }
+.screen-reader-text:focus { left: 12px; top: 12px; z-index: 99999; background: white; padding: 12px; }
+#gj .wp-content img { max-width: 100%; height: auto; }
+#gj nav[aria-label="Languages"] { display: flex; gap: 12px; list-style: none; }
+/* Render the selected attachment unchanged in both color modes. */
+body.wp-custom-logo #gj .brand-logo { content: normal; filter: none; }
+/* Accommodate the logged-in toolbar without changing the public design. */
+body.admin-bar { --gj-admin-offset: 32px; }
+body.admin-bar #gj:has(.destination-trip) > header { top: var(--gj-admin-offset); }
+body.admin-bar #gj .trip-jumps { top: calc(var(--trip-header-height, 0px) + var(--gj-admin-offset)); }
+body.admin-bar #gj .trip-main > section { scroll-margin-top: calc(var(--trip-header-height, 0px) + var(--trip-jump-height) + 16px + var(--gj-admin-offset)); }
+@media (max-width: 782px) { body.admin-bar { --gj-admin-offset: 46px; } }
+@media (max-width: 600px) { body.admin-bar { --gj-admin-offset: 0px; } }

@@ -1,8 +1,3 @@
 </main><footer><div class="flex-heading" data-reveal="fade-up"><a href="<?php echo esc_url(home_url('/')); ?>" class="brand page-link" data-page="home" aria-label="Ghumna Jaun home"><img class="brand-logo" src="<?php echo esc_url(gj_logo()); ?>" width="321" height="64" alt=""></a><a href="<?php echo esc_url(home_url('/explore/')); ?>" data-filter="All" class="page-link">Explore places <span class="link-arrow" aria-hidden="true">↗</span></a></div>
-<ul class="social-icons" aria-label="Social media" data-reveal="fade-up">
-  <li><span class="social-icon" role="img" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 7.4a2.8 2.8 0 0 0-2-2C18.2 5 12 5 12 5s-6.2 0-8 .4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.6 2.8 2.8 0 0 0 2 2C6.2 19 12 19 12 19s6.2 0 8-.4a2.8 2.8 0 0 0 2-2 29 29 0 0 0 .4-4.6 29 29 0 0 0-.4-4.6ZM10 15.2v-6.4l5.5 3.2-5.5 3.2Z"/></svg></span></li>
-  <li><span class="social-icon" role="img" aria-label="TikTok" title="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2h3.2c.3 2.4 1.7 4 4 4.3v3.2a8.8 8.8 0 0 1-4-1.3v7.5a6.3 6.3 0 1 1-6.3-6.3c.4 0 .8 0 1.1.1v3.3a3.1 3.1 0 1 0 2 2.9V2Z"/></svg></span></li>
-  <li><span class="social-icon" role="img" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.5" cy="6.7" r="1.15"/></svg></span></li>
-  <li><span class="social-icon" role="img" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 22v-9h3l.5-3.5H14V7.3c0-1 .3-1.7 1.8-1.7h1.9V2.4a24 24 0 0 0-2.8-.2c-2.8 0-4.8 1.7-4.8 4.9v2.4H7V13h3.1v9H14Z"/></svg></span></li>
-</ul>
+<?php gj_social_icons(); ?>
 <?php gj_footer_navigation(); ?></footer></div><?php wp_footer(); ?></body></html>

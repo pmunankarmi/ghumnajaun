@@ -84,3 +84,15 @@ CSS and JavaScript URLs include their SHA-256 content hashes, so any deployed ch
 The starting-point selector, city cards, outing chips, banner slider, destination gallery/popups, sticky guide navigation, consent controls and original contact-form layout are retained. Source-only sample restaurant records remain drafts.
 
 The managed updater scopes its VCS exception to this theme's explicit release-install operation. A Git repository in an ancestor such as the user's home directory therefore does not prevent the requested theme updates; other native WordPress update checks retain their VCS behavior.
+
+## Full design audit
+
+The 19 November 2026 audit covers the 57 published guides, four articles, and nine main page/archive routes at 1440 px and 390 px. Two prototype restaurant samples remain drafts, so Explore intentionally has two fewer cards. The WordPress toolbar is accommodated separately from the public layout.
+
+Photo Credits uses the original `.photo-credits` wrapper and 75 unique source entries, with thumbnails, author and license links. About/Contact and policy markup bypass automatic paragraph insertion when already structured HTML. The supplied Privacy Policy replaces the unused default draft; the default Sample Page is in Trash.
+
+Guide fields retain source visit-card markup, optional video, feature image, transport references, meal stages and links, separate accommodation rows, and nearby stops. Article bodies retain chapter, destination-link and source sections. Curated city-card destinations are editable on each City term. Initial values and one-time repair fixtures are in `tools/data/`; `tools/migrate-design-audit.php` saves the previous values in private metadata and does not repeat an already audited record.
+
+Site settings contains YouTube, TikTok, Instagram and Facebook URLs. Footer icons use those settings. The owner's supplied SVG is stored as a single logo attachment shared by ACF and Customizer, and is rendered unchanged in both light and dark mode. `tools/install-requested-logo.php` permits its validated SVG only during this one-time import; it does not enable general SVG uploads.
+
+For a new development installation, run the initial importer, the one-time audit-content/guide migration scripts, and the requested-logo installer after copying the theme. Normal GitHub releases do not run these content migrations.
