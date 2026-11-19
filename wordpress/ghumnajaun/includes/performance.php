@@ -34,7 +34,9 @@ add_action('wp_head',function(){
  if(is_front_page()){$name=$data['bannerPlaces'][0]??'';$photo=$data['bannerPhotos'][$name]??$data['photos'][$name]??null;}
  elseif(is_singular('destination')){$name=$data['currentPlace']??'';$key=$data['tripDetails'][$name]['photos'][0]??'';$photo=$data['photos'][$key]??null;}
  if($photo){echo '<link rel="preload" as="image" fetchpriority="high" href="'.esc_url($photo['src']).'"';if(!empty($photo['srcset']))echo ' imagesrcset="'.esc_attr($photo['srcset']).'" imagesizes="100vw"';echo ">\n";}
- $font=gj_is_nepali()?'noto-sans-devanagari-devanagari.woff2':'instrument-serif-latin.woff2';
+ // Let the large Devanagari font follow CSS discovery so it does not compete with the LCP image.
+ if(gj_is_nepali())return;
+ $font='instrument-serif-latin.woff2';
  echo '<link rel="preload" as="font" type="font/woff2" crossorigin href="'.esc_url(get_template_directory_uri().'/assets/fonts/'.$font.'?v='.substr(hash_file('sha256',get_template_directory().'/assets/fonts/'.$font),0,12)).'">'."\n";
 },2);
 
