@@ -113,6 +113,9 @@ function gj_social_icons(){
  $doc=gj_design_dom(file_get_contents(get_template_directory().'/views/social-icons.html'));$xp=new DOMXPath($doc);foreach(iterator_to_array($xp->query('//span[contains(@class,"social-icon")]'))as$span){$name=$span->getAttribute('aria-label');$url=gj_option('social_'.strtolower($name));if(!$url){$span->parentNode->parentNode->removeChild($span->parentNode);continue;}$link=$doc->createElement('a');foreach(['class','aria-label','title']as$attr)$link->setAttribute($attr,$span->getAttribute($attr));$link->setAttribute('href',esc_url_raw($url));$link->setAttribute('target','_blank');$link->setAttribute('rel','noopener noreferrer');while($span->firstChild)$link->appendChild($span->firstChild);$span->parentNode->replaceChild($link,$span);}echo gj_dom_html($doc);
 }
 
-function gj_rich_layout($html){$html=preg_replace('~<span\b[^>]*class=[\"\']link-arrow[\"\'][^>]*>.*?</span>~s','<span class="link-arrow" aria-hidden="true">↗</span>',$html);return wp_kses_post($html);}
+function gj_rich_layout($html){
+ // Editor padding outside the cards becomes an anonymous CSS grid item.
+ $html=preg_replace('~\A(?:\s|\x{00A0}|&nbsp;|&#0*160;|&#x0*a0;)+|(?:\s|\x{00A0}|&nbsp;|&#0*160;|&#x0*a0;)+\z~iu','',$html);
+ $html=preg_replace('~<span\b[^>]*class=[\"\']link-arrow[\"\'][^>]*>.*?</span>~s','<span class="link-arrow" aria-hidden="true">↗</span>',$html);return wp_kses_post($html);}
 
 function gj_restore_page_reveals($content,$slug){$path=get_template_directory().'/views/'.$slug.'.html';if(!file_exists($path))return $content;$reference=gj_design_dom(file_get_contents($path));$actual=gj_design_dom($content);$refXpath=new DOMXPath($reference);$actualXpath=new DOMXPath($actual);foreach($refXpath->query('//*[@data-reveal]')as$node){$target=$actualXpath->query($node->getNodePath())->item(0);if($target&&$target->nodeName===$node->nodeName&&$target->getAttribute('class')===$node->getAttribute('class'))$target->setAttribute('data-reveal',$node->getAttribute('data-reveal'));}return gj_dom_html($actual);}
