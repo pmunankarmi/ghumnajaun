@@ -659,6 +659,9 @@ body.admin-bar #gj .trip-main > section { scroll-margin-top: calc(var(--trip-hea
 @media (max-width: 782px) { body.admin-bar { --gj-admin-offset: 46px; } }
 @media (max-width: 600px) { body.admin-bar { --gj-admin-offset: 0px; } }
 
+/* Reserve the logo box before its SVG finishes loading. */
+#gj .brand-logo {aspect-ratio:321 / 64;object-fit:contain;}
+
 /* Devanagari needs more leading and neutral tracking for its vowel marks. */
 html:lang(ne) #gj {font-family:'Noto Sans Devanagari','DM Sans',sans-serif;font-size:16px;line-height:1.8;}
 html:lang(ne) #gj :is(button,input,select,textarea) {font-family:inherit;line-height:1.6;}

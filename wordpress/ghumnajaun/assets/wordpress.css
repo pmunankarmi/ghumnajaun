@@ -28,3 +28,6 @@ body.admin-bar #gj .trip-jumps { top: calc(var(--trip-header-height, 0px) + var(
 body.admin-bar #gj .trip-main > section { scroll-margin-top: calc(var(--trip-header-height, 0px) + var(--trip-jump-height) + 16px + var(--gj-admin-offset)); }
 @media (max-width: 782px) { body.admin-bar { --gj-admin-offset: 46px; } }
 @media (max-width: 600px) { body.admin-bar { --gj-admin-offset: 0px; } }
+
+/* Reserve the logo box before its SVG finishes loading. */
+#gj .brand-logo {aspect-ratio:321 / 64;object-fit:contain;}

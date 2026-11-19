@@ -5,10 +5,10 @@ function gj_photo_sizes($id){
  $webp=gj_webp_variants($id);
  if($webp&&!empty($webp['images'])){
   $images=$webp['images'];$largest=end($images);$srcset=implode(', ',array_map(function($image){return $image['src'].' '.$image['width'].'w';},$images));
-  return ['src'=>$largest['src'],'width'=>$largest['width'],'height'=>$largest['height'],'srcset'=>$srcset];
+  return ['src'=>$largest['src'],'thumbnail'=>$images[0]['src'],'width'=>$largest['width'],'height'=>$largest['height'],'srcset'=>$srcset];
  }
  $image=wp_get_attachment_image_src($id,'large');
- return $image?['width'=>$image[1],'height'=>$image[2],'srcset'=>wp_get_attachment_image_srcset($id,'large')?:'']:[];
+ return $image?['thumbnail'=>wp_get_attachment_image_url($id,'medium'),'width'=>$image[1],'height'=>$image[2],'srcset'=>wp_get_attachment_image_srcset($id,'large')?:'']:[];
 }
 function gj_responsive_attributes($photo,$sizes='100vw'){
  $html='';

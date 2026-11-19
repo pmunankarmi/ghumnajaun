@@ -213,7 +213,7 @@ const chips = (items,active) => items.map(label => {
 }).join('');
 const destinationGalleries = window.GJ.destinationGalleries;
 const photoFor = (name,dining) => dining ? photos.Dining : photos[name];
-const thumbnail = (photo,width = 960) => photo?.src || "";
+const thumbnail = (photo,width = 960) => (width<=400 ? photo?.thumbnail : photo?.src) || photo?.src || "";
 const responsiveAttrs = (photo,sizes='100vw') => {
  if(!photo)return '';
  const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;');
@@ -684,6 +684,11 @@ function renderTrip(name,destination,directionsUrl,type,dining){
  window.addEventListener('resize',scheduleActiveSection);
  const slider = screen.querySelector('[data-trip-slider]');
  if (slider && window.Swiper && slider.querySelectorAll('.swiper-slide').length > 1) {
+   function loadTripPhoto(index){
+     const image=slider.querySelector('.swiper-wrapper')?.children[index]?.querySelector('img');
+     if(image && !image.getAttribute('src'))setPhoto(image,photos[image.dataset.tripPhoto]);
+   }
+   setTimeout(()=>loadTripPhoto(1),3000);
    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
    const timer = slider.querySelector('[data-trip-timer]');
    new window.Swiper(slider,{
@@ -705,6 +710,8 @@ function renderTrip(name,destination,directionsUrl,type,dining){
          timer.hidden = true;
        },
        slideChange() {
+         loadTripPhoto(this.realIndex);
+         setTimeout(()=>loadTripPhoto((this.realIndex+1)%slider.querySelectorAll('.swiper-slide').length),1000);
          timer.style.setProperty('--elapsed',0);
        },
        autoplayTimeLeft(_slider,_timeLeft,remaining) {
@@ -815,7 +822,7 @@ function renderBlogPost(){
 
 if (view === 'home') {
  renderBlogCards(blogPosts.slice(0,3));
- find('home-chips').innerHTML = chips(categories);
+ if(!find('home-chips').children.length)find('home-chips').innerHTML = chips(categories);
  const featured = window.GJ.featured;
  find('featured').innerHTML = cards(featured.map(name => places.find(entry => entry[0] === name)).filter(Boolean));
  find('family-trips').innerHTML = cards(familyTrips.map(name => places.find(entry => entry[0] === name)).filter(Boolean));

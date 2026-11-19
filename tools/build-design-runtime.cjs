@@ -90,6 +90,17 @@ const motion = window.matchMedia('(prefers-reduced-motion: reduce)');`);
 s=s.replace('   slideChange(slider) {', '   slideChange(slider) {\n     loadBannerPhoto(slider.realIndex);\n     setTimeout(()=>loadBannerPhoto((slider.realIndex+1)%bannerPlaces.length),1000);');
 s=s.replace('if (banner && !motion.matches) bannerTimer.hidden = false;', "if (banner && !motion.matches) bannerTimer.hidden = false;\nif(banner)setTimeout(()=>loadBannerPhoto(1),3000);");
 
+// Preserve translated homepage category markup and avoid fetching inactive guide photos.
+s=s.replace(" find('home-chips').innerHTML = chips(categories);", " if(!find('home-chips').children.length)find('home-chips').innerHTML = chips(categories);");
+s=s.replace("   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;", `   function loadTripPhoto(index){
+     const image=slider.querySelector('.swiper-wrapper')?.children[index]?.querySelector('img');
+     if(image && !image.getAttribute('src'))setPhoto(image,photos[image.dataset.tripPhoto]);
+   }
+   setTimeout(()=>loadTripPhoto(1),3000);
+   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;`);
+s=s.replace('       slideChange() {', '       slideChange() {\n         loadTripPhoto(this.realIndex);\n         setTimeout(()=>loadTripPhoto((this.realIndex+1)%slider.querySelectorAll(\'.swiper-slide\').length),1000);');
+s=s.replace('const thumbnail = (photo,width = 960) => photo?.src || "";', 'const thumbnail = (photo,width = 960) => (width<=400 ? photo?.thumbnail : photo?.src) || photo?.src || "";');
+
 fs.writeFileSync('wordpress/ghumnajaun/assets/design.js',s);
 
 // Cache the Nepali UI dictionary as a versioned asset instead of repeating it in HTML.
