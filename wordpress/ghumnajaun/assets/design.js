@@ -174,6 +174,10 @@ headerSearch.addEventListener('submit',event => {
 
 function pageUrl(path,params = {}){
  let target=window.GJ.pages[path] || path;
+ if(path==='explore.html'){
+  const kind=params.city?'city':'category', key=params[kind];
+  if(key && window.GJ.collectionUrls?.[kind]?.[key]){target=window.GJ.collectionUrls[kind][key];params={...params};delete params[kind];}
+ }
  if(path==='destination.html' && window.GJ.urls[params.place]){target=window.GJ.urls[params.place];params={...params};delete params.place;}
  if(path==='post.html' && window.GJ.postUrls[params.slug]){target=window.GJ.postUrls[params.slug];params={...params};delete params.slug;}
  const search=new URLSearchParams();if(from()!=='Kathmandu Valley')search.set('from',from());Object.entries(params).forEach(([key,value])=>{if(value)search.set(key,value)});return target+(search.size?'?'+search:'');
@@ -239,7 +243,7 @@ function results(){
    filter === 'All' || filter === type || tags.split('|').includes(filter));
  const matches = searchQuery ? matchingPlaces(entries,searchQuery) : entries;
  if (!city) matches.sort((a,b) => distances[a[0]] - distances[b[0]]);
- let title = 'Explore nearby';
+ let title = window.GJ.resultsTitle || 'Explore nearby';
  if (searchQuery) title = 'Search results for “' + searchQuery + '”';
  else if (city) title = 'Sightseeing in ' + city;
  else if (filter === 'Scenic dining') title = filter;

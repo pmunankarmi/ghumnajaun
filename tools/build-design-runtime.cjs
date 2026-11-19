@@ -11,6 +11,10 @@ for(const[name,end]of maps){let a=s.indexOf('const '+name+' ='),b=s.indexOf(end,
 s=s.replace("const query = new URLSearchParams(window.location.search);", "const query = new URLSearchParams(window.location.search); if(window.GJ.currentPlace)query.set('place',window.GJ.currentPlace);if(window.GJ.currentPost)query.set('slug',window.GJ.currentPost);if(window.GJ.category)query.set('category',window.GJ.category);if(window.GJ.city)query.set('city',window.GJ.city);");
 s=s.replace(/function pageUrl\(path,params = \{\}\)\{[\s\S]*?\n\}/,`function pageUrl(path,params = {}){
  let target=window.GJ.pages[path] || path;
+ if(path==='explore.html'){
+  const kind=params.city?'city':'category', key=params[kind];
+  if(key && window.GJ.collectionUrls?.[kind]?.[key]){target=window.GJ.collectionUrls[kind][key];params={...params};delete params[kind];}
+ }
  if(path==='destination.html' && window.GJ.urls[params.place]){target=window.GJ.urls[params.place];params={...params};delete params.place;}
  if(path==='post.html' && window.GJ.postUrls[params.slug]){target=window.GJ.postUrls[params.slug];params={...params};delete params.slug;}
  const search=new URLSearchParams();if(from()!=='Kathmandu Valley')search.set('from',from());Object.entries(params).forEach(([key,value])=>{if(value)search.set(key,value)});return target+(search.size?'?'+search:'');
@@ -43,6 +47,7 @@ s=s.replace("details ? 'Find nearby stays' : 'More stays near the garden'","deta
 s=s.replace(" const walker = document.createTreeWalker(container,NodeFilter.SHOW_TEXT);"," container.querySelectorAll('.link-arrow:empty').forEach(arrow=>arrow.innerHTML=icon);\n const walker = document.createTreeWalker(container,NodeFilter.SHOW_TEXT);");
 s=s.replace("const entries = (city ? cityPlaces(city) : places).filter","const archiveEntries=window.GJ.archivePlaces?places.filter(entry=>window.GJ.archivePlaces.includes(entry[0])):places;\n const entries = (city ? cityPlaces(city) : archiveEntries).filter");
 s=s.replace(" find('results-title').textContent = title;"," if(window.GJ.archiveTitle)title=window.GJ.archiveTitle;\n find('results-title').textContent = title;");
+s=s.replace("let title = 'Explore nearby';","let title = window.GJ.resultsTitle || 'Explore nearby';");
 // Keep SEO titles controlled by WordPress rather than overwriting them after load.
 s=s.replace(/ document\.title = [^;]+;/g,'');
 s=s.replace('[...Object.values(photos),...Object.values(bannerPhotos)].map(photo => {','[...new Map([...Object.values(photos),...Object.values(bannerPhotos)].filter(photo=>photo.author && (photo.commons||photo.source)).map(photo=>[photo.src,photo])).values()].map(photo => {');
@@ -52,3 +57,6 @@ s=s.replace("[name,type,tags,...cities].join(' ')","[name,type,tags,...cities,..
 fs.copyFileSync('tools/data/ne-translations.json','wordpress/ghumnajaun/data/ne-translations.json');
 fs.copyFileSync('tools/data/ne-editorial-paragraphs.json','wordpress/ghumnajaun/data/ne-editorial-paragraphs.json');
 fs.writeFileSync('wordpress/ghumnajaun/assets/design.js',s);
+
+// Cache the Nepali UI dictionary as a versioned asset instead of repeating it in HTML.
+fs.writeFileSync('wordpress/ghumnajaun/assets/ne-dictionary.js','window.GJ_NE='+JSON.stringify(JSON.parse(fs.readFileSync('tools/data/ne-translations.json','utf8')))+';\n');

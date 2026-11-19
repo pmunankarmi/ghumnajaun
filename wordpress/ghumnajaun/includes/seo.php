@@ -40,11 +40,21 @@ add_filter('pre_get_document_title',function($title){
  $page=max((int)get_query_var('paged'),(int)get_query_var('page'));
  return $custom.($page>1?((function_exists('gj_is_nepali')&&gj_is_nepali())?' — पृष्ठ ':' — Page ').$page:'');
 });
-add_filter('wp_robots',function($robots){if(is_singular()&&gj_value('seo_noindex')){$robots['noindex']=true;unset($robots['index']);}if(is_search()||isset($_GET['q']))$robots['noindex']=true;return $robots;});
+function gj_seo_filtered_discovery(){
+ return (is_post_type_archive('destination')||is_tax(['outing','place_city','place_type'])) && (isset($_GET['q'])||isset($_GET['city'])||isset($_GET['category'])||isset($_GET['from']));
+}
+add_filter('wp_robots',function($robots){
+ $id=gj_seo_page_id();
+ if(($id&&gj_value('seo_noindex',$id))||is_search()||is_404()||is_author()||gj_seo_filtered_discovery()){$robots['noindex']=true;unset($robots['index']);}
+ return $robots;
+});
+// Empty account archives are not editorial landing pages.
+add_filter('wp_sitemaps_add_provider',function($provider,$name){return $name==='users'?false:$provider;},10,2);
 add_action('wp_head',function(){
  if(gj_external_seo())return;
  $id=gj_seo_page_id();$singular=is_singular();$url=$singular?get_permalink($id):(is_front_page()?home_url('/'):get_pagenum_link());
  $description=$id?gj_value('seo_description',$id,wp_trim_words(wp_strip_all_tags(get_post_field('post_excerpt',$id)?:get_post_field('post_content',$id)),30)):(gj_archive_seo()['description']??get_bloginfo('description'));
+ $url=remove_query_arg(['from','utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'],$url);
  $title=wp_get_document_title();$image=$singular?get_the_post_thumbnail_url($id,'large'):wp_get_attachment_image_url(gj_option('home_cover'),'large');
  echo '<meta name="description" content="'.esc_attr($description).'">' . "\n";
  // WordPress emits the singular canonical itself.
@@ -53,7 +63,15 @@ add_action('wp_head',function(){
  echo '<meta name="twitter:card" content="summary_large_image">';if($image)echo '<meta property="og:image" content="'.esc_url($image).'">';
  $schema=['@context'=>'https://schema.org','@type'=>'WebSite','@id'=>home_url('/#website'),'name'=>get_bloginfo('name'),'url'=>home_url('/')];
  if(is_singular('destination')){$schema=['@context'=>'https://schema.org','@type'=>'TouristAttraction','name'=>get_the_title($id),'url'=>$url,'description'=>$description];if($image)$schema['image']=$image;$lat=gj_value('latitude',$id);$lng=gj_value('longitude',$id);if(is_numeric($lat)&&is_numeric($lng))$schema['geo']=['@type'=>'GeoCoordinates','latitude'=>(float)$lat,'longitude'=>(float)$lng];}
- elseif(is_singular('post'))$schema=['@context'=>'https://schema.org','@type'=>'BlogPosting','headline'=>get_the_title($id),'url'=>$url,'datePublished'=>get_post_time('c',true,$id),'dateModified'=>get_post_modified_time('c',true,$id),'author'=>['@type'=>'Person','name'=>get_the_author_meta('display_name',get_post_field('post_author',$id))]];
+ elseif(is_singular('post')){
+  $author_id=(int)get_post_field('post_author',$id);
+  if(!$author_id&&function_exists('pll_get_post'))$author_id=(int)get_post_field('post_author',pll_get_post($id,'en')?:$id);
+  $author_name=$author_id?get_the_author_meta('display_name',$author_id):'';
+  $author=$author_name?['@type'=>'Person','name'=>$author_name]:['@type'=>'Organization','name'=>get_bloginfo('name'),'url'=>home_url('/')];
+  $schema=['@context'=>'https://schema.org','@type'=>'BlogPosting','headline'=>get_the_title($id),'description'=>$description,'url'=>$url,'mainEntityOfPage'=>$url,'datePublished'=>get_post_time('c',true,$id),'dateModified'=>get_post_modified_time('c',true,$id),'author'=>$author,'publisher'=>['@type'=>'Organization','name'=>get_bloginfo('name'),'url'=>home_url('/')]];
+  if($image)$schema['image']=$image;
+ }
+ $schema['inLanguage']=get_bloginfo('language');
  echo '<script type="application/ld+json">'.wp_json_encode($schema,JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT).'</script>';
 },5);
 // Redirect legacy prototype URLs to the permanent server-rendered destination.

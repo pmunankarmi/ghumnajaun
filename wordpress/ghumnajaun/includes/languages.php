@@ -86,7 +86,6 @@ function gj_translate_html($html){
 add_action('template_redirect',function(){if(gj_is_nepali()&&!is_feed()&&!is_embed())ob_start('gj_translate_html');},1);
 add_action('wp_enqueue_scripts',function(){
     if(!gj_is_nepali())return;
-    wp_add_inline_script('gj-runtime','window.GJ_NE='.wp_json_encode(gj_ne_dictionary(),JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT).';','before');
     $file=get_template_directory().'/assets/nepali.js';
     wp_enqueue_script('gj-nepali',get_template_directory_uri().'/assets/nepali.js',['gj-runtime'],hash_file('sha256',$file),true);
     $css=get_template_directory().'/assets/nepali.css';

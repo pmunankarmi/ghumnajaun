@@ -25,8 +25,10 @@ add_action('wp_enqueue_scripts', function () {
     foreach(['design'=>'styles.css','wordpress'=>'wordpress.css']as$key=>$file)wp_enqueue_style('gj-'.$key,$base.'/assets/'.$file,['gj-grid','gj-swiper','gj-aos'],hash_file('sha256',get_template_directory().'/assets/'.$file));
     wp_enqueue_script('gj-swiper','https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js',[],'11.2.10',true);
     wp_enqueue_script('gj-aos','https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js',[],'2.3.4',true);
-    wp_enqueue_script('gj-runtime',$base.'/assets/design.js',['gj-swiper','gj-aos'],hash_file('sha256',get_template_directory().'/assets/design.js'),true);
-    wp_add_inline_script('gj-runtime','window.GJ='.wp_json_encode(gj_design_data(),JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT).';','before');
+    $runtime_dependencies=['gj-swiper','gj-aos'];
+    if(gj_is_nepali()){$dictionary=get_template_directory().'/assets/ne-dictionary.js';wp_enqueue_script('gj-ne-dictionary',$base.'/assets/ne-dictionary.js',[],hash_file('sha256',$dictionary),true);$runtime_dependencies[]='gj-ne-dictionary';}
+    wp_enqueue_script('gj-runtime',$base.'/assets/design.js',$runtime_dependencies,hash_file('sha256',get_template_directory().'/assets/design.js'),true);
+    wp_add_inline_script('gj-runtime','window.GJ='.wp_json_encode(gj_design_runtime_data(),JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT|JSON_UNESCAPED_UNICODE).';','before');
 });
 function gj_value($name,$id=null,$default='') { $id=$id?:get_the_ID(); $v=function_exists('get_field')?get_field($name,$id):get_post_meta($id,$name,true); return ($v===false||$v===null||$v==='')?$default:$v; }
 function gj_option($name,$default=''){ return function_exists('get_field')?(get_field($name,'option')?:$default):$default; }

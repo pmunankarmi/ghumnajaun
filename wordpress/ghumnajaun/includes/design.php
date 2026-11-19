@@ -45,9 +45,25 @@ function gj_design_data(){
  $banners=gj_option('home_banners',[]);foreach($banners as$id)if(isset($names[$id]))$out['bannerPlaces'][]=$names[$id];if(!$out['bannerPlaces'])$out['bannerPlaces']=array_values(array_filter(['Nagarkot','Chandragiri Hills','Panauti','Kulekhani','Bheda Farm'],fn($n)=>isset($out['urls'][$n])));
  if(!$out['bannerPlaces'])$out['bannerPlaces']=array_slice(array_values($names),0,1);
  if(is_singular('destination'))$out['currentPlace']=gj_canonical_title(get_queried_object_id());if(is_singular('post'))$out['currentPost']=get_post_field('post_name',get_queried_object_id());
- if(is_tax(['outing','place_city','place_type'])){$term=get_queried_object();$out['archivePlaces']=array_map(fn($p)=>gj_canonical_title($p->ID),get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'tax_query'=>[['taxonomy'=>$term->taxonomy,'terms'=>$term->term_id]]]));if($term->taxonomy==='place_type')$out['archiveTitle']=$term->name;}
+ if(is_tax(['outing','place_city','place_type'])){$term=get_queried_object();$out['archivePlaces']=array_map(fn($p)=>gj_canonical_title($p->ID),get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'tax_query'=>[['taxonomy'=>$term->taxonomy,'terms'=>$term->term_id]]]));$ne=gj_is_nepali();$out['archiveTitle']=$term->taxonomy==='place_city'?($ne?$term->name.'मा घुम्ने ठाउँ':'Places to visit in '.$term->name):($ne?$term->name.' सम्बन्धी घुम्ने ठाउँ':$term->name.' outings');}
  if(is_tax(['outing','place_city'])){$term=get_queried_object();$english=function_exists('pll_get_term')?pll_get_term($term->term_id,'en'):0;$canonical=$english?get_term($english,$term->taxonomy):$term;$out[$term->taxonomy==='outing'?'category':'city']=$canonical->name;}
+ $out['collectionUrls']=['city'=>[],'category'=>[]];foreach(['place_city'=>'city','outing'=>'category']as$taxonomy=>$kind)foreach(get_terms(['taxonomy'=>$taxonomy,'hide_empty'=>true])as$term){$link=get_term_link($term);if(!is_wp_error($link))$out['collectionUrls'][$kind][gj_canonical_term_name($term)]=$link;}
+ if(is_post_type_archive('destination'))$out['resultsTitle']=gj_is_nepali()?'काठमाडौं उपत्यकामा घुम्ने ठाउँ':'Places to visit around Kathmandu Valley';
  return $out;
+}
+// Keep discovery data for search, but send full editorial detail only for this page.
+function gj_design_runtime_data(){
+ $data=gj_design_data();$current=$data['currentPlace']??'';$post=$data['currentPost']??'';
+ foreach(['tripDetails','destinationGalleries','dayPlans']as$key)$data[$key]=$current&&isset($data[$key][$current])?[$current=>$data[$key][$current]]:(object)[];
+ foreach($data['destinationGuides']as$name=>$guide)if($name!==$current)$data['destinationGuides'][$name]=isset($guide['picnicPoint'])?['picnicPoint'=>$guide['picnicPoint']]:(object)[];
+ foreach($data['blogPosts']as&$entry)if(($entry['slug']??'')!==$post)unset($entry['html']);unset($entry);
+ if(!is_page('photo-credits')){
+  $keys=array_merge(array_column($data['places'],0),array_column($data['blogPosts'],'photo'),['Dining','Kulekhani']);
+  if($current){$detail=$data['tripDetails'][$current]??[];$keys=array_merge($keys,$detail['photos']??[],[$detail['featurePhoto']??'']);foreach($detail['activities']??[]as$activity)$keys[]=$activity[3]??'';}
+  $data['photos']=array_intersect_key($data['photos'],array_fill_keys($keys,true));
+ }
+ if(!is_front_page()&&!is_page('photo-credits'))$data['bannerPhotos']=(object)[];
+ return $data;
 }
 function gj_design_cards_html($names,$data=null){$data=$data?:gj_design_data();$html='';foreach($names as$name){$place=null;foreach($data['places']as$p)if($p[0]===$name){$place=$p;break;}if(!$place)continue;$photo=$data['photos'][$name]??null;$html.='<div class="col" data-reveal="fade-up"><a class="place page-link" href="'.esc_url($data['urls'][$name]).'" data-place="'.esc_attr($name).'"><span class="art">'.($photo?'<img src="'.esc_url($photo['src']).'" alt="'.esc_attr($photo['alt']).'" loading="lazy">':'').'</span><span class="info"><span class="meta">'.esc_html($place[1]).'</span><strong>'.esc_html($name).'</strong><span class="card-foot">'.esc_html(implode(' · ',array_slice(explode('|',$place[2]),0,2))).' <span aria-hidden="true">↗</span></span></span></a></div>'; }return $html;}
 function gj_design_chips_html(){ $out='';foreach(get_terms(['taxonomy'=>'outing','hide_empty'=>true])as$t)$out.='<a class="page-link" href="'.esc_url(get_term_link($t)).'" data-filter="'.esc_attr(gj_canonical_term_name($t)).'">'.esc_html($t->name).'</a>';return $out;}
@@ -69,6 +85,7 @@ function gj_design_template($name){
  if($name==='explore'){
   $names=$data['archivePlaces']??array_column($data['places'],0);$requestedCity=$data['city']??sanitize_text_field(wp_unslash($_GET['city']??''));if(isset($data['citySightseeing'][$requestedCity]))$names=$data['citySightseeing'][$requestedCity];$requestedCategory=$data['category']??sanitize_text_field(wp_unslash($_GET['category']??''));if($requestedCategory&&$requestedCategory!=='All'){$allowed=[];foreach($data['places']as$place)if(in_array($place[0],$names,true)&&($place[1]===$requestedCategory||in_array($requestedCategory,explode('|',$place[2]),true)))$allowed[]=$place[0];$names=$allowed;}
   $q=sanitize_text_field(wp_unslash($_GET['q']??''));if($q)$names=array_values(array_filter($names,fn($n)=>stripos($n,$q)!==false || (gj_is_nepali() && mb_stripos(gj_translate_label($n),$q)!==false)));
+  gj_dom_fill($doc,'//*[@id="gj-results-title"]',esc_html($data['archiveTitle']??$data['resultsTitle']??'Explore nearby'));
   gj_dom_fill($doc,'//*[@id="gj-list"]',gj_design_cards_html($names,$data));gj_dom_fill($doc,'//*[@id="gj-filters"]',gj_design_chips_html());gj_dom_fill($doc,'//*[@id="gj-count"]',count($names).' places');
  }
  if($name==='post'){$id=get_queried_object_id();gj_dom_fill($doc,'//*[@id="gj-post-title"]',esc_html(get_the_title($id)));gj_dom_fill($doc,'//*[@id="gj-post-intro"]',esc_html(get_the_excerpt($id)));gj_dom_fill($doc,'//*[@id="gj-post-body"]',apply_filters('the_content',get_post_field('post_content',$id)));foreach($xp->query('//*[@id="gj-post-image"]')as$n){$n->setAttribute('src',get_the_post_thumbnail_url($id,'large'));$n->removeAttribute('hidden');}}
