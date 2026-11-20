@@ -101,6 +101,7 @@ s=s.replace("   const reduceMotion = window.matchMedia('(prefers-reduced-motion:
 s=s.replace('       slideChange() {', '       slideChange() {\n         loadTripPhoto(this.realIndex);\n         setTimeout(()=>loadTripPhoto((this.realIndex+1)%slider.querySelectorAll(\'.swiper-slide\').length),1000);');
 s=s.replace('const thumbnail = (photo,width = 960) => photo?.src || "";', 'const thumbnail = (photo,width = 960) => (width<=400 ? photo?.thumbnail : photo?.src) || photo?.src || "";');
 
+s=s.replace("find('post-category').textContent = post.category;", "find('post-category').innerHTML = post.categoryHtml || post.category;");
 fs.writeFileSync('wordpress/ghumnajaun/assets/design.js',s);
 
 // Cache the Nepali UI dictionary as a versioned asset instead of repeating it in HTML.

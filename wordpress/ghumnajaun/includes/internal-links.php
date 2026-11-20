@@ -58,5 +58,5 @@ function gj_article_reading_html($html,$post_id){
  // Curated ACF choices are discoverable even if an editor has not added prose links yet.
  $missing=array_values(array_filter($destinations,fn($id)=>!str_contains($html,get_permalink($id))));
  if($missing)$html.=gj_reading_links_html($missing,$language==='ne'?'सम्बन्धित गन्तव्यहरू':'Related destination guides');
- return $html.gj_reading_links_html(array_slice($related,0,3),$language==='ne'?'थप घुमघामका योजना':'More day-trip ideas');
+ return $html;
 }

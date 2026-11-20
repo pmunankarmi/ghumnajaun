@@ -806,7 +806,7 @@ function renderBlogPost(){
  }
 
  find('post-title').textContent = post.title;
- find('post-category').textContent = post.category;
+ find('post-category').innerHTML = post.categoryHtml || post.category;
  find('post-intro').textContent = post.intro;
  const image = find('post-image');
  setPhoto(image,photos[post.photo]);

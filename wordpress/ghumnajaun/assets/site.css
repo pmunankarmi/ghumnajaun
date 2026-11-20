@@ -660,6 +660,27 @@ html:lang(ne) #gj .footer-columns h2{font-size:15px;line-height:1.7}
 #gj .post-body a:hover{color:var(--ink)}
 html:lang(ne) #gj .post-body h2{font-size:clamp(25px,3.2vw,32px);line-height:1.5;margin:36px 0 14px}
 html:lang(ne) #gj .post-body h3{font-size:clamp(21px,2.4vw,25px);line-height:1.6;margin:28px 0 12px}
+#gj .blog-category-nav{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 30px}
+#gj .blog-category-nav [aria-current="page"]{background:var(--action);color:var(--action-text);border-color:var(--action)}
+#gj .post-heading .eyebrow a{color:inherit;text-underline-offset:4px}
+#gj .article-discovery{padding-top:0}
+#gj .article-pagination{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:28px 0;border-block:1px solid var(--line)}
+#gj .article-pagination a{color:var(--ink);text-decoration:none;line-height:1.6}
+#gj .article-pagination a span{display:block;color:var(--orange);font-size:13px;margin-bottom:8px}
+#gj .article-next{grid-column:2;text-align:right}
+#gj .article-pagination a:hover strong{text-decoration:underline;text-underline-offset:4px}
+#gj .related-articles{margin-top:36px}
+#gj .related-articles>h2{font-size:clamp(28px,3vw,34px);margin-bottom:20px}
+#gj .related-article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+#gj .related-article-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--ink);background:var(--surface)}
+#gj .related-article-card>img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;height:auto}
+#gj .related-article-card>span{padding:18px;display:flex;flex:1;flex-direction:column;gap:12px}
+#gj .related-article-card h3{font-size:25px;line-height:1.2}
+#gj .related-article-card p{margin:0;color:var(--muted);line-height:1.7;font-size:14px}
+#gj .related-read{margin-top:auto;color:var(--orange);font-size:13px}
+#gj .related-article-card:hover h3{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:600px){#gj .related-article-grid{grid-template-columns:minmax(0,1fr)}#gj .article-pagination{gap:18px}#gj .related-article-card h3{font-size:26px}}
+html:lang(ne) #gj .related-article-card h3{font-size:22px;line-height:1.6}
 
 body { margin: 0; }
 .screen-reader-text { position: absolute; left: -10000px; }
