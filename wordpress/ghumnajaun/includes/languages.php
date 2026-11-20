@@ -177,6 +177,6 @@ add_action('acf/save_post',function($post_id){
 
 // Keep editable policy copy accurate for the language-specific map providers.
 add_filter('the_content',function($content){
- if(is_page('privacy-policy'))$content=str_replace(['OpenStreetMap maps','OpenStreetMap का नक्सा'],['Google Maps or OpenStreetMap maps','Google Maps वा OpenStreetMap का नक्सा'],$content);
+ if(is_page('privacy-policy')&&!str_contains($content,'Google Maps'))$content=str_replace(['OpenStreetMap maps','OpenStreetMap का नक्सा'],['Google Maps or OpenStreetMap maps','Google Maps वा OpenStreetMap का नक्सा'],$content);
  return $content;
 },40);

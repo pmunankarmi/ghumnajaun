@@ -35,6 +35,7 @@ add_filter('acf/update_value/name=site_logo',function($value){set_theme_mod('cus
 add_action('updated_option',function($name,$old,$new){if($name==='theme_mods_'.get_stylesheet() && ($old['custom_logo']??0)!==($new['custom_logo']??0) && function_exists('update_field'))update_field('field_gj_site_logo',absint($new['custom_logo']??0),'option');},10,3);
 add_filter('acf/load_value/name=site_logo',function($value){return absint(get_theme_mod('custom_logo'));});
 function gj_legacy_links($html){
+    $html=gj_public_link_repairs($html);
     return preg_replace_callback('/(href|action)="([a-z-]+)\.html([^"\n]*)"/',function($m){
         $tail=html_entity_decode($m[3],ENT_QUOTES|ENT_HTML5,'UTF-8');
         if($m[1]==='href'&&$m[2]==='destination'){

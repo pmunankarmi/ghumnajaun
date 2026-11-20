@@ -79,6 +79,7 @@ function gj_design_data(){
  if(is_tax(['outing','place_city','place_type'])){$term=get_queried_object();$out['archivePlaces']=array_map(fn($p)=>gj_canonical_title($p->ID),get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'tax_query'=>[['taxonomy'=>$term->taxonomy,'terms'=>$term->term_id]]]));$ne=gj_is_nepali();$out['archiveTitle']=$term->taxonomy==='place_city'?($ne?$term->name.'मा घुम्ने ठाउँ':'Places to visit in '.$term->name):($ne?$term->name.' सम्बन्धी घुम्ने ठाउँ':$term->name.' outings');}
  if(is_tax(['outing','place_city'])){$term=get_queried_object();$english=function_exists('pll_get_term')?pll_get_term($term->term_id,'en'):0;$canonical=$english?get_term($english,$term->taxonomy):$term;$out[$term->taxonomy==='outing'?'category':'city']=$canonical->name;}
  $out['collectionUrls']=['city'=>[],'category'=>[]];foreach(['place_city'=>'city','outing'=>'category']as$taxonomy=>$kind)foreach(get_terms(['taxonomy'=>$taxonomy,'hide_empty'=>true])as$term){$link=get_term_link($term);if(!is_wp_error($link))$out['collectionUrls'][$kind][gj_canonical_term_name($term)]=$link;}
+ array_walk_recursive($out,function(&$value){if(is_string($value))$value=gj_public_link_repairs($value);});
  if(is_post_type_archive('destination'))$out['resultsTitle']=gj_is_nepali()?'काठमाडौं उपत्यकामा घुम्ने ठाउँ':'Places to visit around Kathmandu Valley';
  return $out;
 }
