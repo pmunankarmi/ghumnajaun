@@ -1,5 +1,20 @@
 <?php
 defined('ABSPATH') || exit;
+/** Format editable transport copy without allowing HTML from plain text fields. */
+function gj_transport_html($text){
+ $paragraphs=preg_split('/\n\s*\n/u',trim((string)$text),-1,PREG_SPLIT_NO_EMPTY);$time='';$fare='';$body=[];
+ foreach($paragraphs as$i=>$paragraph){
+  if($i===0&&preg_match('/^(Approximate[^:]+|[^:]*अनुमानित[^:]*):\s*(.+)$/us',$paragraph,$match)){
+   $time='<p class="trip-transport-time"><strong>'.esc_html($match[1]).':</strong> '.esc_html($match[2]).'</p>';continue;
+  }
+  if(preg_match('/(Approximate (?:taxi )?budget from [^:]+|(?:मध्य काठमाडौं[^:]*|रत्नपार्क वा एनएसीबाट) अनुमानित (?:ट्याक्सी )?बजेट):\s*([^।]+।|[^.]+\.)/u',$paragraph,$match)){
+   $fare='<p class="trip-transport-fare"><strong>'.esc_html(str_contains($match[1],'अनुमानित')?'अनुमानित भाडा:':'Approx. fare:').'</strong> '.esc_html($match[2]).'</p>';
+   $paragraph=trim(str_replace($match[0],'',$paragraph));
+  }
+  if($paragraph!=='')$body[]='<p>'.esc_html($paragraph).'</p>';
+ }
+ return $time.$fare.implode('',$body);
+}
 function gj_design_view(){if(is_front_page())return 'home';if(is_singular('destination'))return 'detail';if(is_post_type_archive('destination')||is_tax(['outing','place_city','place_type']))return 'results';if(is_home())return 'blog';if(is_singular('post'))return 'post';if(is_page('about'))return 'about';if(is_page('contact'))return 'contact';return 'page';}
 function gj_design_data(){
  static $out;if($out)return $out;
@@ -26,7 +41,7 @@ function gj_design_data(){
   $nearby=[];foreach($f['related']??[]as$related)if(get_post_status($related)==='publish')$nearby[]=[null,esc_html(get_the_title($related)),get_permalink($related)];
   $out['tripDetails'][$name]=['location'=>(($f['guide_location']??'')?:$address)?:$type,'photos'=>$gallery,'facts'=>$facts,'activities'=>$activities,'sources'=>$sources,'visit'=>[['Before you go',[wp_kses_post($f['visit_notes']??'')]]],'transport'=>[['By bus',esc_html($f['bus']??'')],['By car or taxi',esc_html($f['car']??'')]],'plan'=>$plan,'nearby'=>$nearby];
   if($meals){$out['tripDetails'][$name]['meals']=$meals;$out['tripDetails'][$name]['mealLinks']=$mealLinks;}if($stays)$out['tripDetails'][$name]['stays']=$stays;
-  $detail=&$out['tripDetails'][$name];$detail['mealNote']=$f['meal_note']??'';$detail['nearbyNote']=$f['nearby_note']??'';if(!empty($f['nearby_stops'])){$detail['nearby']=[];foreach($f['nearby_stops']as$stop)$detail['nearby'][]=[null,esc_html($stop['nearby_label']),esc_url_raw($stop['nearby_url'])];}
+  $detail=&$out['tripDetails'][$name];$detail['transportHtml']=[gj_transport_html($f['bus']??''),gj_transport_html($f['car']??'')];$detail['mealNote']=$f['meal_note']??'';$detail['nearbyNote']=$f['nearby_note']??'';if(!empty($f['nearby_stops'])){$detail['nearby']=[];foreach($f['nearby_stops']as$stop)$detail['nearby'][]=[null,esc_html($stop['nearby_label']),esc_url_raw($stop['nearby_url'])];}
   if(!empty($f['feature_image'])){$detail['featurePhoto']='media-'.$f['feature_image'];$detail['featureCaption']=$f['feature_caption']??'';}
   if(!empty($f['video_url']))$detail['videoUrl']=esc_url_raw($f['video_url']);
   $rawVisit=gj_is_nepali()?(get_field('visit_notes_ne',$id,false)?:get_field('visit_notes',$id,false)):get_field('visit_notes',$id,false);if(str_contains($rawVisit?:'','trip-card'))$detail['visitHtml']=gj_rich_layout($rawVisit);$detail['originalGardenLayout']=get_post_meta($id,'_gj_import_key',true)==='Godawari Botanical Garden';
@@ -114,7 +129,7 @@ function gj_design_trip_html(){
  if(!empty($guide['history'])){$fill('history',esc_html($guide['history'][0]));$fill('history-source','<a href="'.esc_url($guide['history'][2]).'">'.esc_html($guide['history'][1]).'</a>');foreach($xp->query('//*[@id="gj-history" or @data-trip-history-jump]')as$n)$n->removeAttribute('hidden');}
  foreach($xp->query('//*[@id="gj-vlog-title"]')as$n){if(!empty($details['videoUrl'])){foreach($xp->query('.//iframe',$n)as$frame)$frame->setAttribute('data-consent-src',$details['videoUrl']);}else$n->parentNode->removeChild($n);}
  $visit=$details['visitHtml']??'';if(!$visit)foreach($details['visit']as$v)$visit.='<div class="trip-card"><h3>'.esc_html($v[0]).'</h3>'.implode('',$v[1]).'</div>';$fill('visit',$visit);
- $transport='';foreach($details['transport']as$t)$transport.='<div><h3>'.$t[0].'</h3><p>'.$t[1].'</p></div>';$fill('transport',$transport.'<div class="trip-text-links" data-trip-travel-links></div>');
+ $transport='';foreach($details['transport']as$i=>$t)$transport.='<div><h3>'.$t[0].'</h3>'.($details['transportHtml'][$i]??('<p>'.$t[1].'</p>')).'</div>';$fill('transport',$transport.'<div class="trip-text-links" data-trip-travel-links></div>');
  $map='https://www.google.com/maps/search/?api=1&query='.rawurlencode(gj_value('address',$id,$name));foreach($xp->query('//*[@data-trip-directions or @data-trip-map-link]')as$n)$n->setAttribute('href',$map);
  $fill('map','<a class="action trip-map-link" href="'.esc_url($map).'" target="_blank" rel="noopener">Open location in Google Maps ↗</a>');
  $meals='';foreach($details['meals']??[]as$m)$meals.='<article class="trip-card"><p class="eyebrow">'.$m[0].'</p><h3>'.$m[1].'</h3><p>'.$m[2].'</p>'.($m[3]?'<a href="'.esc_url($m[3]).'">Visit website ↗</a>':'').'</article>';$fill('meals',$meals);$fill('meal-note',esc_html($details['mealNote']??''));$stayHtml='';foreach($details['stays']??[]as$stay)$stayHtml.='<li><strong>'.$stay[0].'</strong> <span>'.$stay[1].'</span> <a href="'.esc_url($stay[2]).'">Hotel website ↗</a></li>';$fill('stays',$stayHtml);$fill('food-links','<a class="page-link" href="'.esc_url('https://www.google.com/maps/search/?api=1&query='.rawurlencode('Restaurants near '.$name)).'">Find nearby restaurants ↗</a>');

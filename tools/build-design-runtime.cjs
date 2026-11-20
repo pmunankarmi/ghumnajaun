@@ -39,7 +39,7 @@ s=s.replace("   if (details.photos[1]) {\n     feature.querySelector('img').data
 let mealsStart=s.indexOf("   slot('meals').innerHTML ="),mealsEnd=s.indexOf("   if (!details.meals)",mealsStart);
 s=s.slice(0,mealsStart)+`   slot('meals').innerHTML = (details.meals || []).map(([stage,title,note,url,label],index)=>'<article class="trip-card"><p class="eyebrow">'+stage.toUpperCase()+'</p><h3>'+title+'</h3><p>'+note+'</p>'+((details.mealLinks?.[index] || (url?[[label,url]]:[])).length?'<div class="trip-text-links">'+(details.mealLinks?.[index] || [[label,url]]).map(([text,href])=>externalLink(href,text)).join('')+'</div>':'')+'</article>').join('');\n`+s.slice(mealsEnd);
 s=s.replace("details.transport.map(([title,note]) =>","details.transport.map(([title,note],index) =>");
-s=s.replace("<div><h3>${title}</h3><p>${note}</p></div>","<div><h3>${title}</h3><p>${note}</p>${(details.transportLinks?.[index] || []).map(([label,url])=>externalLink(url,label,'')).join('')}</div>");
+s=s.replace("<div><h3>${title}</h3><p>${note}</p></div>","<div><h3>${title}</h3>${details.transportHtml?.[index] || `<p>${note}</p>`}${(details.transportLinks?.[index] || []).map(([label,url])=>externalLink(url,label,'')).join('')}</div>");
 s=s.replace("details.stays.map(([label,location,url]) =>","details.stays.map(([label,location,url,linkLabel,plain]) =>");
 s=s.replace("externalLink(url,'Hotel website')","externalLink(url,linkLabel||'Hotel website',plain?'':'page-link')");
 s=s.replace("details ? 'Find nearby restaurants' : 'More restaurants near the garden'","details.originalGardenLayout?'More restaurants near the garden':'Find nearby restaurants'");
