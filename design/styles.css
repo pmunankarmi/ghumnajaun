@@ -649,3 +649,8 @@ html:lang(ne) #gj .about-lead{line-height:1.8}
  #gj .home-hero .search select{width:100%;min-width:0;text-overflow:ellipsis}
  #gj .home-hero .search button{min-width:0;white-space:normal;line-height:1.5;padding-inline:10px}
 }
+
+/* A map stays independent of long transport copy and follows desktop reading. */
+#gj .trip-getting-grid{align-items:start}
+#gj .trip-map{position:sticky;top:calc(var(--trip-header-height,0px) + var(--trip-jump-height,72px) + var(--gj-admin-offset,0px) + 16px);align-self:start;width:100%;height:auto;min-height:0;aspect-ratio:1;max-height:min(540px,calc(100svh - var(--trip-header-height,0px) - var(--trip-jump-height,72px) - var(--gj-admin-offset,0px) - 32px))}
+@media(max-width:700px){#gj .trip-map{position:relative;top:auto;max-height:420px}}

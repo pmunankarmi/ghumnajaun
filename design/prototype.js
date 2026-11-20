@@ -1401,7 +1401,10 @@ function destinationMap(name,point){
    layer: 'mapnik',
    marker: point.join(',')
  });
- return `<div class="consent-embed consent-map">${embedPlaceholder('This map')}<iframe class="guide-map" title="Map of ${name}" loading="lazy" data-consent-src="https://www.openstreetmap.org/export/embed.html?${params}" hidden></iframe></div>`;
+ const mapUrl = document.documentElement.lang.startsWith('ne')
+   ? 'https://www.openstreetmap.org/export/embed.html?' + params
+   : 'https://maps.google.com/maps?' + new URLSearchParams({q:point.join(','),z:'13',hl:'en',output:'embed'});
+ return `<div class="consent-embed consent-map">${embedPlaceholder('This map')}<iframe class="guide-map" title="Map of ${name}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" data-consent-src="${mapUrl}" hidden></iframe></div>`;
 }
 const tripDetails = {
  'Kathmandu Fun Park': {
@@ -2282,7 +2285,7 @@ function initializeCookieConsent(){
  function readChoice(){
    try {
      const saved = JSON.parse(localStorage.getItem(storageKey));
-     if (saved?.version === 1 && typeof saved.embeds === 'boolean' &&
+     if (saved?.version === 2 && typeof saved.embeds === 'boolean' &&
          Number.isFinite(saved.savedAt) && saved.savedAt <= Date.now() && Date.now() - saved.savedAt < lifetime) return saved;
    } catch {}
    return null;
@@ -2291,7 +2294,7 @@ function initializeCookieConsent(){
  root.insertAdjacentHTML('beforeend',`
    <section class="cookie-banner" id="gj-cookie-banner" aria-labelledby="gj-cookie-title" hidden>
      <div class="cookie-banner-copy"><h2 id="gj-cookie-title">Your privacy choices</h2>
-       <p>Optional maps and videos connect to OpenStreetMap and YouTube. Choose whether to load them. <a href="privacy-policy.html">Privacy Policy</a></p>
+       <p>Optional maps and videos connect to Google Maps, OpenStreetMap and YouTube. Choose whether to load them. <a href="privacy-policy.html">Privacy Policy</a></p>
      </div>
      <div class="cookie-actions"><button type="button" data-embed-consent="reject">Reject</button><button type="button" data-embed-consent="accept">Accept</button></div>
    </section>
@@ -2299,7 +2302,7 @@ function initializeCookieConsent(){
      <div class="search-dialog-heading"><h2 id="gj-cookie-dialog-title">Cookie preferences</h2>
        <button class="search-close" type="button" id="gj-cookie-close" aria-label="Close cookie preferences"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
      </div>
-     <p>Choose whether embedded OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage.</p>
+     <p>Choose whether Google Maps, OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage.</p>
      <p>Your theme preference is stored separately. Photos, fonts and site files also load from their providers. <a href="privacy-policy.html">Read our Privacy Policy</a>.</p>
      <p id="gj-cookie-current" role="status"></p>
      <div class="cookie-actions"><button type="button" data-embed-consent="reject" autofocus>Reject</button><button type="button" data-embed-consent="accept">Accept</button></div>
@@ -2385,7 +2388,7 @@ function initializeCookieConsent(){
    button.addEventListener('click',openPreferences);
  });
  root.querySelectorAll('[data-embed-consent]').forEach(button => button.addEventListener('click',() => {
-   choice = {version:1,embeds:button.dataset.embedConsent === 'accept',savedAt:Date.now()};
+   choice = {version:2,embeds:button.dataset.embedConsent === 'accept',savedAt:Date.now()};
    try { localStorage.setItem(storageKey,JSON.stringify(choice)); } catch {}
    applyChoice();
    closePreferences();
