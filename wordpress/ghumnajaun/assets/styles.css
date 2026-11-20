@@ -361,7 +361,7 @@ html:has(.search-dialog[open]){overflow:hidden}
 #gj .blog-index h1,#gj .post-heading h1,#gj .photo-credits h1{font-size:clamp(38px,6.5vw,72px)}
 #gj .blog-card strong{font-size:clamp(27px,3vw,35px);line-height:1.06}
 #gj .blog-card .info{gap:10px}
-#gj .blog-article{max-width:860px}
+#gj .blog-article{max-width:1240px}
 #gj .post-heading{display:block;padding:24px 0 20px;border:0}
 #gj .post-intro{color:var(--muted);font-size:clamp(17px,2.2vw,22px);margin:12px 0 0}
 #gj .post-image{display:block;width:100%;max-height:455px;aspect-ratio:16 / 9;object-fit:cover;border-radius:14px}
@@ -596,3 +596,18 @@ html:lang(ne) #gj .post-body h3{font-size:clamp(21px,2.4vw,25px);line-height:1.6
 html:lang(ne) #gj .related-article-card h3{font-size:22px;line-height:1.6}
 
 html:lang(ne) #gj .footer-columns h2{font-weight:700}
+
+/* Blog audit: shared container edges and comfortable narrow-screen reading. */
+#gj .post-body{margin-top:28px}
+#gj .post-body a{overflow-wrap:anywhere}
+#gj .post-body ul,#gj .post-body ol{padding-inline-start:24px;margin-block:16px 24px}
+#gj .post-body li{padding-inline-start:3px}
+#gj .post-body [role="region"]{margin-block:20px 28px;border-radius:8px;overscroll-behavior-inline:contain}
+#gj .post-body table caption{padding-block:0 12px;text-align:start;color:var(--muted);line-height:1.6}
+#gj .article-pagination a{overflow-wrap:anywhere}
+@media(max-width:600px){
+ #gj .article-pagination{grid-template-columns:minmax(0,1fr);gap:22px}
+ #gj .article-next{grid-column:auto;text-align:start}
+ #gj .article-pagination a+a{border-top:1px solid var(--line);padding-top:22px}
+ #gj .post-body{margin-top:24px}
+}
