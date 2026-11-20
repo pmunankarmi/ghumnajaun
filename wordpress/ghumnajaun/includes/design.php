@@ -41,6 +41,9 @@ function gj_design_data(){
   $id=$p->ID;$name=gj_canonical_title($id);$names[$id]=$name;if(function_exists('pll_get_post')){$english=pll_get_post($id,'en');if($english)$names[$english]=$name;}$f=function_exists('get_fields')?(get_fields($id)?:[]):[];foreach(['gallery','stops','facts','sources','day_plan','dining_stays','related','guide_links','nearby_stops']as$key)if(!is_array($f[$key]??null))$f[$key]=[];$tags=gj_canonical_terms($id,'outing');$types=gj_canonical_terms($id,'place_type');$address=$f['address']??'';$type=gj_value('card_label',$id,implode(' · ',$types));
   $originalOrder=explode('|',$seedPlaces[get_post_meta($id,'_gj_import_key',true)][2]??'');$tags=array_merge(array_values(array_intersect($originalOrder,$tags)),array_values(array_diff($tags,$originalOrder)));$out['places'][]=[$name,$type,implode('|',$tags)];$out['urls'][$name]=get_permalink($id);
   $cities=gj_canonical_terms($id,'place_city');foreach($cities as$city)$out['citySightseeing'][$city][]=$name;
+  $searchLabels=array_merge([$name,get_the_title($id),$type],$tags,$cities);
+  if(function_exists('pll_get_post'))foreach(['en','ne']as$searchLanguage){$translatedId=pll_get_post($id,$searchLanguage);if($translatedId)$searchLabels[]=get_the_title($translatedId);}
+  $out['searchAliases'][$name]=array_values(array_unique(array_merge($searchLabels,array_map('gj_translate_label',$searchLabels))));
   if(is_numeric($f['latitude']??null)&&is_numeric($f['longitude']??null))$out['placePoints'][$name]=[(float)$f['latitude'],(float)$f['longitude']];
   $cover=get_post_thumbnail_id($id);if(isset($out['photos']['media-'.$cover]))$out['photos'][$name]=$out['photos']['media-'.$cover];
   $gallery=array_values(array_filter(array_map(fn($image)=>'media-'.$image,$f['gallery']??[]),fn($key)=>isset($out['photos'][$key])));if(!$gallery&&$cover)$gallery=['media-'.$cover];$out['destinationGalleries'][$name]=$gallery;
