@@ -628,6 +628,29 @@ html:has(.search-dialog[open]){overflow:hidden}
  html:has(.destination-trip){scroll-padding-bottom:calc(72px + env(safe-area-inset-bottom))}
 }
 
+/* Footer: a quiet brand introduction, useful links and a separate legal row. */
+#gj .site-footer{padding-block:40px 24px}
+#gj .footer-main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px 64px}
+#gj .footer-brand p{max-width:38ch;margin:18px 0;color:var(--muted);line-height:1.65}
+#gj .footer-brand .social-icons{margin-top:20px}
+#gj .footer-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+#gj .footer-columns h2{font:600 15px/1.5 'DM Sans',sans-serif;margin:0 0 16px}
+#gj .footer-columns a{display:block;width:fit-content;margin-top:12px;color:var(--ink);text-decoration:none;line-height:1.6;overflow-wrap:anywhere}
+#gj .footer-columns a:hover{text-decoration:underline;text-underline-offset:4px;color:var(--orange)}
+#gj .footer-bottom{grid-column:1/-1;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:16px 28px;padding-top:22px;border-top:1px solid var(--line)}
+#gj .footer-copyright{margin:0;color:var(--muted);font-size:13px}
+#gj .footer-bottom .footer-legal{font-size:13px;gap:12px 20px}
+#gj .faq-intro{max-width:65ch;margin:18px 0 32px;color:var(--muted);line-height:1.7}
+#gj .faq-list{max-width:850px}
+#gj .faq-list details{border-top:1px solid var(--line);padding:20px 0}
+#gj .faq-list details:last-child{border-bottom:1px solid var(--line)}
+#gj .faq-list summary{cursor:pointer;font-weight:600;line-height:1.6;padding-right:12px}
+#gj .faq-list details p{max-width:72ch;margin:14px 0 0;color:var(--muted);line-height:1.8}
+#gj .faq-list a{color:var(--ink);text-underline-offset:4px}
+#gj .faq-list summary:focus-visible,#gj .footer-columns a:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
+@media(max-width:767px){#gj .footer-main{grid-template-columns:minmax(0,1fr);gap:32px}#gj .footer-brand p{max-width:55ch}#gj .footer-columns{gap:24px}#gj .footer-bottom{display:block}#gj .footer-bottom .footer-legal{margin-top:16px}}
+html:lang(ne) #gj .footer-columns h2{font-size:15px;line-height:1.7}
+
 body { margin: 0; }
 .screen-reader-text { position: absolute; left: -10000px; }
 .screen-reader-text:focus { left: 12px; top: 12px; z-index: 99999; background: white; padding: 12px; }

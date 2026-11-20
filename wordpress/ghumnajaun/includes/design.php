@@ -147,8 +147,15 @@ function gj_design_trip_html(){
  return gj_legacy_links($html);
 }
 function gj_footer_navigation(){
- $locations=get_nav_menu_locations();$items=wp_get_nav_menu_items($locations['footer']??0)?:[];
- echo '<div class="footer-navigation"><div class="footer-links">';foreach($items as$i=>$item){if($i===3)echo '</div><div class="footer-links footer-legal" aria-label="Policies">';$class=$i===2?'footer-credits':($i<3?'footer-link':'');$current=is_page()&&untrailingslashit(get_permalink(get_queried_object_id()))===untrailingslashit($item->url);echo '<a class="'.$class.'" href="'.esc_url($item->url).'" data-reveal="fade-up"'.($current?' aria-current="page"':'').'>'.esc_html($item->title).'</a>';}echo '<button class="footer-cookie-preferences" type="button" data-cookie-preferences hidden>Cookie preferences</button></div></div>';
+ $ne=gj_is_nepali();$label=function($en,$np)use($ne){return $ne?$np:$en;};
+ $link=function($path,$en,$np)use($label){echo '<a href="'.esc_url(gj_home_url($path)).'">'.esc_html($label($en,$np)).'</a>';};
+ echo '<nav class="footer-columns" aria-label="'.esc_attr($label('Footer navigation','फुटर नेभिगेसन')).'"><div><h2>'.esc_html($label('Explore','घुमघाम')).'</h2>';
+ $link('/explore/','Places to visit','घुम्ने ठाउँ');$link('/explore/?category=Scenic%20dining','Scenic dining','दृश्यसँगै खानपान');$link('/explore/?category=Dharmik','Dharmik places','धार्मिक स्थल');$link('/blog/','Travel articles','यात्रा लेखहरू');
+ echo '</div><div><h2>'.esc_html($label('About & help','हाम्रो बारेमा र सहयोग')).'</h2>';
+ $link('/about/','About us','हाम्रो बारेमा');$link('/faq/','Frequently asked questions','बारम्बार सोधिने प्रश्नहरू');$link('/contact/','Contact / report a correction','सम्पर्क / विवरण सच्याउन');$link('/photo-credits/','Photo credits','तस्बिरको श्रेय');
+ echo '</div></nav><div class="footer-bottom"><p class="footer-copyright">© '.esc_html(wp_date('Y')).' '.esc_html($label('Ghumna Jaun. All rights reserved.','घुम्न जाऔँ। सर्वाधिकार सुरक्षित।')).'</p><div class="footer-links footer-legal" aria-label="'.esc_attr($label('Policies','नीतिहरू')).'">';
+ $link('/privacy-policy/','Privacy Policy','गोपनीयता नीति');$link('/terms-of-use/','Terms of Use','प्रयोगका सर्तहरू');$link('/disclaimer/','Disclaimer','अस्वीकरण');
+ echo '<button class="footer-cookie-preferences" type="button" data-cookie-preferences hidden>'.esc_html($label('Cookie preferences','कुकी प्राथमिकताहरू')).'</button></div></div>';
 }
 function gj_credit_items(){
  $data=gj_design_data();$unique=[];foreach(array_merge(array_values($data['photos']),array_values($data['bannerPhotos']??[]))as$photo){if(empty($photo['author'])||empty($photo['source'])&&empty($photo['commons']))continue;$unique[$photo['src']]=$photo;}return array_values($unique);

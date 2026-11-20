@@ -399,7 +399,7 @@ function renderTrip(name,destination,directionsUrl,type,dining){
      `<div class="trip-card"><h3>${title}</h3><ul class="trip-visit-list">${notes.map(note => '<li>' + note + '</li>').join('')}</ul>${source ? externalLink(source[1],source[0]) : ''}</div>`
    ).join('');
    slot('transport').innerHTML = details.transport.map(([title,note],index) =>
-     `<div><h3>${title}</h3><p>${note}</p>${(details.transportLinks?.[index] || []).map(([label,url])=>externalLink(url,label,'')).join('')}</div>`
+     `<div><h3>${title}</h3>${details.transportHtml?.[index] || `<p>${note}</p>`}${(details.transportLinks?.[index] || []).map(([label,url])=>externalLink(url,label,'')).join('')}</div>`
    ).join('') + '<div class="trip-text-links" data-trip-travel-links></div>';
    if(details.mealNote)slot('meal-note').textContent=details.mealNote;else slot('meal-note').remove();
    slot('meals').innerHTML = (details.meals || []).map(([stage,title,note,url,label],index)=>'<article class="trip-card"><p class="eyebrow">'+stage.toUpperCase()+'</p><h3>'+title+'</h3><p>'+note+'</p>'+((details.mealLinks?.[index] || (url?[[label,url]]:[])).length?'<div class="trip-text-links">'+(details.mealLinks?.[index] || [[label,url]]).map(([text,href])=>externalLink(href,text)).join('')+'</div>':'')+'</article>').join('');
