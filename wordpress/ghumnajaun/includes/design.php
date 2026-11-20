@@ -11,6 +11,10 @@ function gj_transport_html($text){
    $fare='<p class="trip-transport-fare"><strong>'.esc_html(str_contains($match[1],'अनुमानित')?'अनुमानित भाडा:':'Approx. fare:').'</strong> '.esc_html($match[2]).'</p>';
    $paragraph=trim(str_replace($match[0],'',$paragraph));
   }
+  if(preg_match('/^(Bus route from central Kathmandu|By car\/taxi|Suggested circuit|मध्य काठमाडौंबाट बसको रुट|कार वा ट्याक्सीको बाटो|सुझाव गरिएको परिक्रमा):\s*([^।.]+[।.])\s*(.*)$/us',$paragraph,$match)){
+   $body[]='<p class="trip-transport-route"><strong>'.esc_html($match[1]).':</strong> '.esc_html($match[2]).'</p>';
+   $paragraph=trim($match[3]);
+  }
   if($paragraph!=='')$body[]='<p>'.esc_html($paragraph).'</p>';
  }
  return $time.$fare.implode('',$body);
