@@ -1,10 +1,38 @@
 /* Devanagari needs more leading and neutral tracking for its vowel marks. */
-html:lang(ne) #gj {font-family:'Noto Sans Devanagari','DM Sans',sans-serif;font-size:16px;line-height:1.8;}
-html:lang(ne) #gj :is(button,input,select,textarea) {font-family:inherit;line-height:1.6;}
-html:lang(ne) #gj :is(h1,h2,h3) {font-family:'Noto Sans Devanagari',sans-serif;letter-spacing:0;font-weight:600;line-height:1.5;}
-html:lang(ne) #gj h1 {font-size:clamp(36px,5.4vw,64px);}
-html:lang(ne) #gj h2 {font-size:clamp(26px,3.5vw,36px);}
-html:lang(ne) #gj h3 {font-size:clamp(21px,2.5vw,27px);}
-html:lang(ne) #gj :is(.eyebrow,.meta,.card-foot,.trip-jump-nav,.trip-facts) {letter-spacing:0;line-height:1.7;}
-html:lang(ne) #gj .hero-copy h1 {max-width:16ch;}
-html:lang(ne) #gj :is(.place strong,.blog-card strong) {font-family:inherit;line-height:1.6;}
+html:lang(ne) #gj {
+	font-family: 'Noto Sans Devanagari', 'DM Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+}
+html:lang(ne) #gj :is(button, input, select, textarea) {
+	font-family: inherit;
+	line-height: 1.6;
+}
+html:lang(ne) #gj :is(h1, h2, h3) {
+	font-family: 'Noto Sans Devanagari', sans-serif;
+	letter-spacing: 0;
+	font-weight: 600;
+	line-height: 1.5;
+}
+html:lang(ne) #gj h1 {
+	font-size: clamp(36px, 5.4vw, 64px);
+}
+html:lang(ne) #gj h2 {
+	font-size: clamp(26px, 3.5vw, 36px);
+}
+html:lang(ne) #gj h3 {
+	font-size: clamp(21px, 2.5vw, 27px);
+}
+html:lang(ne)
+	#gj
+	:is(.eyebrow, .meta, .card-foot, .trip-jump-nav, .trip-facts) {
+	letter-spacing: 0;
+	line-height: 1.7;
+}
+html:lang(ne) #gj .hero-copy h1 {
+	max-width: 16ch;
+}
+html:lang(ne) #gj :is(.place strong, .blog-card strong) {
+	font-family: inherit;
+	line-height: 1.6;
+}

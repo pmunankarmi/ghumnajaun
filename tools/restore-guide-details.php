@@ -12,7 +12,7 @@ if(!get_option('gj_original_guide_facts')){
 }
 $p=get_posts(['post_type'=>'destination','title'=>'Godawari Botanical Garden','posts_per_page'=>1]);
 if($p&&!get_option('gj_original_garden_details')){
- $id=$p[0]->ID;$doc=gj_design_dom(file_get_contents(get_template_directory().'/views/destination.html'));$xp=new DOMXPath($doc);$node=fn($slot)=>$xp->query('//*[@data-trip-'.$slot.']')->item(0);
+ $id=$p[0]->ID;$doc=gj_content_dom(file_get_contents(__DIR__.'/../design/destination.html'));$xp=new DOMXPath($doc);$node=fn($slot)=>$xp->query('//*[@data-trip-'.$slot.']')->item(0);
  $inner=function($n)use($doc){$html='';foreach($n->childNodes as$c)$html.=$doc->saveHTML($c);return $html;};
  $gallery=[];foreach(['Godawari Garden View','Godawari Hillside','Godawari Garden Stream']as$name){$image=gj_seed_photo($name);if($image)$gallery[]=$image;}if($gallery){update_field('field_gj_gallery',$gallery,$id);set_post_thumbnail($id,$gallery[0]);}
  $facts=[];foreach($node('facts')->childNodes as$row)if($row instanceof DOMElement){$children=[];foreach($row->childNodes as$c)if($c instanceof DOMElement)$children[]=trim($c->textContent);if(count($children)>=3&&!str_contains($children[0],'central Kathmandu'))$facts[]=['field_gj_fact_label'=>$children[0],'field_gj_fact_value'=>$children[1],'field_gj_fact_note'=>$children[2]];}update_field('field_gj_facts',$facts,$id);

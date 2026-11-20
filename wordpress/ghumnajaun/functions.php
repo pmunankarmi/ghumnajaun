@@ -1,4 +1,31 @@
 <?php
-/** Theme-owned functionality requested for this project. */
-defined('ABSPATH') || exit;
-foreach (['setup','languages','fields','content','link-repairs','design','internal-links','blog','performance','seo','contact','updates'] as $module) require_once __DIR__ . '/includes/' . $module . '.php';
+
+/**
+ * Load the theme's features in dependency order.
+ *
+ * @package Ghumnajaun
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+$gj_modules = array(
+	'link-repairs', // Compatibility for retired external references.
+	'setup',          // Theme supports, menus, assets and logo synchronization.
+	'languages',      // English and Nepali routing and translations.
+	'fields',         // ACF guide fields and theme options.
+	'content',        // Public guide data and REST endpoints.
+	'content-formatting', // Helpers for links in editor-authored content.
+	'site-data', // Build interactive discovery data from WordPress.
+	'templates',         // Server-rendered pages and browser enhancement data.
+	'internal-links', // Related guides and contextual links.
+	'blog',           // Native categories and related article navigation.
+	'performance',    // Responsive images and asset delivery.
+	'seo',            // Metadata and structured data.
+	'contact',        // Contact form processing.
+	'updates',        // Existing theme update integration.
+);
+
+foreach ( $gj_modules as $gj_module ) {
+	require_once __DIR__ . '/includes/' . $gj_module . '.php';
+}
+unset( $gj_modules, $gj_module );

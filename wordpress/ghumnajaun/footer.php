@@ -1,1 +1,22 @@
-</main><footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a href="<?php echo esc_url(gj_home_url('/')); ?>" class="brand page-link" data-page="home" aria-label="<?php echo esc_attr(gj_is_nepali()?'घुम्न जाऔँको गृहपृष्ठ':'Ghumna Jaun home'); ?>"><?php gj_brand_logo(); ?></a><p><?php echo esc_html(gj_is_nepali()?'काठमाडौं उपत्यका र वरपरका एकदिने यात्रा, सम्पदा पदयात्रा र पारिवारिक घुमघामका लागि उपयोगी जानकारी।':'Practical guides to day trips, heritage walks and family outings around Kathmandu Valley.'); ?></p><?php gj_social_icons(); ?></div><?php gj_footer_navigation(); ?></div></footer></div><?php wp_footer(); ?></body></html>
+</main>
+			<footer class="site-footer">
+				<div class="footer-main">
+					<div class="footer-brand">
+						<a
+							href="<?php echo esc_url( gj_home_url( '/' ) ); ?>"
+							class="brand page-link"
+							data-page="home"
+							aria-label="<?php echo esc_attr( gj_is_nepali() ? 'घुम्न जाऔँको गृहपृष्ठ' : 'Ghumna Jaun home' ); ?>"
+						>
+							<?php gj_brand_logo(); ?>
+						</a>
+						<p><?php echo esc_html( gj_is_nepali() ? 'काठमाडौं उपत्यका र वरपरका एकदिने यात्रा, सम्पदा पदयात्रा र पारिवारिक घुमघामका लागि उपयोगी जानकारी।' : 'Practical guides to day trips, heritage walks and family outings around Kathmandu Valley.' ); ?></p>
+						<?php gj_social_icons(); ?>
+					</div>
+					<?php gj_footer_navigation(); ?>
+				</div>
+			</footer>
+		</div>
+		<?php wp_footer(); ?>
+	</body>
+</html>

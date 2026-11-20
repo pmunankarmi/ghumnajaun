@@ -18,6 +18,8 @@ jobs:
         run: node tools/build-design-runtime.cjs
       - name: Validate PHP
         run: find wordpress/ghumnajaun -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Validate browser interactions
+        run: node --check wordpress/ghumnajaun/assets/theme.js
       - name: Package theme
         env:
           BUILD: ${{ github.run_number }}

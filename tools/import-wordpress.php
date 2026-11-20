@@ -2,7 +2,7 @@
 /** Run once using wp eval-file. Reruns skip records already imported. */
 if(!defined('WP_CLI'))exit;
 if(!function_exists('update_field'))WP_CLI::error('Activate ACF Pro before importing.');
-$data=json_decode(file_get_contents(get_template_directory().'/data/content.json'),true);
+$data=json_decode(file_get_contents(__DIR__.'/data/legacy-theme/content.json'),true);
 $GLOBALS['gj_seed_data']=$data;
 require_once ABSPATH.'wp-admin/includes/media.php';require_once ABSPATH.'wp-admin/includes/file.php';require_once ABSPATH.'wp-admin/includes/image.php';
 function gj_seed_field($key,$value,$id){update_field('field_gj_'.$key,$value,$id);}
@@ -28,7 +28,7 @@ function gj_seed_page($slug,$title,$content=''){
 $home=gj_seed_page('home','Ghumna Jaun');$blog=gj_seed_page('blog','Travel guides');
 update_option('show_on_front','page');update_option('page_on_front',$home);update_option('page_for_posts',$blog);update_option('blogname','Ghumna Jaun');update_option('blogdescription','Day trips, heritage walks and family outings around Kathmandu Valley.');update_option('permalink_structure','/%postname%/');update_option('blog_public',0);
 foreach(['about'=>'About us','contact'=>'Contact us','privacy-policy'=>'Privacy Policy','terms-of-use'=>'Terms of Use','disclaimer'=>'Disclaimer','photo-credits'=>'Photo credits']as$slug=>$title){
- $file=get_template_directory().'/data/'.$slug.'.html';$html=file_exists($file)?file_get_contents($file):'';
+ $file=__DIR__.'/data/legacy-theme/'.$slug.'.html';$html=file_exists($file)?file_get_contents($file):'';
  if($slug==='contact')$html=preg_replace('~<form\b.*?</form>~s','',$html);
  gj_seed_page($slug,$title,$html);
 }

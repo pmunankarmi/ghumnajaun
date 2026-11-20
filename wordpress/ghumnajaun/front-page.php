@@ -1,1 +1,6 @@
-<?php get_header();echo gj_design_template('index');get_footer(); ?>
+<?php
+
+/** Homepage template. @package Ghumnajaun */
+get_header();
+get_template_part( 'template-parts/home' );
+get_footer();

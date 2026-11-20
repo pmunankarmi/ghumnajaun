@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Shared translated slugs, adapted from the user-supplied Polylang Slug 0.2.3.
  * Copyright Ulrich Pogson. GPL-2.0-or-later.
@@ -16,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Check if PLL exists & the minimum version is correct.
 if ( ! defined( 'POLYLANG_VERSION' ) || version_compare( POLYLANG_VERSION, '1.7', '<=' ) || version_compare( $GLOBALS[ 'wp_version' ], '4.0', '<=' ) ) {
 	add_action( 'admin_notices', 'polylang_slug_admin_notices' );
+
 	return;
 }
 
@@ -25,7 +27,7 @@ if ( ! defined( 'POLYLANG_VERSION' ) || version_compare( POLYLANG_VERSION, '1.7'
  * @since 0.2.0
  */
 function polylang_slug_admin_notices() {
-	echo '<div class="error"><p>' . __( 'Polylang Slug requires at the minimum Polylang v1.7 and WordPress 4.0', 'polylang-slug') . '</p></div>';
+	echo '<div class="error"><p>' . __( 'Polylang Slug requires at the minimum Polylang v1.7 and WordPress 4.0', 'polylang-slug' ) . '</p></div>';
 }
 
 /**
@@ -95,6 +97,7 @@ function polylang_slug_unique_slug_in_language( $slug, $post_ID, $post_status, $
 
 	return $original_slug;
 }
+
 add_filter( 'wp_unique_post_slug', 'polylang_slug_unique_slug_in_language', 10, 6 );
 
 /**
@@ -166,6 +169,7 @@ function polylang_slug_filter_queries( $query ) {
 	 */
 	return apply_filters( 'polylang_slug_sql_query', $sql_query, $matches, $join_clause, $where_clause );
 }
+
 add_filter( 'query', 'polylang_slug_filter_queries' );
 
 /**
@@ -183,22 +187,31 @@ function polylang_slug_resolve_page_query( $query ) {
 	$language = $query->get( 'lang' ) ?: pll_current_language();
 	$path = trim( urldecode( $query->get( 'pagename' ) ), '/' );
 	$pages = get_posts( array(
+
 		'post_type'        => 'page',
+
 		'post_status'      => 'publish',
+
 		'name'             => basename( $path ),
+
 		'lang'             => $language,
+
 		'numberposts'      => -1,
+
 		'suppress_filters' => false,
+
 	) );
 
 	foreach ( $pages as $page ) {
 		if ( urldecode( get_page_uri( $page ) ) === $path ) {
 			$query->queried_object = $page;
 			$query->queried_object_id = $page->ID;
+
 			return;
 		}
 	}
 }
+
 add_action( 'parse_query', 'polylang_slug_resolve_page_query', 100 );
 
 /**
@@ -221,10 +234,11 @@ function polylang_slug_posts_where_filter( $where, $query ) {
 
 	$lang = empty( $query->query['lang'] ) ? pll_current_language() : $query->query['lang'];
 
-	$where .= polylang_slug_model_post_where_clause( $lang  );
+	$where .= polylang_slug_model_post_where_clause( $lang );
 
 	return $where;
 }
+
 add_filter( 'posts_where', 'polylang_slug_posts_where_filter', 10, 2 );
 
 /**
@@ -250,6 +264,7 @@ function polylang_slug_posts_join_filter( $join, $query ) {
 
 	return $join;
 }
+
 add_filter( 'posts_join', 'polylang_slug_posts_join_filter', 10, 2 );
 
 /**
@@ -276,6 +291,7 @@ function polylang_slug_should_run( $query = '' ) {
 
 	// Do not run in admin or if Polylang is disabled
 	$disable = apply_filters( 'polylang_slug_disable', false, $query );
+
 	if ( is_admin() || is_feed() || ! function_exists( 'pll_current_language' ) || empty( PLL()->options['force_lang'] ) || $disable ) {
 		return false;
 	}
@@ -305,6 +321,7 @@ function polylang_slug_standardize_query( $query ) {
 		array( '', ' ', ' ', ' ', ' ', ' ', ' ' ),
 		$query
 	);
+
 	return trim( $query );
 }
 
@@ -320,8 +337,10 @@ function polylang_slug_model_post_join_clause() {
 		return PLL()->model->post->join_clause();
 	} elseif ( array_key_exists( 'polylang', $GLOBALS ) ) {
 		global $polylang;
+
 		return $polylang->model->join_clause( 'post' );
 	}
+
 	return '';
 }
 /**
@@ -338,7 +357,9 @@ function polylang_slug_model_post_where_clause( $lang = '' ) {
 		return PLL()->model->post->where_clause( $lang );
 	} elseif ( array_key_exists( 'polylang', $GLOBALS ) ) {
 		global $polylang;
+
 		return $polylang->model->where_clause( $lang, 'post' );
 	}
+
 	return '';
 }

@@ -1,0 +1,3653 @@
+# Reviewed Nepali translations for Ghumna Jaun.
+
+msgid ""
+msgstr "Project-Id-Version: Ghumna Jaun\nLanguage: ne_NP\nContent-Type: text/plain; charset=UTF-8\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "\">Find nearby restaurants ↗</a>"
+msgstr "\">Find nearby restaurants ↗</a>"
+
+msgid "\">Hotel website ↗</a></li>"
+msgstr "\">Hotel website ↗</a></li>"
+
+msgid "\">Visit website ↗</a>"
+msgstr "\">Visit website ↗</a>"
+
+msgid "%d places"
+msgstr "%d ठाउँ"
+
+msgid "' + description + '"
+msgstr "' + description + '"
+
+msgid "' + note + '"
+msgstr "' + note + '"
+
+msgid "').join('')}"
+msgstr "').join('')}"
+
+msgid "(prefers-color-scheme: dark)"
+msgstr "(prefers-color-scheme: dark)"
+
+msgid "(prefers-reduced-motion: reduce)"
+msgstr "(prefers-reduced-motion: reduce)"
+
+msgid ").join('')}"
+msgstr ").join('')}"
+
+msgid ", Nepal"
+msgstr ", नेपाल"
+
+msgid ", the"
+msgstr ", द"
+
+msgid ". Our hosting and email providers process form submissions to deliver your message. If you use the direct email link, your email provider also processes the message according to its own policy."
+msgstr "। तपाईंको सन्देश पुर्‍याउन हाम्रा होस्टिङ र इमेल सेवा प्रदायकले फारममा पठाइएका विवरण प्रशोधन गर्छन्। इमेलको सीधा लिङ्क प्रयोग गर्नुभयो भने तपाईंको इमेल सेवा प्रदायकले पनि आफ्नै नीतिअनुसार सन्देश प्रशोधन गर्छ।"
+
+msgid ". Permission to reuse an image depends on its source and applicable license."
+msgstr "। तस्बिर फेरि प्रयोग गर्न पाइने वा नपाइने कुरा त्यसको स्रोत र लागू इजाजतपत्रमा निर्भर हुन्छ।"
+
+msgid ". Supporting information from the venue or an official source helps us review it."
+msgstr "। सम्बन्धित ठाउँ वा आधिकारिक स्रोतको थप जानकारी भए हामीलाई समीक्षा गर्न सजिलो हुन्छ।"
+
+msgid ". The direct “Get in touch” link addresses email to"
+msgstr "। सीधै इमेल गर्न मिल्ने “सम्पर्कमा रहनुहोस्” लिङ्कले सन्देश पठाउने ठेगाना हो"
+
+msgid ". The sample menu and budget illustrate what a confirmed venue listing could include."
+msgstr "। पुष्टि भइसकेको ठाउँको सूचीमा कस्ता विवरण राख्न सकिन्छ भन्ने देखाउन नमुना मेनु र बजेट दिइएको हो।"
+
+msgid "1 matching destination"
+msgstr "१ मिल्दो गन्तव्य"
+
+msgid "1,000 Steps, Dhulikhel"
+msgstr "हजार सिँढी, धुलिखेल"
+
+msgid "19 November 2026"
+msgstr "१९ नोभेम्बर २०२६"
+
+msgid "1–2 hours"
+msgstr "1–2 घण्टा"
+
+msgid "2–3 hours"
+msgstr "2–3 घण्टा"
+
+msgid "55 Window Palace, Bhaktapur"
+msgstr "पचपन्नझ्याले दरबार, भक्तपुर"
+
+msgid "9 am–5 pm daily"
+msgstr "हरेक दिन बिहान 9 देखि साँझ 5 बजेसम्म"
+
+msgid "</article>"
+msgstr "</article>"
+
+msgid "</dd></div>"
+msgstr "</dd></div>"
+
+msgid "</div>"
+msgstr "</div>"
+
+msgid "</div></li>"
+msgstr "</div></li>"
+
+msgid "</figcaption>"
+msgstr "</figcaption>"
+
+msgid "</li>"
+msgstr "</li>"
+
+msgid "</p></div>"
+msgstr "</p></div>"
+
+msgid "</section>"
+msgstr "</section>"
+
+msgid "</span></li>"
+msgstr "</span></li>"
+
+msgid "></div>"
+msgstr "></div>"
+
+msgid "A Barahi shrine stands in a wooded grove outside Chapagaon. The visit combines worship with a short walk among the trees, with Chapagaon nearby for a stop in town."
+msgstr "चापागाउँबाहिर रूखले घेरिएको ठाउँमा वज्रवाराही मन्दिर छ। दर्शनपछि वरपर छोटो हिँडडुल गर्न सकिन्छ। नजिकैको चापागाउँ बजार पनि घुम्न सकिन्छ।"
+
+msgid "A compact amusement park in Bhrikutimandap, Kathmandu Fun Park is a central stop for families looking for a few rides and a snack break. Its location makes it easy to combine with a short walk around Ratna Park or a longer outing to Basantapur."
+msgstr "भृकुटीमण्डपको काठमाडौं फन पार्क परिवारसँग केही खेल खेल्न र खाजा खान पुग्न मिल्ने सानो मनोरञ्जन पार्क हो। यहाँको घुमघामसँगै रत्नपार्कमा छोटो हिँडडुल गर्न वा बसन्तपुरसम्म जान सकिन्छ।"
+
+msgid "A day out, your way"
+msgstr "आफ्नै रोजाइको घुमघाम"
+
+msgid "A day trip to Nagarkot for sunrise"
+msgstr "सूर्योदय हेर्न नगरकोटको एकदिने यात्रा"
+
+msgid "A destination guide brings together things to do, visit information, bus and car guidance, and map links. Nearby stops and places to eat or stay help you shape the day around your own pace."
+msgstr "हरेक गन्तव्यको मार्गदर्शनमा हेर्ने र गर्ने कुरा, भ्रमणको तयारी, बस वा कारबाट पुग्ने जानकारी र नक्साका लिङ्कहरू छन्। नजिकै घुम्ने, खाने र बस्ने ठाउँको जानकारीले आफ्नो फुर्सदअनुसार दिनको योजना बनाउन सजिलो हुन्छ।"
+
+msgid "A fifth-century inscription at Changu Narayan is one of the earliest recorded inscriptions in the Kathmandu Valley. The temple precinct and traditional settlement together form one of the Kathmandu Valley World Heritage monument zones."
+msgstr "चाँगुनारायणमा रहेको पाँचौँ शताब्दीको शिलालेख काठमाडौं उपत्यकाका सबैभन्दा पुराना अभिलेखमध्ये एक हो। मन्दिर परिसर र परम्परागत बस्ती मिलेर काठमाडौं उपत्यकाको विश्व सम्पदा सूचीमा सूचीकृत स्मारक क्षेत्रमध्ये एक बनेको छ।"
+
+msgid "A heritage walk and temple visit in Sankhu"
+msgstr "साँखुमा सम्पदा पदयात्रा र मन्दिर दर्शन"
+
+msgid "A listing or link does not guarantee a provider’s availability or service. Confirm the terms of any purchase, booking, refund or cancellation directly with the provider. Entries labelled as samples contain illustrative details."
+msgstr "यहाँ कुनै सेवा वा लिङ्क समावेश हुँदैमा त्यसको उपलब्धता वा गुणस्तर सुनिश्चित हुँदैन। खरिद, बुकिङ, रकम फिर्ता वा रद्द गर्ने सर्त सम्बन्धित सेवा प्रदायकसँगै बुझ्नुहोस्। नमुना भनेर चिनाइएका विवरणहरू उदाहरणका लागि मात्र राखिएका हुन्।"
+
+msgid "A local family picnic spot. Check with park staff for garden rules and group arrangements."
+msgstr "परिवारसँग पिकनिक जान मिल्ने स्थानीय ठाउँ। बगैँचाका नियम र समूहका लागि आवश्यक व्यवस्थाबारे पार्कका कर्मचारीसँग बुझ्नुहोस्।"
+
+msgid "A morning at a temple, lunch with a view, or an afternoon out with the kids. Ghumna Jaun brings nearby places together to help you choose your next outing."
+msgstr "बिहान मन्दिर दर्शन, राम्रो दृश्यसँगै खाना वा दिउँसो बालबालिकासँग घुमघाम। नजिकैका यस्ता ठाउँको जानकारी एकै ठाउँमा दिएर घुम्न जाऔँले अर्को घुमघामको योजना बनाउन सघाउँछ।"
+
+msgid "A request to an external service can share technical information such as your IP address, browser information and referrer information, depending on your browser settings. These services may process data outside Nepal."
+msgstr "बाह्य सेवा प्रयोग गर्दा ब्राउजरको सेटिङअनुसार तपाईंको IP ठेगाना, ब्राउजरसम्बन्धी विवरण र कुन पृष्ठबाट पुग्नुभयो भन्ने जानकारी उक्त सेवामा जान सक्छ। ती सेवाले नेपालबाहिर पनि विवरण प्रशोधन गर्न सक्छन्।"
+
+msgid "A route link or listing of nearby petrol pumps and EV charging points does not establish current road conditions, fuel availability, charger compatibility or operating status. Check these details with the relevant provider."
+msgstr "बाटोको लिङ्क वा नजिकैका पेट्रोल पम्प र EV चार्जिङस्थलको सूचीले सडकको हालको अवस्था, इन्धनको उपलब्धता, चार्जरको अनुकूलता वा सञ्चालनको अवस्था सुनिश्चित गर्दैन। सम्बन्धित सेवा प्रदायकसँग यी कुरा बुझ्नुहोस्।"
+
+msgid "A sample scenic dining stop with"
+msgstr "राम्रो दृश्यसँगै खाना खान मिल्ने ठाउँको नमुना, जहाँ"
+
+msgid "A sit-down meal at Hotel Royal Singi in Kamaladi if you’re approaching from Durbar Marg."
+msgstr "दरबारमार्गतिरबाट आउँदै हुनुहुन्छ भने कमलादीको होटल रोयल सिंगीमा बसेर खाना खान सकिन्छ।"
+
+msgid "A wooded hill separates this Ajima shrine from the busy streets of Mhepi below. The hillside setting makes it a compact worship stop with a short walk as part of the visit."
+msgstr "म्हेपीका व्यस्त सडकभन्दा माथि रूखले ढाकिएको डाँडामा यो अजिमा मन्दिर छ। छोटो पैदल यात्रासँगै शान्त वातावरणमा दर्शन गर्न यहाँ पुग्न सकिन्छ।"
+
+msgid "AFTER THE VISIT"
+msgstr "घुमेर फर्केपछि"
+
+msgid "AT THE GARDEN"
+msgstr "बगैँचामा"
+
+msgid "About"
+msgstr "बारेमा"
+
+msgid "About Ghumna Jaun"
+msgstr "घुम्न जाऔँबारे"
+
+msgid "About us"
+msgstr "हाम्रो बारेमा"
+
+msgid "Accept"
+msgstr "स्वीकार गर्नुहोस्"
+
+msgid "Acceptable use"
+msgstr "प्रयोग गर्दा पालना गर्नुपर्ने कुरा"
+
+msgid "Add a short walk around Ratna Park or continue to Kathmandu Durbar Square."
+msgstr "रत्नपार्क वरपर छोटो हिँडडुल गर्नुहोस् वा काठमाडौं दरबार क्षेत्रतिर जानुहोस्।"
+
+msgid "Add the nearby pilgrimage area if there’s time after the temple."
+msgstr "मन्दिर दर्शनपछि समय बाँकी भए नजिकैका तीर्थस्थल पनि घुम्नुहोस्।"
+
+msgid "Adinath Lokeshwar Temple"
+msgstr "आदिनाथ लोकेश्वर मन्दिर"
+
+msgid "Adinath Lokeshwar Temple in Chobhar"
+msgstr "चोभारमा रहेको आदिनाथ लोकेश्वर मन्दिर"
+
+msgid "Adinath Lokeshwar Temple sits above Chobhar village. Its hilltop setting offers a different experience from the riverside shrine of Jal Binayak, which makes a natural second stop."
+msgstr "चोभार बस्तीभन्दा माथि डाँडामा आदिनाथ लोकेश्वर मन्दिर छ। यहाँको अनुभव नदीकिनारको जलविनायक मन्दिरभन्दा फरक हुन्छ। एउटै यात्रामा दुवै ठाउँ पुग्न सकिन्छ।"
+
+msgid "Adinath Lokeshwar Temple, Chobhar"
+msgstr "आदिनाथ लोकेश्वर मन्दिर, चोभार"
+
+msgid "Aerial view of Kulekhani Reservoir"
+msgstr "माथिबाट देखिएको कुलेखानी जलाशय"
+
+msgid "Aerial view of the Chandeshwori Temple area in Banepa against a wooded hillside"
+msgstr "रूखले ढाकिएको डाँडाको फेदीमा रहेको बनेपाको चण्डेश्वरी मन्दिर क्षेत्र, माथिबाट देखिएको दृश्य"
+
+msgid "Afternoon"
+msgstr "दिउँसो"
+
+msgid "All"
+msgstr "सबै"
+
+msgid "All travel guides"
+msgstr "यात्राका सबै मार्गदर्शन"
+
+msgid "Allow breaks on the climb"
+msgstr "उकालो चढ्दा बीचबीचमा आराम गर्नुहोस्"
+
+msgid "Allow extra time for Salinadi"
+msgstr "शालीनदीका लागि थप समय छुट्याउनुहोस्"
+
+msgid "Allow extra time for queues"
+msgstr "लाम बस्नुपर्ने हुनाले थप समय छुट्याउनुहोस्"
+
+msgid "Allow longer for a picnic"
+msgstr "पिकनिकका लागि बढी समय छुट्याउनुहोस्"
+
+msgid "Allow time for a riverside walk"
+msgstr "नदीकिनारमा हिँड्न समय छुट्याउनुहोस्"
+
+msgid "Allow time for cross-valley travel between temples. Confirm local worship times and follow each shrine’s photography guidance."
+msgstr "उपत्यकाका फरक ठाउँमा रहेका मन्दिरबीच यात्रा गर्न पर्याप्त समय छुट्याउनुहोस्। पूजा गर्ने समय स्थानीय रूपमा बुझ्नुहोस् र तस्बिर खिच्ने नियम पालना गर्नुहोस्।"
+
+msgid "Allow time for darshan at the shrine dedicated to Kali."
+msgstr "कालीको यस मन्दिरमा दर्शनका लागि समय छुट्याउनुहोस्।"
+
+msgid "Allow time for the uphill approach and a quiet walk around the monastery grounds."
+msgstr "उकालो चढ्न र गुम्बा परिसरमा शान्तसँग हिँडडुल गर्न समय छुट्याउनुहोस्।"
+
+msgid "Allow time for the uphill approach and check access if someone in your group has difficulty with stairs."
+msgstr "उकालो चढ्न समय छुट्याउनुहोस्। समूहमा कसैलाई सिँढी चढ्न गाह्रो हुन्छ भने सहज बाटो छ कि छैन पहिले बुझ्नुहोस्।"
+
+msgid "Allow time for worship at this Shiva shrine before continuing toward Godawari."
+msgstr "गोदावरीतिर अघि बढ्नुअघि यस शिव मन्दिरमा दर्शनका लागि समय छुट्याउनुहोस्।"
+
+msgid "Also known as Maru Ganesh. Pair this stop with Kathmandu Durbar Square if time allows."
+msgstr "यसलाई मरु गणेश पनि भनिन्छ। समय मिले काठमाडौं दरबार क्षेत्र पनि घुम्नुहोस्।"
+
+msgid "Also known as Rakta Binayak. Use the Chabahil pin when planning your route."
+msgstr "यसलाई रक्तविनायक पनि भनिन्छ। बाटो खोज्दा नक्सामा चाबहिलको स्थान रोज्नुहोस्।"
+
+msgid "Amusement rides"
+msgstr "मनोरञ्जनात्मक खेल"
+
+msgid "Amusement rides · Bhrikutimandap"
+msgstr "मनोरञ्जनात्मक खेल · भृकुटीमण्डप"
+
+msgid "Ashapuri Mahadev Temple"
+msgstr "आशापुरी महादेव मन्दिर"
+
+msgid "Ashapuri Mahadev Temple, Suryabinayak"
+msgstr "आशापुरी महादेव मन्दिर, सूर्यविनायक"
+
+msgid "Ashapuri Mahadev Temple, Suryabinayak, Bhaktapur"
+msgstr "आशापुरी महादेव मन्दिर, सूर्यविनायक, भक्तपुर"
+
+msgid "Ashapuri Mahadev is a Shiva temple in Suryabinayak with a gold-roofed shrine. It can be a short visit on its own or the second stop on a pilgrimage outing from Doleshwor Mahadev."
+msgstr "सूर्यविनायकको आशापुरी महादेव सुनौलो छाना भएको शिव मन्दिर हो। यहाँ मात्रै दर्शन गर्न आउन सकिन्छ वा डोलेश्वर महादेवसँगै एउटै तीर्थयात्रामा समेट्न सकिन्छ।"
+
+msgid "Ashok Binayak Temple, Maru"
+msgstr "अशोक विनायक मन्दिर, मारु"
+
+msgid "Ask at the gate"
+msgstr "गेटमा सोध्नुहोस्"
+
+msgid "Ask for a Dhulikhel-bound bus and confirm the boarding point and last return. Get off near the town centre for the old-town walk."
+msgstr "धुलिखेल जाने बस चढ्ने ठाउँ र फर्कने अन्तिम गाडीको समय बुझ्नुहोस्। पुरानो बस्तीमा हिँड्नका लागि बजारको मध्य भागनजिक ओर्लनुहोस्।"
+
+msgid "Ask for a bus to Kirtipur and confirm where to get off for the old town. Continue on foot to Bagh Bhairab Temple and check your return service before setting out."
+msgstr "कीर्तिपुर जाने बस र पुरानो बस्ती पुग्न ओर्लने ठाउँ बुझ्नुहोस्। त्यहाँबाट बाघभैरव मन्दिरसम्म हिँड्नुहोस्। यात्रा सुरु गर्नुअघि फर्कने गाडीको जानकारी पनि लिनुहोस्।"
+
+msgid "Ask for a bus toward Dakshinkali via Pharping. Confirm whether the service goes to the temple area and where to catch the last return."
+msgstr "फर्पिङ हुँदै दक्षिणकाली जाने बसबारे बुझ्नुहोस्। गाडी मन्दिरसम्म पुग्छ कि पुग्दैन र फर्कने अन्तिम गाडी कहाँबाट पाइन्छ भन्ने निश्चित गर्नुहोस्।"
+
+msgid "Ask for a passenger vehicle from Kathmandu toward Kakani. Confirm the boarding point, the closest drop-off to the viewpoint, and your return ride."
+msgstr "काठमाडौंबाट ककनी जाने सार्वजनिक गाडीबारे बुझ्नुहोस्। चढ्ने ठाउँ, दृश्यावलोकन स्थलनजिक ओर्लने ठाउँ र फर्कने गाडी निश्चित गर्नुहोस्।"
+
+msgid "Ask locally where picnics are permitted around Khokana. Picnic facilities near the temple are unconfirmed."
+msgstr "खोकना वरपर कहाँ पिकनिक गर्न पाइन्छ भनेर स्थानीयसँग बुझ्नुहोस्। मन्दिरनजिक पिकनिकको सुविधा छ भन्ने पुष्टि भएको छैन।"
+
+msgid "Ask locally where picnics are permitted around Sankhu."
+msgstr "साँखु वरपर कहाँ पिकनिक गर्न पाइन्छ भनेर स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "Ask the Jhamsikhel branch about booking a session, grip socks, and rules for younger children."
+msgstr "समय बुक गर्ने तरिका, नचिप्लिने मोजा र साना बालबालिकाका लागि लागू नियमबारे झम्सिखेल शाखासँग बुझ्नुहोस्।"
+
+msgid "Ask which hands-on demonstrations are available and whether your visit needs to be arranged in advance."
+msgstr "आफैँ सहभागी हुन मिल्ने कुन-कुन प्रयोग देखाइन्छन् र आउनुअघि समय मिलाउनुपर्छ कि पर्दैन भनेर बुझ्नुहोस्।"
+
+msgid "Ask which rides are operating and check height or age requirements at each ride."
+msgstr "कुन-कुन खेल सञ्चालनमा छन् र हरेक खेलका लागि उमेर वा उचाइको सीमा कति छ भनेर बुझ्नुहोस्।"
+
+msgid "Asura Cave, Pharping"
+msgstr "असुर गुफा, फर्पिङ"
+
+msgid "At Kulekhani, the hills around Indra Sarowar frame a quiet lakeside stop. Start near Markhu for a walk or a meal by the water, then continue to Chitlang if you have time for a village visit."
+msgstr "कुलेखानीको इन्द्रसरोवर वरिपरिका डाँडाले तालछेउको वातावरण शान्त बनाएका छन्। मार्खुबाट हिँडडुल वा तालछेउमा खानपान सुरु गर्नुहोस्। समय मिले चित्लाङ गाउँ पनि घुम्नुहोस्।"
+
+msgid "At Namo Buddha, a pilgrimage stupa and the hilltop Thrangu Tashi Yangtse Monastery offer two places to spend time. Plan for the uphill approach between stops and leave room for a quiet walk around the monastery grounds."
+msgstr "नमोबुद्धमा तीर्थस्थलको स्तूप र डाँडामाथिको थ्राङ्गु ताशी याङ्त्से गुम्बा दुवै घुम्न सकिन्छ। यी ठाउँबीच उकालो चढ्नुपर्छ। गुम्बा परिसरमा शान्तसँग हिँडडुल गर्न पनि समय छुट्याउनुहोस्।"
+
+msgid "At the botanical garden gate, with Nepali dishes and options such as noodles and pizza."
+msgstr "वनस्पति उद्यानको प्रवेशद्वारमै रहेको यो ठाउँमा नेपाली परिकारसँगै नुडल्स र पिज्जाजस्ता खाना पाइन्छन्।"
+
+msgid "At the meeting of the Roshi and Punyamati rivers, the medieval complex grew around Indreshwor Mahadev Temple, traditionally dated to 1294. It also includes the 17th-century Brahmayani Temple and historic rest houses. Nepal submitted the complex to UNESCO’s Tentative List in 1996."
+msgstr "रोशी र पुण्यमती नदीको सङ्गममा रहेको यो मध्यकालीन परिसर इन्द्रेश्वर महादेव मन्दिर वरपर विकसित भएको हो। परम्परागत विवरणमा मन्दिर सन् 1294 को मानिन्छ। परिसरमा सत्रौँ शताब्दीको ब्रह्मायणी मन्दिर र ऐतिहासिक पाटीहरू पनि छन्। नेपालले सन् 1996 मा यसलाई युनेस्कोको सम्भावित विश्व सम्पदा सूचीमा प्रस्ताव गरेको थियो।"
+
+msgid "Availability and applicable rights"
+msgstr "सेवाको उपलब्धता र लागू अधिकार"
+
+msgid "BEFORE THE VISIT"
+msgstr "घुम्न जानुअघि"
+
+msgid "BHRIKUTIMANDAP, KATHMANDU"
+msgstr "भृकुटीमण्डप, काठमाडौं"
+
+msgid "Bagh Bhairab Temple"
+msgstr "बाघभैरव मन्दिर"
+
+msgid "Bagh Bhairab Temple in Kirtipur"
+msgstr "कीर्तिपुरको बाघभैरव मन्दिर"
+
+msgid "Bagh Bhairab Temple is a tiered shrine in old Kirtipur dedicated to Bhairab in tiger form. Make it the first stop on a walk through the old town and continue toward Uma Maheshwar Temple if you want a longer hilltop route."
+msgstr "पुरानो कीर्तिपुरको बाघभैरव मन्दिर बाघको रूपमा पूजिने भैरवलाई समर्पित बहुच्छाने मन्दिर हो। पुरानो बस्तीको पैदल यात्रा यहीँबाट सुरु गर्न सकिन्छ। अझै घुम्न मन भए डाँडाको बाटो हुँदै उमामहेश्वर मन्दिरसम्म जानुहोस्।"
+
+msgid "Bagh Bhairab Temple, Kirtipur"
+msgstr "बाघभैरव मन्दिर, कीर्तिपुर"
+
+msgid "Bajra Barahi Temple"
+msgstr "वज्रवाराही मन्दिर"
+
+msgid "Bajra Barahi Temple in Chapagaon"
+msgstr "चापागाउँको वज्रवाराही मन्दिर"
+
+msgid "Bajra Barahi Temple, Chapagaon"
+msgstr "वज्रवाराही मन्दिर, चापागाउँ"
+
+msgid "Bajrayogini Temple in Sankhu"
+msgstr "साँखुको बज्रयोगिनी मन्दिर"
+
+msgid "Bajrayogini Temple, Sankhu"
+msgstr "बज्रयोगिनी मन्दिर, साँखु"
+
+msgid "Bajrayogini is a pilgrimage site for Buddhist and Hindu devotees. Follow the directions from town, allow time for the uphill approach, and check access locally if your group needs an easier route."
+msgstr "बज्रयोगिनी बौद्ध र हिन्दू दुवै समुदायको तीर्थस्थल हो। बजारबाट मन्दिर जाने बाटो बुझेर उकालो चढ्न समय छुट्याउनुहोस्। समूहलाई सजिलो बाटो चाहिन्छ भने स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "Balaju Baisdhara Park"
+msgstr "बालाजु बाइसधारा पार्क"
+
+msgid "Balaju Baisdhara Park combines ponds, garden paths and historic stone water spouts. The park works for a short city walk or a longer picnic in a designated shelter."
+msgstr "बालाजु बाइसधारा पार्कमा पोखरी, बगैँचाका गोरेटा र ऐतिहासिक ढुङ्गेधारा छन्। छोटो हिँडडुलका लागि आउन सकिन्छ वा तोकिएको ठाउँमा समय लिएर पिकनिक गर्न सकिन्छ।"
+
+msgid "Balaju Baisdhara Park, Kathmandu"
+msgstr "बालाजु बाइसधारा पार्क, काठमाडौं"
+
+msgid "Banepa"
+msgstr "बनेपा"
+
+msgid "Banepa Bazaar, Kavre"
+msgstr "बनेपा बजार, काभ्रे"
+
+msgid "Banepa Municipality map"
+msgstr "बनेपा नगरपालिकाको नक्सा"
+
+msgid "Banepa Municipality’s history"
+msgstr "बनेपा नगरपालिकाको इतिहास"
+
+msgid "Banepa pairs a busy Kavre bazaar with quieter temple stops outside the centre. Walk through the market for a feel for the town, then make a separate stop at Chandeshwori Temple to the north."
+msgstr "काभ्रेको चहलपहलयुक्त बनेपा बजारनजिकै शान्त मन्दिरहरू पनि छन्। बजारमा हिँडडुल गरेर यहाँको जनजीवन हेर्नुहोस्, त्यसपछि उत्तरतिरको चण्डेश्वरी मन्दिर पुग्नुहोस्।"
+
+msgid "Banner:"
+msgstr "ब्यानर:"
+
+msgid "Basantapur Food Court"
+msgstr "बसन्तपुर फुड कोर्ट"
+
+msgid "Before you go"
+msgstr "जानुअघि"
+
+msgid "Begin in the town"
+msgstr "बजारबाट यात्रा सुरु गर्नुहोस्"
+
+msgid "Best Western Plus Godawari Resort"
+msgstr "बेस्ट वेस्टर्न प्लस गोदावरी रिसोर्ट"
+
+msgid "Bhaktapur"
+msgstr "भक्तपुर"
+
+msgid "Bhaktapur Durbar Square"
+msgstr "भक्तपुर दरबार क्षेत्र"
+
+msgid "Bhaktapur Durbar Square panorama"
+msgstr "भक्तपुर दरबार क्षेत्रको फराकिलो दृश्य"
+
+msgid "Bhaktapur Municipality guide to the squares"
+msgstr "भक्तपुर नगरपालिकाले दिएको दरबार क्षेत्रसम्बन्धी जानकारी"
+
+msgid "Bhaktapur for a heritage walk"
+msgstr "सम्पदा पदयात्राका लागि भक्तपुर"
+
+msgid "Bhaktapur.com temple guide"
+msgstr "Bhaktapur.com मा मन्दिरसम्बन्धी जानकारी"
+
+msgid "Bhaktapur.com visitor guide"
+msgstr "Bhaktapur.com मा भ्रमणसम्बन्धी जानकारी"
+
+msgid "Bhaktapur.com’s account of the dance"
+msgstr "Bhaktapur.com मा नाचबारेको विवरण"
+
+msgid "Bhaktapur’s royal square was a centre of court and religious life. The palace, temples and squares preserve evidence of the city’s historic role and are included in the Kathmandu Valley World Heritage site."
+msgstr "भक्तपुर दरबार क्षेत्र राजकाज र धार्मिक गतिविधिको केन्द्र थियो। यहाँका दरबार, मन्दिर र चोकले सहरको ऐतिहासिक महत्त्व झल्काउँछन्। यो क्षेत्र काठमाडौं उपत्यकाको विश्व सम्पदामा समेटिएको छ।"
+
+msgid "Bheda Farm"
+msgstr "भेडा फार्म"
+
+msgid "Bheda Farm near Chitlang"
+msgstr "चित्लाङनजिकको भेडा फार्म"
+
+msgid "Bheda Farm pastures near Chitlang"
+msgstr "चित्लाङनजिक भेडा फार्मको चरन क्षेत्र"
+
+msgid "Bheda Farm, Chitlang"
+msgstr "भेडा फार्म, चित्लाङ"
+
+msgid "Bijeshwari Temple"
+msgstr "बिजेश्वरी मन्दिर"
+
+msgid "Bijeshwari Temple in Kathmandu"
+msgstr "काठमाडौंको बिजेश्वरी मन्दिर"
+
+msgid "Bijeshwari Temple, Kathmandu"
+msgstr "बिजेश्वरी मन्दिर, काठमाडौं"
+
+msgid "Bijeshwari is a Vajrayogini shrine near Shobha Bhagwati in Kathmandu. Its location close to the Bishnumati makes it easy to pair with Luti Ajima on a short pilgrimage walk."
+msgstr "काठमाडौंको शोभाभगवतीनजिक रहेको बिजेश्वरी वज्रयोगिनीको मन्दिर हो। विष्णुमतीनजिक भएकाले यहाँको दर्शनसँगै लुती अजिमासम्म छोटो तीर्थ पदयात्रा गर्न सकिन्छ।"
+
+msgid "Blog"
+msgstr "लेखहरू"
+
+msgid "Boudha dining"
+msgstr "बौद्धमा खानपान"
+
+msgid "Brick buildings and steps on the wooded grounds of Nil Barahi Temple"
+msgstr "नीलबाराही मन्दिरको रूखले घेरिएको परिसरमा इँटाका भवन र सिँढी"
+
+msgid "Brihaspati Vidyasadan’s science centre visit"
+msgstr "बृहस्पति विद्यासदनको विज्ञान केन्द्रको भ्रमण"
+
+msgid "Bring a picnic"
+msgstr "पिकनिकको तयारी गरेर आउनुहोस्"
+
+msgid "Browse by city"
+msgstr "सहरअनुसार खोज्नुहोस्"
+
+msgid "Browse places"
+msgstr "घुम्ने ठाउँ हेर्नुहोस्"
+
+msgid "Budhanilkantha"
+msgstr "बूढानीलकण्ठ"
+
+msgid "Budhanilkantha Temple, Kathmandu"
+msgstr "बूढानीलकण्ठ मन्दिर, काठमाडौं"
+
+msgid "By bus"
+msgstr "बसबाट"
+
+msgid "By car or taxi"
+msgstr "कार वा ट्याक्सीबाट"
+
+msgid "CC BY 4.0"
+msgstr "CC BY 4.0"
+
+msgid "CC BY-SA"
+msgstr "CC BY-SA"
+
+msgid "COUNTRYSIDE OUTING"
+msgstr "गाउँघरतिर घुमघाम"
+
+msgid "Central Zoo"
+msgstr "सदर चिडियाखाना"
+
+msgid "Central Zoo in Jawalakhel brings together animal exhibits and spaces where children can take a break. Choose a manageable circuit through the grounds and leave time for the aquarium or children’s area."
+msgstr "जावलाखेलको सदर चिडियाखानामा विभिन्न जनावर हेर्न र बालबालिकासँग आराम गर्दै घुम्न सकिन्छ। समूहलाई सहज हुने छोटो बाटो रोज्नुहोस्। माछाघर वा बाल उद्यानका लागि पनि समय छुट्याउनुहोस्।"
+
+msgid "Central Zoo, Jawalakhel"
+msgstr "सदर चिडियाखाना, जावलाखेल"
+
+msgid "Chandeshwori Temple"
+msgstr "चण्डेश्वरी मन्दिर"
+
+msgid "Chandeshwori Temple and its courtyard in Banepa"
+msgstr "बनेपाको चण्डेश्वरी मन्दिर र चोक"
+
+msgid "Chandeshwori Temple in Banepa"
+msgstr "बनेपाको चण्डेश्वरी मन्दिर"
+
+msgid "Chandeshwori Temple, Banepa"
+msgstr "चण्डेश्वरी मन्दिर, बनेपा"
+
+msgid "Chandra Binayak Temple, Chabahil"
+msgstr "चन्द्रविनायक मन्दिर, चाबहिल"
+
+msgid "Chandragiri Hills"
+msgstr "चन्द्रागिरि"
+
+msgid "Chandragiri Hills Cable Car"
+msgstr "चन्द्रागिरि हिल्स केबलकार"
+
+msgid "Chandragiri Hills Cable Car, Thankot"
+msgstr "चन्द्रागिरि हिल्स केबलकार, थानकोट"
+
+msgid "Chandragiri Hills historical account"
+msgstr "चन्द्रागिरि हिल्सको ऐतिहासिक विवरण"
+
+msgid "Chandragiri Hills playground guide"
+msgstr "चन्द्रागिरि हिल्सको खेल मैदानसम्बन्धी जानकारी"
+
+msgid "Change starting point"
+msgstr "यात्रा सुरु गर्ने ठाउँ बदल्नुहोस्"
+
+msgid "Changes to this policy"
+msgstr "यस नीतिमा परिवर्तनहरू"
+
+msgid "Changu Narayan Temple"
+msgstr "चाँगुनारायण मन्दिर"
+
+msgid "Changu Narayan Temple in Bhaktapur"
+msgstr "भक्तपुरको चाँगुनारायण मन्दिर"
+
+msgid "Changu Narayan Temple, Bhaktapur"
+msgstr "चाँगुनारायण मन्दिर, भक्तपुर"
+
+msgid "Changunarayan Municipality tourism inventory"
+msgstr "चाँगुनारायण नगरपालिकाको पर्यटकीय स्थल विवरण"
+
+msgid "Changunarayan Picnic Spot, Bhaktapur"
+msgstr "चाँगुनारायण पिकनिक स्थल, भक्तपुर"
+
+msgid "Changunarayan municipal transport plan"
+msgstr "चाँगुनारायण नगरपालिका यातायात योजना"
+
+msgid "Check before you go"
+msgstr "जानुअघि जानकारी लिनुहोस्"
+
+msgid "Check current fees, hours, access conditions and transport arrangements before a visit. Map links, approximate distances, suggested itineraries and category labels support planning and should be considered alongside local advice and your group’s needs."
+msgstr "भ्रमणअघि हालको शुल्क, खुल्ने समय, बाटोको अवस्था र यातायातबारे बुझ्नुहोस्। नक्साका लिङ्क, अनुमानित दूरी, सुझाइएका यात्रा योजना र वर्गहरूले तयारीमा सघाउँछन्। स्थानीय सल्लाह र आफ्नो समूहको आवश्यकतालाई पनि ध्यानमा राख्नुहोस्।"
+
+msgid "Check entry and individual ride charges"
+msgstr "प्रवेश शुल्क र छुट्टाछुट्टै खेलको शुल्क बुझ्नुहोस्"
+
+msgid "Check local access"
+msgstr "पुग्ने बाटोको अवस्था बुझ्नुहोस्"
+
+msgid "Check opening hours and access before leaving, especially if visiting on a holiday."
+msgstr "निस्कनुअघि खुल्ने समय र पुग्ने बाटो बुझ्नुहोस्, विशेष गरी बिदाको दिनमा।"
+
+msgid "Check opening hours and access before leaving, especially on holidays."
+msgstr "निस्कनुअघि खुल्ने समय र पुग्ने बाटो बुझ्नुहोस्, विशेष गरी बिदाको दिनमा।"
+
+msgid "Check ride restrictions before buying tickets."
+msgstr "टिकट किन्नुअघि खेलमा लागू सर्त र सीमा बुझ्नुहोस्।"
+
+msgid "Check the cable car’s operating hours and ask about the last ride down before spending time at the playground."
+msgstr "खेल मैदानमा समय बिताउनुअघि केबलकार खुल्ने समय र तल फर्कने अन्तिम केबलकारको समय बुझ्नुहोस्।"
+
+msgid "Check the latest pool and slide availability before travelling and ask about children’s access to individual attractions."
+msgstr "यात्राअघि पोखरी र स्लाइड सञ्चालनमा छन् कि छैनन् बुझ्नुहोस्। बालबालिका कुन-कुन खेलमा सहभागी हुन पाउँछन् भनेर पनि सोध्नुहोस्।"
+
+msgid "Check the museum’s seasonal hours and Saturday closures. Bring student identification if you plan to ask for the student rate."
+msgstr "सङ्ग्रहालय मौसमअनुसार कति बजे खुल्छ र शनिबार बन्द हुन्छ कि हुँदैन बुझ्नुहोस्। विद्यार्थीको छुट लिन चाहनुहुन्छ भने परिचयपत्र लैजानुहोस्।"
+
+msgid "Check the official visitor page for tickets and opening days. Plan a shorter loop or a break at the children’s area for younger visitors."
+msgstr "टिकट र खुल्ने दिनबारे आधिकारिक पृष्ठमा हेर्नुहोस्। साना बालबालिकासँग जाँदा छोटो बाटो रोज्नुहोस् वा बाल उद्यानमा आराम गर्ने समय राख्नुहोस्।"
+
+msgid "Check the park’s current picnic booking options and fees before a group visit."
+msgstr "समूहमा जानुअघि पिकनिक बुकिङको व्यवस्था र हालको शुल्क पार्कसँग बुझ्नुहोस्।"
+
+msgid "Check which entrance suits your group. The main stairway involves a steep climb."
+msgstr "समूहलाई कुन प्रवेशद्वार सहज हुन्छ भनेर बुझ्नुहोस्। मुख्य सिँढीको बाटो ठाडो छ।"
+
+msgid "Chitlang"
+msgstr "चित्लाङ"
+
+msgid "Chitlang Organic Village Resort farm guide"
+msgstr "चित्लाङ अर्गानिक भिलेज रिसोर्टको फार्मसम्बन्धी जानकारी"
+
+msgid "Chitlang Organic Village Resort’s Bheda Farm guide"
+msgstr "चित्लाङ अर्गानिक भिलेज रिसोर्टको भेडा फार्मसम्बन्धी जानकारी"
+
+msgid "Chitlang for a village day"
+msgstr "गाउँ घुम्न चित्लाङ"
+
+msgid "Chitlang is a village on the far side of Chandragiri, suited to a slow walk through the settlement before lunch. The outing can continue into the pasture country near Bheda Farm or down toward Kulekhani Reservoir."
+msgstr "चन्द्रागिरिपारिको चित्लाङ गाउँ खाना खानुअघि बस्तीमा फुर्सदसँग हिँडडुल गर्न सुहाउँदो ठाउँ हो। यहाँबाट भेडा फार्मतिरका चरन क्षेत्र वा तल कुलेखानी जलाशयसम्म पनि घुम्न जान सकिन्छ।"
+
+msgid "Chitlang lies on a historic approach to the Kathmandu Valley through Chandragiri. The Nepal Tourism Board records a local account that members of the Malla royal family took refuge there after Prithvi Narayan Shah’s conquest in the 18th century."
+msgstr "चित्लाङ चन्द्रागिरि हुँदै काठमाडौं उपत्यका पस्ने ऐतिहासिक बाटोमा पर्छ। अठारौँ शताब्दीमा पृथ्वीनारायण शाहको विजयपछि मल्ल राजपरिवारका केही सदस्यले यहाँ शरण लिएको स्थानीय कथन नेपाल पर्यटन बोर्डले उल्लेख गरेको छ।"
+
+msgid "Chitlang, Markhu and Kulekhani in a day"
+msgstr "एकै दिनमा चित्लाङ, मार्खु र कुलेखानी"
+
+msgid "Chobhar Gorge at Manjushree Park"
+msgstr "मञ्जुश्री पार्कबाट देखिने चोभारको खोँच"
+
+msgid "Chonga Ganesh Temple"
+msgstr "चोङ्गा गणेश मन्दिर"
+
+msgid "Chonga Ganesh Temple in Sallaghari, Bhaktapur"
+msgstr "भक्तपुरको सल्लाघारीमा रहेको चोङ्गा गणेश मन्दिर"
+
+msgid "Chonga Ganesh Temple, Sallaghari, Bhaktapur"
+msgstr "चोङ्गा गणेश मन्दिर, सल्लाघारी, भक्तपुर"
+
+msgid "Choose a destination photo"
+msgstr "गन्तव्यको तस्बिर छान्नुहोस्"
+
+msgid "Choose a featured destination"
+msgstr "विशेष गन्तव्य छनौट गर्नुहोस्"
+
+msgid "Choose a few rides"
+msgstr "केही मनोरञ्जनात्मक खेल रोज्नुहोस्"
+
+msgid "Choose a garden photo"
+msgstr "बगैचाको फोटो छान्नुहोस्"
+
+msgid "Choose a garden walk in Godawari, a heritage stop in Bhaktapur, or a village outing in Chitlang."
+msgstr "गोदावरीको बगैँचामा हिँडडुल, भक्तपुरको सम्पदा अवलोकन वा चित्लाङ गाउँको घुमघाममध्ये रोज्नुहोस्।"
+
+msgid "Choose a restaurant for lunch"
+msgstr "खाना खान रेस्टुरेन्ट रोज्नुहोस्"
+
+msgid "Choose a return point"
+msgstr "फर्कने ठाउँ तय गर्नुहोस्"
+
+msgid "Choose a short walk through the botanical garden and set a turnaround point everyone can manage. Plan a snack break and check opening hours before setting off."
+msgstr "वनस्पति उद्यानमा सबैलाई सहज हुने छोटो बाटो रोज्नुहोस् र कहाँबाट फर्कने भन्ने तय गर्नुहोस्। खाजाका लागि समय छुट्याउनुहोस् र निस्कनुअघि उद्यान खुल्ने समय बुझ्नुहोस्।"
+
+msgid "Choose a stop photo"
+msgstr "स्टप फोटो छान्नुहोस्"
+
+msgid "Choose a topic"
+msgstr "एउटा विषय छान्नुहोस्"
+
+msgid "Choose a travel guide"
+msgstr "यात्राको मार्गदर्शन छान्नुहोस्"
+
+msgid "Choose activities that suit your group’s mobility, experience and circumstances. A category such as Family or Kids is a browsing aid. Check age limits, accessibility and supervision requirements at the destination."
+msgstr "समूहका सदस्यको हिँडडुल गर्ने क्षमता, अनुभव र अवस्थाअनुसार गतिविधि रोज्नुहोस्। “परिवार” वा “बालबालिका” जस्ता वर्ग ठाउँ खोज्न सजिलो बनाउन राखिएका हुन्। गन्तव्यमा लागू उमेर सीमा, पहुँचको सहजता र निगरानीका नियम छुट्टै बुझ्नुहोस्।"
+
+msgid "Choose between the waterslides and amusement rides based on what is open."
+msgstr "सञ्चालनमा रहेका खेल हेरेर पानीमा खेल्ने स्लाइड वा अन्य मनोरञ्जनात्मक खेल रोज्नुहोस्।"
+
+msgid "Choose the old town or the lower end of the 1,000 Steps as your drop-off, depending on where you want to start."
+msgstr "घुमघाम कहाँबाट सुरु गर्ने हो, त्यसअनुसार पुरानो बजार वा हजार सिँढीको तल्लो भागमा ओर्लनुहोस्।"
+
+msgid "Choose whether Google Maps, OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage."
+msgstr "Google Maps वा OpenStreetMap का नक्सा र YouTube का भिडियो लोड गर्ने कि नगर्ने रोज्नुहोस्। यी सेवा प्रदायकले जडानसम्बन्धी विवरण पाउँछन् र आफ्नै कुकी वा भण्डारण प्रयोग गर्न सक्छन्।"
+
+msgid "Choose whether embedded OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage."
+msgstr "पृष्ठमा राखिएका OpenStreetMap का नक्सा र YouTube का भिडियो लोड गर्ने कि नगर्ने रोज्नुहोस्। यी सेवा प्रदायकले जडानसम्बन्धी विवरण पाउँछन् र आफ्नै कुकी वा भण्डारण प्रयोग गर्न सक्छन्।"
+
+msgid "Choose your second stop"
+msgstr "अर्को घुम्ने ठाउँ रोज्नुहोस्"
+
+msgid "Climb to Bajrayogini Temple"
+msgstr "बज्रयोगिनी मन्दिरसम्म उक्लनुहोस्"
+
+msgid "Climb to Bajrayogini Temple, then return to town for lunch."
+msgstr "बज्रयोगिनी मन्दिरसम्म उक्लनुहोस्, त्यसपछि खाना खान बजार फर्कनुहोस्।"
+
+msgid "Close cookie preferences"
+msgstr "कुकी प्राथमिकताहरू बन्द गर्नुहोस्"
+
+msgid "Close photo"
+msgstr "फोटो बन्द गर्नुहोस्"
+
+msgid "Close search"
+msgstr "खोज बन्द गर्नुहोस्"
+
+msgid "Close starting point"
+msgstr "सुरु गर्ने ठाउँ रोज्ने झ्याल बन्द गर्नुहोस्"
+
+msgid "Colorful waterslides at Whoopee Land in Chobhar"
+msgstr "चोभारको हुप्पी ल्यान्डमा रङ्गीन पानीका स्लाइड"
+
+msgid "Combine a Chitlang village walk with time beside the reservoir, and add Bheda Farm if the timing works."
+msgstr "चित्लाङ गाउँमा हिँडडुल र जलाशयछेउको घुमघामलाई एउटै यात्रामा जोड्नुहोस्। समय मिले भेडा फार्म पनि जानुहोस्।"
+
+msgid "Combine darshan at the Barahi shrine with a short walk in the surrounding grove."
+msgstr "बाराही मन्दिरमा दर्शनसँगै वरपरको वनमा छोटो हिँडडुल गर्नुहोस्।"
+
+msgid "Combine the outing with a stop at Kulekhani"
+msgstr "कुलेखानीलाई पनि यही यात्रामा समेट्नुहोस्"
+
+msgid "Confirm boarding, the nearest drop-off and the last return with a local operator."
+msgstr "स्थानीय यातायात सञ्चालकसँग चढ्ने ठाउँ, नजिकै ओर्लने ठाउँ र फर्कने अन्तिम गाडीबारे बुझ्नुहोस्।"
+
+msgid "Confirm current access or festival arrangements locally."
+msgstr "बाटोको अवस्था वा चाडपर्वको विशेष व्यवस्थाबारे स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "Confirm opening hours and current prices at the entrance. Ask how individual rides are priced."
+msgstr "प्रवेशद्वारमा खुल्ने समय र हालको शुल्क बुझ्नुहोस्। छुट्टाछुट्टै खेलको शुल्क कसरी लाग्छ भनेर पनि सोध्नुहोस्।"
+
+msgid "Confirm public access before taking the uphill approach to the monastery."
+msgstr "गुम्बातिर उकालो लाग्नुअघि सर्वसाधारणका लागि प्रवेश खुला छ कि छैन बुझ्नुहोस्।"
+
+msgid "Confirm ride availability at the park"
+msgstr "पार्कमा कुन-कुन खेल सञ्चालनमा छन् बुझ्नुहोस्"
+
+msgid "Confirm that the water rides are running before you pack swimwear. Check each attraction’s height restrictions at the park."
+msgstr "पौडीको लुगा तयार गर्नुअघि पानीमा खेल्ने खेल सञ्चालनमा छन् कि छैनन् बुझ्नुहोस्। पार्कमा हरेक खेलका लागि तोकिएको उचाइको सीमा पनि हेर्नुहोस्।"
+
+msgid "Confirm the boarding point, nearest drop-off and last return with a local operator. Use the map to plan the walk from the stop."
+msgstr "स्थानीय यातायात सञ्चालकसँग चढ्ने ठाउँ, नजिकै ओर्लने ठाउँ र फर्कने अन्तिम गाडीबारे बुझ्नुहोस्। ओर्लेपछि हिँड्नुपर्ने बाटो नक्सामा हेर्नुहोस्।"
+
+msgid "Confirm the current boarding point and any connection for Nagarkot. If you are going for sunrise, check whether a passenger service runs early enough."
+msgstr "नगरकोट जाने बस चढ्ने ठाउँ र गाडी फेर्नुपर्ने भए त्यसको जानकारी लिनुहोस्। सूर्योदय हेर्न जाने हो भने त्यति सबेरै सार्वजनिक गाडी चल्छ कि चल्दैन बुझ्नुहोस्।"
+
+msgid "Confirm the last stretch of the approach with your driver before leaving Chitlang or Markhu."
+msgstr "चित्लाङ वा मार्खुबाट निस्कनुअघि अन्तिम खण्डको बाटोबारे चालकसँग बुझ्नुहोस्।"
+
+msgid "Confirm the restaurant address, drive time, and parking before travelling."
+msgstr "जानुअघि रेस्टुरेन्टको ठेगाना, पुग्न लाग्ने समय र पार्किङको व्यवस्था बुझ्नुहोस्।"
+
+msgid "Confirm whether the centre accepts walk-ins or requires advance arrangements for a group."
+msgstr "केन्द्रमा सीधै जान मिल्छ कि समूहका लागि पहिले समय मिलाउनुपर्छ भनेर बुझ्नुहोस्।"
+
+msgid "Confirm your pickup point and last return if you’re using public transport. Allow time for breakfast and the return journey when deciding whether to add a second stop."
+msgstr "सार्वजनिक यातायात प्रयोग गर्दै हुनुहुन्छ भने चढ्ने ठाउँ र फर्कने अन्तिम गाडीको समय बुझ्नुहोस्। अर्को ठाउँ पनि घुम्ने निर्णय गर्दा बिहानको खाजा र फर्कने यात्राका लागि पर्याप्त समय राख्नुहोस्।"
+
+msgid "Contact"
+msgstr "सम्पर्क"
+
+msgid "Contact us"
+msgstr "सम्पर्क गर्नुहोस्"
+
+msgid "Content and image rights"
+msgstr "सामग्री र तस्बिरको अधिकार"
+
+msgid "Continue exploring the old town"
+msgstr "पुरानो बस्तीमा थप घुम्नुहोस्"
+
+msgid "Continue from Chitlang toward Markhu for a change from village lanes to lakeside views."
+msgstr "चित्लाङका गल्ली घुमेपछि तालछेउको फरक दृश्य हेर्न मार्खुतिर जानुहोस्।"
+
+msgid "Continue from Panauti to the pilgrimage stupa and monastery as a separate stop."
+msgstr "पनौतीपछि अर्को गन्तव्यका रूपमा तीर्थस्थलको स्तूप र गुम्बा पुग्नुहोस्।"
+
+msgid "Continue through the old lanes to the hilltop shrine for a view over the valley."
+msgstr "पुराना गल्ली हुँदै डाँडामाथिको मन्दिर पुग्नुहोस् र उपत्यकाको दृश्य हेर्नुहोस्।"
+
+msgid "Continue to Bajrayogini"
+msgstr "बज्रयोगिनीमा जानुहोस्"
+
+msgid "Continue to Jal Binayak in Chobhar"
+msgstr "चोभारको जलविनायकतिर जानुहोस्"
+
+msgid "Continue to the gold-roofed Shiva temple for a second pilgrimage stop."
+msgstr "अर्को दर्शनका लागि सुनौलो छाना भएको शिव मन्दिर पुग्नुहोस्।"
+
+msgid "Cookie preferences"
+msgstr "कुकी प्राथमिकताहरू"
+
+msgid "Cookies and browser storage"
+msgstr "कुकी र ब्राउजरमा सुरक्षित हुने विवरण"
+
+msgid "Corrections and questions"
+msgstr "सुधार र प्रश्नहरू"
+
+msgid "Countryside outing"
+msgstr "गाउँघरतिर घुमघाम"
+
+msgid "Couple"
+msgstr "जोडी"
+
+msgid "Current choice · Optional maps and videos accepted."
+msgstr "हालको रोजाइ · बाह्य नक्सा र भिडियो लोड गर्न अनुमति दिइएको छ।"
+
+msgid "Current choice · Optional maps and videos rejected."
+msgstr "हालको रोजाइ · बाह्य नक्सा र भिडियो लोड गर्न अनुमति दिइएको छैन।"
+
+msgid "DAY TRIPS FROM KATHMANDU VALLEY"
+msgstr "काठमाडौं उपत्यकाबाट एकदिने घुमघाम"
+
+msgid "DURING THE VISIT"
+msgstr "घुम्ने क्रममा"
+
+msgid "Dakshinkali Temple"
+msgstr "दक्षिणकाली मन्दिर"
+
+msgid "Dakshinkali Temple in Nepal"
+msgstr "नेपालको दक्षिणकाली मन्दिर"
+
+msgid "Day trips"
+msgstr "एकदिने घुमघाम"
+
+msgid "Day trips from Kathmandu Valley"
+msgstr "काठमाडौं उपत्यकाबाट एकदिने घुमघाम"
+
+msgid "Day trips, heritage walks and family outings around Kathmandu Valley."
+msgstr "काठमाडौं उपत्यका वरपर एकदिने यात्रा, सम्पदा पदयात्रा र पारिवारिक घुमघाम।"
+
+msgid "Department of Tourism listing"
+msgstr "पर्यटन विभागको विवरण"
+
+msgid "Destination guides"
+msgstr "गन्तव्यसम्बन्धी मार्गदर्शन"
+
+msgid "Destination search and filters currently run in your browser. Search terms, selected cities, categories and starting points can appear in page URLs. When you open or share a URL, those values can be included in browser history, hosting logs or the shared link."
+msgstr "हाल गन्तव्य खोज्ने र छनोट गर्ने काम तपाईंको ब्राउजरमै हुन्छ। खोजेको शब्द, रोजेको सहर, वर्ग र यात्रा सुरु गर्ने ठाउँ पृष्ठको URL मा देखिन सक्छन्। त्यो URL खोल्दा वा अरूलाई पठाउँदा यी विवरण ब्राउजरको इतिहास, होस्टिङ अभिलेख वा पठाइएको लिङ्कमा समावेश हुन सक्छन्।"
+
+msgid "Details for the journey"
+msgstr "यात्रासम्बन्धी जानकारी"
+
+msgid "Devotees at Jal Binayak Temple in Chobhar"
+msgstr "चोभारको जलविनायक मन्दिरमा भक्तजन"
+
+msgid "Dharmik"
+msgstr "धार्मिक"
+
+msgid "Dhulikhel"
+msgstr "धुलिखेल"
+
+msgid "Dhulikhel 1000 Steps"
+msgstr "धुलिखेलको हजार सिँढी"
+
+msgid "Dhulikhel Municipality’s Kalidevi and 1,000 Steps listing"
+msgstr "धुलिखेल नगरपालिकाले दिएको कालीदेवी र हजार सिँढीसम्बन्धी जानकारी"
+
+msgid "Dhulikhel Old Town"
+msgstr "धुलिखेलको पुरानो बस्ती"
+
+msgid "Dhulikhel offers two different ways to spend the day: a walk through the old town or a climb toward Kalidevi Temple. Start in the lanes and squares if you prefer a gentler outing, or build the day around the 1,000 Steps and the hilltop views."
+msgstr "धुलिखेलमा पुरानो बस्ती घुमेर वा कालीदेवी मन्दिरतिर उक्लेर दिन बिताउन सकिन्छ। सहज हिँडडुल मन पर्छ भने गल्ली र चोक घुम्नुहोस्। उकालो चढ्न मन छ भने हजार सिँढी र डाँडाबाट देखिने दृश्यलाई यात्राको मुख्य आकर्षण बनाउनुहोस्।"
+
+msgid "Disclaimer"
+msgstr "अस्वीकरण"
+
+msgid "Distance unavailable"
+msgstr "दूरी उपलब्ध छैन"
+
+msgid "Doleshwor Mahadev Temple"
+msgstr "डोलेश्वर महादेव मन्दिर"
+
+msgid "Doleshwor Mahadev Temple courtyard with a Nandi statue and the wooded hillside behind it"
+msgstr "डोलेश्वर महादेव मन्दिरको चोकमा नन्दीको मूर्ति र पछाडिको रूखले ढाकिएको डाँडा"
+
+msgid "Doleshwor Mahadev Temple in Sipadol, Bhaktapur"
+msgstr "भक्तपुरको सिपाडोलमा रहेको डोलेश्वर महादेव मन्दिर"
+
+msgid "Doleshwor Mahadev Temple, Sipadol"
+msgstr "डोलेश्वर महादेव मन्दिर, सिपाडोल"
+
+msgid "Doleshwor Mahadev Temple, Sipadol, Bhaktapur"
+msgstr "डोलेश्वर महादेव मन्दिर, सिपाडोल, भक्तपुर"
+
+msgid "Doleshwor Mahadev is a Shiva pilgrimage site in Sipadol, Bhaktapur, associated with Kedarnath. Allow time for worship here, then continue to Ashapuri if you are planning a longer temple outing."
+msgstr "भक्तपुरको सिपाडोलमा रहेको डोलेश्वर महादेव केदारनाथसँग जोडिएको शिव तीर्थस्थल हो। यहाँ दर्शनका लागि समय छुट्याउनुहोस्। थप मन्दिर घुम्ने योजना भए आशापुरीतिर जानुहोस्।"
+
+msgid "Druk Amitabha Mountain Monastery, Nagarjun"
+msgstr "ड्रुक अमिताभ माउन्टेन गुम्बा, नागार्जुन"
+
+msgid "Druk Amitabha Mountain monastery"
+msgstr "ड्रुक अमिताभ माउन्टेन गुम्बा"
+
+msgid "EV charging near"
+msgstr "नजिकै EV चार्जिङ"
+
+msgid "EXPLORE NEARBY"
+msgstr "नजिकै घुम्नुहोस्"
+
+msgid "Eat & stay"
+msgstr "खाने र बस्ने ठाउँ"
+
+msgid "Eat and stay"
+msgstr "खाने र बस्ने ठाउँ"
+
+msgid "Embedded OpenStreetMap maps and YouTube videos load after you choose Accept in the privacy banner or Cookie preferences. Choosing Reject keeps those embeds blocked. You can change this choice using Cookie preferences in the footer on any page."
+msgstr "गोपनीयता सूचनापट्टी वा “कुकी प्राथमिकताहरू” मा “स्वीकार गर्नुहोस्” रोजेपछि मात्र OpenStreetMap का नक्सा र YouTube का भिडियो लोड हुन्छन्। “अस्वीकार गर्नुहोस्” रोज्दा ती लोड हुँदैनन्। जुनसुकै पृष्ठको तल रहेको “कुकी प्राथमिकताहरू” बाट यो रोजाइ बदल्न सक्नुहुन्छ।"
+
+msgid "Embedded content and external services"
+msgstr "पृष्ठमा राखिएका बाह्य सामग्री र सेवा"
+
+msgid "Enter a valid email address."
+msgstr "सही इमेल ठेगाना लेख्नुहोस्।"
+
+msgid "Entry and rides"
+msgstr "प्रवेश र खेलको शुल्क"
+
+msgid "Entry fees"
+msgstr "प्रवेश शुल्क"
+
+msgid "Evening"
+msgstr "साँझ"
+
+msgid "Exhibits inside the Natural History Museum in Swayambhu"
+msgstr "स्वयम्भूको प्राकृतिक विज्ञान सङ्ग्रहालयभित्र राखिएका नमुना"
+
+msgid "Explore"
+msgstr "घुम्ने ठाउँ"
+
+msgid "Explore Pharping or head back"
+msgstr "फर्पिङ घुम्नुहोस् वा फर्कनुहोस्"
+
+msgid "Explore historic Sankhu"
+msgstr "ऐतिहासिक साँखु घुम्नुहोस्"
+
+msgid "Explore nearby"
+msgstr "नजिकै घुम्ने ठाउँ खोज्नुहोस्"
+
+msgid "Explore places"
+msgstr "घुम्ने ठाउँहरू"
+
+msgid "Explore scenic dining"
+msgstr "दृश्यसँगै खानपान गर्ने ठाउँ हेर्नुहोस्"
+
+msgid "Explore the farm area on foot"
+msgstr "फार्ममा पैदल घुम्नुहोस्"
+
+msgid "Explore the former royal palace precinct and its courtyards off Durbar Square."
+msgstr "दरबार क्षेत्रसँगैको पुरानो राजदरबार परिसर र चोकहरू घुम्नुहोस्।"
+
+msgid "Explore the hillside grounds when open to visitors and follow the monastery’s guidance."
+msgstr "प्रवेश खुला हुँदा डाँडाको परिसरमा घुम्नुहोस् र गुम्बाका नियम पालना गर्नुहोस्।"
+
+msgid "Explore the hilltop Vishnu shrine and its stone sculpture on the return from Nagarkot."
+msgstr "नगरकोटबाट फर्कँदा डाँडामाथिको विष्णु मन्दिर र त्यहाँका ढुङ्गाका मूर्तिहरू अवलोकन गर्नुहोस्।"
+
+msgid "Explore the historical, art and Buddhist collections in the museum buildings."
+msgstr "सङ्ग्रहालयका भवनमा राखिएका इतिहास, कला र बौद्ध धर्मसम्बन्धी सङ्ग्रह हेर्नुहोस्।"
+
+msgid "Explore the lakeside before heading home"
+msgstr "घर फर्कनुअघि तालछेउमा घुम्नुहोस्"
+
+msgid "Explore the old town on foot"
+msgstr "पुरानो बस्तीमा पैदल घुम्नुहोस्"
+
+msgid "Explore the plant collections"
+msgstr "उद्यानका वनस्पति हेर्नुहोस्"
+
+msgid "Explore the town’s shrines after visiting Dakshinkali, or stop for a meal on the way back."
+msgstr "दक्षिणकाली दर्शनपछि फर्पिङका तीर्थस्थल घुम्नुहोस् वा फर्कँदा खाना खान रोक्नुहोस्।"
+
+msgid "Explore the village on foot"
+msgstr "गाउँमा पैदल घुम्नुहोस्"
+
+msgid "External links and providers"
+msgstr "बाह्य लिङ्क र सेवा प्रदायक"
+
+msgid "FOREST PICNIC GROUNDS · CHANGUNARAYAN"
+msgstr "वन क्षेत्रको पिकनिक स्थल · चाँगुनारायण"
+
+msgid "Facebook"
+msgstr "फेसबुक"
+
+msgid "Facilities and accessibility"
+msgstr "सुविधा र पहुँचको सहजता"
+
+msgid "Family"
+msgstr "परिवार"
+
+msgid "Family trips with kids"
+msgstr "बालबालिकासँग पारिवारिक घुमघाम"
+
+msgid "Featured destinations"
+msgstr "विशेष गन्तव्यहरू"
+
+msgid "Ferris wheel at Kathmandu Fun Park in Bhrikutimandap"
+msgstr "भृकुटीमण्डपको काठमाडौं फन पार्कमा ठूलो गोलो झुला"
+
+msgid "Filter outings"
+msgstr "घुमघामको प्रकार छान्नुहोस्"
+
+msgid "Find a place to go, and make a day of it."
+msgstr "घुम्ने ठाउँ रोज्नुहोस् र दिन रमाइलोसँग बिताउनुहोस्।"
+
+msgid "Find a snack before Sankhu if your route passes through Jorpati."
+msgstr "बाटो जोरपाटी हुँदै पर्छ भने साँखु पुग्नुअघि त्यहाँ खाजा खान सकिन्छ।"
+
+msgid "Find nearby restaurants"
+msgstr "नजिकैका रेस्टुरेन्टहरू खोज्नुहोस्"
+
+msgid "Find nearby stays"
+msgstr "नजिकैका बासस्थान खोज्नुहोस्"
+
+msgid "Find places"
+msgstr "ठाउँहरू खोज्नुहोस्"
+
+msgid "Find places in Boudha"
+msgstr "बौद्धका ठाउँहरू खोज्नुहोस्"
+
+msgid "Find places in Jorpati"
+msgstr "जोरपाटीका ठाउँहरू खोज्नुहोस्"
+
+msgid "Find places in Sankhu"
+msgstr "साँखुका ठाउँहरू खोज्नुहोस्"
+
+msgid "Find your kind of outing"
+msgstr "आफ्नो रोजाइको घुमघाम छान्नुहोस्"
+
+msgid "Fit in Bheda Farm"
+msgstr "भेडा फार्म पनि घुम्नुहोस्"
+
+msgid "Follow each photo’s source link to view the original. Photos may be cropped to fit the layout."
+msgstr "मूल तस्बिर हेर्न हरेक तस्बिरको स्रोत लिङ्क खोल्नुहोस्। पृष्ठमा मिलाउन तस्बिरको केही भाग काटिएको हुन सक्छ।"
+
+msgid "Follow local rules, signs and guidance from staff or community representatives. Access to shrines, heritage buildings and outdoor areas can change during festivals, maintenance or severe weather."
+msgstr "स्थानीय नियम, सूचनापाटी र कर्मचारी वा समुदायका प्रतिनिधिको निर्देशन पालना गर्नुहोस्। चाडपर्व, मर्मतसम्भार वा खराब मौसममा तीर्थस्थल, सम्पदा भवन र खुला क्षेत्रमा प्रवेशको व्यवस्था बदलिन सक्छ।"
+
+msgid "Follow posted guidance on footwear and photography."
+msgstr "जुत्ता खोल्ने र तस्बिर खिच्नेबारे राखिएका निर्देशन पालना गर्नुहोस्।"
+
+msgid "Follow the garden paths past ponds and the historic stone water spouts."
+msgstr "बगैँचाको गोरेटो हुँदै पोखरी र ऐतिहासिक ढुङ्गेधारा हेर्नुहोस्।"
+
+msgid "Follow the road via Pharping and set the destination to Dakshinkali Temple. Check the closest drop-off or parking on arrival."
+msgstr "फर्पिङ हुँदै दक्षिणकाली मन्दिर जाने बाटो रोज्नुहोस्। पुगेपछि नजिकै ओर्लने वा गाडी राख्ने ठाउँ बुझ्नुहोस्।"
+
+msgid "Follow the short uphill approach to the wooded shrine above the neighbourhood."
+msgstr "बस्तीभन्दा माथि रूखले घेरिएको मन्दिरसम्म छोटो उकालो चढ्नुहोस्।"
+
+msgid "Follow the stone steps uphill toward Kalidevi Temple, taking breaks as needed."
+msgstr "ढुङ्गाका सिँढी हुँदै कालीदेवी मन्दिरतिर उक्लनुहोस् र आवश्यकताअनुसार आराम गर्नुहोस्।"
+
+msgid "Follow the stupa circuit for a view over Kathmandu after the museum visit."
+msgstr "सङ्ग्रहालय घुमेपछि स्तूपको परिक्रमा गर्दै काठमाडौंको दृश्य हेर्नुहोस्।"
+
+msgid "Follow the uphill approach through the wooded grounds to the Ganesh shrine."
+msgstr "रूखले घेरिएको उकालो बाटो हुँदै गणेश मन्दिर पुग्नुहोस्।"
+
+msgid "Follow the uphill approach to the shrine above town, allowing time for the stone steps."
+msgstr "बस्तीभन्दा माथिको मन्दिरतिर उक्लनुहोस्। ढुङ्गाका सिँढी चढ्न पर्याप्त समय राख्नुहोस्।"
+
+msgid "Food court website"
+msgstr "फुड कोर्टको वेबसाइट"
+
+msgid "Food with a view"
+msgstr "दृश्यसँगै मिठो खाना"
+
+msgid "For a visit with kids, plan short garden loops with breaks at the shelters."
+msgstr "बालबालिकासँग जाँदा बगैँचामा छोटो बाटो रोज्नुहोस् र विश्रामस्थलमा आराम गर्दै घुम्नुहोस्।"
+
+msgid "For provider information, read"
+msgstr "सेवा प्रदायकबारे जानकारीका लागि पढ्नुहोस्"
+
+msgid "For questions about these terms or content rights, contact"
+msgstr "यी सर्त वा सामग्रीको अधिकारबारे प्रश्न भए सम्पर्क गर्नुहोस्"
+
+msgid "Foreign visitors"
+msgstr "विदेशी पर्यटक"
+
+msgid "Forest picnic grounds"
+msgstr "जङ्गलको पिकनिक स्थल"
+
+msgid "Forest picnic grounds · Changunarayan"
+msgstr "वन क्षेत्रको पिकनिक स्थल · चाँगुनारायण"
+
+msgid "Fountain Pond at Godawari Botanical Garden"
+msgstr "गोदावरी वनस्पति उद्यानको फोहोरा पोखरी"
+
+msgid "Fountain Pond, National Botanical Garden"
+msgstr "फोहोरा पोखरी, राष्ट्रिय वनस्पति उद्यान"
+
+msgid "Four Binayak Ganesh Temples"
+msgstr "चार विनायक गणेश मन्दिर"
+
+msgid "Four stops across the valley"
+msgstr "उपत्यकाका चार गन्तव्य"
+
+msgid "Fried chicken and burgers in Satdobato, before heading south towards Godawari."
+msgstr "गोदावरीतिर लाग्नुअघि सातदोबाटोमा फ्राइड चिकेन र बर्गर खान सकिन्छ।"
+
+msgid "Friends"
+msgstr "साथीहरू"
+
+msgid "From"
+msgstr "बाट"
+
+msgid "From %s"
+msgstr "%sबाट"
+
+msgid "From NPR 20"
+msgstr "रु. 20 देखि"
+
+msgid "From central Kathmandu"
+msgstr "मध्य काठमाडौंबाट"
+
+msgid "From the blog"
+msgstr "यात्राका लेखहरू"
+
+msgid "GODAWARI, LALITPUR"
+msgstr "गोदावरी, ललितपुर"
+
+msgid "Garden outing"
+msgstr "बगैँचामा घुमघाम"
+
+msgid "Garden outing · Godawari"
+msgstr "बगैँचामा घुमघाम · गोदावरी"
+
+msgid "Garden restaurant near Dhulikhel"
+msgstr "धुलिखेल नजिकैको गार्डेन रेस्टुरेन्ट"
+
+msgid "Garden rules"
+msgstr "बगैँचाका नियम"
+
+msgid "General enquiry"
+msgstr "सामान्य सोधपुछ"
+
+msgid "Geotagged temple photo"
+msgstr "स्थानको विवरण जोडिएको मन्दिरको तस्बिर"
+
+msgid "Get directions"
+msgstr "जाने बाटो हेर्नुहोस्"
+
+msgid "Get directions from"
+msgstr "बाट जाने बाटो हेर्नुहोस्"
+
+msgid "Get in touch"
+msgstr "सम्पर्कमा रहनुहोस्"
+
+msgid "Getting there"
+msgstr "कसरी पुग्ने"
+
+msgid "Gharials at the Central Zoo in Jawalakhel"
+msgstr "जावलाखेलको सदर चिडियाखानाका घडियाल"
+
+msgid "Ghumna Jaun"
+msgstr "घुम्न जाऔँ"
+
+msgid "Ghumna Jaun helps visitors discover places and plan outings. The current website provides guides and links. Arrangements with venues or travel providers are made directly with those providers."
+msgstr "घुम्न जाऔँले घुम्ने ठाउँ खोज्न र यात्राको योजना बनाउन सघाउँछ। अहिले वेबसाइटमा मार्गदर्शन र सम्बन्धित लिङ्कहरू उपलब्ध छन्। कुनै ठाउँ वा यात्रा सेवाको बुकिङ र अन्य व्यवस्था सम्बन्धित सेवा प्रदायकसँगै गर्नुपर्छ।"
+
+msgid "Ghumna Jaun home"
+msgstr "घुम्न जाऔँको गृहपृष्ठ"
+
+msgid "Ghumna Jaun publishes destination ideas, travel articles and information about places to eat, stay and visit. Use the guides as a starting point when planning your own trip."
+msgstr "घुम्न जाऔँमा घुम्ने ठाउँका सुझाव, यात्रासम्बन्धी लेख र खाने, बस्ने तथा घुम्ने ठाउँको जानकारी पाइन्छ। आफ्नै यात्राको योजना बनाउँदा यी मार्गदर्शनलाई आधारका रूपमा लिनुहोस्।"
+
+msgid "Ghumna Jaun:"
+msgstr "घुम्न जाऔँ:"
+
+msgid "Gilded carvings above the Golden Gate in Bhaktapur Durbar Square"
+msgstr "भक्तपुर दरबार क्षेत्रको सुनढोकामाथि सुनको जलप लगाइएका बुट्टा"
+
+msgid "Give yourself time to explore Sankhu on foot before heading to the temple. Start with a short loop and leave room for lunch or tea after the shrine visit."
+msgstr "मन्दिर जानुअघि साँखुको बस्तीमा पैदल घुम्न समय राख्नुहोस्। छोटो बाटोबाट सुरु गर्नुहोस् र दर्शनपछि खाना वा चियाका लागि पनि समय छुट्याउनुहोस्।"
+
+msgid "Go early for sunrise and look for the Himalayan skyline on a clear morning."
+msgstr "सूर्योदय हेर्न सबेरै पुग्नुहोस्। मौसम सफा भएको बिहान हिमशृङ्खलाको दृश्य देख्न सकिन्छ।"
+
+msgid "Godawari Botanical Garden"
+msgstr "गोदावरी वनस्पति उद्यान"
+
+msgid "Godawari Botanical Garden in Nepal"
+msgstr "नेपालको गोदावरी वनस्पति उद्यान"
+
+msgid "Godawari Bus Park"
+msgstr "गोदावरी बसपार्क"
+
+msgid "Godawari Bus Park, Lalitpur, Nepal"
+msgstr "गोदावरी बसपार्क, ललितपुर, नेपाल"
+
+msgid "Godawari Kunda"
+msgstr "गोदावरी कुण्ड"
+
+msgid "Godawari Kunda, Lalitpur, Nepal"
+msgstr "गोदावरी कुण्ड, ललितपुर, नेपाल"
+
+msgid "Godawari for an outdoor morning"
+msgstr "बिहानको खुला घुमघामका लागि गोदावरी"
+
+msgid "Godawari garden photos"
+msgstr "गोदावरी उद्यानका तस्बिरहरू"
+
+msgid "Godawari vlog"
+msgstr "गोदावरीको यात्रा भिडियो"
+
+msgid "Godawari vlog on YouTube"
+msgstr "YouTube मा गोदावरीको यात्रा भिडियो"
+
+msgid "Godawari, Lalitpur"
+msgstr "गोदावरी, ललितपुर"
+
+msgid "Gold-colored Nandi statue at Doleshwor Mahadev Temple in Sipadol"
+msgstr "सिपाडोलको डोलेश्वर महादेव मन्दिरमा रहेको सुनौलो रङको नन्दीको मूर्ति"
+
+msgid "Gold-roofed shrine at Ashapuri Mahadev Temple in Suryabinayak"
+msgstr "सूर्यविनायकको आशापुरी महादेव मन्दिरको सुनौलो छाना"
+
+msgid "Google’s Privacy Policy"
+msgstr "Google को गोपनीयता नीति"
+
+msgid "GrGG"
+msgstr "GrGG"
+
+msgid "Group"
+msgstr "समूह"
+
+msgid "Guide not found"
+msgstr "मार्गदर्शन भेटिएन"
+
+msgid "Guides draw on the sources identified on the destination pages. Where a historical account is a local belief or legend, read it in that context. Photographs may show a place at an earlier date, and the site may crop them for display."
+msgstr "हाम्रा मार्गदर्शन गन्तव्यका पृष्ठमा उल्लेख गरिएका स्रोतमा आधारित छन्। स्थानीय विश्वास वा किंवदन्तीका रूपमा दिइएका ऐतिहासिक विवरणलाई त्यही सन्दर्भमा बुझ्नुहोस्। तस्बिर पुरानो समयमा खिचिएको हुन सक्छ र पृष्ठमा देखाउन त्यसको केही भाग काटिएको हुन सक्छ।"
+
+msgid "HERITAGE AND FOOD"
+msgstr "सम्पदा र खानपान"
+
+msgid "HERITAGE WALK"
+msgstr "सम्पदा पदयात्रा"
+
+msgid "HILL GETAWAY"
+msgstr "पहाडी घुमघाम"
+
+msgid "HILL WALK · DHULIKHEL"
+msgstr "पहाडी पदयात्रा · धुलिखेल"
+
+msgid "Half a day"
+msgstr "आधा दिन"
+
+msgid "Hanuman Dhoka Palace, Kathmandu"
+msgstr "हनुमानढोका दरबार, काठमाडौं"
+
+msgid "Hanuman Dhoka was a royal palace precinct. The palace, temples and public squares show how court life and worship shared the centre of historic Kathmandu. The precinct is one of seven monument zones in the Kathmandu Valley World Heritage site."
+msgstr "हनुमानढोका राजदरबार परिसर थियो। यहाँका दरबार, मन्दिर र सार्वजनिक चोकले ऐतिहासिक काठमाडौंमा राजकाज र धार्मिक जीवन कसरी एउटै केन्द्रसँग जोडिएका थिए भन्ने देखाउँछन्। यो परिसर काठमाडौं उपत्यकाको विश्व सम्पदामा सूचीकृत सात स्मारक क्षेत्रमध्ये एक हो।"
+
+msgid "Harisiddhi Newa Suli"
+msgstr "हरिसिद्धि नेवा सुली"
+
+msgid "Have a packed lunch at a rest shelter or"
+msgstr "विश्रामस्थलमा साथमा ल्याएको खाना खानुहोस् वा"
+
+msgid "Have a packed lunch at a rest shelter or find a place to eat."
+msgstr "विश्रामस्थलमा साथमा ल्याएको खाना खानुहोस् वा नजिकै खाने ठाउँ खोज्नुहोस्।"
+
+msgid "Head out of the city for lunch with a view of the hills."
+msgstr "पहाडको दृश्य हेर्दै खाना खान सहरबाहिर निस्कनुहोस्।"
+
+msgid "Head to Chandragiri"
+msgstr "चन्द्रागिरितिर जानुहोस्"
+
+msgid "Head to the reservoir at Markhu"
+msgstr "मार्खुको जलाशयतिर जानुहोस्"
+
+msgid "Help us discover more places to go."
+msgstr "हामीलाई थप ठाउँहरू पत्ता लगाउन मद्दत गर्नुहोस्।"
+
+msgid "Heritage & pilgrimage"
+msgstr "सम्पदा र तीर्थयात्रा"
+
+msgid "Heritage &amp; pilgrimage"
+msgstr "सम्पदा र तीर्थयात्रा"
+
+msgid "Heritage and food"
+msgstr "सम्पदा र खानपान"
+
+msgid "Heritage and pilgrimage"
+msgstr "सम्पदा र तीर्थयात्रा"
+
+msgid "Heritage walk"
+msgstr "सम्पदा पदयात्रा"
+
+msgid "Hill getaway"
+msgstr "पहाडी घुमघाम"
+
+msgid "Hill walk"
+msgstr "पहाडी पदयात्रा"
+
+msgid "Hill walk · Dhulikhel"
+msgstr "पहाडी पदयात्रा · धुलिखेल"
+
+msgid "Hillside terrace near Nagarkot"
+msgstr "नगरकोटनजिकै डाँडाको खुला बस्ने ठाउँ"
+
+msgid "Himalayan range seen from Chandragiri"
+msgstr "चन्द्रागिरिबाट देखिने हिमशृङ्खला"
+
+msgid "Historic Kirtipur"
+msgstr "ऐतिहासिक कीर्तिपुर"
+
+msgid "History"
+msgstr "इतिहास"
+
+msgid "Honeymoon"
+msgstr "मधुमास"
+
+msgid "Honeysun"
+msgstr "नवविवाहितको एकदिने घुमघाम"
+
+msgid "Honeysun, one-day trip for newlyweds"
+msgstr "नवविवाहित जोडीका लागि एकदिने घुमघाम"
+
+msgid "Hosting and email services may process technical records needed to deliver the site or messages, maintain security and investigate faults. These records may include IP addresses, requested URLs, browser information and request times."
+msgstr "वेबसाइट वा सन्देश उपलब्ध गराउन, सुरक्षा कायम राख्न र समस्या पत्ता लगाउन होस्टिङ तथा इमेल सेवाले आवश्यक प्राविधिक अभिलेख प्रशोधन गर्न सक्छन्। यसमा IP ठेगाना, खोल्न खोजिएको URL, ब्राउजरको विवरण र अनुरोध गरिएको समय समावेश हुन सक्छ।"
+
+msgid "Hotel Godawari"
+msgstr "होटल गोदावरी"
+
+msgid "Hotel Royal Singi"
+msgstr "होटल रोयल सिंगी"
+
+msgid "Hotel website"
+msgstr "होटलको वेबसाइट"
+
+msgid "Hotels near"
+msgstr "नजिकै होटलहरू"
+
+msgid "Hours, entry fees, menus, facilities, road access and transport arrangements can change. Confirm details that affect your visit with the venue, transport provider or relevant authority before leaving."
+msgstr "खुल्ने समय, प्रवेश शुल्क, मेनु, सुविधा, सडकको अवस्था र यातायातको व्यवस्था बदलिन सक्छ। आफ्नो भ्रमणलाई असर गर्ने विवरण निस्कनुअघि सम्बन्धित ठाउँ, यातायात सञ्चालक वा निकायसँग बुझ्नुहोस्।"
+
+msgid "How Ghumna Jaun handles messages, browser preferences and requests made while you use this website."
+msgstr "यो वेबसाइट प्रयोग गर्दा तपाईंका सन्देश, ब्राउजरका रोजाइ र अनुरोधलाई घुम्न जाऔँले कसरी व्यवस्थापन गर्छ भन्ने जानकारी।"
+
+msgid "How our guides come together"
+msgstr "हाम्रा मार्गदर्शन कसरी तयार हुन्छन्"
+
+msgid "INDOOR MUSEUM · SWAYAMBHU"
+msgstr "भित्री सङ्ग्रहालय · स्वयम्भू"
+
+msgid "INDOOR TRAMPOLINES · JHAMSIKHEL"
+msgstr "भित्री ट्र्याम्पोलिन खेल · झम्सिखेल"
+
+msgid "Ichangu Narayan Temple"
+msgstr "इचङ्गुनारायण मन्दिर"
+
+msgid "Ichangu Narayan Temple in Ichangu, Nagarjun"
+msgstr "नागार्जुनको इचङ्गुमा रहेको इचङ्गुनारायण मन्दिर"
+
+msgid "Ichangu Narayan Temple, Ichangu, Nagarjun"
+msgstr "इचङ्गुनारायण मन्दिर, इचङ्गु, नागार्जुन"
+
+msgid "Ichangu Narayan is a Vishnu shrine west of Swayambhu. It is one of the valley’s four Narayan shrines and makes a short temple stop on the Nagarjun side of Kathmandu."
+msgstr "स्वयम्भूको पश्चिममा रहेको इचङ्गुनारायण विष्णुको मन्दिर हो। यो उपत्यकाका चार नारायण मन्दिरमध्ये एक हो। काठमाडौंको नागार्जुनतिर जाँदा छोटो दर्शनका लागि यहाँ पुग्न सकिन्छ।"
+
+msgid "If a detail is out of date, please send the destination page link and the correction to"
+msgstr "कुनै विवरण पुरानो भएको छ भने गन्तव्यको पृष्ठ र सच्याउनुपर्ने कुरा पठाउनुहोस्"
+
+msgid "If you have time"
+msgstr "समय छ भने"
+
+msgid "If you want to contribute photographs or longer written material, contact us first so we can agree on permission, attribution and use."
+msgstr "तस्बिर वा लामो लेख उपलब्ध गराउन चाहनुहुन्छ भने पहिले हामीलाई सम्पर्क गर्नुहोस्। त्यसपछि अनुमति, श्रेय र प्रयोगबारे सहमति गर्न सकिन्छ।"
+
+msgid "If your bus stops near Ratna Park, continue on foot to Pradarshani Marg in Bhrikutimandap."
+msgstr "बसबाट रत्नपार्कनजिक ओर्लनुभयो भने भृकुटीमण्डपको प्रदर्शनीमार्गसम्म हिँड्नुहोस्।"
+
+msgid "If you’re meeting a driver or using public transport, agree on a return point before leaving town. The destination guide includes a map and directions with Sankhu and Bajrayogini as separate stops."
+msgstr "चालकसँग भेट्ने वा सार्वजनिक गाडी चढ्ने योजना छ भने बजारबाट निस्कनुअघि फर्कने ठाउँ तय गर्नुहोस्। गन्तव्यको मार्गदर्शनमा साँखु र बज्रयोगिनीलाई छुट्टाछुट्टै गन्तव्यका रूपमा देखाउने नक्सा र बाटोको जानकारी छन्।"
+
+msgid "In 2009, the chief priest of Kedarnath formally recognised Doleshwor Mahadev as the head of Kedarnath in pilgrimage tradition. The association draws Shiva devotees to the temple in Sipadol."
+msgstr "सन् 2009 मा केदारनाथका मुख्य पुजारीले धार्मिक परम्पराअनुसार डोलेश्वर महादेवलाई केदारनाथको शिरका रूपमा औपचारिक मान्यता दिएका थिए। यही सम्बन्धका कारण शिवभक्तहरू सिपाडोलको यस मन्दिरमा दर्शन गर्न आउँछन्।"
+
+msgid "Include the destination page and the detail that has changed, such as opening hours, fees or access."
+msgstr "गन्तव्यको पृष्ठसँगै खुल्ने समय, शुल्क वा पुग्ने बाटोजस्ता बदलिएका विवरण पठाउनुहोस्।"
+
+msgid "Indoor museum"
+msgstr "भित्री सङ्ग्रहालय"
+
+msgid "Indoor museum · Swayambhu"
+msgstr "भित्री सङ्ग्रहालय · स्वयम्भू"
+
+msgid "Indoor trampolines"
+msgstr "भित्री ट्र्याम्पोलिन खेल"
+
+msgid "Indoor trampolines · Jhamsikhel"
+msgstr "भित्री ट्र्याम्पोलिन खेल · झम्सिखेल"
+
+msgid "Indra Sarowar Reservoir"
+msgstr "इन्द्र सरोवर जलाशय"
+
+msgid "Indra Sarowar reservoir at Markhu, Kulekhani"
+msgstr "कुलेखानीको मार्खुमा रहेको इन्द्रसरोवर जलाशय"
+
+msgid "Indrayani Temple (Luti Ajima)"
+msgstr "इन्द्रायणी मन्दिर (लुती अजिमा)"
+
+msgid "Indrayani Temple at Luti Ajima in Kathmandu"
+msgstr "काठमाडौंको लुती अजिमा अर्थात् इन्द्रायणी मन्दिर"
+
+msgid "Indreshwor Mahadev Temple, Panauti"
+msgstr "इन्द्रेश्वर महादेव मन्दिर, पनौती"
+
+msgid "Indreshwor Temple in Panauti"
+msgstr "पनौतीको इन्द्रेश्वर मन्दिर"
+
+msgid "Information to help you plan an outing and understand the limits of our destination guides."
+msgstr "घुमघामको योजना बनाउन र हाम्रा मार्गदर्शनले समेट्ने तथा नसमेट्ने कुरा बुझ्न सघाउने जानकारी।"
+
+msgid "Inside Godawari Botanical Garden"
+msgstr "गोदावरी वनस्पति उद्यानभित्रको दृश्य"
+
+msgid "Instagram"
+msgstr "इन्स्टाग्राम"
+
+msgid "Invalid form fields."
+msgstr "फारमका विवरण ठीक छैनन्।"
+
+msgid "Jal Binayak Temple"
+msgstr "जलविनायक मन्दिर"
+
+msgid "Jal Binayak Temple, Chobhar"
+msgstr "जलविनायक मन्दिर, चोभार"
+
+msgid "Jal Binayak is a Ganesh shrine beside the Bagmati at Chobhar. The riverside approach and nearby gorge make it a natural companion to Manjushree Park or the hilltop Adinath temple."
+msgstr "चोभारमा बागमतीकिनारमा रहेको जलविनायक गणेश मन्दिर हो। नदीकिनारको बाटो र नजिकैको खोँचका कारण यहाँको दर्शनसँगै मञ्जुश्री पार्क वा डाँडामाथिको आदिनाथ मन्दिर पनि घुम्न सकिन्छ।"
+
+msgid "Jorpati food stops"
+msgstr "जोरपाटीमा खाने ठाउँ"
+
+msgid "Jump Jhamsikhel Indoor Trampoline Park, Lalitpur"
+msgstr "जम्प झम्सिखेल इन्डोर ट्र्याम्पोलिन पार्क, ललितपुर"
+
+msgid "Jump Jhamsikhel sign inside the indoor trampoline park"
+msgstr "भित्री ट्र्याम्पोलिन पार्कमा राखिएको जम्प झम्सिखेलको नामपाटी"
+
+msgid "Jump KTM Jhamsikhel branch"
+msgstr "जम्प केटीएमको झम्सिखेल शाखा"
+
+msgid "Jump KTM, Jhamsikhel"
+msgstr "जम्प केटीएम, झम्सिखेल"
+
+msgid "Kakani"
+msgstr "ककनी"
+
+msgid "Kakani Memorial Park, Nuwakot"
+msgstr "ककनी मेमोरियल पार्क, नुवाकोट"
+
+msgid "Kakani Viewpoint, Nuwakot"
+msgstr "ककनीको दृश्यावलोकन स्थल, नुवाकोट"
+
+msgid "Kakani makes an easygoing hill outing beyond Kathmandu, with space for a short walk and views across the surrounding hills when skies are clear. Start at the viewpoint and leave time for the memorial park or lunch before the return drive."
+msgstr "काठमाडौंबाहिरको ककनी फुर्सदिलो पहाडी घुमघामका लागि सुहाउँदो ठाउँ हो। छोटो हिँडडुल गर्न सकिन्छ र मौसम सफा हुँदा वरपरका डाँडा देखिन्छन्। दृश्यावलोकन स्थलबाट सुरु गर्नुहोस् र फर्कनुअघि स्मृति पार्क घुम्न वा खाना खान समय राख्नुहोस्।"
+
+msgid "Kalidevi Temple above Dhulikhel"
+msgstr "धुलिखेलभन्दा माथिको कालीदेवी मन्दिर"
+
+msgid "Kalidevi Temple, Dhulikhel"
+msgstr "कालीदेवी मन्दिर, धुलिखेल"
+
+msgid "Kamaladi, Kathmandu"
+msgstr "कमलादी, काठमाडौं"
+
+msgid "Karya Binayak Temple"
+msgstr "कार्यविनायक मन्दिर"
+
+msgid "Karya Binayak Temple in Bungamati"
+msgstr "बुङ्गमतीको कार्यविनायक मन्दिर"
+
+msgid "Karya Binayak Temple, Bungamati"
+msgstr "कार्यविनायक मन्दिर, बुङ्गमती"
+
+msgid "Karya Binayak is a Ganesh shrine in Bungamati. Pair it with the Rato Machhindranath shrine to experience two different places of worship on one village visit."
+msgstr "बुङ्गमतीको कार्यविनायक गणेश मन्दिर हो। यही बस्तीको यात्रामा रातो मच्छिन्द्रनाथ मन्दिर पनि समेटेर दुई फरक पूजास्थल दर्शन गर्न सकिन्छ।"
+
+msgid "Kathmandu"
+msgstr "काठमाडौं"
+
+msgid "Kathmandu Durbar Square"
+msgstr "काठमाडौं दरबार क्षेत्र"
+
+msgid "Kathmandu Fun Park"
+msgstr "काठमाडौं फन पार्क"
+
+msgid "Kathmandu Fun Park, Bhrikutimandap"
+msgstr "काठमाडौं फन पार्क, भृकुटीमण्डप"
+
+msgid "Kathmandu Fun Valley"
+msgstr "काठमाडौं फन भ्याली"
+
+msgid "Kathmandu Fun Valley is a water park in Palanse near Sanga, built around pools and slides. It makes a different sort of family outing from the nearby temple and heritage visits, especially when the wave pool and water attractions are running."
+msgstr "साँगानजिकै पलाँसेमा रहेको काठमाडौं फन भ्याली पोखरी र स्लाइडसहितको वाटर पार्क हो। नजिकैका मन्दिर र सम्पदा घुमघामभन्दा फरक पारिवारिक अनुभवका लागि यहाँ आउन सकिन्छ, विशेष गरी छाल आउने पोखरी र पानीमा खेल्ने खेल सञ्चालनमा हुँदा।"
+
+msgid "Kathmandu Fun Valley updates"
+msgstr "काठमाडौं फन भ्यालीको पछिल्लो जानकारी"
+
+msgid "Kathmandu Fun Valley, Palanse, Bhaktapur"
+msgstr "काठमाडौं फन भ्याली, पलाँसे, भक्तपुर"
+
+msgid "Kathmandu Metropolitan City lists designated picnic spaces here. Ask the park about reservations and current fees."
+msgstr "काठमाडौं महानगरपालिकाले यहाँ पिकनिकका लागि तोकिएका ठाउँ उल्लेख गरेको छ। बुकिङ र हालको शुल्क पार्कसँग बुझ्नुहोस्।"
+
+msgid "Kathmandu Metropolitan City park information"
+msgstr "काठमाडौं महानगरपालिकाको पार्कसम्बन्धी जानकारी"
+
+msgid "Kathmandu Metropolitan City schedule of picnic shelters"
+msgstr "काठमाडौं महानगरपालिकाको पिकनिक टहरासम्बन्धी विवरण"
+
+msgid "Kathmandu Valley"
+msgstr "काठमाडौं उपत्यका"
+
+msgid "Keeping information and making requests"
+msgstr "विवरण राख्ने अवधि र तपाईंका अनुरोध"
+
+msgid "Khokana tentative-list entry"
+msgstr "सम्भावित विश्व सम्पदा सूचीमा खोकनाको विवरण"
+
+msgid "Kids"
+msgstr "बालबालिका"
+
+msgid "King Mahendra inaugurated the Royal Botanical Garden in 1962. It was renamed the National Botanical Garden in 2006 and continues to conserve living plant collections for research and public education."
+msgstr "राजा महेन्द्रले सन् 1962 मा शाही वनस्पति उद्यानको उद्घाटन गरेका थिए। सन् 2006 मा यसको नाम राष्ट्रिय वनस्पति उद्यान राखियो। यहाँ अनुसन्धान र जनचेतनाका लागि जीवित वनस्पतिको सङ्ग्रह संरक्षण गरिँदै आएको छ।"
+
+msgid "Kirtipur"
+msgstr "कीर्तिपुर"
+
+msgid "Kirtipur Municipality heritage guide"
+msgstr "कीर्तिपुर नगरपालिकाको सम्पदासम्बन्धी जानकारी"
+
+msgid "Kirtipur Municipality heritage record"
+msgstr "कीर्तिपुर नगरपालिकाको सम्पदा अभिलेख"
+
+msgid "Kirtipur Municipality records that the gorge area was quarried for limestone for more than two decades before it was developed into Manjushree Park."
+msgstr "कीर्तिपुर नगरपालिकाका अनुसार मञ्जुश्री पार्क बन्नुअघि यस खोँच क्षेत्रमा दुई दशकभन्दा बढी समय चुनढुङ्गा उत्खनन भएको थियो।"
+
+msgid "Kirtipur Municipality traces the temple’s construction to the reign of King Shivadev, from 1099 to 1126, citing the Gopal dynasty chronicle. The town honours Bagh Bhairab as its protector and holds an annual jatra in his name."
+msgstr "गोपालवंशावलीलाई उद्धृत गर्दै कीर्तिपुर नगरपालिकाले मन्दिर राजा शिवदेवको शासनकाल, सन् 1099–1126 मा बनेको उल्लेख गरेको छ। स्थानीयले बाघभैरवलाई नगरका रक्षकका रूपमा मान्छन् र हरेक वर्ष उनको नाममा जात्रा मनाउँछन्।"
+
+msgid "Kirtipur Municipality’s Adinath heritage listing"
+msgstr "कीर्तिपुर नगरपालिकाको आदिनाथसम्बन्धी सम्पदा विवरण"
+
+msgid "Kirtipur Municipality’s Chobhar account"
+msgstr "कीर्तिपुर नगरपालिकाको चोभारसम्बन्धी विवरण"
+
+msgid "Kirtipur Municipality’s Jal Binayak guide"
+msgstr "कीर्तिपुर नगरपालिकाको जलविनायकसम्बन्धी जानकारी"
+
+msgid "Kirtipur Municipality’s account"
+msgstr "कीर्तिपुर नगरपालिकाको विवरण"
+
+msgid "Kirtipur is a hilltop Newar town best explored on foot, from Bagh Bhairab Temple through the lanes toward Uma Maheshwar Temple. Leave time for a Newari meal and look out for views of the valley between the buildings."
+msgstr "डाँडामाथिको नेवार बस्ती कीर्तिपुर पैदल घुम्न सुहाउँदो ठाउँ हो। बाघभैरव मन्दिरबाट गल्ली हुँदै उमामहेश्वर मन्दिरतिर जान सकिन्छ। नेवारी खाना खान समय राख्नुहोस् र घरहरूबीचबाट देखिने उपत्यकाको दृश्य पनि हेर्नुहोस्।"
+
+msgid "Kirtipur was a fortified hill town in the Kathmandu Valley. It resisted Gorkha’s attempts to capture it before becoming part of Prithvi Narayan Shah’s expanding kingdom."
+msgstr "कीर्तिपुर काठमाडौं उपत्यकाको किल्लाबन्द पहाडी सहर थियो। पृथ्वीनारायण शाहको विस्तार हुँदै गएको राज्यमा गाभिनुअघि यसले गोर्खाली आक्रमणको प्रतिरोध गरेको थियो।"
+
+msgid "Kitini, Godawari Highway"
+msgstr "किटिनी, गोदावरी राजमार्ग"
+
+msgid "Known locally as Kwoyena, Jal Binayak is one of the valley’s celebrated Ganesh shrines. Kirtipur Municipality dates the temple to the 16th century and notes that families come here for worship and ceremonies."
+msgstr "स्थानीय रूपमा क्वोयना भनिने जलविनायक उपत्यकाका प्रसिद्ध गणेश मन्दिरमध्ये एक हो। कीर्तिपुर नगरपालिकाका अनुसार यो मन्दिर सोह्रौँ शताब्दीको हो र परिवारहरू यहाँ पूजा तथा संस्कारका लागि आउँछन्।"
+
+msgid "Krishna Mandir, Patan Durbar Square"
+msgstr "कृष्ण मन्दिर, पाटन दरबार क्षेत्र"
+
+msgid "Kulekhani"
+msgstr "कुलेखानी"
+
+msgid "Kulekhani Reservoir"
+msgstr "कुलेखानी जलाशय"
+
+msgid "Kulekhani Reservoir, Markhu"
+msgstr "कुलेखानी जलाशय, मार्खु"
+
+msgid "Kulekhani reservoir"
+msgstr "कुलेखानी जलाशय"
+
+msgid "Kulekhani, a lakeside stop beyond the valley."
+msgstr "उपत्यकाबाहिर तालछेउको घुमघामका लागि कुलेखानी।"
+
+msgid "Kumari Ghar, Basantapur"
+msgstr "कुमारी घर, बसन्तपुर"
+
+msgid "LAKESIDE GETAWAY"
+msgstr "तालछेउको घुमघाम"
+
+msgid "Lakeside getaway"
+msgstr "तालछेउको घुमघाम"
+
+msgid "Lalitpur"
+msgstr "ललितपुर"
+
+msgid "Landscape in Chitlang village"
+msgstr "चित्लाङ गाउँको दृश्य"
+
+msgid "Last updated"
+msgstr "अन्तिम अद्यावधिक"
+
+msgid "Leave this field empty"
+msgstr "यो ठाउँ खाली छोड्नुहोस्"
+
+msgid "Leave time for the return drive"
+msgstr "गाडीमा फर्कन लाग्ने समय राख्नुहोस्"
+
+msgid "Leave time for the return journey"
+msgstr "फर्कने यात्राका लागि समय राख्नुहोस्"
+
+msgid "Lhuti Ajima, Kathmandu"
+msgstr "लुती अजिमा, काठमाडौं"
+
+msgid "Linked sites, maps, video services, restaurants and travel operators have their own terms and privacy practices. Review these before sharing information or making an arrangement."
+msgstr "यहाँ लिङ्क गरिएका वेबसाइट, नक्सा, भिडियो सेवा, रेस्टुरेन्ट र यात्रा सेवा प्रदायकका आफ्नै सर्त तथा गोपनीयतासम्बन्धी अभ्यास हुन्छन्। विवरण पठाउन वा कुनै व्यवस्था गर्नुअघि तिनलाई पढ्नुहोस्।"
+
+msgid "Listings and collaborations"
+msgstr "सूचीकरण र सहकार्य"
+
+msgid "Listings marked as samples illustrate a possible listing. Their menus and prices are examples rather than confirmed offers."
+msgstr "“नमुना” भनेर चिनाइएका विवरणले सूची कस्तो हुन सक्छ भन्ने मात्र देखाउँछन्। तिनमा राखिएका मेनु र मूल्य उदाहरण हुन्, पुष्टि गरिएका प्रस्ताव होइनन्।"
+
+msgid "Look across the surrounding hills when the sky is clear."
+msgstr "आकाश सफा हुँदा वरपरका पहाडहरू हेर्नुहोस्।"
+
+msgid "Look for Nepal’s preserved animal and insect specimens in the museum galleries."
+msgstr "सङ्ग्रहालयमा संरक्षण गरेर राखिएका नेपालका जनावर र कीराका नमुना हेर्नुहोस्।"
+
+msgid "Look for medicinal plants, orchids, and the rock garden. Use the garden map to pick a loop."
+msgstr "औषधीय वनस्पति, सुनाखरी र रक गार्डन हेर्नुहोस्। घुम्ने बाटो रोज्न उद्यानको नक्सा प्रयोग गर्नुहोस्।"
+
+msgid "Look for potters shaping clay on traditional wheels and earthenware set out to dry."
+msgstr "परम्परागत चक्रमा माटोका भाँडा बनाइरहेका कुमाले र सुकाउन राखिएका भाँडा हेर्नुहोस्।"
+
+msgid "Look for the forest picnic ground near the bus park, separate from the temple."
+msgstr "मन्दिरभन्दा अलग, बसपार्कनजिकको वन क्षेत्रमा रहेको पिकनिक स्थल खोज्नुहोस्।"
+
+msgid "Look for the gold-roofed shrine and pause in the grounds after darshan."
+msgstr "सुनौलो छाना भएको मन्दिरमा दर्शन गर्नुहोस् र त्यसपछि परिसरमा केहीबेर आराम गर्नुहोस्।"
+
+msgid "Look for the picnic shelters among the pines and take a short forest walk."
+msgstr "सल्लाघारीमा रहेका पिकनिकका टहरा हेर्नुहोस् र वनमा छोटो हिँडडुल गर्नुहोस्।"
+
+msgid "Look for the three-tiered Newar shrine dedicated to Bhairab in tiger form."
+msgstr "बाघको रूपमा पूजिने भैरवलाई समर्पित तीनतले नेवारी शैलीको मन्दिर हेर्नुहोस्।"
+
+msgid "Look up at the carved wooden windows along the palace façade, then see the Golden Gate beside it."
+msgstr "दरबारको अगाडिपट्टिका काठका झ्यालमा कुँदिएका बुट्टा हेर्नुहोस्, त्यसपछि छेउमै रहेको सुनढोका हेर्नुहोस्।"
+
+msgid "Look up at the carved wooden windows of the Kumari’s residence from the square."
+msgstr "चोकबाट कुमारीको घरका काठका झ्यालमा कुँदिएका बुट्टा हेर्नुहोस्।"
+
+msgid "Lunch by the water"
+msgstr "तालछेउमा खाना"
+
+msgid "Luti Ajima is a riverside Indrayani shrine near the Bishnumati. Combine time at the shrine with a short neighbourhood walk toward Shobha Bhagwati or nearby Bijeshwari."
+msgstr "विष्णुमतीनजिकको लुती अजिमा इन्द्रायणीको मन्दिर हो। यहाँ दर्शन गरेपछि बस्ती हुँदै शोभाभगवती वा नजिकैको बिजेश्वरीसम्म हिँड्न सकिन्छ।"
+
+msgid "MONASTERY"
+msgstr "गुम्बा"
+
+msgid "MONASTERY OUTING"
+msgstr "गुम्बा भ्रमण"
+
+msgid "MUSEUM · CHHAUNI"
+msgstr "सङ्ग्रहालय · छाउनी"
+
+msgid "Mahalaxmi Temple, Telkot"
+msgstr "महालक्ष्मी मन्दिर, तेलकोट"
+
+msgid "Make a day of it"
+msgstr "दिनभरको घुमघाम योजना"
+
+msgid "Make a short stop in Telkot between the temple and the ridge viewpoints."
+msgstr "मन्दिर र डाँडाका दृश्यावलोकन स्थलबीच पर्ने तेलकोटमा केहीबेर रोक्नुहोस्।"
+
+msgid "Make the village the main stop and choose a lunch venue ahead of time. If the group has energy for another walk, decide on the day how much to add."
+msgstr "गाउँको घुमघामलाई मुख्य योजना बनाउनुहोस् र खाना खाने ठाउँ पहिले नै रोज्नुहोस्। समूहलाई अझै हिँड्न मन छ भने त्यही दिनको अवस्थाअनुसार थप घुम्ने निर्णय गर्नुहोस्।"
+
+msgid "Make time for the Vajrayogini shrine before continuing to the cave."
+msgstr "गुफातिर जानुअघि वज्रयोगिनी मन्दिर दर्शनका लागि समय राख्नुहोस्।"
+
+msgid "Manjushree Park"
+msgstr "मञ्जुश्री पार्क"
+
+msgid "Manjushree Park overlooks Chobhar Gorge, where the Bagmati passes through a narrow channel. The lawns and paths make the gorge an easy outing, and nearby Jal Binayak adds a temple stop if you have time."
+msgstr "मञ्जुश्री पार्कबाट बागमती साँघुरो बाटो हुँदै बग्ने चोभारको खोँच देखिन्छ। चौर र हिँड्ने बाटो भएकाले यहाँ सजिलै घुम्न सकिन्छ। समय मिले नजिकैको जलविनायक मन्दिरमा पनि दर्शन गर्नुहोस्।"
+
+msgid "Manjushree Park, Chobhar, Kirtipur"
+msgstr "मञ्जुश्री पार्क, चोभार, कीर्तिपुर"
+
+msgid "Map pins and suggested stops help you explore an area. Distances labelled as straight-line estimates are approximate and differ from road distance and journey time."
+msgstr "नक्सामा देखाइएका स्थान र सुझाइएका गन्तव्यले वरपर घुम्न सघाउँछन्। सीधा रेखामा मापन गरिएको दूरी अनुमानित हो। यो सडकको दूरी र यात्रा गर्न लाग्ने समयभन्दा फरक हुन्छ।"
+
+msgid "Maps, routes and distances"
+msgstr "नक्सा, बाटो र दूरी"
+
+msgid "Mary Shepherd Slusser’s Nepal Mandala"
+msgstr "मेरी शेफर्ड स्लुसरको नेपाल मण्डला"
+
+msgid "Matching destinations"
+msgstr "मिल्दो गन्तव्यहरू"
+
+msgid "Matsya Narayan Temple"
+msgstr "मत्स्यनारायण मन्दिर"
+
+msgid "Matsya Narayan Temple in Machhegaun"
+msgstr "मच्छेगाउँमा रहेको मत्स्यनारायण मन्दिर"
+
+msgid "Matsya Narayan Temple, Machhegaun"
+msgstr "मत्स्यनारायण मन्दिर, मच्छेगाउँ"
+
+msgid "Medieval palm-leaf records cited by Banepa Municipality refer to the settlement by earlier names, including Vinayapuri. The municipality also traces the town’s commercial roots to its long trading relationship with Tibet."
+msgstr "बनेपा नगरपालिकाले उद्धृत गरेका मध्यकालीन ताडपत्रमा यस बस्तीलाई विनयपुरीलगायत पुराना नामले चिनाइएको छ। नगरपालिकाले यहाँको व्यापारिक इतिहासलाई तिब्बतसँगको लामो व्यापारिक सम्बन्धसँग पनि जोडेको छ।"
+
+msgid "Menu & prices"
+msgstr "मेनु र मूल्य"
+
+msgid "Messages from the form are delivered to"
+msgstr "फारमबाट पठाइएका सन्देश पुग्ने ठेगाना:"
+
+msgid "Messages you choose to send"
+msgstr "तपाईंले पठाउन रोज्नुभएका सन्देशहरू"
+
+msgid "Mhepi Ajima Temple"
+msgstr "म्हेपी अजिमा मन्दिर"
+
+msgid "Mhepi Ajima Temple in Kathmandu"
+msgstr "काठमाडौंको म्हेपी अजिमा मन्दिर"
+
+msgid "Mhepi Ajima Temple, Kathmandu"
+msgstr "म्हेपी अजिमा मन्दिर, काठमाडौं"
+
+msgid "Midday"
+msgstr "मध्याह्न"
+
+msgid "Monastery"
+msgstr "गुम्बा"
+
+msgid "Monastery outing"
+msgstr "गुम्बा भ्रमण"
+
+msgid "More restaurants near the garden"
+msgstr "उद्याननजिकका थप रेस्टुरेन्ट"
+
+msgid "More stays near the garden"
+msgstr "उद्याननजिकका थप बासस्थान"
+
+msgid "More stories from the road"
+msgstr "यात्राका थप लेखहरू"
+
+msgid "Morning"
+msgstr "बिहान"
+
+msgid "Morning clouds over the hills at Nagarkot"
+msgstr "नगरकोटका डाँडामाथि बिहानको बादल"
+
+msgid "Morning in Chitlang"
+msgstr "चित्लाङमा बिहान"
+
+msgid "Mountain ranges from Dhulikhel"
+msgstr "धुलिखेलबाट देखिने हिमशृङ्खला"
+
+msgid "Museum"
+msgstr "सङ्ग्रहालय"
+
+msgid "Museum · Chhauni"
+msgstr "सङ्ग्रहालय · छाउनी"
+
+msgid "NPR 100"
+msgstr "रु. 100"
+
+msgid "NPR 20"
+msgstr "रु. 20"
+
+msgid "NPR 200"
+msgstr "रु. 200"
+
+msgid "NPR 50"
+msgstr "रु. 50"
+
+msgid "NPR 500"
+msgstr "रु. 500"
+
+msgid "Nagarkot"
+msgstr "नगरकोट"
+
+msgid "Nagarkot View Tower"
+msgstr "नगरकोट भ्यू टावर"
+
+msgid "Nagarkot is a ridge getaway east of Kathmandu, best known for sunrise and long Himalayan views when the sky is clear. A short ridge walk and breakfast make an outing on their own, or you can add Changu Narayan on the return."
+msgstr "काठमाडौंको पूर्वतिरको पहाडी गन्तव्य नगरकोट सूर्योदय र सफा मौसममा देखिने हिमशृङ्खलाका लागि प्रसिद्ध छ। डाँडाको छोटो पैदल यात्रा र बिहानको खाजासँगै यहाँको घुमघाम रमाइलो हुन्छ। फर्कने क्रममा चाँगुनारायण पनि जान सकिन्छ।"
+
+msgid "Namo Buddha"
+msgstr "नमोबुद्ध"
+
+msgid "National Botanical Garden fact sheet"
+msgstr "राष्ट्रिय वनस्पति उद्यानको तथ्य विवरण"
+
+msgid "National Botanical Garden visitor brochure"
+msgstr "राष्ट्रिय वनस्पति उद्यानको भ्रमण पुस्तिका"
+
+msgid "National Botanical Garden, Godawari, Lalitpur"
+msgstr "राष्ट्रिय वनस्पति उद्यान, गोदावरी, ललितपुर"
+
+msgid "National Museum conference contribution"
+msgstr "राष्ट्रिय सङ्ग्रहालयसम्बन्धी सम्मेलनमा प्रस्तुत सामग्री"
+
+msgid "National Museum of Nepal"
+msgstr "नेपाल राष्ट्रिय सङ्ग्रहालय"
+
+msgid "National Museum of Nepal in Chhauni"
+msgstr "छाउनीको नेपाल राष्ट्रिय सङ्ग्रहालय"
+
+msgid "National Museum of Nepal, Chhauni"
+msgstr "नेपाल राष्ट्रिय सङ्ग्रहालय, छाउनी"
+
+msgid "National Trust for Nature Conservation report"
+msgstr "राष्ट्रिय प्रकृति संरक्षण कोषको प्रतिवेदन"
+
+msgid "National Trust for Nature Conservation visitor information"
+msgstr "राष्ट्रिय प्रकृति संरक्षण कोषको भ्रमणसम्बन्धी जानकारी"
+
+msgid "Natural History Museum"
+msgstr "प्राकृतिक विज्ञान सङ्ग्रहालय"
+
+msgid "Natural History Museum visitor information"
+msgstr "प्राकृतिक विज्ञान सङ्ग्रहालयको भ्रमणसम्बन्धी जानकारी"
+
+msgid "Natural History Museum, Swayambhu"
+msgstr "प्राकृतिक विज्ञान सङ्ग्रहालय, स्वयम्भू"
+
+msgid "Natural History Museum, Swayambhu, Kathmandu"
+msgstr "प्राकृतिक विज्ञान सङ्ग्रहालय, स्वयम्भू, काठमाडौं"
+
+msgid "Naudhara"
+msgstr "नौधारा"
+
+msgid "Naudhara, Godawari, Lalitpur, Nepal"
+msgstr "नौधारा, गोदावरी, ललितपुर, नेपाल"
+
+msgid "Nearby EV charging"
+msgstr "नजिकैको EV चार्जिङ"
+
+msgid "Nearby petrol pumps"
+msgstr "नजिकैका पेट्रोल पम्प"
+
+msgid "Nearby stops"
+msgstr "नजिकै घुम्न मिल्ने ठाउँ"
+
+msgid "Nearest first by approximate straight-line distance. Kathmandu Valley uses central Kathmandu."
+msgstr "अनुमानित सीधा दूरीअनुसार नजिकका ठाउँ पहिले देखाइएका छन्। “काठमाडौं उपत्यका” रोज्दा काठमाडौंको मध्य भागबाट दूरी मापन गरिन्छ।"
+
+msgid "Nepal Electricity Authority project review"
+msgstr "नेपाल विद्युत् प्राधिकरणको आयोजना समीक्षा"
+
+msgid "Nepal Tourism Board Dakshinkali guide"
+msgstr "नेपाल पर्यटन बोर्डको दक्षिणकालीसम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board fee schedule"
+msgstr "नेपाल पर्यटन बोर्डको शुल्क तालिका"
+
+msgid "Nepal Tourism Board fee table"
+msgstr "नेपाल पर्यटन बोर्डको शुल्क तालिका"
+
+msgid "Nepal Tourism Board festival guide"
+msgstr "नेपाल पर्यटन बोर्डको चाडपर्वसम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board pilgrimage guide"
+msgstr "नेपाल पर्यटन बोर्डको तीर्थयात्रासम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board route history"
+msgstr "नेपाल पर्यटन बोर्डले दिएको यात्राको बाटोसम्बन्धी इतिहास"
+
+msgid "Nepal Tourism Board visitor guide"
+msgstr "नेपाल पर्यटन बोर्डको भ्रमणसम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board’s Chitlang and Kulekhani route"
+msgstr "नेपाल पर्यटन बोर्डले सुझाएको चित्लाङ–कुलेखानी यात्राको बाटो"
+
+msgid "Nepal Tourism Board’s Nagarkot sunrise guide"
+msgstr "नेपाल पर्यटन बोर्डको नगरकोटमा सूर्योदय हेर्ने जानकारी"
+
+msgid "Nepal Tourism Board’s National Museum guide"
+msgstr "नेपाल पर्यटन बोर्डको राष्ट्रिय सङ्ग्रहालयसम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board’s guide to travel with children"
+msgstr "नेपाल पर्यटन बोर्डको बालबालिकासँग यात्रा गर्नेसम्बन्धी जानकारी"
+
+msgid "Nepal Tourism Board’s pilgrimage guide"
+msgstr "नेपाल पर्यटन बोर्डको तीर्थयात्रासम्बन्धी जानकारी"
+
+msgid "Nepali"
+msgstr "नेपाली"
+
+msgid "Nepali dal bhat thali, photographed in Kathmandu"
+msgstr "काठमाडौंमा खिचिएको नेपाली दालभातको थालीको तस्बिर"
+
+msgid "Nepali entry"
+msgstr "नेपाली नागरिकको प्रवेश शुल्क"
+
+msgid "Next stop photo"
+msgstr "घुम्ने ठाउँको अर्को तस्बिर"
+
+msgid "Nil Barahi Temple"
+msgstr "नीलबाराही मन्दिर"
+
+msgid "Nil Barahi Temple, Bode, Madhyapur Thimi"
+msgstr "नीलबाराही मन्दिर, बोडे, मध्यपुर थिमि"
+
+msgid "Nil Barahi is a shrine in the wooded Tigani area near Bode. It is closely tied to the community’s masked dance tradition, and a visit can be paired with a walk through Bode itself."
+msgstr "बोडेनजिक तिगनीको वन क्षेत्रमा नीलबाराही मन्दिर छ। यो स्थानीय समुदायको मुखौटा लगाएर नाच्ने परम्परासँग गहिरो रूपमा जोडिएको छ। यहाँको दर्शनसँगै बोडेको बस्तीमा पनि हिँडडुल गर्न सकिन्छ।"
+
+msgid "No choice saved yet."
+msgstr "अहिलेसम्म कुनै रोजाइ सुरक्षित गरिएको छैन।"
+
+msgid "No matching destinations"
+msgstr "मिल्दो गन्तव्य भेटिएन"
+
+msgid "No places match this filter."
+msgstr "यो छनोटमा मिल्ने ठाउँ भेटिएन।"
+
+msgid "No places match your search. Try a different name, area or activity."
+msgstr "तपाईंले खोजेको ठाउँ भेटिएन। अर्को नाम, क्षेत्र वा गतिविधि लेखेर खोज्नुहोस्।"
+
+msgid "Nothing in these terms excludes a right or responsibility that cannot lawfully be excluded under applicable law."
+msgstr "लागू कानुनअनुसार हटाउन नमिल्ने कुनै पनि अधिकार वा जिम्मेवारी यी सर्तले हटाउँदैनन्।"
+
+msgid "Nyatapola Temple in Taumadhi Square, Bhaktapur"
+msgstr "भक्तपुरको टौमढी चोकमा रहेको न्यातपोल मन्दिर"
+
+msgid "Nyatapola Temple, Taumadhi"
+msgstr "न्यातपोल मन्दिर, टौमढी"
+
+msgid "Nyatapola Temple, Taumadhi Square, Bhaktapur, Nepal - Photo by Govind Rai"
+msgstr "न्यातपोल मन्दिर, टौमढी चोक, भक्तपुर, नेपाल — तस्बिर: गोविन्द राई"
+
+msgid "OLYMPUS DIGITAL CAMERA"
+msgstr "OLYMPUS DIGITAL CAMERA"
+
+msgid "ON THE WAY"
+msgstr "बाटोमा"
+
+msgid "ON THE WAY BACK"
+msgstr "फर्कने बाटोमा"
+
+msgid "Official garden map"
+msgstr "उद्यानको आधिकारिक नक्सा"
+
+msgid "Official hours"
+msgstr "आधिकारिक खुल्ने समय"
+
+msgid "On this page"
+msgstr "यस पृष्ठमा"
+
+msgid "Open each location separately to plan the order of your stops."
+msgstr "कुन ठाउँपछि कहाँ जाने भन्ने मिलाउन हरेक स्थानको नक्सा छुट्टाछुट्टै खोल्नुहोस्।"
+
+msgid "Open location in Google Maps"
+msgstr "Google Maps मा ठाउँ हेर्नुहोस्"
+
+msgid "Open temple route ↗"
+msgstr "मन्दिर जाने बाटो हेर्नुहोस् ↗"
+
+msgid "OpenStreetMap Foundation Privacy Policy"
+msgstr "OpenStreetMap Foundation को गोपनीयता नीति"
+
+msgid "Opening hours"
+msgstr "खुल्ने समय"
+
+msgid "Opening hours, fees and transport arrangements can change. Check the linked source or contact the venue when those details matter to your visit."
+msgstr "खुल्ने समय, शुल्क र यातायातको व्यवस्था बदलिन सक्छ। तपाईंको भ्रमणका लागि यी विवरण आवश्यक छन् भने दिइएको स्रोतमा हेर्नुहोस् वा सम्बन्धित ठाउँमा सम्पर्क गर्नुहोस्।"
+
+msgid "Optional maps and videos connect to Google Maps, OpenStreetMap and YouTube. Choose whether to load them."
+msgstr "वैकल्पिक नक्सा र भिडियो लोड गर्दा Google Maps, OpenStreetMap र YouTube सँग जडान हुन्छ। तिनलाई लोड गर्ने कि नगर्ने रोज्नुहोस्।"
+
+msgid "Optional maps and videos connect to OpenStreetMap and YouTube. Choose whether to load them."
+msgstr "वैकल्पिक नक्सा र भिडियो लोड गर्दा OpenStreetMap र YouTube सँग जडान हुन्छ। तिनलाई लोड गर्ने कि नगर्ने रोज्नुहोस्।"
+
+msgid "Other SAARC"
+msgstr "अन्य सार्क मुलुकका नागरिक"
+
+msgid "Other international visitors · NPR"
+msgstr "अन्य विदेशी पर्यटक · रु."
+
+msgid "Other international visitors · NPR 1,000"
+msgstr "अन्य विदेशी पर्यटक · रु. 1,000"
+
+msgid "Other international visitors · NPR 1,800"
+msgstr "अन्य विदेशी पर्यटक · रु. 1,800"
+
+msgid "Other international visitors · NPR 200"
+msgstr "अन्य विदेशी पर्यटक · रु. 200"
+
+msgid "Other international visitors · NPR 300"
+msgstr "अन्य विदेशी पर्यटक · रु. 300"
+
+msgid "Other visitors"
+msgstr "अन्य आगन्तुक"
+
+msgid "Our guides draw on tourism boards, municipal information, venue websites and other named sources. History sections link to their references, and photos link back to their sources on our"
+msgstr "हाम्रा मार्गदर्शन पर्यटन बोर्ड, नगरपालिका, सम्बन्धित ठाउँका वेबसाइट र उल्लेख गरिएका अन्य स्रोतमा आधारित छन्। इतिहासका विवरणसँग तिनका सन्दर्भ लिङ्क छन्। तस्बिरका मूल स्रोत हेर्नुहोस्:"
+
+msgid "Outing"
+msgstr "घुमघामको प्रकार"
+
+msgid "PICNIC PARK · BALAJU, KATHMANDU"
+msgstr "पिकनिक पार्क · बालाजु, काठमाडौं"
+
+msgid "PICNIC PARK · CHOBHAR"
+msgstr "पिकनिक पार्क · चोभार"
+
+msgid "PICNIC PARK · THANKOT"
+msgstr "पिकनिक पार्क · थानकोट"
+
+msgid "PILGRIMAGE CIRCUIT"
+msgstr "तीर्थयात्रा परिक्रमा"
+
+msgid "PILGRIMAGE OUTING"
+msgstr "तीर्थयात्रा"
+
+msgid "Pack lunch or snacks for one of the designated rest shelters."
+msgstr "तोकिएको विश्रामस्थलमा खानका लागि खाना वा खाजा साथमा लैजानुहोस्।"
+
+msgid "Pack prepared food for the rest shelters. Cooking and open fires are prohibited."
+msgstr "विश्रामस्थलमा खान मिल्ने गरी तयार खाना लैजानुहोस्। यहाँ खाना पकाउन र खुला आगो बाल्न पाइँदैन।"
+
+msgid "Pages and features may change as the site develops, and access may be interrupted for maintenance or technical reasons. Information is provided for general travel planning."
+msgstr "वेबसाइट विकसित हुँदै जाँदा पृष्ठ र सुविधाहरू बदलिन सक्छन्। मर्मतसम्भार वा प्राविधिक समस्याका कारण सेवा रोकिन सक्छ। यहाँको जानकारी सामान्य यात्रा योजना बनाउनका लागि दिइएको हो।"
+
+msgid "Pair a Chitlang village walk with lunch by the reservoir, and add Bheda Farm if time allows."
+msgstr "चित्लाङ गाउँमा हिँडडुल गरेपछि जलाशयछेउमा खाना खाने योजना बनाउनुहोस्। समय मिले भेडा फार्म पनि घुम्नुहोस्।"
+
+msgid "Pair the park with a nearby green space or a heritage walk."
+msgstr "पार्कको घुमघामसँगै नजिकैको हरियाली क्षेत्र वा सम्पदा पदयात्रा पनि समेट्नुहोस्।"
+
+msgid "Pair the visit with Panauti if time allows"
+msgstr "समय मिले पनौती पनि घुम्नुहोस्"
+
+msgid "Panauti"
+msgstr "पनौती"
+
+msgid "Panauti tentative-list entry"
+msgstr "सम्भावित विश्व सम्पदा सूचीमा पनौतीको विवरण"
+
+msgid "Patan Durbar Square"
+msgstr "पाटन दरबार क्षेत्र"
+
+msgid "Patan Museum, Lalitpur"
+msgstr "पाटन सङ्ग्रहालय, ललितपुर"
+
+msgid "Patan’s Durbar Square grew around its royal palace and the temples and public spaces beside it. The ensemble preserves examples of the valley’s Newar architecture and craftsmanship and is part of the Kathmandu Valley World Heritage site."
+msgstr "पाटन दरबार क्षेत्र राजदरबार, छेउका मन्दिर र सार्वजनिक चोक वरपर विकसित भएको हो। उपत्यकाको नेवारी वास्तुकला र शिल्पकलाका नमुना सुरक्षित रहेको यो क्षेत्र काठमाडौं उपत्यकाको विश्व सम्पदामा समेटिएको छ।"
+
+msgid "Patan’s royal square brings stone temples and brick palace courtyards together in the centre of Lalitpur. Spend time at Krishna Mandir and the Patan Museum to see Newar craftsmanship at street level and up close."
+msgstr "ललितपुरको मध्यभागमा रहेको पाटन दरबार क्षेत्रमा ढुङ्गाका मन्दिर र इँटाका दरबारका चोक सँगसँगै छन्। नेवारी शिल्पकला नजिकबाट हेर्न कृष्ण मन्दिर र पाटन सङ्ग्रहालयमा समय बिताउनुहोस्।"
+
+msgid "Paths wind past ponds and themed plant collections at the foot of Phulchowki. Look for orchids, medicinal plants and the rock garden, then take a break at one of the designated shelters if you brought a picnic."
+msgstr "फुलचोकीको फेदीमा पोखरी र विभिन्न वनस्पतिका खण्ड हुँदै उद्यानका बाटा घुम्छन्। सुनाखरी, औषधीय वनस्पति र रक गार्डन हेर्नुहोस्। खाना साथमा ल्याउनुभएको छ भने तोकिएको विश्रामस्थलमा आराम गर्दै खानुहोस्।"
+
+msgid "Pause at the Indrayani shrine by the Bishnumati before walking toward Shobha Bhagwati."
+msgstr "शोभाभगवतीतिर हिँड्नुअघि विष्णुमतीकिनारको इन्द्रायणी मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Pause at the hilltop shrine after the climb up Dhulikhel’s 1,000 Steps."
+msgstr "धुलिखेलको हजार सिँढी चढेपछि डाँडामाथिको मन्दिरमा केहीबेर बस्नुहोस्।"
+
+msgid "Pause in Markhu for a walk by the reservoir or a meal by the water."
+msgstr "मार्खुमा केहीबेर रोकिएर जलाशयछेउमा हिँड्नुहोस् वा खाना खानुहोस्।"
+
+msgid "Pause in the courtyard to look at the tiered shrine and its carved details."
+msgstr "चोकमा केहीबेर बसेर बहुच्छाने मन्दिर र त्यसमा कुँदिएका बुट्टा हेर्नुहोस्।"
+
+msgid "Pause in the square to look at the stone temple and its carved tiers."
+msgstr "चोकमा केहीबेर बसेर ढुङ्गाको मन्दिर र त्यसका तहमा कुँदिएका बुट्टा हेर्नुहोस्।"
+
+msgid "Petrol pumps near"
+msgstr "पेट्रोल पम्प नजिकै"
+
+msgid "Pharping"
+msgstr "फर्पिङ"
+
+msgid "Pharping brings together Buddhist and Hindu pilgrimage sites on the southern side of the valley. Visit Asura Cave and Vajrayogini Temple as separate stops around town, then continue to Dakshinkali if you have time."
+msgstr "उपत्यकाको दक्षिणतिरको फर्पिङमा बौद्ध र हिन्दू तीर्थस्थल छन्। बस्ती वरपरका असुर गुफा र वज्रयोगिनी मन्दिर छुट्टाछुट्टै घुम्नुहोस्। समय मिले दक्षिणकालीतिर पनि जानुहोस्।"
+
+msgid "Photo Credits page"
+msgstr "तस्बिरको श्रेयसम्बन्धी पृष्ठ"
+
+msgid "Photo credits"
+msgstr "तस्बिरको श्रेय"
+
+msgid "Photo credits page"
+msgstr "तस्बिरको श्रेयसम्बन्धी पृष्ठ"
+
+msgid "Photo pending"
+msgstr "तस्बिर आउन बाँकी छ"
+
+msgid "Photographer and license information is listed on the"
+msgstr "तस्बिर खिच्ने व्यक्ति र इजाजतपत्रको जानकारी:"
+
+msgid "Pick a short loop through the animal exhibits and leave time for the aquarium or children’s area."
+msgstr "जनावर हेर्दै घुम्न छोटो बाटो रोज्नुहोस् र माछाघर वा बाल उद्यानका लागि पनि समय राख्नुहोस्।"
+
+msgid "Pick a viewpoint before departure and check the forecast the night before. An early start gives you time to settle in before sunrise. Bring a warm layer for the ridge and plan breakfast after the viewpoint."
+msgstr "जानुअघि दृश्यावलोकन गर्ने ठाउँ रोज्नुहोस् र अघिल्लो रात मौसमको पूर्वानुमान हेर्नुहोस्। चाँडै निस्कँदा सूर्योदयअघि नै पुगेर आरामसँग बस्न सकिन्छ। डाँडाका लागि न्यानो लुगा लैजानुहोस् र दृश्य हेरेपछि खाजा खाने योजना बनाउनुहोस्।"
+
+msgid "Picnic Spot"
+msgstr "पिकनिक स्थल"
+
+msgid "Picnic areas are available on the surrounding hillside. Check reservation arrangements before bringing a group."
+msgstr "वरपरका डाँडामा पिकनिक गर्ने ठाउँ छन्। समूहमा जानुअघि बुकिङको व्यवस्था बुझ्नुहोस्।"
+
+msgid "Picnic ground pin"
+msgstr "नक्सामा पिकनिक स्थल"
+
+msgid "Picnic park"
+msgstr "पिकनिक पार्क"
+
+msgid "Picnic park · Balaju, Kathmandu"
+msgstr "पिकनिक पार्क · बालाजु, काठमाडौं"
+
+msgid "Picnic park · Chobhar"
+msgstr "पिकनिक पार्क · चोभार"
+
+msgid "Picnic park · Thankot"
+msgstr "पिकनिक पार्क · थानकोट"
+
+msgid "Picnic planning"
+msgstr "पिकनिकको तयारी"
+
+msgid "Picnic spots"
+msgstr "पिकनिक स्थलहरू"
+
+msgid "Picnics"
+msgstr "पिकनिक"
+
+msgid "Picnics and access"
+msgstr "पिकनिक र पुग्ने बाटो"
+
+msgid "Pilgrimage circuit"
+msgstr "तीर्थयात्रा परिक्रमा"
+
+msgid "Pilgrimage outing"
+msgstr "तीर्थयात्रा"
+
+msgid "Place not found"
+msgstr "ठाउँ फेला परेन"
+
+msgid "Place, area or activity"
+msgstr "ठाउँ, क्षेत्र वा गतिविधि"
+
+msgid "Places to go with kids"
+msgstr "बालबालिकासँग घुम्ने ठाउँ"
+
+msgid "Plan a meeting spot and allow time for breaks."
+msgstr "सबै भेट्ने ठाउँ तय गर्नुहोस् र बीचबीचमा आराम गर्ने समय राख्नुहोस्।"
+
+msgid "Plan an early viewpoint stop, a slow breakfast, and an optional visit to Changu Narayan."
+msgstr "बिहानै दृश्यावलोकन, फुर्सदिलो खाजा र समय मिले चाँगुनारायण दर्शनको योजना बनाउनुहोस्।"
+
+msgid "Plan an early viewpoint, a slow breakfast, and an optional visit to Changu Narayan."
+msgstr "बिहानै दृश्यावलोकन, फुर्सदिलो खाजा र समय मिले चाँगुनारायण भ्रमणको योजना बनाउनुहोस्।"
+
+msgid "Plan an indoor jumping session and ask the branch which session suits younger children."
+msgstr "भित्री ट्र्याम्पोलिन खेलका लागि समय मिलाउनुहोस् र साना बालबालिकालाई कुन समय उपयुक्त हुन्छ भनेर शाखासँग बुझ्नुहोस्।"
+
+msgid "Plan the return"
+msgstr "फर्कने योजना बनाउनुहोस्"
+
+msgid "Plan to explore the old town on foot and arrange a pickup point outside the narrow lanes."
+msgstr "पुरानो बस्ती पैदल घुम्ने योजना बनाउनुहोस्। गाडी भेट्ने ठाउँ साँघुरा गल्लीबाहिर तय गर्नुहोस्।"
+
+msgid "Plan your visit"
+msgstr "भ्रमणको तयारी"
+
+msgid "Please check your name, email, topic and message."
+msgstr "कृपया आफ्नो नाम, इमेल, विषय र सन्देश जाँच गर्नुहोस्।"
+
+msgid "Please choose a topic."
+msgstr "कृपया एउटा विषय छान्नुहोस्।"
+
+msgid "Please enable JavaScript to send this form, or"
+msgstr "यो फारमबाट सन्देश पठाउन JavaScript चालू गर्नुहोस् वा"
+
+msgid "Please enter your email address."
+msgstr "कृपया आफ्नो इमेल ठेगाना लेख्नुहोस्।"
+
+msgid "Please enter your message."
+msgstr "कृपया सन्देश लेख्नुहोस्।"
+
+msgid "Please enter your name."
+msgstr "कृपया आफ्नो नाम लेख्नुहोस्।"
+
+msgid "Please reload the page and try again."
+msgstr "पृष्ठ फेरि खोलेर प्रयास गर्नुहोस्।"
+
+msgid "Please use the site with reasonable care. The"
+msgstr "वेबसाइट प्रयोग गर्दा आवश्यक सावधानी अपनाउनुहोस्। थप जानकारी:"
+
+msgid "Please wait 15 minutes before trying again."
+msgstr "फेरि प्रयास गर्नुअघि 15 मिनेट पर्खनुहोस्।"
+
+msgid "Pond at Balaju Baisdhara Park"
+msgstr "बालाजु बाइसधारा पार्कको पोखरी"
+
+msgid "Pottery Square in Bhaktapur"
+msgstr "भक्तपुरको कुम्हाले टोल"
+
+msgid "Pottery Square, Bhaktapur"
+msgstr "भक्तपुरको कुम्हाले टोल"
+
+msgid "Previous stop photo"
+msgstr "घुम्ने ठाउँको अघिल्लो तस्बिर"
+
+msgid "Privacy Policy"
+msgstr "गोपनीयता नीति"
+
+msgid "Public domain"
+msgstr "सार्वजनिक डोमेन"
+
+msgid "Published entry fees"
+msgstr "प्रकाशित प्रवेश शुल्क"
+
+msgid "RAJESH DHUNGANA"
+msgstr "RAJESH DHUNGANA"
+
+msgid "Rana prime minister Juddha Shamsher established the zoo as a private collection in 1932. It passed into government ownership after the political changes of 1950 and opened to the public in 1956."
+msgstr "राणा प्रधानमन्त्री जुद्धशमशेरले सन् १९३२ मा निजी सङ्कलनका रूपमा चिडियाखाना स्थापना गरेका थिए। सन् १९५० को राजनीतिक परिवर्तनपछि यो सरकारी स्वामित्वमा गएको थियो र सन् १९५६ मा सर्वसाधारणका लागि खुला गरिएको थियो।"
+
+msgid "Ratna Park"
+msgstr "रत्नपार्क"
+
+msgid "Rato Machhindranath Temple"
+msgstr "रातो मच्छिन्द्रनाथ मन्दिर"
+
+msgid "Rato Machhindranath Temple in Bungamati"
+msgstr "बुङ्गमतीको रातो मच्छिन्द्रनाथ मन्दिर"
+
+msgid "Rato Machhindranath Temple, Bungamati"
+msgstr "रातो मच्छिन्द्रनाथ मन्दिर, बुङ्गमती"
+
+msgid "Read guide"
+msgstr "मार्गदर्शन पढ्नुहोस्"
+
+msgid "Read guide ↗"
+msgstr "मार्गदर्शन पढ्नुहोस् ↗"
+
+msgid "Read our Privacy Policy"
+msgstr "हाम्रो गोपनीयता नीति पढ्नुहोस्"
+
+msgid "Read the"
+msgstr "पढ्नुहोस्"
+
+msgid "References to restaurants, stays and travel operators help you find providers to contact. Make arrangements directly with the provider and confirm pricing, availability, inclusions and cancellation terms."
+msgstr "रेस्टुरेन्ट, बासस्थान र यात्रा सेवाका सन्दर्भले सम्बन्धित सेवा प्रदायक खोज्न सघाउँछन्। बुकिङ वा अन्य व्यवस्था सिधै उनीहरूसँग गर्नुहोस्। मूल्य, उपलब्धता, शुल्कमा समावेश सुविधा र रद्द गर्ने सर्त बुझ्नुहोस्।"
+
+msgid "Reject"
+msgstr "अस्वीकार गर्नुहोस्"
+
+msgid "Related destinations"
+msgstr "सम्बन्धित गन्तव्यहरू"
+
+msgid "Reply-To:"
+msgstr "Reply-To:"
+
+msgid "Resort website"
+msgstr "रिसोर्टको वेबसाइट"
+
+msgid "Restaurant details"
+msgstr "रेस्टुरेन्टको विवरण"
+
+msgid "Restaurants near"
+msgstr "नजिकै रेस्टुरेन्टहरू"
+
+msgid "Return to the bazaar for a meal after the temple walk."
+msgstr "मन्दिर घुमेपछि खाना खान बजार फर्कनुहोस्।"
+
+msgid "Return via Harisiddhi"
+msgstr "हरिसिद्धि हुँदै फर्कनुहोस्"
+
+msgid "Ride up to the ridge for the viewpoint, Bhaleshwor Mahadev Temple or the playground."
+msgstr "दृश्यावलोकन, भालेश्वर महादेव दर्शन वा खेल मैदानका लागि केबलकारबाट डाँडामाथि पुग्नुहोस्।"
+
+msgid "Rocket model outside the Simulation Science Center in Chobhar"
+msgstr "चोभारको सिमुलेसन साइन्स सेन्टरबाहिर रकेटको नमुना"
+
+msgid "Roofed picnic shelter in the woods at Sangdaha Picnic Spot"
+msgstr "साँगदह पिकनिक स्थलको वनभित्र छाना भएको पिकनिक टहरा"
+
+msgid "Route via Satdobato"
+msgstr "सातदोबाटो हुँदै जाने बाटो"
+
+msgid "Rudrayani Temple"
+msgstr "रुद्रायणी मन्दिर"
+
+msgid "Rudrayani Temple in Khokana"
+msgstr "खोकनाको रुद्रायणी मन्दिर"
+
+msgid "Rudrayani Temple stands in central Khokana among the village’s lanes and courtyards. It gives a visit a clear starting point before exploring the settlement or continuing out to Shikali Temple."
+msgstr "खोकनाको मध्य भागमा गल्ली र चोकबीच रुद्रायणी मन्दिर छ। बस्ती घुम्न वा सिकाली मन्दिरतिर जानुअघि यात्रा यहीँबाट सुरु गर्न सकिन्छ।"
+
+msgid "Rudrayani Temple, Khokana"
+msgstr "रुद्रायणी मन्दिर, खोकना"
+
+msgid "SAARC visitors · NPR"
+msgstr "सार्क मुलुकका पर्यटक · रु."
+
+msgid "SAARC visitors · NPR 100"
+msgstr "सार्क मुलुकका पर्यटक · रु. 100"
+
+msgid "SAARC visitors · NPR 50"
+msgstr "सार्क मुलुकका पर्यटक · रु. 50"
+
+msgid "SAARC visitors · NPR 500"
+msgstr "सार्क मुलुकका पर्यटक · रु. 500"
+
+msgid "SANYO DIGITAL CAMERA"
+msgstr "SANYO DIGITAL CAMERA"
+
+msgid "SCENIC DINING"
+msgstr "दृश्यसँगै खानपान"
+
+msgid "SCIENCE CENTRE · CHOBHAR"
+msgstr "विज्ञान केन्द्र · चोभार"
+
+msgid "SHANKHARAPUR, KATHMANDU"
+msgstr "शङ्खरापुर, काठमाडौं"
+
+msgid "STUPA"
+msgstr "स्तूप"
+
+msgid "Sajha Yatayat routes"
+msgstr "साझा यातायातका रुट"
+
+msgid "Sajha Yatayat’s Ratnapark–Godawari route stops at Lagankhel and Satdobato. From Godawari Bus Park, continue on foot to the garden entrance."
+msgstr "साझा यातायातको रत्नपार्क–गोदावरी रुट लगनखेल र सातदोबाटो हुँदै जान्छ। गोदावरी बसपार्कबाट उद्यानको प्रवेशद्वारसम्म हिँड्नुहोस्।"
+
+msgid "Salinadi"
+msgstr "शालीनदी"
+
+msgid "Salinadi is another pilgrimage stop near Sankhu. Allow more time if you plan to visit both."
+msgstr "साँखुनजिकै शालीनदी अर्को तीर्थस्थल हो। दुवै ठाउँ पुग्ने योजना भए थप समय राख्नुहोस्।"
+
+msgid "Sample budget"
+msgstr "नमुना बजेट"
+
+msgid "Sangdaha Picnic Spot"
+msgstr "साँगदह पिकनिक स्थल"
+
+msgid "Sangdaha Picnic Spot, Changunarayan"
+msgstr "साँगदह पिकनिक स्थल, चाँगुनारायण"
+
+msgid "Sangdaha is a wooded picnic area in Changunarayan with shelters among the pines. Plan the outing around a picnic and a short walk in the forest, with Changu Narayan Temple as a separate stop."
+msgstr "चाँगुनारायणको साँगदहमा सल्लाका रूखबीच पिकनिक गर्ने टहरा छन्। पिकनिकसँगै वनमा छोटो हिँडडुलको योजना बनाउनुहोस्। चाँगुनारायण मन्दिरलाई छुट्टै गन्तव्यका रूपमा समेट्न सकिन्छ।"
+
+msgid "Sankhu & Bajrayogini"
+msgstr "साँखु र बज्रयोगिनी"
+
+msgid "Sankhu Bazaar"
+msgstr "साँखु बजार"
+
+msgid "Sankhu Bus Park"
+msgstr "साँखु बसपार्क"
+
+msgid "Sankhu and Vajrayogini tentative-list entry"
+msgstr "सम्भावित विश्व सम्पदा सूचीमा साँखु र बज्रयोगिनीको विवरण"
+
+msgid "Sankhu dates to the Lichchhavi period and stood on an old trade route to Tibet. Nepal’s Department of Archaeology dates the hill’s main Bajrayogini temple complex to the mid-17th century. Nepal submitted the town and temple together to UNESCO’s Tentative List in 2008."
+msgstr "लिच्छविकालीन साँखु तिब्बत जाने पुरानो व्यापारिक बाटोमा पर्थ्यो। पुरातत्त्व विभागका अनुसार डाँडामाथिको मुख्य बज्रयोगिनी मन्दिर परिसर सत्रौँ शताब्दीको मध्यतिरको हो। नेपालले सन् 2008 मा बस्ती र मन्दिरलाई संयुक्त रूपमा युनेस्कोको सम्भावित विश्व सम्पदा सूचीमा प्रस्ताव गरेको थियो।"
+
+msgid "Sankhu town and hilltop temple"
+msgstr "साँखु बस्ती र डाँडामाथिको मन्दिर"
+
+msgid "Sankhu, Nepal"
+msgstr "साँखु, नेपाल"
+
+msgid "Santaneshwor Mahadev Temple"
+msgstr "सन्तानेश्वर महादेव मन्दिर"
+
+msgid "Santaneshwor Mahadev Temple in Jharuwarasi"
+msgstr "झरुवारासीको सन्तानेश्वर महादेव मन्दिर"
+
+msgid "Santaneshwor Mahadev Temple, Jharuwarasi"
+msgstr "सन्तानेश्वर महादेव मन्दिर, झरुवारासी"
+
+msgid "Santaneshwor Mahadev is a Shiva shrine in Jharuwarasi, Lalitpur. Set aside time for worship and the approach to the temple, then continue toward Godawari if you want a second stop in the area."
+msgstr "ललितपुरको झरुवारासीमा रहेको सन्तानेश्वर महादेव शिव मन्दिर हो। मन्दिर पुग्न र दर्शन गर्न समय छुट्याउनुहोस्। वरपर अर्को ठाउँ पनि घुम्न मन भए गोदावरीतिर जानुहोस्।"
+
+msgid "Scenic dining"
+msgstr "दृश्यसँगै खानपान"
+
+msgid "Scenic dining · Sample listing"
+msgstr "दृश्यसँगै खानपान · नमुना विवरण"
+
+msgid "Science centre"
+msgstr "विज्ञान केन्द्र"
+
+msgid "Science centre · Chobhar"
+msgstr "विज्ञान केन्द्र · चोभार"
+
+msgid "Search"
+msgstr "खोज्नुहोस्"
+
+msgid "Search places"
+msgstr "ठाउँ खोज्नुहोस्"
+
+msgid "Search results for “%s”"
+msgstr "“%s” को खोज परिणाम"
+
+msgid "Search, filters and location"
+msgstr "खोज, छनोट र स्थान"
+
+msgid "See all ticket prices"
+msgstr "टिकटका सबै शुल्क हेर्नुहोस्"
+
+msgid "See picnic guidance"
+msgstr "पिकनिकसम्बन्धी जानकारी हेर्नुहोस्"
+
+msgid "See places to visit"
+msgstr "घुम्ने ठाउँहरू हेर्नुहोस्"
+
+msgid "See preserved specimens of Nepal’s wildlife at the museum below the stupa."
+msgstr "स्तूपभन्दा तल रहेको सङ्ग्रहालयमा संरक्षण गरेर राखिएका नेपालका वन्यजन्तुका नमुना हेर्नुहोस्।"
+
+msgid "See the Nandi statue in the courtyard and allow time for worship at the Shiva shrine."
+msgstr "चोकमा रहेको नन्दीको मूर्ति हेर्नुहोस् र शिव मन्दिरमा दर्शनका लागि समय राख्नुहोस्।"
+
+msgid "See the stone Vishnu reclining on a serpent in the temple pool."
+msgstr "मन्दिरको पोखरीमा नागमाथि सुतेका विष्णुको ढुङ्गाको मूर्ति हेर्नुहोस्।"
+
+msgid "See the timber carvings at the temple, then walk toward the riverside ghats."
+msgstr "मन्दिरका काठमा कुँदिएका बुट्टा हेरेपछि नदीकिनारका घाटतिर हिँड्नुहोस्।"
+
+msgid "See ticket details"
+msgstr "टिकट विवरण हेर्नुहोस्"
+
+msgid "Send information that you have the right to share, and identify the destination or listing concerned. We may review factual suggestions when maintaining a guide."
+msgstr "आफूलाई साझा गर्ने अधिकार भएको जानकारी मात्र पठाउनुहोस् र सम्बन्धित गन्तव्य वा सूची स्पष्ट पार्नुहोस्। मार्गदर्शन अद्यावधिक गर्दा हामी तथ्यसम्बन्धी सुझावको समीक्षा गर्न सक्छौँ।"
+
+msgid "Send message"
+msgstr "सन्देश पठाउनुहोस्"
+
+msgid "Send us a message and we’ll reply by email."
+msgstr "हामीलाई सन्देश पठाउनुहोस्। हामी इमेलबाट जवाफ दिनेछौँ।"
+
+msgid "Set directions to the main entrance. Paid parking is available outside the gate."
+msgstr "नक्सामा मुख्य प्रवेशद्वारलाई गन्तव्य बनाउनुहोस्। बाहिर शुल्क तिरेर गाडी राख्ने ठाउँ छ।"
+
+msgid "Set directions to the specific viewpoint or hotel you plan to visit. The village and view tower are separate stops."
+msgstr "जान चाहेको दृश्यावलोकन स्थल वा होटललाई नक्सामा गन्तव्य बनाउनुहोस्। बस्ती र भ्यू टावर छुट्टाछुट्टै ठाउँमा छन्।"
+
+msgid "Set your navigation to Kakani Viewpoint. Use a separate pin for the memorial park if you are visiting both."
+msgstr "नक्सामा ककनीको दृश्यावलोकन स्थल रोज्नुहोस्। स्मृति पार्क पनि जाने हो भने त्यसको स्थान छुट्टै हेर्नुहोस्।"
+
+msgid "Seto Gumba in Nagarjun"
+msgstr "नागार्जुनको सेतो गुम्बा"
+
+msgid "Several food stalls in Basantapur if you’re heading toward Durbar Square."
+msgstr "दरबार क्षेत्रतिर जाँदै हुनुहुन्छ भने बसन्तपुरमा विभिन्न खाने पसल भेटिन्छन्।"
+
+msgid "Share its name, location and what makes it worth a visit. A map link helps us find it."
+msgstr "ठाउँको नाम, स्थान र त्यहाँ घुम्न किन राम्रो लाग्छ भन्ने बताउनुहोस्। नक्साको लिङ्क पठाउँदा हामीलाई ठाउँ पहिचान गर्न सजिलो हुन्छ।"
+
+msgid "Shikali Temple"
+msgstr "सिकाली मन्दिर"
+
+msgid "Shikali Temple in Khokana"
+msgstr "खोकनाको सिकाली मन्दिर"
+
+msgid "Shikali Temple sits outside Khokana, away from the village’s central lanes. Start in the village at Rudrayani Temple or visit Shikali first, then walk into Khokana to see the setting of the community’s jatra."
+msgstr "सिकाली मन्दिर खोकनाका मुख्य गल्लीभन्दा बाहिर छ। बस्तीको रुद्रायणी मन्दिरबाट सुरु गर्न सकिन्छ वा पहिले सिकाली दर्शन गरेर खोकना पस्न सकिन्छ। यसरी स्थानीय जात्रा मनाइने परिवेश पनि हेर्न पाइन्छ।"
+
+msgid "Shikali Temple, Khokana"
+msgstr "सिकाली मन्दिर, खोकना"
+
+msgid "Show photo of"
+msgstr "को फोटो देखाउनुहोस्"
+
+msgid "Shree Pancha Laxmi temple grounds on a hillside near Telkot"
+msgstr "तेलकोटनजिकको डाँडामा श्री पञ्चलक्ष्मी मन्दिर परिसर"
+
+msgid "Shree Pancha Mahalaxmi Temple, Telkot, Bhaktapur"
+msgstr "श्री पञ्च महालक्ष्मी मन्दिर, तेलकोट, भक्तपुर"
+
+msgid "Shree Pancha Mahalaxmi is a hillside temple near Telkot on the Bhaktapur side of the Nagarkot hills. It works as a short worship stop on a day that also includes Telkot or a viewpoint farther up the ridge."
+msgstr "नगरकोटका डाँडाको भक्तपुरतर्फ, तेलकोटनजिक श्री पञ्च महालक्ष्मी मन्दिर छ। छोटो दर्शनसँगै तेलकोट वा अझ माथिका दृश्यावलोकन स्थल पनि घुम्न सकिन्छ।"
+
+msgid "Sightseeing in"
+msgstr "मा घुमघाम"
+
+msgid "Simulation Science Center"
+msgstr "सिमुलेसन साइन्स सेन्टर"
+
+msgid "Simulation Science Center, Chobhar, Kirtipur"
+msgstr "सिमुलेसन साइन्स सेन्टर, चोभार, कीर्तिपुर"
+
+msgid "Skip to content"
+msgstr "मुख्य सामग्रीमा जानुहोस्"
+
+msgid "Slow down with a walk through the village before returning from the reservoir."
+msgstr "जलाशयबाट फर्कनुअघि गाउँमा फुर्सदसँग हिँडडुल गर्नुहोस्।"
+
+msgid "Snacks at Bhrikutimandap"
+msgstr "भृकुटीमण्डपमा खाजा"
+
+msgid "Social media"
+msgstr "सामाजिक सञ्जाल"
+
+msgid "Some days call for a family picnic. Others are for a quiet walk together, a temple visit or a drive with friends. Browse by city or by the kind of outing you have in mind, including places for kids and restaurants with landscape views."
+msgstr "कहिले परिवारसँग पिकनिक जान मन लाग्छ, कहिले शान्तसँग हिँड्न, मन्दिर दर्शन गर्न वा साथीहरूसँग गाडीमा घुम्न। आफूले चाहेको घुमघाम वा सहरअनुसार ठाउँ रोज्नुहोस्। बालबालिकासँग जाने ठाउँदेखि दृश्य हेर्दै खाना खाने रेस्टुरेन्टसम्म यहाँ खोज्न सकिन्छ।"
+
+msgid "Some paths are wheelchair accessible. Ask at the gate about suitable routes and the electric shuttle."
+msgstr "केही बाटोमा ह्विलचेयर गुडाउन मिल्छ। उपयुक्त बाटो र विद्युतीय सटलको सुविधाबारे प्रवेशद्वारमा बुझ्नुहोस्।"
+
+msgid "Some photographs are provided under Creative Commons licenses and others are credited to their source publishers. Follow the license attached to the individual image, including attribution and any share-alike conditions. The"
+msgstr "केही तस्बिर Creative Commons इजाजतपत्रअन्तर्गत उपलब्ध छन् भने अरूमा मूल प्रकाशकलाई श्रेय दिइएको छ। हरेक तस्बिरको इजाजतपत्रमा भएका श्रेय दिने र उही सर्तमा साझा गर्नेलगायत नियम पालना गर्नुहोस्। सम्बन्धित जानकारी:"
+
+msgid "Sources"
+msgstr "स्रोतहरू"
+
+msgid "Sources, history and photographs"
+msgstr "स्रोत, इतिहास र तस्बिर"
+
+msgid "Spend time at one of the valley’s four Narayan shrines west of Swayambhu."
+msgstr "स्वयम्भूको पश्चिममा रहेको उपत्यकाका चार नारायण मन्दिरमध्ये एकमा समय बिताउनुहोस्।"
+
+msgid "Spend time at the viewpoint and stop for lunch"
+msgstr "दृश्य हेरेपछि खाना खान रोक्नुहोस्"
+
+msgid "Spend time at the wave pool and slides when those attractions are operating."
+msgstr "सञ्चालनमा हुँदा छाल आउने पोखरी र स्लाइडमा रमाउनुहोस्।"
+
+msgid "Standard"
+msgstr "सामान्य"
+
+msgid "Start among the palace buildings and carved façades of Durbar Square, then walk to Nyatapola in Taumadhi and on to Pottery Square. The route combines royal architecture with the everyday work and street life of old Bhaktapur."
+msgstr "दरबार क्षेत्रका भवन र तिनमा कुँदिएका बुट्टा हेरेर यात्रा सुरु गर्नुहोस्। त्यसपछि टौमढीको न्यातपोल हुँदै कुम्हाले टोल पुग्नुहोस्। यस बाटोमा दरबारको वास्तुकलासँगै पुरानो भक्तपुरको कामकाज र दैनिक जीवन पनि देख्न पाइन्छ।"
+
+msgid "Start at Ashok Binayak in Maru, then visit Chandra Binayak in Chabahil"
+msgstr "मरुको अशोक विनायकबाट सुरु गरेर चाबहिलको चन्द्रविनायक जानुहोस्"
+
+msgid "Start at Durbar Square, look for carved windows and courtyards, then stop for lunch. A short route with room for pauses makes it easier to adapt the day to younger children."
+msgstr "दरबार क्षेत्रबाट सुरु गरेर कलात्मक झ्याल र चोकहरू हेर्नुहोस्, त्यसपछि खाना खान रोक्नुहोस्। छोटो बाटो र बीचबीचमा आराम गर्ने समय राख्दा साना बालबालिकालाई सहज हुन्छ।"
+
+msgid "Start at the village shrine before exploring Khokana’s central lanes and courtyards."
+msgstr "खोकनाका मुख्य गल्ली र चोक घुम्नुअघि बस्तीको मन्दिरबाट यात्रा सुरु गर्नुहोस्।"
+
+msgid "Start from Chitlang or Markhu"
+msgstr "चित्लाङ वा मार्खुबाट सुरु गर्नुहोस्"
+
+msgid "Start here"
+msgstr "यहीँबाट सुरु गर्नुहोस्"
+
+msgid "Start in Sankhu for the town walk. Confirm drop-off and parking before the uphill temple approach."
+msgstr "साँखु बजारबाट बस्तीको पैदल यात्रा सुरु गर्नुहोस्। मन्दिरतिर उकालो चढ्नुअघि गाडीबाट ओर्लने र पार्किङ गर्ने ठाउँ बुझ्नुहोस्।"
+
+msgid "Start in Sankhu’s old Newar lanes, where public squares and small shrines break up the walk through town. Stone steps lead uphill to Bajrayogini, a pilgrimage site for Hindu and Buddhist devotees that can be paired with Salinadi."
+msgstr "पुराना नेवारी गल्ली, सार्वजनिक चोक र साना मन्दिर हेर्दै साँखु घुम्नुहोस्। ढुङ्गाका सिँढी हुँदै डाँडामाथिको बज्रयोगिनी पुगिन्छ। हिन्दू र बौद्ध दुवैका लागि महत्त्वपूर्ण यस तीर्थस्थलसँगै शालीनदी पनि जान सकिन्छ।"
+
+msgid "Start in the bazaar and walk through the old settlement."
+msgstr "बजारबाट सुरु गरेर पुरानो बस्तीमा हिँडडुल गर्नुहोस्।"
+
+msgid "Start near Markhu and pause by the water for a short walk or lunch."
+msgstr "मार्खुनजिकबाट सुरु गरेर जलाशयछेउमा छोटो हिँडडुल वा खानाका लागि रोक्नुहोस्।"
+
+msgid "Start near the town centre and use a separate pin for Chandeshwori Temple."
+msgstr "बजारको मध्य भागनजिकबाट सुरु गर्नुहोस्। चण्डेश्वरी मन्दिरको स्थान नक्सामा छुट्टै हेर्नुहोस्।"
+
+msgid "Start with a viewpoint visit"
+msgstr "दृश्यावलोकनबाट सुरु गर्नुहोस्"
+
+msgid "Start with a village walk and decide how much walking you want to do before lunch. Nepal Tourism Board describes a walking route from Chitlang toward the reservoir and a longer motor road. Plan transport around the route you choose."
+msgstr "गाउँको पैदल यात्राबाट सुरु गर्नुहोस् र खानाअघि कति हिँड्ने भन्ने तय गर्नुहोस्। नेपाल पर्यटन बोर्डले चित्लाङबाट जलाशय जाने पैदल बाटो र घुमाउरो मोटर बाटो उल्लेख गरेको छ। रोजेको बाटोअनुसार यातायातको व्यवस्था मिलाउनुहोस्।"
+
+msgid "Start with darshan, then walk in the pine grove beside the temple."
+msgstr "पहिले दर्शन गर्नुहोस्, त्यसपछि मन्दिरछेउको सल्लाघारीमा हिँड्नुहोस्।"
+
+msgid "Start with the garden paths and plant collections, then head to the ponds."
+msgstr "उद्यानका बाटा हुँदै वनस्पति हेरेर सुरु गर्नुहोस्, त्यसपछि पोखरीतिर जानुहोस्।"
+
+msgid "Start with the hilltop shrine above Chobhar before heading down toward the river."
+msgstr "तल नदीतिर झर्नुअघि चोभारको डाँडामाथिको मन्दिरबाट सुरु गर्नुहोस्।"
+
+msgid "Start with the park rides, checking availability at the gate."
+msgstr "प्रवेशद्वारमा कुन खेल खुला छन् भनेर बुझेर खेल्न सुरु गर्नुहोस्।"
+
+msgid "Start with the view"
+msgstr "पहिले दृश्यावलोकन गर्नुहोस्"
+
+msgid "Starting from"
+msgstr "यात्रा सुरु गर्ने ठाउँ"
+
+msgid "Stay near Nagarkot for a short walk or continue to Changu Narayan. If you plan to walk the ridge route, arrange your return from the temple in advance."
+msgstr "नगरकोटनजिकै छोटो हिँडडुल गर्नुहोस् वा चाँगुनारायणसम्म जानुहोस्। डाँडैडाँडाको पैदल बाटो जाने हो भने मन्दिरबाट फर्कने गाडीको व्यवस्था पहिले मिलाउनुहोस्।"
+
+msgid "Stay nearby"
+msgstr "नजिकैका बासस्थान"
+
+msgid "Step inside the former palace to see religious art and examples of Newar craftsmanship."
+msgstr "पुरानो दरबारभित्र पसेर धार्मिक कला र नेवारी शिल्पकलाका नमुना हेर्नुहोस्।"
+
+msgid "Stop at the Ganesh shrine before continuing to the Rato Machhindranath temple."
+msgstr "रातो मच्छिन्द्रनाथ मन्दिर जानुअघि गणेश मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Stop at the Shiva shrine associated with Kedarnath and look for Nandi in the courtyard."
+msgstr "केदारनाथसँग जोडिएको शिव मन्दिर दर्शन गर्नुहोस् र चोकमा रहेको नन्दी हेर्नुहोस्।"
+
+msgid "Stop at the garden gate or plan a meal along the Satdobato–Godawari road."
+msgstr "उद्यानको प्रवेशद्वारनजिक वा सातदोबाटो–गोदावरी सडकमा खाना खाने योजना बनाउनुहोस्।"
+
+msgid "Stop by the Fountain Pond and look for the Coronation Pond on the garden map."
+msgstr "फोहोरा पोखरीमा केहीबेर बस्नुहोस्। उद्यानको नक्सामा राज्याभिषेक पोखरीको स्थान पनि हेर्नुहोस्।"
+
+msgid "Stop for Newari food"
+msgstr "नेवारी खाना खान रोक्नुहोस्"
+
+msgid "Stop for a Newari meal in Harisiddhi if you’re returning via Satdobato."
+msgstr "सातदोबाटो हुँदै फर्कँदै हुनुहुन्छ भने हरिसिद्धिमा नेवारी खाना खान रोक्नुहोस्।"
+
+msgid "Stop for a meal near Boudhanath if you’re returning through Boudha."
+msgstr "बौद्ध हुँदै फर्कँदै हुनुहुन्छ भने बौद्धनाथनजिक खाना खान रोक्नुहोस्।"
+
+msgid "Stop for lunch"
+msgstr "खाना खान रोक्नुहोस्"
+
+msgid "Stop for lunch before heading to Bungamati"
+msgstr "बुङ्गमती जानुअघि खाना खान रोक्नुहोस्"
+
+msgid "Stop for lunch by the lake"
+msgstr "तालछेउमा खाना खान रोक्नुहोस्"
+
+msgid "Stop for lunch in Pharping"
+msgstr "फर्पिङमा खाना खान रोक्नुहोस्"
+
+msgid "Stop photo"
+msgstr "घुम्ने ठाउँको तस्बिर"
+
+msgid "Straight-line distance"
+msgstr "सीधा रेखाको दूरी"
+
+msgid "Stream at Godawari Botanical Garden"
+msgstr "गोदावरी वनस्पति उद्यानको खोल्सो"
+
+msgid "Stupa"
+msgstr "स्तूप"
+
+msgid "Suggest a favourite spot, share an update to a guide or tell us about your restaurant, stay or travel service."
+msgstr "आफूलाई मन परेको ठाउँ सुझाउनुहोस्, मार्गदर्शनमा सच्याउनुपर्ने कुरा पठाउनुहोस् वा आफ्नो रेस्टुरेन्ट, बासस्थान वा यात्रा सेवाबारे बताउनुहोस्।"
+
+msgid "Suggest a place"
+msgstr "घुम्ने ठाउँ सुझाउनुहोस्"
+
+msgid "Suggested visit"
+msgstr "घुम्न छुट्याउने समय"
+
+msgid "Suggestions, corrections and submissions"
+msgstr "सुझाव, सुधार र पठाइएका सामग्री"
+
+msgid "Surya Binayak Temple"
+msgstr "सूर्यविनायक मन्दिर"
+
+msgid "Surya Binayak Temple in Bhaktapur"
+msgstr "भक्तपुरको सूर्यविनायक मन्दिर"
+
+msgid "Surya Binayak Temple, Bhaktapur"
+msgstr "सूर्यविनायक मन्दिर, भक्तपुर"
+
+msgid "Suryabinayak Municipality records a local legend that a Shiva linga appeared from the ground after villagers prayed during a drought. The story explains the shrine’s association with the fulfilment of wishes."
+msgstr "खडेरीका बेला गाउँलेले प्रार्थना गरेपछि जमिनबाट शिवलिङ्ग प्रकट भएको स्थानीय किंवदन्ती सूर्यविनायक नगरपालिकाले उल्लेख गरेको छ। यस कथनले मन्दिरलाई मनोकामना पूरा हुने विश्वाससँग जोड्छ।"
+
+msgid "Suryabinayak Municipality tourism guide"
+msgstr "सूर्यविनायक नगरपालिकाको पर्यटनसम्बन्धी जानकारी"
+
+msgid "Suryabinayak Municipality tourism profile"
+msgstr "सूर्यविनायक नगरपालिकाको पर्यटकीय विवरण"
+
+msgid "Swayambhunath"
+msgstr "स्वयम्भूनाथ"
+
+msgid "Swayambhunath Stupa, Kathmandu"
+msgstr "स्वयम्भूनाथ स्तूप, काठमाडौं"
+
+msgid "Swayambhunath crowns a hill above Kathmandu with a white stupa, prayer wheels and smaller shrines around its base. Follow the circuit at your own pace and pause where the hill opens onto views across the city."
+msgstr "काठमाडौंको डाँडामाथि रहेको स्वयम्भूनाथमा सेतो स्तूप वरपर माने र साना मन्दिर छन्। आफ्नै फुर्सदअनुसार परिक्रमा गर्नुहोस् र सहरको दृश्य देखिने ठाउँमा केहीबेर रोक्नुहोस्।"
+
+msgid "Swayambhunath stupa in Kathmandu"
+msgstr "काठमाडौंको स्वयम्भूनाथ स्तूप"
+
+msgid "Switch to"
+msgstr "मा स्विच गर्नुहोस्"
+
+msgid "Switch to dark mode"
+msgstr "गाढा रूप प्रयोग गर्नुहोस्"
+
+msgid "Switch to light mode"
+msgstr "उज्यालो रूप प्रयोग गर्नुहोस्"
+
+msgid "TEMPLE"
+msgstr "मन्दिर"
+
+msgid "TEMPLE & NEARBY PICNIC GROUNDS · CHANGUNARAYAN"
+msgstr "मन्दिर र नजिकैको पिकनिक स्थल · चाँगुनारायण"
+
+msgid "TEMPLE & PICNIC AREA · SURYABINAYAK"
+msgstr "मन्दिर र पिकनिक स्थल · सूर्यविनायक"
+
+msgid "TEMPLE & PINE GROVE · SALLAGHARI, BHAKTAPUR"
+msgstr "मन्दिर र सल्लाघारी · सल्लाघारी, भक्तपुर"
+
+msgid "TEMPLE · BANEPA"
+msgstr "मन्दिर · बनेपा"
+
+msgid "TEMPLE · BODE, MADHYAPUR THIMI"
+msgstr "मन्दिर · बोडे, मध्यपुर थिमि"
+
+msgid "TEMPLE · BUNGAMATI"
+msgstr "मन्दिर · बुङ्गमती"
+
+msgid "TEMPLE · CHAPAGAON"
+msgstr "मन्दिर · चापागाउँ"
+
+msgid "TEMPLE · CHOBHAR"
+msgstr "मन्दिर · चोभार"
+
+msgid "TEMPLE · ICHANGU, NAGARJUN"
+msgstr "मन्दिर · इचङ्गु, नागार्जुन"
+
+msgid "TEMPLE · JHARUWARASI, LALITPUR"
+msgstr "मन्दिर · झरुवारासी, ललितपुर"
+
+msgid "TEMPLE · KATHMANDU"
+msgstr "मन्दिर · काठमाडौं"
+
+msgid "TEMPLE · KHOKANA"
+msgstr "मन्दिर · खोकना"
+
+msgid "TEMPLE · KIRTIPUR"
+msgstr "मन्दिर · कीर्तिपुर"
+
+msgid "TEMPLE · MACHHEGAUN"
+msgstr "मन्दिर · मच्छेगाउँ"
+
+msgid "TEMPLE · SIPADOL, BHAKTAPUR"
+msgstr "मन्दिर · सिपाडोल, भक्तपुर"
+
+msgid "TEMPLE · SURYABINAYAK, BHAKTAPUR"
+msgstr "मन्दिर · सूर्यविनायक, भक्तपुर"
+
+msgid "TOWN OUTING"
+msgstr "नगर घुमघाम"
+
+msgid "Take a break inside the park or look for food around Pradarshani Marg."
+msgstr "पार्कभित्र आराम गर्नुहोस् वा प्रदर्शनीमार्ग वरपर खाने ठाउँ खोज्नुहोस्।"
+
+msgid "Take a bus to Sankhu and confirm your current boarding point and return departure locally."
+msgstr "साँखु जाने बस चढ्नुहोस्। हाल कहाँबाट चढ्ने र फर्कने गाडी कहिले छुट्छ भनेर स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "Take a bus toward Suryabinayak Chowk. Ask about onward transport to Ashapuri before leaving the chowk, and confirm your return arrangements."
+msgstr "सूर्यविनायक चोकसम्म बसमा जानुहोस्। चोकबाट निस्कनुअघि आशापुरी जाने गाडी र फर्कने व्यवस्थाबारे बुझ्नुहोस्।"
+
+msgid "Take a food break in Bhrikutimandap or head to Basantapur for lunch."
+msgstr "भृकुटीमण्डपमा खाना खान रोक्नुहोस् वा बसन्तपुरतिर जानुहोस्।"
+
+msgid "Take a short walk around the memorial grounds after the viewpoint."
+msgstr "दृश्यावलोकनपछि स्मृति पार्कमा छोटो हिँडडुल गर्नुहोस्।"
+
+msgid "Take a short walk, then return"
+msgstr "छोटो हिँडडुलपछि फर्कनुहोस्"
+
+msgid "Take a snack break"
+msgstr "खाजा खान आराम गर्नुहोस्"
+
+msgid "Take a walk around the grounds and settle in for a meal at a designated picnic spot."
+msgstr "परिसरमा हिँडडुल गरेर पिकनिकका लागि तोकिएको ठाउँमा खाना खान बस्नुहोस्।"
+
+msgid "Take in the five-tiered temple from Taumadhi Square and look for the guardian figures lining its staircase."
+msgstr "टौमढी चोकबाट पाँचतले मन्दिर हेर्नुहोस् र सिँढीका दुवैपट्टि रहेका रक्षकका मूर्ति नियाल्नुहोस्।"
+
+msgid "Take in the open pasture views before continuing toward Markhu."
+msgstr "मार्खुतिर जानुअघि खुला चरन क्षेत्रको दृश्य हेर्नुहोस्।"
+
+msgid "Take time for the stone sculptures and early inscription in the temple precinct."
+msgstr "मन्दिर परिसरका ढुङ्गाका मूर्ति र पुरानो शिलालेख हेर्न समय राख्नुहोस्।"
+
+msgid "Technical records and service providers"
+msgstr "प्राविधिक अभिलेख र सेवा प्रदायकहरू"
+
+msgid "Telkot, Bhaktapur"
+msgstr "तेलकोट, भक्तपुर"
+
+msgid "Tell us about your venue or service, where it is based and how people can reach you."
+msgstr "आफ्नो ठाउँ वा सेवाबारे बताउनुहोस्। कहाँ छ र मानिसले कसरी सम्पर्क गर्न वा पुग्न सक्छन् भन्ने जानकारी पनि दिनुहोस्।"
+
+msgid "Temple"
+msgstr "मन्दिर"
+
+msgid "Temple & nearby picnic grounds"
+msgstr "मन्दिर र नजिकैको पिकनिक स्थल"
+
+msgid "Temple & nearby picnic grounds · Changunarayan"
+msgstr "मन्दिर र नजिकैको पिकनिक स्थल · चाँगुनारायण"
+
+msgid "Temple & picnic area"
+msgstr "मन्दिर र पिकनिक स्थल"
+
+msgid "Temple & picnic area · Suryabinayak"
+msgstr "मन्दिर र पिकनिक स्थल · सूर्यविनायक"
+
+msgid "Temple & pine grove"
+msgstr "मन्दिर र सल्लाघारी"
+
+msgid "Temple & pine grove · Sallaghari, Bhaktapur"
+msgstr "मन्दिर र सल्लाघारी · सल्लाघारी, भक्तपुर"
+
+msgid "Temple access"
+msgstr "मन्दिर पुग्ने सहजता"
+
+msgid "Temple approach"
+msgstr "मन्दिर पुग्ने बाटो"
+
+msgid "Temple · Banepa"
+msgstr "मन्दिर · बनेपा"
+
+msgid "Temple · Bode, Madhyapur Thimi"
+msgstr "मन्दिर · बोडे, मध्यपुर थिमि"
+
+msgid "Temple · Bungamati"
+msgstr "मन्दिर · बुङ्गमती"
+
+msgid "Temple · Chapagaon"
+msgstr "मन्दिर · चापागाउँ"
+
+msgid "Temple · Chobhar"
+msgstr "मन्दिर · चोभार"
+
+msgid "Temple · Ichangu, Nagarjun"
+msgstr "मन्दिर · इचङ्गु, नागार्जुन"
+
+msgid "Temple · Jharuwarasi, Lalitpur"
+msgstr "मन्दिर · झरुवारासी, ललितपुर"
+
+msgid "Temple · Kathmandu"
+msgstr "मन्दिर · काठमाडौं"
+
+msgid "Temple · Khokana"
+msgstr "मन्दिर · खोकना"
+
+msgid "Temple · Kirtipur"
+msgstr "मन्दिर · कीर्तिपुर"
+
+msgid "Temple · Machhegaun"
+msgstr "मन्दिर · मच्छेगाउँ"
+
+msgid "Temple · Sipadol, Bhaktapur"
+msgstr "मन्दिर · सिपाडोल, भक्तपुर"
+
+msgid "Temple · Suryabinayak, Bhaktapur"
+msgstr "मन्दिर · सूर्यविनायक, भक्तपुर"
+
+msgid "Terms of Use"
+msgstr "प्रयोगका सर्तहरू"
+
+msgid "The 55-Window Palace and royal square in Bhaktapur"
+msgstr "भक्तपुरको पचपन्नझ्याले दरबार र दरबार क्षेत्र"
+
+msgid "The BLVD"
+msgstr "BLVD"
+
+msgid "The Burger House, Satdobato"
+msgstr "बर्गर हाउस, सातदोबाटो"
+
+msgid "The Chonga Ganesh shrine sits beside the Sallaghari pine grove in Bhaktapur. Start with darshan, then use a permitted spot in the grove if your group is staying for a picnic."
+msgstr "भक्तपुरको चोङ्गा गणेश मन्दिर सल्लाघारीछेउमा छ। पहिले दर्शन गर्नुहोस्। समूहमा पिकनिक बस्ने हो भने सल्लाघारीमा अनुमति भएको ठाउँ रोज्नुहोस्।"
+
+msgid "The Contact Us page asks for your name, email address, topic and message to send your enquiry directly through our website. Selecting “Send message” submits those details to our server for validation and email delivery."
+msgstr "“सम्पर्क गर्नुहोस्” पृष्ठबाट सोधपुछ पठाउँदा नाम, इमेल ठेगाना, विषय र सन्देश चाहिन्छ। “सन्देश पठाउनुहोस्” रोजेपछि यी विवरण जाँच गर्न र इमेल पठाउन हाम्रो सर्भरमा पुग्छन्।"
+
+msgid "The Department of Tourism lists places to sit and eat in the park."
+msgstr "पर्यटन विभागको विवरणमा पार्कभित्र बस्ने र खाने ठाउँ भएको उल्लेख छ।"
+
+msgid "The National Museum in Chhauni brings Nepal’s art and history together in several collections. Give yourself time to move between galleries, then pair the visit with Swayambhunath for a longer day in western Kathmandu."
+msgstr "छाउनीको राष्ट्रिय सङ्ग्रहालयमा नेपालका कला र इतिहाससम्बन्धी विभिन्न सङ्ग्रह छन्। एउटा कक्षबाट अर्को कक्षमा घुम्न पर्याप्त समय राख्नुहोस्। पश्चिम काठमाडौंमा थप घुम्ने योजना भए स्वयम्भूनाथ पनि समेट्नुहोस्।"
+
+msgid "The Rising Nepal report from Machhegaun"
+msgstr "मच्छेगाउँबारे द राइजिङ नेपालको समाचार"
+
+msgid "The Vishnu shrine at Machhegaun is associated with Matsya, the deity’s fish incarnation. It is a local pilgrimage stop and the focus of the Purushottam Mela when the festival takes place."
+msgstr "मच्छेगाउँको विष्णु मन्दिर उनको माछाको रूप, मत्स्य अवतारसँग सम्बन्धित छ। यो स्थानीय तीर्थस्थल हो र पुरुषोत्तम मेला लाग्दा मुख्य केन्द्र बन्छ।"
+
+msgid "The area lies at the southern end of the historic Kathmandu approach through Chandragiri and Chitlang. Today Indra Sarowar is the reservoir that feeds the Kulekhani hydropower system."
+msgstr "यो क्षेत्र चन्द्रागिरि र चित्लाङ हुँदै काठमाडौं पस्ने ऐतिहासिक बाटोको दक्षिणी छेउमा पर्छ। अहिले इन्द्रसरोवर कुलेखानी जलविद्युत् प्रणालीका लागि पानी जुटाउने जलाशय हो।"
+
+msgid "The cable car climbs from the valley to a ridge with mountain views on clear days. Spend time around Bhaleshwor Mahadev Temple, then choose between a viewpoint break and the playground if you are visiting with children."
+msgstr "केबलकारबाट उपत्यकादेखि डाँडामाथि पुगिन्छ, जहाँ मौसम सफा हुँदा हिमाल देखिन्छ। भालेश्वर महादेव मन्दिर वरपर समय बिताउनुहोस्। बालबालिकासँग जानुभएको छ भने दृश्य हेरेर आराम गर्ने वा खेल मैदान जाने रोज्न सक्नुहुन्छ।"
+
+msgid "The centrepiece of Budhanilkantha is a stone image of Vishnu reclining on a serpent in a temple pool. The courtyard is an active place of worship, so allow time for darshan and give devotees space around the shrine."
+msgstr "बूढानीलकण्ठको मुख्य आकर्षण मन्दिरको पोखरीमा नागमाथि सुतेका विष्णुको ढुङ्गाको मूर्ति हो। यहाँ नियमित पूजा हुने भएकाले दर्शनका लागि समय राख्नुहोस् र अरू भक्तजनलाई पनि ठाउँ दिनुहोस्।"
+
+msgid "The hilltop Vishnu temple sits inside the traditional settlement of Changu Narayan. Give yourself time for the stone sculpture and temple precinct, then make a separate stop at the forest picnic ground if that is part of your plan."
+msgstr "डाँडामाथिको विष्णु मन्दिर चाँगुनारायणको परम्परागत बस्तीभित्र छ। ढुङ्गाका मूर्ति र मन्दिर परिसर हेर्न समय राख्नुहोस्। पिकनिकको योजना पनि छ भने वन क्षेत्रको पिकनिक स्थललाई छुट्टै गन्तव्य बनाउनुहोस्।"
+
+msgid "The municipal inventory lists several picnic areas in the forest. Confirm current access, facilities, and cooking rules before visiting."
+msgstr "नगरपालिकाको विवरणमा वनभित्र विभिन्न पिकनिक स्थल उल्लेख छन्। जानुअघि पुग्ने बाटो, सुविधा र खाना पकाउने नियम बुझ्नुहोस्।"
+
+msgid "The municipality lists a picnic ground in the forest near the bus park, separate from the temple. Check access, fees, and group arrangements before visiting."
+msgstr "नगरपालिकाले मन्दिरभन्दा अलग, बसपार्कनजिकको वनमा पिकनिक स्थल रहेको उल्लेख गरेको छ। जानुअघि पुग्ने बाटो, शुल्क र समूहका लागि आवश्यक व्यवस्था बुझ्नुहोस्।"
+
+msgid "The museum grew out of a weapons collection at Chhauni that was known as Chhauni Silkhana. The former arsenal building now houses the historical galleries. The complex later added galleries for art and Buddhist collections."
+msgstr "छाउनी सिलखाना भनेर चिनिने हतियारको सङ्ग्रहबाट यो सङ्ग्रहालय विकसित भएको हो। पुरानो हतियार भण्डारको भवनमा अहिले इतिहाससम्बन्धी प्रदर्शनी छन्। पछि परिसरमा कला र बौद्ध धर्मसम्बन्धी सङ्ग्रहका कक्ष थपिए।"
+
+msgid "The museum recommends getting off at Swayambhu Ring Road and continuing on foot to the museum complex."
+msgstr "सङ्ग्रहालयले स्वयम्भू चक्रपथमा ओर्लेर परिसरसम্ম हिँड्न सुझाएको छ।"
+
+msgid "The open slopes near Chitlang and Markhu make this a short countryside stop, with pasture views and room to slow down between destinations. Pair it with a longer walk in Chitlang or lunch by Kulekhani Reservoir."
+msgstr "चित्लाङ र मार्खुनजिकका खुला पाखामा चरन क्षेत्रको दृश्य हेर्दै केहीबेर सुस्ताउन सकिन्छ। यहाँको छोटो घुमघामसँगै चित्लाङमा लामो हिँडडुल वा कुलेखानी जलाशयछेउको खाना जोड्न सकिन्छ।"
+
+msgid "The pine grove near the temple is used for picnics. Ask locally where groups can set up and whether cooking is allowed."
+msgstr "मन्दिरनजिकको सल्लाघारीमा पिकनिक गरिन्छ। समूह कहाँ बस्न मिल्छ र खाना पकाउन पाइन्छ कि पाइँदैन भनेर स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "The ridge formed part of an old route into the Kathmandu Valley. Local tradition associates it with Prithvi Narayan Shah’s view of Kathmandu during the period of Gorkha expansion. Bhaleshwor Mahadev remains a pilgrimage stop on the ridge."
+msgstr "यो डाँडा काठमाडौं उपत्यका पस्ने पुरानो बाटोमा पर्थ्यो। स्थानीय कथनले यसलाई गोर्खा राज्य विस्तारका बेला पृथ्वीनारायण शाहले काठमाडौं देखेको प्रसङ्गसँग जोड्छ। डाँडामाथिको भालेश्वर महादेव अहिले पनि तीर्थस्थल हो।"
+
+msgid "The shrine is by the Bagmati. Pair it with Kirtipur if you split the circuit over two days."
+msgstr "यो मन्दिर बागमतीकिनारमा छ। चार विनायकको यात्रा दुई दिनमा गर्ने हो भने यससँगै कीर्तिपुर पनि घुम्न सकिन्छ।"
+
+msgid "The shrine is tied to Bode’s Nil Barahi masked dance. Performers take on the roles of deities during the community observance, keeping the shrine connected to festival life beyond daily worship."
+msgstr "यो मन्दिर बोडेको नीलबाराही मुखौटा नाचसँग जोडिएको छ। समुदायको यस परम्परामा कलाकारले देवीदेवताको भूमिका निर्वाह गर्छन्। यसले मन्दिरलाई दैनिक पूजासँगै चाडपर्वको जीवन्त परम्परासँग पनि जोड्छ।"
+
+msgid "The site loads fonts from Google Fonts, design resources from jsDelivr, and some photographs from Wikimedia and other credited sources. These resources load independently of the optional-embed choice. After acceptance, destination pages can embed OpenStreetMap maps and a YouTube video using the youtube-nocookie.com domain."
+msgstr "वेबसाइटले Google Fonts बाट फन्ट, jsDelivr बाट डिजाइनसम्बन्धी सामग्री र Wikimedia तथा श्रेय दिइएका अन्य स्रोतबाट केही तस्बिर लोड गर्छ। यी सामग्री बाह्य नक्सा र भिडियोको रोजाइभन्दा अलग रूपमा लोड हुन्छन्। अनुमति दिएपछि गन्तव्यका पृष्ठमा OpenStreetMap का नक्सा र youtube-nocookie.com मार्फत YouTube भिडियो देखाउन सकिन्छ।"
+
+msgid "The site uses local storage to remember your selected light or dark theme under the name “ghumna-jaun-theme”. This is browser storage rather than a cookie. It stays on that browser until you change the setting or clear the stored site data."
+msgstr "तपाईंले रोजेको उज्यालो वा गाढा रूप सम्झन वेबसाइटले ब्राउजरको local storage मा “ghumna-jaun-theme” नाममा विवरण राख्छ। यो कुकी होइन। तपाईंले सेटिङ नबदलेसम्म वा वेबसाइटका सुरक्षित विवरण नमेटेसम्म यो त्यही ब्राउजरमा रहन्छ।"
+
+msgid "The sleeping Vishnu at Budhanilkantha"
+msgstr "बूढानीलकण्ठमा शेषनागमाथि सुतेका विष्णु"
+
+msgid "The starting-point selector uses the city or area you select. The current site does not request your device’s precise location. Opening a map or directions link takes you to the map provider, which may offer its own location features."
+msgstr "यात्रा सुरु गर्ने ठाउँका लागि तपाईंले रोजेको सहर वा क्षेत्र प्रयोग हुन्छ। अहिले वेबसाइटले तपाईंको उपकरणको ठ्याक्कै स्थान माग्दैन। नक्सा वा बाटोको लिङ्क खोल्दा सम्बन्धित नक्सा सेवामा पुगिन्छ। त्यस सेवाले आफ्नै स्थानसम्बन्धी सुविधा दिन सक्छ।"
+
+msgid "The stepped route climbs from Dhulikhel toward Kalidevi Temple. Make the staircase the main outing and take breaks on the way up, or combine part of the climb with an old-town walk."
+msgstr "धुलिखेलबाट सिँढीको बाटो हुँदै कालीदेवी मन्दिरतिर उक्लन सकिन्छ। सिँढी चढ्नुलाई मुख्य घुमघाम बनाएर बीचबीचमा आराम गर्नुहोस्। वा केही भाग मात्रै चढेर पुरानो बस्तीको पैदल यात्रा पनि समेट्नुहोस्।"
+
+msgid "The terms for using Ghumna Jaun’s destination guides, articles, photographs and links."
+msgstr "घुम्न जाऔँका गन्तव्यसम्बन्धी मार्गदर्शन, लेख, तस्बिर र लिङ्क प्रयोग गर्ने सर्तहरू।"
+
+msgid "The venue address is pending. Check the nearest stop once a restaurant is confirmed."
+msgstr "ठाउँको ठेगाना तय भएको छैन। रेस्टुरेन्टको पुष्टि भएपछि नजिकै ओर्लने ठाउँ बुझ्नुहोस्।"
+
+msgid "The village’s temple sits within a traditional pattern of courtyards and lanes. Nepal’s heritage submission for Khokana documents the village’s mother-goddess shrine and mustard-oil production as part of its living heritage."
+msgstr "बस्तीको मन्दिर परम्परागत चोक र गल्लीबीच छ। खोकनालाई सम्पदाका रूपमा प्रस्ताव गरिएको नेपाली विवरणमा मातृदेवीको मन्दिर र तोरीको तेल उत्पादनलाई यहाँको जीवन्त सम्पदाका अङ्गका रूपमा उल्लेख गरिएको छ।"
+
+msgid "These terms apply when you use this website. Please read them alongside our"
+msgstr "यो वेबसाइट प्रयोग गर्दा यी सर्त लागू हुन्छन्। सँगै यो पनि पढ्नुहोस्:"
+
+msgid "Things to do"
+msgstr "हेर्ने र गर्ने कुराहरू"
+
+msgid "This Bungamati shrine is associated with Rato Machhindranath, or Bung Dhya, the central deity of Lalitpur’s chariot festival. Plan the shrine as part of a walk through Bungamati and include Karya Binayak if you have time."
+msgstr "बुङ्गमतीको यो मन्दिर ललितपुरको रथयात्राका मुख्य देवता रातो मच्छिन्द्रनाथ अर्थात् बुङ्गद्यःसँग सम्बन्धित छ। बुङ्गमतीमा पैदल घुम्दा यहाँ दर्शन गर्नुहोस्। समय मिले कार्यविनायक पनि जानुहोस्।"
+
+msgid "This goddess temple lies north of Banepa’s centre and offers a quieter stop after the market. The temple and bazaar make a compact half-day outing with two distinct sides of the town."
+msgstr "बनेपा बजारको उत्तरतिर रहेको यो देवी मन्दिर बजारको चहलपहलपछि शान्तसँग दर्शन गर्न मिल्ने ठाउँ हो। आधा दिनमा बजार र मन्दिर दुवै घुमेर सहरका दुई फरक पक्ष देख्न सकिन्छ।"
+
+msgid "This indoor trampoline park in Jhamsikhel is a destination for active play in Lalitpur. Give children time to get comfortable on the equipment and check with the branch about age limits and suitable sessions."
+msgstr "झम्सिखेलको यो भित्री ट्र्याम्पोलिन पार्क ललितपुरमा उफ्रेर खेल्न मिल्ने ठाउँ हो। बालबालिकालाई खेलका उपकरणमा अभ्यस्त हुन समय दिनुहोस्। उमेर सीमा र उपयुक्त समयबारे शाखासँग बुझ्नुहोस्।"
+
+msgid "This map"
+msgstr "यो नक्सा"
+
+msgid "This photo could not load. Try another photo or close the popup and try again."
+msgstr "यो तस्बिर खुल्न सकेन। अर्को तस्बिर हेर्नुहोस् वा झ्याल बन्द गरेर फेरि प्रयास गर्नुहोस्।"
+
+msgid "This policy describes the current Ghumna Jaun website. For privacy questions or requests about information you have shared with us, email"
+msgstr "यो नीति घुम्न जाऔँको हालको वेबसाइटका लागि हो। गोपनीयता वा हामीलाई पठाउनुभएको विवरणबारे प्रश्न वा अनुरोध भए इमेल गर्नुहोस्:"
+
+msgid "This route links four Ganesh shrines across the Kathmandu Valley: Ashok Binayak in Maru, Chandra Binayak in Chabahil, Surya Binayak in Bhaktapur and Jal Binayak in Chobhar. Plan the circuit as several stops with travel time between them, or split it into two outings."
+msgstr "यस यात्रामा काठमाडौं उपत्यकाका चार गणेश मन्दिर पर्छन्: मरुको अशोक विनायक, चाबहिलको चन्द्रविनायक, भक्तपुरको सूर्यविनायक र चोभारको जलविनायक। एक मन्दिरबाट अर्को मन्दिर पुग्न लाग्ने समय राखेर योजना बनाउनुहोस्। चाहनुहुन्छ भने दुई छुट्टाछुट्टै यात्रामा पनि दर्शन गर्न सकिन्छ।"
+
+msgid "This science centre in Chobhar is geared toward learning through hands-on demonstrations. It is a good fit for a school or family outing if a visit can be arranged, with Chobhar Gorge nearby for a second stop."
+msgstr "चोभारको यस विज्ञान केन्द्रमा आफैँ सहभागी हुन मिल्ने प्रयोगमार्फत सिकाइन्छ। पहिले समय मिलाउन सकिए विद्यालय वा परिवारको घुमघामका लागि उपयुक्त हुन्छ। नजिकैको चोभारको खोँचलाई अर्को गन्तव्य बनाउन सकिन्छ।"
+
+msgid "This shrine south of Pharping is dedicated to Kali. Give yourself time for darshan at the temple and continue to Pharping for another pilgrimage stop or a meal on the way back."
+msgstr "फर्पिङको दक्षिणतिर रहेको यो मन्दिर कालीलाई समर्पित छ। दर्शनका लागि समय छुट्याउनुहोस्। फर्कँदा फर्पिङका अन्य तीर्थस्थल घुम्न वा खाना खान रोक्न सकिन्छ।"
+
+msgid "This video loads after you accept optional embedded content."
+msgstr "बाह्य सामग्री लोड गर्ने अनुमति दिएपछि यो भिडियो खुल्छ।"
+
+msgid "This wooded hillside shrine is one of the Ganesh temples in the Four Binayak pilgrimage circuit. Allow time for the uphill approach, and plan a separate picnic stop on the surrounding hillside if visiting with a group."
+msgstr "वनले घेरिएको डाँडामा रहेको यो मन्दिर चार विनायक तीर्थयात्रामा पर्ने गणेश मन्दिरमध्ये एक हो। उकालो चढ्न समय राख्नुहोस्। समूहमा जानुभएको छ भने वरपरको डाँडामा पिकनिकका लागि छुट्टै योजना बनाउनुहोस्।"
+
+msgid "Thrangu Tashi Yangtse Monastery at Namo Buddha"
+msgstr "नमोबुद्धको थ्राङ्गु ताशी याङ्त्से गुम्बा"
+
+msgid "Thrangu Tashi Yangtse Monastery, Namo Buddha"
+msgstr "थ्राङ्गु ताशी याङ्त्से गुम्बा, नमोबुद्ध"
+
+msgid "Three Kathmandu Valley outings with kids"
+msgstr "बालबालिकासँग घुम्न काठमाडौं उपत्यकाका तीन विकल्प"
+
+msgid "Tickets and hours"
+msgstr "टिकट र खुल्ने समय"
+
+msgid "TikTok"
+msgstr "TikTok"
+
+msgid "To limit contact-form abuse, the server temporarily stores a hash derived from your IP address and submission-attempt timestamps. These records count attempts during a 15-minute window and are eligible for periodic cleanup after 24 hours; they do not contain your message. We use providers as needed to operate the website and handle correspondence. We may also disclose information where required by applicable law or necessary to address misuse or protect legal rights."
+msgstr "सम्पर्क फारमको दुरुपयोग रोक्न सर्भरले तपाईंको IP ठेगानाबाट बनाइएको ह्यास र सन्देश पठाउने प्रयासको समय अस्थायी रूपमा राख्छ। यी अभिलेखले 15 मिनेटभित्रका प्रयास गन्छन् र 24 घण्टापछि नियमित सफाइका क्रममा हटाउन मिल्छन्। तिनमा तपाईंको सन्देश हुँदैन। वेबसाइट चलाउन र पत्राचार व्यवस्थापन गर्न आवश्यकताअनुसार सेवा प्रदायक प्रयोग गरिन्छ। लागू कानुनले मागेमा वा दुरुपयोग रोक्न र कानुनी अधिकार जोगाउन आवश्यक परेमा विवरण उपलब्ध गराउन पनि सक्छौँ।"
+
+msgid "Town outing"
+msgstr "नगर घुमघाम"
+
+msgid "Tradition identifies Bungamati as the birthplace of the deity also known as Bung Dhya. Lalitpur’s chariot procession honours Rato Machhindranath, who is associated with rain and the agricultural season."
+msgstr "परम्परागत विश्वासअनुसार बुङ्गमती बुङ्गद्यःको जन्मस्थल हो। वर्षा र खेतीको यामसँग जोडिएका रातो मच्छिन्द्रनाथको सम्मानमा ललितपुरमा रथयात्रा गरिन्छ।"
+
+msgid "Travel guide"
+msgstr "यात्रा मार्गदर्शन"
+
+msgid "Travel guides"
+msgstr "यात्रा मार्गदर्शन"
+
+msgid "Travel information and decisions"
+msgstr "यात्रासम्बन्धी जानकारी र आफ्ना निर्णय"
+
+msgid "Travel to Namo Buddha"
+msgstr "नमोबुद्ध जानुहोस्"
+
+msgid "Treat the farm as an optional stop around Chitlang and Markhu. Check the approach locally and leave enough time for the return, especially if your group wants a longer village walk."
+msgstr "चित्लाङ र मार्खु घुम्दा समय मिले भेडा फार्म पनि जान सकिन्छ। स्थानीयसँग पुग्ने बाटो बुझ्नुहोस् र फर्कन पर्याप्त समय राख्नुहोस्, विशेष गरी गाउँमा लामो हिँडडुल गर्ने योजना छ भने।"
+
+msgid "Tribhuvan Park"
+msgstr "त्रिभुवन पार्क"
+
+msgid "Tribhuvan Park in Thankot"
+msgstr "थानकोटको त्रिभुवन पार्क"
+
+msgid "Tribhuvan Park in Thankot is a public park with designated picnic grounds. It is suited to a group outing centred on a shared meal, with time to walk around the grounds before heading home."
+msgstr "थानकोटको त्रिभुवन पार्क पिकनिकका लागि छुट्याइएका ठाउँसहितको सार्वजनिक पार्क हो। समूहमा सँगै खाना खाने र घर फर्कनुअघि परिसरमा हिँडडुल गर्ने योजनाका लागि यो उपयुक्त हुन्छ।"
+
+msgid "Tribhuvan Park visitor information"
+msgstr "त्रिभुवन पार्कको भ्रमणसम्बन्धी जानकारी"
+
+msgid "Tribhuvan University CNAS journal on Valley shrine groupings"
+msgstr "उपत्यकाका मन्दिर समूहबारे त्रिभुवन विश्वविद्यालयको CNAS जर्नल"
+
+msgid "Tribhuvan University established the museum in 1975 at the foot of Swayambhu hill. Its collections document Nepal’s biodiversity for research and education."
+msgstr "त्रिभुवन विश्वविद्यालयले सन् 1975 मा स्वयम्भू डाँडाको फेदीमा यो सङ्ग्रहालय स्थापना गरेको हो। यहाँका सङ्ग्रहले अनुसन्धान र शिक्षाका लागि नेपालको जैविक विविधता अभिलेख गर्छन्।"
+
+msgid "Tribhuvan University museum journal"
+msgstr "त्रिभुवन विश्वविद्यालयको सङ्ग्रहालयसम्बन्धी जर्नल"
+
+msgid "Tribhuvan University study of Chapagaon"
+msgstr "त्रिभुवन विश्वविद्यालयको चापागाउँसम्बन्धी अध्ययन"
+
+msgid "Tribhuvan University study of Kathmandu’s Ajima shrines"
+msgstr "त्रिभुवन विश्वविद्यालयको काठमाडौंका अजिमा मन्दिरसम्बन्धी अध्ययन"
+
+msgid "Tribhuvan University study of Shikali Jatra"
+msgstr "त्रिभुवन विश्वविद्यालयको सिकाली जात्रासम्बन्धी अध्ययन"
+
+msgid "Tribhuvan University’s museum below Swayambhu offers a close look at Nepal’s wildlife through preserved animals and insect specimens. It suits a short indoor outing and pairs naturally with a visit to the stupa above."
+msgstr "स्वयम्भूभन्दा तल रहेको त्रिभुवन विश्वविद्यालयको सङ्ग्रहालयमा संरक्षण गरिएका जनावर र कीराका नमुनाबाट नेपालको वन्यजन्तुबारे नजिकबाट जान्न पाइन्छ। भित्रै छोटो समय घुम्न मिल्ने यो ठाउँसँगै माथिको स्तूप पनि हेर्न सकिन्छ।"
+
+msgid "Tribhuwan Park, Thankot"
+msgstr "त्रिभुवन पार्क, थानकोट"
+
+msgid "Tulip De’ Restaurant"
+msgstr "ट्युलिप डे रेस्टुरेन्ट"
+
+msgid "UNESCO Kathmandu Valley heritage guide"
+msgstr "युनेस्कोको काठमाडौं उपत्यकाको सम्पदासम्बन्धी जानकारी"
+
+msgid "UNESCO Kathmandu Valley record"
+msgstr "युनेस्कोको काठमाडौं उपत्यकासम्बन्धी अभिलेख"
+
+msgid "UNESCO Tentative List entry for Khokana"
+msgstr "युनेस्कोको सम्भावित विश्व सम्पदा सूचीमा खोकनाको विवरण"
+
+msgid "UNESCO identifies the Swayambhu stupa as the Kathmandu Valley’s oldest Buddhist monument. The stupa and the religious buildings around it make up one of the valley’s seven World Heritage monument zones."
+msgstr "युनेस्कोले स्वयम्भू स्तूपलाई काठमाडौं उपत्यकाको सबैभन्दा पुरानो बौद्ध स्मारकका रूपमा उल्लेख गरेको छ। स्तूप र वरपरका धार्मिक भवन मिलेर उपत्यकाका सात विश्व सम्पदा स्मारक क्षेत्रमध्ये एक बनेका छन्।"
+
+msgid "Uma Maheshwar Temple, Kirtipur"
+msgstr "उमामहेश्वर मन्दिर, कीर्तिपुर"
+
+msgid "Unable to send. Please try again."
+msgstr "पठाउन सकिएन। कृपया पुन: प्रयास गर्नुहोस्।"
+
+msgid "Uncategorized"
+msgstr "वर्गीकरण नगरिएको"
+
+msgid "Under 1"
+msgstr "1 भन्दा कम"
+
+msgid "Under 1 km"
+msgstr "1 किमिभन्दा कम"
+
+msgid "Under 1 km away"
+msgstr "१ किमिभन्दा कम दूरीमा"
+
+msgid "Under 10"
+msgstr "10 भन्दा कम"
+
+msgid "Update a guide"
+msgstr "मार्गदर्शनमा सुधार सुझाउनुहोस्"
+
+msgid "Updates and contact"
+msgstr "अद्यावधिक र सम्पर्क"
+
+msgid "Uphill walk with steps"
+msgstr "सिँढीसहितको उकालो बाटो"
+
+msgid "Use 100 characters or fewer."
+msgstr "100 वा कम अक्षरमा लेख्नुहोस्।"
+
+msgid "Use 254 characters or fewer."
+msgstr "254 वा कम अक्षरमा लेख्नुहोस्।"
+
+msgid "Use 3,000 characters or fewer."
+msgstr "3,000 वा कम अक्षरमा लेख्नुहोस्।"
+
+msgid "Use Markhu as your lakeside stop at Indra Sarowar. Leave time for lunch and a walk before starting the return leg. Confirm availability directly with a local operator if boating is part of your plan."
+msgstr "इन्द्रसरोवरको तालछेउ घुम्न मार्खु रोज्नुहोस्। फर्कनुअघि खाना खान र हिँडडुल गर्न समय राख्नुहोस्। डुङ्गा चढ्ने योजना छ भने स्थानीय सञ्चालकसँग उपलब्धता बुझ्नुहोस्।"
+
+msgid "Use Pradarshani Marg to reach the park and explore the surrounding area."
+msgstr "प्रदर्शनीमार्ग हुँदै पार्क पुग्नुहोस् र वरपर पनि घुम्नुहोस्।"
+
+msgid "Use the Ashapuri temple pin in Suryabinayak Ward 8 for the drive. Check the final approach and drop-off locally."
+msgstr "गाडीमा जाँदा नक्सामा सूर्यविनायक वडा 8 को आशापुरी मन्दिर रोज्नुहोस्। अन्तिम खण्डको बाटो र ओर्लने ठाउँ स्थानीयसँग बुझ्नुहोस्।"
+
+msgid "Use the Kathmandu Fun Park pin for drop-off and check parking near the entrance."
+msgstr "गाडीबाट ओर्लन नक्सामा काठमाडौं फन पार्क रोज्नुहोस् र प्रवेशद्वारनजिकको पार्किङबारे बुझ्नुहोस्।"
+
+msgid "Use the Pancha Mahalaxmi pin near Telkot and check the final turn before you leave the main road."
+msgstr "नक्सामा तेलकोटनजिकको पञ्च महालक्ष्मी मन्दिर रोज्नुहोस्। मुख्य सडक छोड्नुअघि मोडिने ठाउँ निश्चित गर्नुहोस्।"
+
+msgid "Use the destination map pin and confirm parking before setting out."
+msgstr "नक्सामा गन्तव्य रोज्नुहोस् र निस्कनुअघि पार्किङको व्यवस्था बुझ्नुहोस्।"
+
+msgid "Use the destination pin for directions. Check where vehicles can drop passengers off and whether there is parking nearby."
+msgstr "जाने बाटोका लागि नक्सामा गन्तव्य रोज्नुहोस्। यात्रु कहाँ ओर्लन मिल्छ र नजिकै पार्किङ छ कि छैन बुझ्नुहोस्।"
+
+msgid "Use the museum’s own pin for drop-off. It is below the stupa, so the Swayambhunath hilltop entrance is a separate stop."
+msgstr "ओर्लने ठाउँका लागि नक्सामा सङ्ग्रहालय नै रोज्नुहोस्। यो स्तूपभन्दा तल छ। डाँडामाथिको स्वयम्भूनाथ प्रवेशद्वार अर्को ठाउँमा पर्छ।"
+
+msgid "Use the temple pin to plan a drop-off near old Kirtipur. Allow time to walk through the narrow lanes from where the vehicle can stop."
+msgstr "नक्सामा मन्दिर हेरेर पुरानो कीर्तिपुरनजिक ओर्लने ठाउँ तय गर्नुहोस्। गाडी रोकिने ठाउँबाट साँघुरा गल्ली हुँदै हिँड्न समय राख्नुहोस्।"
+
+msgid "Use the website lawfully. Please do not attempt to gain unauthorised access, disrupt the service, introduce malicious code, impersonate someone or use our contact details to send spam."
+msgstr "वेबसाइट कानुनसम्मत रूपमा प्रयोग गर्नुहोस्। अनुमति नभएको पहुँच लिन, सेवा अवरुद्ध पार्न, हानिकारक कोड राख्न, अरूको नक्कल गर्न वा हाम्रा सम्पर्क विवरणमा अनावश्यक सन्देश पठाउन प्रयास नगर्नुहोस्।"
+
+msgid "Using Ghumna Jaun"
+msgstr "घुम्न जाऔँको प्रयोग"
+
+msgid "Using our guides"
+msgstr "हाम्रा मार्गदर्शनको प्रयोग"
+
+msgid "VILLAGE GETAWAY"
+msgstr "गाउँको घुमघाम"
+
+msgid "Vajrayogini Temple, Pharping"
+msgstr "वज्रयोगिनी मन्दिर, फर्पिङ"
+
+msgid "Venues and travel operators"
+msgstr "घुम्ने ठाउँ र यात्रा सेवा प्रदायक"
+
+msgid "View"
+msgstr "हेर्नुहोस्"
+
+msgid "View & seating"
+msgstr "दृश्य र बस्ने व्यवस्था"
+
+msgid "View across Kathmandu Fun Park at Bhrikutimandap"
+msgstr "भृकुटीमण्डपको काठमाडौं फन पार्कको दृश्य"
+
+msgid "View all kids’ outings"
+msgstr "बालबालिकासँग घुम्ने सबै ठाउँ"
+
+msgid "View all places"
+msgstr "सबै ठाउँ हेर्नुहोस्"
+
+msgid "View all results"
+msgstr "सबै नतिजा हेर्नुहोस्"
+
+msgid "View and seating"
+msgstr "दृश्य र बस्ने व्यवस्था"
+
+msgid "View at Bajrayogini Temple above Sankhu"
+msgstr "साँखुभन्दा माथिको बज्रयोगिनी मन्दिरको दृश्य"
+
+msgid "View from Kakani"
+msgstr "ककनीबाट देखिने दृश्य"
+
+msgid "View from Vajrayogini Temple in Pharping"
+msgstr "फर्पिङको वज्रयोगिनी मन्दिरबाट देखिने दृश्य"
+
+msgid "View from the hills above Godawari"
+msgstr "गोदावरीभन्दा माथिका डाँडाबाट देखिने दृश्य"
+
+msgid "View gate restaurant on map"
+msgstr "प्रवेशद्वारको रेस्टुरेन्ट नक्सामा हेर्नुहोस्"
+
+msgid "View larger photo of"
+msgstr "को ठूलो फोटो हेर्नुहोस्"
+
+msgid "View menu"
+msgstr "मेनु हेर्नुहोस्"
+
+msgid "View on map"
+msgstr "नक्सामा हेर्नुहोस्"
+
+msgid "Village getaway"
+msgstr "गाउँको घुमघाम"
+
+msgid "Visit Dakshinkali Temple and allow time for darshan"
+msgstr "दक्षिणकाली मन्दिरमा दर्शनका लागि समय राख्नुहोस्"
+
+msgid "Visit Godawari Kunda before heading home."
+msgstr "घर फर्कनुअघि गोदावरी कुण्ड पुग्नुहोस्।"
+
+msgid "Visit Indreshwor Temple and stop for lunch"
+msgstr "इन्द्रेश्वर मन्दिर दर्शन गरेर खाना खान रोक्नुहोस्"
+
+msgid "Visit Karya Binayak and Rato Machhindranath Temple"
+msgstr "कार्यविनायक र रातो मच्छिन्द्रनाथ मन्दिरमा दर्शन गर्नुहोस्"
+
+msgid "Visit Kirtipur park guide"
+msgstr "भिजिट कीर्तिपुरको पार्कसम्बन्धी जानकारी"
+
+msgid "Visit Madhyapur temple guide"
+msgstr "भिजिट मध्यपुरको मन्दिरसम्बन्धी जानकारी"
+
+msgid "Visit Salinadi"
+msgstr "शालीनदी जानुहोस्"
+
+msgid "Visit Salinadi or head back through Boudha for a meal."
+msgstr "शालीनदी जानुहोस् वा बौद्ध हुँदै फर्केर खाना खानुहोस्।"
+
+msgid "Visit Shikali Temple outside Khokana, then continue to Rudrayani Temple in the village"
+msgstr "खोकनाबाहिरको सिकाली मन्दिर दर्शन गरेर बस्तीभित्रको रुद्रायणी मन्दिर जानुहोस्"
+
+msgid "Visit Surya Binayak in Bhaktapur and stop for lunch"
+msgstr "भक्तपुरको सूर्यविनायक दर्शन गरेर खाना खान रोक्नुहोस्"
+
+msgid "Visit plan"
+msgstr "भ्रमण योजना"
+
+msgid "Visit the Buddhist pilgrimage cave and give worshippers space in the small shrine area."
+msgstr "बौद्ध तीर्थस्थलको गुफा दर्शन गर्नुहोस्। सानो परिसर भएकाले पूजा गरिरहेका भक्तजनलाई पनि ठाउँ दिनुहोस्।"
+
+msgid "Visit the Ganesh shrine beside the Bagmati, close to Chobhar Gorge."
+msgstr "चोभारको खोँचनजिक बागमतीकिनारको गणेश मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Visit the Vajrayogini shrine near Shobha Bhagwati and pair it with nearby Luti Ajima."
+msgstr "शोभाभगवतीनजिकको वज्रयोगिनी मन्दिरसँगै नजिकैको लुती अजिमा पनि दर्शन गर्नुहोस्।"
+
+msgid "Visit the hillside shrine before heading farther up the Nagarkot ridge."
+msgstr "नगरकोटको डाँडातिर अझ माथि जानुअघि यस मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Visit the monastery grounds"
+msgstr "गुम्बा परिसर घुम्नुहोस्"
+
+msgid "Visit the shrine dedicated to Matsya, the fish incarnation of Vishnu."
+msgstr "विष्णुको माछाको रूप, मत्स्य अवतारलाई समर्पित मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Visit the shrine of Bung Dhya, the deity honoured in Lalitpur’s chariot festival."
+msgstr "ललितपुरको रथयात्राका देवता बुङ्गद्यःको दर्शन गर्नुहोस्।"
+
+msgid "Visit the spring at Godawari Kunda or stop at Naudhara to see its stone water spouts."
+msgstr "गोदावरी कुण्डको मूल हेर्नुहोस् वा नौधारामा रोकिएर ढुङ्गेधारा हेर्नुहोस्।"
+
+msgid "Visit the wooded Tigani shrine associated with Bode’s Nil Barahi masked dance."
+msgstr "बोडेको नीलबाराही मुखौटा नाचसँग जोडिएको तिगनीको वनभित्रको मन्दिरमा दर्शन गर्नुहोस्।"
+
+msgid "Visit website"
+msgstr "वेबसाइट हेर्नुहोस्"
+
+msgid "Visiting"
+msgstr "भ्रमणसम्बन्धी जानकारी"
+
+msgid "Visiting with kids"
+msgstr "बालबालिकासँगको भ्रमण"
+
+msgid "Visitor"
+msgstr "आगन्तुक"
+
+msgid "Visitor information"
+msgstr "भ्रमणसम्बन्धी जानकारी"
+
+msgid "Visitor services"
+msgstr "आगन्तुकका लागि सुविधा"
+
+msgid "WATER AND AMUSEMENT PARK · CHOBHAR"
+msgstr "वाटर पार्क र मनोरञ्जनस्थल · चोभार"
+
+msgid "WATER PARK · PALANSE, BHAKTAPUR"
+msgstr "वाटर पार्क · पलाँसे, भक्तपुर"
+
+msgid "Walk around Bhrikutimandap"
+msgstr "भृकुटीमण्डप वरपर घुम्नुहोस्"
+
+msgid "Walk around the hilltop stupa past prayer wheels and smaller shrines."
+msgstr "डाँडामाथिको स्तूप वरपर माने र साना मन्दिर हेर्दै परिक्रमा गर्नुहोस्।"
+
+msgid "Walk out from the village to the shrine associated with Khokana’s Shikali Jatra."
+msgstr "बस्तीबाट हिँडेर खोकनाको सिकाली जात्रासँग जोडिएको मन्दिर पुग्नुहोस्।"
+
+msgid "Walk the park paths for a view of where the Bagmati narrows through Chobhar Gorge."
+msgstr "पार्कका बाटामा हिँड्दै चोभारको खोँचमा साँघुरिएर बगेको बागमती हेर्नुहोस्।"
+
+msgid "Walk through Basantapur to see the Hanuman Dhoka palace precinct, tiered temples and carved windows around Kumari Ghar. The courtyards and squares sit in the middle of a working city, so the visit can extend into the surrounding lanes."
+msgstr "बसन्तपुरमा हिँड्दै हनुमानढोका दरबार परिसर, बहुच्छाने मन्दिर र कुमारी घर वरपरका कलात्मक झ्याल हेर्नुहोस्। यी चोक र आँगन अहिले पनि चहलपहल हुने सहरको बीचमा छन्। वरपरका गल्लीसम्म पनि घुम्न सकिन्छ।"
+
+msgid "Walk through Durbar Square"
+msgstr "दरबार क्षेत्रमा हिँडडुल गर्नुहोस्"
+
+msgid "Walk through Panauti’s old town toward Indreshwor Mahadev Temple and the riverside ghats. The compact lanes and courtyard shrines reward an unhurried visit, with Namo Buddha as a separate stop outside town."
+msgstr "पनौतीको पुरानो बस्ती हुँदै इन्द्रेश्वर महादेव मन्दिर र नदीकिनारका घाटतिर हिँड्नुहोस्। साँघुरा गल्ली र चोकका मन्दिर फुर्सदसँग हेर्नुहोस्। बस्तीबाहिरको नमोबुद्धलाई अर्को गन्तव्य बनाउन सकिन्छ।"
+
+msgid "Walk through Sankhu Bazaar and the historic settlement."
+msgstr "साँखु बजार र ऐतिहासिक बस्तीमा हिँडडुल गर्नुहोस्।"
+
+msgid "Walk through Sankhu before visiting Bajrayogini Temple on a single outing."
+msgstr "बज्रयोगिनी मन्दिर दर्शन गर्नुअघि यही यात्रामा साँखुको बस्ती पनि घुम्नुहोस्।"
+
+msgid "Walk through the market streets before heading north to the temple."
+msgstr "उत्तरतिरको मन्दिर जानुअघि बजारका गल्लीमा हिँडडुल गर्नुहोस्।"
+
+msgid "Walk to the ponds"
+msgstr "पोखरीतिर हिँड्नुहोस्"
+
+msgid "Walking and picnic planning"
+msgstr "पैदल यात्रा र पिकनिकको तयारी"
+
+msgid "Wander through the lanes and squares for a gentler outing before the hill climb."
+msgstr "डाँडा चढ्नुअघि गल्ली र चोकहरूमा फुर्सदसँग घुम्नुहोस्।"
+
+msgid "Water and amusement park"
+msgstr "वाटर पार्क र मनोरञ्जनस्थल"
+
+msgid "Water and amusement park · Chobhar"
+msgstr "वाटर पार्क र मनोरञ्जनस्थल · चोभार"
+
+msgid "Water park"
+msgstr "वाटर पार्क"
+
+msgid "Water park · Palanse, Bhaktapur"
+msgstr "वाटर पार्क · पलाँसे, भक्तपुर"
+
+msgid "Wave pool and waterslides at Kathmandu Fun Valley in Palanse"
+msgstr "पलाँसेको काठमाडौं फन भ्यालीमा छाल आउने पोखरी र पानीका स्लाइड"
+
+msgid "We also include food stops on the way, so the journey can be part of the outing."
+msgstr "बाटोमा खाना खाने ठाउँको जानकारी पनि राखेका छौँ, ताकि आउजाउको समय पनि घुमघामकै रमाइलो भाग बनोस्।"
+
+msgid "We keep correspondence while it is needed to respond to your enquiry, follow up on the matter or meet an applicable legal obligation. Email and hosting providers may retain records and backups under their own arrangements."
+msgstr "तपाईंको सोधपुछको जवाफ दिन, थप कुराकानी गर्न वा लागू कानुनी दायित्व पूरा गर्न आवश्यक भएसम्म हामी पत्राचार राख्छौँ। इमेल र होस्टिङ सेवा प्रदायकले आफ्नै व्यवस्थाअनुसार अभिलेख र ब्याकअप राख्न सक्छन्।"
+
+msgid "We may update these terms as the service changes. The revision date appears at the top of this page."
+msgstr "सेवा बदलिँदा यी सर्त अद्यावधिक गर्न सक्छौँ। संशोधन गरिएको मिति पृष्ठको माथि दिइएको हुन्छ।"
+
+msgid "We save your choice in local storage under “ghumna-jaun-consent” for up to 180 days. If storage is unavailable, your choice lasts for the current page visit. Rejecting later stops future embed loading. You may need browser controls to clear cookies or storage already set by a provider."
+msgstr "तपाईंको रोजाइ ब्राउजरको local storage मा “ghumna-jaun-consent” नाममा बढीमा 180 दिनसम्म राखिन्छ। भण्डारण उपलब्ध नभए रोजाइ अहिले खोलिएको पृष्ठसम्म मात्र लागू हुन्छ। पछि अस्वीकार गर्दा त्यसपछिका बाह्य सामग्री लोड हुँदैनन्। सेवा प्रदायकले पहिले नै राखेका कुकी वा विवरण हटाउन ब्राउजरको सेटिङ प्रयोग गर्नुपर्ने हुन सक्छ।"
+
+msgid "We will update this page when our data handling changes, including when new contact forms, analytics, accounts or mobile app features are introduced. The date at the top identifies the latest revision."
+msgstr "नयाँ सम्पर्क फारम, विश्लेषण सेवा, खाता वा मोबाइल एपका सुविधालगायत विवरण व्यवस्थापन गर्ने तरिका बदलिँदा यो पृष्ठ अद्यावधिक गर्नेछौँ। पछिल्लो संशोधनको मिति माथि दिइएको हुन्छ।"
+
+msgid "Wear shoes with grip for the stone steps and carry water."
+msgstr "ढुङ्गाका सिँढीमा नचिप्लिने जुत्ता लगाउनुहोस् र पानी बोक्नुहोस्।"
+
+msgid "Weekend outings"
+msgstr "सप्ताहान्तको घुमघाम"
+
+msgid "We’re planning our own visits and YouTube vlogs to share a closer look at the places featured here. Alongside the destination guides, our"
+msgstr "यहाँ समेटिएका ठाउँ आफैँ घुमेर नजिकबाट चिनाउने YouTube भिडियो बनाउने योजनामा छौँ। गन्तव्यसम्बन्धी मार्गदर्शनसँगै पढ्नुहोस्:"
+
+msgid "We’re starting with Kathmandu Valley and the hills, towns and villages around it, from Bhaktapur’s old squares to the shores of Kulekhani."
+msgstr "अहिले काठमाडौं उपत्यका र वरपरका डाँडा, सहर तथा गाउँबाट सुरु गर्दै छौँ—भक्तपुरका पुराना चोकदेखि कुलेखानीको किनारसम्म।"
+
+msgid "What’s it about?"
+msgstr "सन्देशको विषय"
+
+msgid "When sharing information with us, respect the privacy and rights of other people."
+msgstr "हामीलाई विवरण पठाउँदा अरूको गोपनीयता र अधिकारको सम्मान गर्नुहोस्।"
+
+msgid "When you send a message, we receive the information in it and use it to answer your enquiry, review a correction, assess a suggestion or discuss a listing. Please include only information needed for that purpose."
+msgstr "तपाईंले पठाएको सन्देशका विवरण सोधपुछको जवाफ दिन, सुधारको समीक्षा गर्न, सुझाव मूल्याङ्कन गर्न वा सूचीकरणबारे छलफल गर्न प्रयोग गर्छौँ। कृपया त्यसका लागि आवश्यक विवरण मात्र पठाउनुहोस्।"
+
+msgid "Where shall we"
+msgstr "हामी कहाँ जाने"
+
+msgid "Where shall we go today?"
+msgstr "आज कहाँ घुम्न जाने?"
+
+msgid "White Gumba"
+msgstr "सेतो गुम्बा"
+
+msgid "White Gumba is the Druk Amitabha Mountain Buddhist campus in Nagarjun, home to a community of Drukpa nuns. The uphill visit is best planned around public access to the grounds, with time to take in the hillside setting."
+msgstr "नागार्जुनको सेतो गुम्बा ड्रुक अमिताभ माउन्टेन बौद्ध परिसर हो, जहाँ ड्रुक्पा भिक्षुणीहरूको समुदाय बस्छ। सर्वसाधारणका लागि प्रवेश खुला भएको समय बुझेर उकालो यात्राको योजना बनाउनुहोस् र डाँडाको वातावरण हेर्न पनि समय राख्नुहोस्।"
+
+msgid "Who to contact"
+msgstr "कसलाई सम्पर्क गर्ने"
+
+msgid "Whoopee Land"
+msgstr "हुप्पी ल्यान्ड"
+
+msgid "Whoopee Land Amusement and Water Park, Chobhar"
+msgstr "हुप्पी ल्यान्ड मनोरञ्जन तथा वाटर पार्क, चोभार"
+
+msgid "Whoopee Land in Chobhar combines waterslides with amusement rides. Families can plan the outing around the water park or choose a shorter visit for the rides, depending on what is operating and what suits the group."
+msgstr "चोभारको हुप्पी ल्यान्डमा पानीका स्लाइडसँगै अन्य मनोरञ्जनात्मक खेल छन्। कुन खेल सञ्चालनमा छन् र समूहलाई के मन पर्छ भन्नेअनुसार वाटर पार्कमा समय बिताउन वा अन्य खेलका लागि छोटो भ्रमण गर्न सकिन्छ।"
+
+msgid "Whoopee Land updates"
+msgstr "हुप्पी ल्यान्डको पछिल्लो जानकारी"
+
+msgid "Wikimedia Commons temple photo and location"
+msgstr "Wikimedia Commons मा मन्दिरको तस्बिर र स्थान"
+
+msgid "Wikimedia Commons temple record"
+msgstr "Wikimedia Commons मा मन्दिरको विवरण"
+
+msgid "Worship, heritage and outdoor visits"
+msgstr "पूजास्थल, सम्पदा र खुला ठाउँको भ्रमण"
+
+msgid "Write to us"
+msgstr "हामीलाई लेख्नुहोस्"
+
+msgid "Written content, design elements and other material are protected by their applicable ownership and licensing rights. Obtain permission for reuse where required by law or the relevant license."
+msgstr "लेख, डिजाइन र अन्य सामग्रीमा लागू स्वामित्व तथा इजाजतपत्रका अधिकार सुरक्षित छन्। कानुन वा सम्बन्धित इजाजतपत्रले मागेको अवस्थामा फेरि प्रयोग गर्न अनुमति लिनुहोस्।"
+
+msgid "You can clear stored site data or adjust cookie controls in your browser. Blocking third-party resources may affect photos, fonts, maps or videos."
+msgstr "ब्राउजरमा सुरक्षित वेबसाइटका विवरण हटाउन वा कुकीका सेटिङ बदल्न सक्नुहुन्छ। बाह्य स्रोत बन्द गर्दा तस्बिर, फन्ट, नक्सा वा भिडियो नदेखिन सक्छन्।"
+
+msgid "You may share links to our pages. A source credit alone does not establish permission to copy a photograph or republish another owner’s material."
+msgstr "हाम्रा पृष्ठका लिङ्क साझा गर्न सक्नुहुन्छ। स्रोतलाई श्रेय दिँदैमा तस्बिर नक्कल गर्न वा अरूको सामग्री फेरि प्रकाशन गर्न अनुमति प्राप्त हुँदैन।"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "YouTube’s privacy-enhanced embedding changes how viewing activity is used, but the player still connects to a third-party service. Your interaction with an embedded player or map is also governed by that provider’s policies."
+msgstr "YouTube को गोपनीयतालाई प्राथमिकता दिने इम्बेड सुविधाले भिडियो हेरेको गतिविधि कसरी प्रयोग हुन्छ भन्ने बदल्छ। तर भिडियो प्लेयर अझै बाह्य सेवासँग जोडिन्छ। पृष्ठमा राखिएको भिडियो वा नक्सा प्रयोग गर्दा सम्बन्धित प्रदायकका नीति पनि लागू हुन्छन्।"
+
+msgid "Your current search and filters will stay selected."
+msgstr "तपाईंको हालको खोज र छनोट यथावत् रहनेछन्।"
+
+msgid "Your email"
+msgstr "तपाईंको इमेल"
+
+msgid "Your message"
+msgstr "तपाईंको सन्देश"
+
+msgid "Your message could not be sent. Please try again later."
+msgstr "तपाईंको सन्देश पठाउन सकिएन। कृपया पछि पुन: प्रयास गर्नुहोस्।"
+
+msgid "Your message was accepted for delivery. Thank you."
+msgstr "तपाईंको सन्देश पठाउन स्वीकार गरिएको छ। धन्यवाद।"
+
+msgid "Your name"
+msgstr "तपाईंको नाम"
+
+msgid "Your privacy choices"
+msgstr "गोपनीयतासम्बन्धी तपाईंको रोजाइ"
+
+msgid "Your theme preference is stored separately. Photos, fonts and site files also load from their providers."
+msgstr "तपाईंले रोजेको उज्यालो वा गाढा रूप छुट्टै सुरक्षित हुन्छ। तस्बिर, फन्ट र वेबसाइटका फाइल पनि सम्बन्धित स्रोतबाट लोड हुन्छन्।"
+
+msgid "ZOO · JAWALAKHEL"
+msgstr "चिडियाखाना · जावलाखेल"
+
+msgid "Zoo"
+msgstr "चिडियाखाना"
+
+msgid "Zoo · Jawalakhel"
+msgstr "चिडियाखाना · जावलाखेल"
+
+msgid "and"
+msgstr "र"
+
+msgid "body photo-credits"
+msgstr "body photo-credits"
+
+msgid "body wp-content"
+msgstr "body wp-content"
+
+msgid "body wp-guide"
+msgstr "body wp-guide"
+
+msgid "brand page-link"
+msgstr "brand page-link"
+
+msgid "by"
+msgstr "द्वारा"
+
+msgid "central Kathmandu"
+msgstr "मध्य काठमाडौं"
+
+msgid "consent-embed consent-map"
+msgstr "consent-embed consent-map"
+
+msgctxt "editorial-paragraph"
+msgid "Contact hello@ghumnajaun.com to request access to, correction of or deletion of information you have sent us. We may ask for enough information to confirm that a request relates to you and will consider it under applicable law."
+msgstr "आफूले पठाएको विवरण हेर्न, सच्याउन वा मेटाउन अनुरोध गर्न {{0}}मा सम्पर्क गर्नुहोस्। अनुरोध तपाईंकै हो भन्ने निश्चित गर्न थप जानकारी माग्न सक्छौँ। अनुरोधलाई लागू कानुनअनुसार विचार गर्नेछौँ।"
+
+msgctxt "editorial-paragraph"
+msgid "For provider information, read Google’s Privacy Policy, the OpenStreetMap Foundation Privacy Policy and jsDelivr’s Privacy Policy."
+msgstr "सेवा प्रदायकबारे थप जानकारीका लागि {{0}}, {{1}} र {{2}} पढ्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "For questions about these terms or content rights, contact hello@ghumnajaun.com."
+msgstr "यी सर्त वा सामग्रीको अधिकारबारे प्रश्न भए {{0}}मा सम्पर्क गर्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "If a detail is out of date, please send the destination page link and the correction to hello@ghumnajaun.com. Supporting information from the venue or an official source helps us review it."
+msgstr "कुनै विवरण पुरानो भएको छ भने गन्तव्यको पृष्ठ र सच्याउनुपर्ने कुरा {{0}}मा पठाउनुहोस्। सम्बन्धित ठाउँ वा आधिकारिक स्रोतको थप जानकारी भए हामीलाई समीक्षा गर्न सजिलो हुन्छ।"
+
+msgctxt "editorial-paragraph"
+msgid "Messages from the form are delivered to ghumnajaun@gmail.com. The direct “Get in touch” link addresses email to hello@ghumnajaun.com. Our hosting and email providers process form submissions to deliver your message. If you use the direct email link, your email provider also processes the message according to its own policy."
+msgstr "फारमबाट पठाइएका सन्देश {{0}}मा पुग्छन्। सीधै इमेल गर्ने “सम्पर्कमा रहनुहोस्” लिङ्कले {{1}}मा सन्देश पठाउँछ। सन्देश पुर्‍याउन हाम्रा होस्टिङ र इमेल सेवा प्रदायकले फारमका विवरण प्रशोधन गर्छन्। सीधै इमेल गर्नुभयो भने तपाईंको इमेल सेवा प्रदायकले पनि आफ्नै नीतिअनुसार सन्देश प्रशोधन गर्छ।"
+
+msgctxt "editorial-paragraph"
+msgid "Our guides draw on tourism boards, municipal information, venue websites and other named sources. History sections link to their references, and photos link back to their sources on our Photo credits page."
+msgstr "हाम्रा मार्गदर्शन पर्यटन बोर्ड, नगरपालिका, सम्बन्धित ठाउँका वेबसाइट र उल्लेख गरिएका अन्य स्रोतमा आधारित छन्। इतिहासका विवरणसँग तिनका सन्दर्भ लिङ्क छन्। तस्बिरका मूल स्रोत {{0}}मा हेर्न सक्नुहुन्छ।"
+
+msgctxt "editorial-paragraph"
+msgid "Photographer and license information is listed on the Photo Credits page. Permission to reuse an image depends on its source and applicable license."
+msgstr "तस्बिर खिच्ने व्यक्ति र इजाजतपत्रको जानकारी {{0}}मा छ। तस्बिर फेरि प्रयोग गर्न पाइने वा नपाइने कुरा त्यसको स्रोत र लागू इजाजतपत्रमा निर्भर हुन्छ।"
+
+msgctxt "editorial-paragraph"
+msgid "Please use the site with reasonable care. The Disclaimer explains the limits of the information provided."
+msgstr "वेबसाइट प्रयोग गर्दा आवश्यक सावधानी अपनाउनुहोस्। यहाँ दिइएको जानकारीको सीमाबारे {{0}}मा पढ्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "Read the Terms of Use and Privacy Policy for further information about using the site and contacting us."
+msgstr "वेबसाइटको प्रयोग र हामीलाई सम्पर्क गर्नेसम्बन्धी थप जानकारीका लागि {{0}} र {{1}} पढ्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "Some photographs are provided under Creative Commons licenses and others are credited to their source publishers. Follow the license attached to the individual image, including attribution and any share-alike conditions. The Photo Credits page identifies the available sources and licenses."
+msgstr "केही तस्बिर Creative Commons इजाजतपत्रअन्तर्गत उपलब्ध छन् भने अरूमा मूल प्रकाशकलाई श्रेय दिइएको छ। हरेक तस्बिरको इजाजतपत्रमा भएका श्रेय दिने र उही सर्तमा साझा गर्नेलगायत नियम पालना गर्नुहोस्। उपलब्ध स्रोत र इजाजतपत्रको जानकारी {{0}}मा छ।"
+
+msgctxt "editorial-paragraph"
+msgid "These terms apply when you use this website. Please read them alongside our Privacy Policy and Disclaimer."
+msgstr "यो वेबसाइट प्रयोग गर्दा यी सर्त लागू हुन्छन्। हाम्रो {{0}} र {{1}} पनि सँगै पढ्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "This policy describes the current Ghumna Jaun website. For privacy questions or requests about information you have shared with us, email hello@ghumnajaun.com."
+msgstr "यो नीति घुम्न जाऔँको हालको वेबसाइटका लागि हो। गोपनीयता वा हामीलाई पठाउनुभएको विवरणबारे प्रश्न वा अनुरोध भए {{0}}मा इमेल गर्नुहोस्।"
+
+msgctxt "editorial-paragraph"
+msgid "We’re planning our own visits and YouTube vlogs to share a closer look at the places featured here. Alongside the destination guides, our travel articles offer ideas for putting a day together."
+msgstr "यहाँ समेटिएका ठाउँ आफैँ घुमेर नजिकबाट चिनाउने YouTube भिडियो बनाउने योजनामा छौँ। गन्तव्यसम्बन्धी मार्गदर्शनसँगै हाम्रा {{0}}ले दिनभरको घुमघामको योजना बनाउन सघाउँछन्।"
+
+msgid "email hello@ghumnajaun.com"
+msgstr "इमेल hello@ghumnajaun.com"
+
+msgid "explains the limits of the information provided."
+msgstr "ले यहाँ दिइएको जानकारीका सीमाबारे स्पष्ट पार्छ।"
+
+msgid "find a place to eat"
+msgstr "खाने ठाउँ खोज्नुहोस्"
+
+msgid "for further information about using the site and contacting us."
+msgstr "मा वेबसाइटको प्रयोग र हामीलाई सम्पर्क गर्नेसम्बन्धी थप जानकारी छ।"
+
+msgid "go today?"
+msgstr "आज जाने?"
+
+msgid "highlighted fields"
+msgstr "चिनाइएका ठाउँहरू"
+
+msgid "identifies the available sources and licenses."
+msgstr "मा उपलब्ध स्रोत र इजाजतपत्रको जानकारी छ।"
+
+msgid "in Google Maps"
+msgstr "Google Maps मा"
+
+msgid "jsDelivr’s Privacy Policy"
+msgstr "jsDelivr को गोपनीयता नीति"
+
+msgid "km"
+msgstr "किमि"
+
+msgid "km away"
+msgstr "किमि टाढा"
+
+msgid "matching destinations"
+msgstr "मिल्दो गन्तव्यहरू"
+
+msgid "mode"
+msgstr "मोड"
+
+msgid "noopener noreferrer"
+msgstr "noopener noreferrer"
+
+msgid "of"
+msgstr "को"
+
+msgid "offer ideas for putting a day together."
+msgstr "ले दिनभरको घुमघामको योजना बनाउन सघाउँछन्।"
+
+msgid "on map"
+msgstr "नक्सामा"
+
+msgid "page-link search-all"
+msgstr "page-link search-all"
+
+msgid "page-link search-match"
+msgstr "page-link search-match"
+
+msgid "photos"
+msgstr "तस्बिरहरू"
+
+msgid "place"
+msgstr "ठाउँ"
+
+msgid "place city-card page-link"
+msgstr "place city-card page-link"
+
+msgid "place page-link"
+msgstr "place page-link"
+
+msgid "place page-link blog-card"
+msgstr "place page-link blog-card"
+
+msgid "place to see"
+msgstr "हेर्न मिल्ने ठाउँ"
+
+msgid "places"
+msgstr "ठाउँहरू"
+
+msgid "places to see"
+msgstr "हेर्न मिल्ने ठाउँहरू"
+
+msgid "search-dialog cookie-dialog"
+msgstr "search-dialog cookie-dialog"
+
+msgid "the"
+msgstr "द"
+
+msgid "the highlighted field"
+msgstr "चिनाइएको ठाउँ"
+
+msgid "to request access to, correction of or deletion of information you have sent us. We may ask for enough information to confirm that a request relates to you and will consider it under applicable law."
+msgstr "मा सम्पर्क गरेर आफूले पठाएको विवरण हेर्न, सच्याउन वा मेटाउन अनुरोध गर्न सक्नुहुन्छ। अनुरोध तपाईंकै हो भन्ने निश्चित गर्न थप जानकारी माग्न सक्छौँ। अनुरोधलाई लागू कानुनअनुसार विचार गर्नेछौँ।"
+
+msgid "travel articles"
+msgstr "यात्रासम्बन्धी लेखहरू"
+
+msgid "vlog"
+msgstr "यात्रा भिडियो"
+
+msgid "vlog on YouTube"
+msgstr "YouTube मा यात्रा भिडियो"
+
+msgid "{\"sha1\":\"941d0b4ba81dcc9fece5f77af612d16ba4344ba8\",\"ext\":\"jpg\"}"
+msgstr "{\"sha1\":\"941d0b4ba81dcc9fece5f77af612d16ba4344ba8\",\"ext\":\"jpg\"}"
+
+msgid "{\"total_effects_actions\":0,\"total_draw_time\":0,\"layers_used\":0,\"effects_tried\":0,\"total_draw_actions\":0,\"total_editor_actions\":{\"border\":0,\"frame\":0,\"mask\":0,\"lensflare\":0,\"clipart\":0,\"text\":0,\"square_fit\":0,\"shape_mask\":0,\"callout\":0},\"effects_applied\":0,\"uid\":\"4BEAC034-E1D0-4859-B1C7-830032600A34_1543056856982\",\"width\":2828,\"photos_added\":0,\"total_effects_time\":0,\"tools_used\":{\"tilt_shift\":0,\"resize\":0,\"adjust\":0,\"curves\":0,\"motion\":0,\"perspective\":0,\"clone\":0,\"crop\":0,\"enhance\":0,\"selection\":0,\"free_crop\":0,\"flip_rotate\":1,\"shape_crop\":0,\"stretch\":0},\"origin\":\"gallery\",\"height\":2828,\"subsource\":\"done_button\",\"total_editor_time\":0,\"brushes_used\":0}"
+msgstr "{\"total_effects_actions\":0,\"total_draw_time\":0,\"layers_used\":0,\"effects_tried\":0,\"total_draw_actions\":0,\"total_editor_actions\":{\"border\":0,\"frame\":0,\"mask\":0,\"lensflare\":0,\"clipart\":0,\"text\":0,\"square_fit\":0,\"shape_mask\":0,\"callout\":0},\"effects_applied\":0,\"uid\":\"4BEAC034-E1D0-4859-B1C7-830032600A34_1543056856982\",\"width\":2828,\"photos_added\":0,\"total_effects_time\":0,\"tools_used\":{\"tilt_shift\":0,\"resize\":0,\"adjust\":0,\"curves\":0,\"motion\":0,\"perspective\":0,\"clone\":0,\"crop\":0,\"enhance\":0,\"selection\":0,\"free_crop\":0,\"flip_rotate\":1,\"shape_crop\":0,\"stretch\":0},\"origin\":\"gallery\",\"height\":2828,\"subsource\":\"done_button\",\"total_editor_time\":0,\"brushes_used\":0}"
+
+msgid "· About 1 hr (sample)"
+msgstr "· करिब 1 घण्टा (नमुना)"
+
+msgid "· Photo source:"
+msgstr "· तस्बिरको स्रोत:"
+
+msgid "· Public domain"
+msgstr "· सार्वजनिक डोमेन"
+
+msgid "· Sample listing"
+msgstr "· नमुना विवरण"
+
+msgid "← All travel guides"
+msgstr "← यात्राका सबै मार्गदर्शन"
+
+msgid "← Back to places"
+msgstr "← ठाउँहरूमा फर्कनुहोस्"
+
+msgid "≈ %d km away"
+msgstr "करिब %d किमि टाढा"

@@ -1,1 +1,5 @@
-<?php get_header();echo gj_design_template('blog');get_footer(); ?>
+<?php
+
+get_header();
+get_template_part( 'template-parts/blog' );
+get_footer();

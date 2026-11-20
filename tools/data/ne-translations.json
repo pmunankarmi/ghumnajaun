@@ -259,7 +259,7 @@
   "Chitlang lies on a historic approach to the Kathmandu Valley through Chandragiri. The Nepal Tourism Board records a local account that members of the Malla royal family took refuge there after Prithvi Narayan Shah’s conquest in the 18th century.": "चित्लाङ चन्द्रागिरि हुँदै काठमाडौं उपत्यका पस्ने ऐतिहासिक बाटोमा पर्छ। अठारौँ शताब्दीमा पृथ्वीनारायण शाहको विजयपछि मल्ल राजपरिवारका केही सदस्यले यहाँ शरण लिएको स्थानीय कथन नेपाल पर्यटन बोर्डले उल्लेख गरेको छ।",
   "Chitlang, Markhu and Kulekhani in a day": "एकै दिनमा चित्लाङ, मार्खु र कुलेखानी",
   "Chonga Ganesh Temple, Sallaghari, Bhaktapur": "चोङ्गा गणेश मन्दिर, सल्लाघारी, भक्तपुर",
-  "Choose a destination photo": "गन्तव्य फोटो छान्नुहोस्",
+  "Choose a destination photo": "गन्तव्यको तस्बिर छान्नुहोस्",
   "Choose a featured destination": "विशेष गन्तव्य छनौट गर्नुहोस्",
   "Choose a few rides": "केही मनोरञ्जनात्मक खेल रोज्नुहोस्",
   "Choose a garden photo": "बगैचाको फोटो छान्नुहोस्",
@@ -317,7 +317,7 @@
   "Dhulikhel Municipality’s Kalidevi and 1,000 Steps listing": "धुलिखेल नगरपालिकाले दिएको कालीदेवी र हजार सिँढीसम्बन्धी जानकारी",
   "Dhulikhel Old Town": "धुलिखेलको पुरानो बस्ती",
   "Dhulikhel offers two different ways to spend the day: a walk through the old town or a climb toward Kalidevi Temple. Start in the lanes and squares if you prefer a gentler outing, or build the day around the 1,000 Steps and the hilltop views.": "धुलिखेलमा पुरानो बस्ती घुमेर वा कालीदेवी मन्दिरतिर उक्लेर दिन बिताउन सकिन्छ। सहज हिँडडुल मन पर्छ भने गल्ली र चोक घुम्नुहोस्। उकालो चढ्न मन छ भने हजार सिँढी र डाँडाबाट देखिने दृश्यलाई यात्राको मुख्य आकर्षण बनाउनुहोस्।",
-  "Distance unavailable": "दूरीको जानकारी छैन",
+  "Distance unavailable": "दूरी उपलब्ध छैन",
   "Doleshwor Mahadev Temple, Sipadol": "डोलेश्वर महादेव मन्दिर, सिपाडोल",
   "Doleshwor Mahadev Temple, Sipadol, Bhaktapur": "डोलेश्वर महादेव मन्दिर, सिपाडोल, भक्तपुर",
   "Doleshwor Mahadev is a Shiva pilgrimage site in Sipadol, Bhaktapur, associated with Kedarnath. Allow time for worship here, then continue to Ashapuri if you are planning a longer temple outing.": "भक्तपुरको सिपाडोलमा रहेको डोलेश्वर महादेव केदारनाथसँग जोडिएको शिव तीर्थस्थल हो। यहाँ दर्शनका लागि समय छुट्याउनुहोस्। थप मन्दिर घुम्ने योजना भए आशापुरीतिर जानुहोस्।",
@@ -1192,5 +1192,10 @@
   "Combine a Chitlang village walk with time beside the reservoir, and add Bheda Farm if the timing works.": "चित्लाङ गाउँमा हिँडडुल र जलाशयछेउको घुमघामलाई एउटै यात्रामा जोड्नुहोस्। समय मिले भेडा फार्म पनि जानुहोस्।",
   "View all results": "सबै नतिजा हेर्नुहोस्",
   "Optional maps and videos connect to Google Maps, OpenStreetMap and YouTube. Choose whether to load them.": "वैकल्पिक नक्सा र भिडियो लोड गर्दा Google Maps, OpenStreetMap र YouTube सँग जडान हुन्छ। तिनलाई लोड गर्ने कि नगर्ने रोज्नुहोस्।",
-  "Choose whether Google Maps, OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage.": "Google Maps वा OpenStreetMap का नक्सा र YouTube का भिडियो लोड गर्ने कि नगर्ने रोज्नुहोस्। यी सेवा प्रदायकले जडानसम्बन्धी विवरण पाउँछन् र आफ्नै कुकी वा भण्डारण प्रयोग गर्न सक्छन्।"
+  "Choose whether Google Maps, OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage.": "Google Maps वा OpenStreetMap का नक्सा र YouTube का भिडियो लोड गर्ने कि नगर्ने रोज्नुहोस्। यी सेवा प्रदायकले जडानसम्बन्धी विवरण पाउँछन् र आफ्नै कुकी वा भण्डारण प्रयोग गर्न सक्छन्।",
+  "%d places": "%d ठाउँ",
+  "From %s": "%sबाट",
+  "Search results for “%s”": "“%s” को खोज परिणाम",
+  "≈ %d km away": "करिब %d किमि टाढा",
+  "Under 1 km away": "१ किमिभन्दा कम दूरीमा"
 }
