@@ -712,6 +712,30 @@ html:lang(ne) #gj .footer-columns h2{font-weight:700}
 #gj .trip-main .trip-section-grid>*{min-width:0}
 #gj .trip-card h3{line-height:1.2}
 html:lang(ne) #gj .trip-card h3{line-height:1.5}
+/* Core-page audit: consistent prose links and section spacing. */
+#gj :is(.about-page,.contact-page,.policy-content,.faq-list,.photo-credits) a:not(.action):not(.page-link){color:var(--orange);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+#gj :is(.about-page,.contact-page,.policy-content,.faq-list,.photo-credits) a:not(.action):not(.page-link):hover{color:var(--ink)}
+#gj :is(.about-story,.policy-content){line-height:1.8}
+#gj :is(.about-story,.policy-content) h2{line-height:1.2;margin-bottom:14px}
+#gj :is(.about-story,.policy-content) p{margin:12px 0 18px}
+#gj :is(.about-story,.policy-content) p:last-child{margin-bottom:0}
+#gj .policy-content :is(ul,ol){padding-inline-start:24px;margin-block:14px 20px}
+#gj .policy-content li+li{margin-top:8px}
+#gj .contact-topic h3{line-height:1.25;margin-bottom:10px}
+#gj .contact-topic p{margin-top:0;line-height:1.75}
+#gj .about-lead{line-height:1.5}
+html:lang(ne) #gj :is(.about-story,.policy-content) h2{line-height:1.5}
+html:lang(ne) #gj .contact-topic h3{line-height:1.6}
+html:lang(ne) #gj .about-lead{line-height:1.8}
+/* Constrain grid tracks so longer translated search controls cannot widen the hero. */
+#gj .home-hero{grid-template-columns:minmax(0,1fr)}
+#gj .home-hero .hero-copy{min-width:0;max-width:100%}
+@media(max-width:510px){
+ #gj .home-hero .search{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);width:100%;max-width:100%;gap:10px}
+ #gj .home-hero .search label{min-width:0;padding-inline:4px}
+ #gj .home-hero .search select{width:100%;min-width:0;text-overflow:ellipsis}
+ #gj .home-hero .search button{min-width:0;white-space:normal;line-height:1.5;padding-inline:10px}
+}
 
 body { margin: 0; }
 .screen-reader-text { position: absolute; left: -10000px; }
