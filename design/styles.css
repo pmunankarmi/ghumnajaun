@@ -469,7 +469,7 @@ html:has(.search-dialog[open]){overflow:hidden}
 #gj .trip-related h2{margin-bottom:18px}
 #gj .trip-activities .trip-inline-link{display:inline-block;margin-top:5px}
 #gj .trip-feature-photo{margin:0}
-#gj .trip-feature-photo img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;background:var(--photo-placeholder)}
+#gj .trip-feature-photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;max-height:360px;object-fit:cover;border-radius:14px;background:var(--photo-placeholder)}
 #gj .trip-feature-photo figcaption{margin-top:7px;color:var(--muted);font-size:.83rem}
 #gj .trip-vlog-player{
  display:block;width:100%;min-height:200px;aspect-ratio:16/9;

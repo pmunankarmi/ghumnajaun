@@ -35,7 +35,25 @@ add_filter('acf/update_value/name=site_logo',function($value){set_theme_mod('cus
 add_action('updated_option',function($name,$old,$new){if($name==='theme_mods_'.get_stylesheet() && ($old['custom_logo']??0)!==($new['custom_logo']??0) && function_exists('update_field'))update_field('field_gj_site_logo',absint($new['custom_logo']??0),'option');},10,3);
 add_filter('acf/load_value/name=site_logo',function($value){return absint(get_theme_mod('custom_logo'));});
 function gj_legacy_links($html){
-    return preg_replace_callback('/(href|action)="([a-z-]+)\.html([^"\n]*)"/',function($m){return $m[1].'="'.esc_url(gj_home_url('/'.($m[2]==='index'?'':$m[2].'/').$m[3])).'"';},$html);
+    return preg_replace_callback('/(href|action)="([a-z-]+)\.html([^"\n]*)"/',function($m){
+        $tail=html_entity_decode($m[3],ENT_QUOTES|ENT_HTML5,'UTF-8');
+        if($m[1]==='href'&&$m[2]==='destination'){
+            parse_str(wp_parse_url($tail,PHP_URL_QUERY)?:'',$query);$name=$query['place']??'';
+            if(is_string($name)&&$name!==''){
+                static $destinations=[];$language=gj_is_nepali()?'ne':'en';
+                if(!isset($destinations[$language])){
+                    $destinations[$language]=[];
+                    foreach(get_posts(['post_type'=>'destination','post_status'=>'publish','posts_per_page'=>-1,'lang'=>$language])as$post)$destinations[$language][gj_canonical_title($post->ID)]=get_permalink($post->ID);
+                }
+                $url=$destinations[$language][$name]??'';unset($query['place']);
+                if(!$url){$url=gj_home_url('/explore/');$query['q']=$name;}
+                if($query)$url=add_query_arg($query,$url);
+                $fragment=wp_parse_url($tail,PHP_URL_FRAGMENT);if($fragment)$url.='#'.$fragment;
+                return 'href="'.esc_url($url).'"';
+            }
+        }
+        return $m[1].'="'.esc_url(gj_home_url('/'.($m[2]==='index'?'':$m[2].'/').$tail)).'"';
+    },$html);
 }
 add_filter('the_content','gj_legacy_links');
 add_action('admin_notices',function(){if(!function_exists('acf_add_local_field_group'))echo '<div class="notice notice-warning"><p>Ghumna Jaun requires ACF Pro for guide fields and theme options.</p></div>';});
