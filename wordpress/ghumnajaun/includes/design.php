@@ -19,6 +19,15 @@ function gj_transport_html($text){
  }
  return $time.$fare.implode('',$body);
 }
+/** Resolve an imported prototype self-link to this guide's language-specific URL. */
+function gj_destination_fact_url($url,$id){
+ $host=wp_parse_url($url,PHP_URL_HOST);$path=wp_parse_url($url,PHP_URL_PATH);
+ if(!in_array($host,['127.0.0.1','localhost'],true)||$path!=='/destination.html')return $url;
+ parse_str(wp_parse_url($url,PHP_URL_QUERY)?:'',$query);
+ if(($query['place']??'')!==gj_canonical_title($id))return $url;
+ $fragment=wp_parse_url($url,PHP_URL_FRAGMENT);
+ return get_permalink($id).($fragment?'#'.$fragment:'');
+}
 function gj_design_view(){if(is_front_page())return 'home';if(is_singular('destination'))return 'detail';if(is_post_type_archive('destination')||is_tax(['outing','place_city','place_type']))return 'results';if(is_home())return 'blog';if(is_singular('post'))return 'post';if(is_page('about'))return 'about';if(is_page('contact'))return 'contact';return 'page';}
 function gj_design_data(){
  static $out;if($out)return $out;
@@ -37,7 +46,7 @@ function gj_design_data(){
   $gallery=array_values(array_filter(array_map(fn($image)=>'media-'.$image,$f['gallery']??[]),fn($key)=>isset($out['photos'][$key])));if(!$gallery&&$cover)$gallery=['media-'.$cover];$out['destinationGalleries'][$name]=$gallery;
   $summary=wp_strip_all_tags(apply_filters('the_content',$p->post_content));$stops=[];$activities=[];foreach($f['stops']??[]as$s){$photo=!empty($s['stop_image'])?'media-'.$s['stop_image']:null;$stops[]=[$s['stop_title'],$s['stop_description'],$photo];$activities[]=[esc_html($s['stop_title']),esc_html($s['stop_description']),!empty($s['stop_map'])?'https://www.google.com/maps/search/?api=1&query='.rawurlencode($s['stop_map']):null,$photo];}
   $guide=['summary'=>$summary,'stops'=>$stops,'bus'=>$f['bus']??'','transport'=>$f['car']??''];if(!empty($f['history'])){$history=wp_strip_all_tags($f['history']);if(preg_match('~<p[^>]*>(.*?)</p>~s',$f['history'],$historyMatch))$history=wp_strip_all_tags($historyMatch[1]);$sources=$f['sources']??[];$guide['history']=[$history,($f['history_source_title']??'')?:($sources[0]['source_title']??'Source'),($f['history_source_url']??'')?:($sources[0]['source_url']??gj_home_url('/photo-credits/'))];}$out['destinationGuides'][$name]=$guide;
-  $facts=[];foreach($f['facts']??[]as$fact)$facts[]=[esc_html($fact['fact_label']),esc_html($fact['fact_value']),!empty($fact['fact_note_url'])?'<a href="'.esc_url($fact['fact_note_url']).'" target="_blank" rel="noopener">'.esc_html($fact['fact_note']).'</a>':esc_html($fact['fact_note'])];if(!$facts)$facts=[['Outing',esc_html($type),''],['Visiting','Check local access',''],['Visit plan','See places to visit','']];
+  $facts=[];foreach($f['facts']??[]as$fact)$facts[]=[esc_html($fact['fact_label']),esc_html($fact['fact_value']),!empty($fact['fact_note_url'])?'<a href="'.esc_url(gj_destination_fact_url($fact['fact_note_url'],$id)).'" target="_blank" rel="noopener">'.esc_html($fact['fact_note']).'</a>':esc_html($fact['fact_note'])];if(!$facts)$facts=[['Outing',esc_html($type),''],['Visiting','Check local access',''],['Visit plan','See places to visit','']];
   $sources=[];foreach($f['sources']??[]as$s)$sources[]=[esc_html($s['source_title']),esc_url_raw($s['source_url'])];
   $plan=[];foreach($f['day_plan']??[]as$s){$copy=esc_html($s['stage_description']);if(!empty($s['stage_link_label'])&&!empty($s['stage_link_url']))$copy=str_replace(esc_html($s['stage_link_label']),'<a href="'.esc_url($s['stage_link_url']).'">'.esc_html($s['stage_link_label']).'</a>',$copy);$plan[]=[esc_html($s['stage_title']),$copy];}
   $meals=[];$mealLinks=[];$stays=[];foreach($f['dining_stays']??[]as$v){if(($v['venue_kind']??'meal')==='stay'){$stays[]=[esc_html($v['venue_title']),esc_html($v['venue_description']),esc_url_raw($v['venue_url']),esc_html($v['venue_links'][0]['venue_link_label']??'Hotel website'),get_post_meta($id,'_gj_import_key',true)==='Godawari Botanical Garden'];continue;}$links=[];foreach((($v['venue_links']??[])?:[])as$link)$links[]=[esc_html($link['venue_link_label']),esc_url_raw($link['venue_link_url'])];$meals[]=[($v['venue_stage']??'')?:'Nearby',esc_html($v['venue_title']),esc_html($v['venue_description']),esc_url_raw($v['venue_url']),$links[0][0]??'Visit website'];$mealLinks[]=$links;}

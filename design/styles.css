@@ -611,3 +611,17 @@ html:lang(ne) #gj .footer-columns h2{font-weight:700}
  #gj .article-pagination a+a{border-top:1px solid var(--line);padding-top:22px}
  #gj .post-body{margin-top:24px}
 }
+
+/* Destination prose links and editable transport paragraphs share a clear rhythm. */
+#gj .destination-trip .trip-main a:not(.page-link):not(.action):not(.trip-map-link),
+#gj .destination-trip .trip-facts a{color:var(--orange);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+#gj .destination-trip .trip-main a:not(.page-link):not(.action):not(.trip-map-link):hover,
+#gj .destination-trip .trip-facts a:hover{color:var(--ink)}
+#gj .trip-card p{margin-top:10px;line-height:1.7}
+#gj .trip-card p+p{margin-top:12px}
+#gj .trip-card .trip-text-links{margin-top:14px;gap:10px 14px}
+#gj .trip-transport>div>h3{margin-bottom:12px}
+#gj .trip-transport>div>a:not(.page-link){display:inline-block;margin-top:10px;line-height:1.6}
+#gj .trip-main .trip-section-grid>*{min-width:0}
+#gj .trip-card h3{line-height:1.2}
+html:lang(ne) #gj .trip-card h3{line-height:1.5}
