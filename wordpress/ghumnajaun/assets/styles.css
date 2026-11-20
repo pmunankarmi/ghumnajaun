@@ -547,7 +547,7 @@ html:has(.search-dialog[open]){overflow:hidden}
 #gj .footer-brand p{max-width:38ch;margin:18px 0;color:var(--muted);line-height:1.65}
 #gj .footer-brand .social-icons{margin-top:20px}
 #gj .footer-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
-#gj .footer-columns h2{font:600 15px/1.5 'DM Sans',sans-serif;margin:0 0 16px}
+#gj .footer-columns h2{font:700 15px/1.5 'DM Sans',sans-serif;margin:0 0 16px}
 #gj .footer-columns a{display:block;width:fit-content;margin-top:12px;color:var(--ink);text-decoration:none;line-height:1.6;overflow-wrap:anywhere}
 #gj .footer-columns a:hover{text-decoration:underline;text-underline-offset:4px;color:var(--orange)}
 #gj .footer-bottom{grid-column:1/-1;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:16px 28px;padding-top:22px;border-top:1px solid var(--line)}
@@ -594,3 +594,5 @@ html:lang(ne) #gj .post-body h3{font-size:clamp(21px,2.4vw,25px);line-height:1.6
 #gj .related-article-card:hover h3{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:600px){#gj .related-article-grid{grid-template-columns:minmax(0,1fr)}#gj .article-pagination{gap:18px}#gj .related-article-card h3{font-size:26px}}
 html:lang(ne) #gj .related-article-card h3{font-size:22px;line-height:1.6}
+
+html:lang(ne) #gj .footer-columns h2{font-weight:700}
