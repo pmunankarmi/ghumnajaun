@@ -864,7 +864,7 @@
 			status.textContent = 'Sending your message…';
 			delete status.dataset.state;
 			try {
-				const response = await fetch(contactForm.action, {
+				const response = await fetch(contactForm.getAttribute('action'), {
 					method: 'POST',
 					body: new FormData(contactForm),
 					headers: { Accept: 'application/json', 'X-GhumnaJaun-Contact': '1' },
