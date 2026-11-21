@@ -40,14 +40,15 @@ function gj_send_contact() {
 	}
 
 	set_transient( $key, $count + 1, 15 * MINUTE_IN_SECONDS );
-	// Use the existing domain mailbox for both visible and envelope senders.
+	// Use a domain sender and keep bounces at the existing monitored mailbox.
 	// The host's MailChannels relay and domain DKIM remain responsible for delivery.
-	$sender = 'hello@ghumnajaun.com';
+	$sender = 'noreply@ghumnajaun.com';
+	$return_path = 'hello@ghumnajaun.com';
 	$mailer_state = null;
-	$configure_sender = static function ( $mailer ) use ( $sender, &$mailer_state ) {
+	$configure_sender = static function ( $mailer ) use ( $sender, $return_path, &$mailer_state ) {
 		$mailer_state = array( 'mailer' => $mailer, 'sender' => $mailer->Sender );
 		$mailer->setFrom( $sender, 'Ghumna Jaun', false );
-		$mailer->Sender = $sender;
+		$mailer->Sender = $return_path;
 	};
 	add_action( 'phpmailer_init', $configure_sender, PHP_INT_MAX );
 	try {
