@@ -40,7 +40,30 @@ function gj_send_contact() {
 	}
 
 	set_transient( $key, $count + 1, 15 * MINUTE_IN_SECONDS );
-	$sent = wp_mail( gj_option( 'contact_recipient', get_option( 'admin_email' ) ), 'Ghumna Jaun: ' . $subject, $name . "\n" . $email . "\n\n" . $body, array( 'Reply-To: ' . $email ) );
+	// Use the existing domain mailbox for both visible and envelope senders.
+	// The host's MailChannels relay and domain DKIM remain responsible for delivery.
+	$sender = 'hello@ghumnajaun.com';
+	$mailer_state = null;
+	$configure_sender = static function ( $mailer ) use ( $sender, &$mailer_state ) {
+		$mailer_state = array( 'mailer' => $mailer, 'sender' => $mailer->Sender );
+		$mailer->setFrom( $sender, 'Ghumna Jaun', false );
+		$mailer->Sender = $sender;
+	};
+	add_action( 'phpmailer_init', $configure_sender, PHP_INT_MAX );
+	try {
+		$sent = wp_mail(
+			gj_option( 'contact_recipient', get_option( 'admin_email' ) ),
+			'Ghumna Jaun: ' . $subject,
+			$name . "\n" . $email . "\n\n" . $body,
+			array( 'From: Ghumna Jaun <' . $sender . '>', 'Reply-To: ' . $email )
+		);
+	} finally {
+		remove_action( 'phpmailer_init', $configure_sender, PHP_INT_MAX );
+		// WordPress reuses PHPMailer: do not leak the contact envelope into other mail.
+		if ( $mailer_state ) {
+			$mailer_state['mailer']->Sender = $mailer_state['sender'];
+		}
+	}
 
 	if ( ! $sent ) {
 		wp_send_json_error( array( 'message' => 'Unable to send. Your message is still here; please try again.' ), 503 );
