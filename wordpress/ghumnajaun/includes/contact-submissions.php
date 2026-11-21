@@ -24,7 +24,7 @@ add_action( 'init', function () {
 		'rewrite' => false,
 		'query_var' => false,
 		'menu_icon' => 'dashicons-email-alt',
-		'supports' => array(),
+		'supports' => false,
 		'capabilities' => array(
 			'edit_post' => 'manage_options',
 			'read_post' => 'manage_options',
@@ -117,3 +117,11 @@ add_action( 'add_meta_boxes_gj_submission', function ( $post ) {
 		echo '<div style="white-space:pre-wrap;overflow-wrap:anywhere">' . esc_html( $post->post_content ) . '</div>';
 	}, 'gj_submission', 'normal', 'high' );
 } );
+
+add_filter( 'bulk_actions-edit-gj_submission', function ( $actions ) {
+	unset( $actions['edit'] );
+	return $actions;
+} );
+add_filter( 'post_date_column_status', function ( $status, $post ) {
+	return 'gj_submission' === $post->post_type ? 'Received' : $status;
+}, 10, 2 );
