@@ -7,6 +7,7 @@
  */
 
 defined( 'ABSPATH' ) || exit;
+require_once __DIR__ . '/contact-submissions.php';
 function gj_contact_form() {
 	get_template_part( 'template-parts/contact-form' );
 }
@@ -40,6 +41,11 @@ function gj_send_contact() {
 	}
 
 	set_transient( $key, $count + 1, 15 * MINUTE_IN_SECONDS );
+	$submission_id = gj_save_contact_submission( $name, $email, $subject, $body );
+	if ( is_wp_error( $submission_id ) ) {
+		wp_send_json_error( array( 'message' => 'Unable to save your message. Please try again.' ), 503 );
+	}
+
 	// Use a domain sender and keep bounces at the existing monitored mailbox.
 	// The host's MailChannels relay and domain DKIM remain responsible for delivery.
 	$sender = 'noreply@ghumnajaun.com';
@@ -66,9 +72,6 @@ function gj_send_contact() {
 		}
 	}
 
-	if ( ! $sent ) {
-		wp_send_json_error( array( 'message' => 'Unable to send. Your message is still here; please try again.' ), 503 );
-	}
-
-	wp_send_json_success( array( 'message' => 'Your message was accepted for delivery. Thank you.' ) );
+	update_post_meta( $submission_id, '_gj_mail_status', $sent ? 'sent' : 'failed' );
+	wp_send_json_success( array( 'message' => 'Your message has been received. Thank you.' ) );
 }
