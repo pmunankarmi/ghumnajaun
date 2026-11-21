@@ -77,6 +77,10 @@ add_action( 'wp_enqueue_scripts', function () {
 	}
 
 	wp_enqueue_script( 'gj-runtime', $base . '/assets/theme.js', $runtime_dependencies, hash_file( 'sha256', get_template_directory() . '/assets/theme.js' ), array( 'in_footer' => true, 'strategy' => 'defer' ) );
+	// Match Site Kit's exclusion of all logged-in visitors.
+	if ( ! is_user_logged_in() ) {
+		wp_enqueue_script( 'gj-analytics', $base . '/assets/analytics.js', array(), hash_file( 'sha256', get_template_directory() . '/assets/analytics.js' ), array( 'in_footer' => true, 'strategy' => 'defer' ) );
+	}
 	wp_add_inline_script( 'gj-runtime', 'window.GJ=' . wp_json_encode( gj_runtime_data(), JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE ) . ';', 'before' );
 } );
 function gj_value( $name, $id = null, $default = '' ) {

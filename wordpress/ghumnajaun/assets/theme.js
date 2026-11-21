@@ -854,6 +854,7 @@
 			sending = true;
 			const button = contactForm.querySelector('button[type="submit"]');
 			const status = find('contact-status');
+			const contactTopic = contactForm.elements.namedItem('subject').value;
 			const controller = new AbortController();
 			const timeout = setTimeout(() => controller.abort(), 20000);
 			button.disabled = true;
@@ -890,6 +891,10 @@
 				find('contact-errors').hidden = true;
 				status.dataset.state = 'success';
 				status.textContent = result.message;
+				contactForm.dispatchEvent(new CustomEvent('gj:contact-success', {
+					bubbles: true,
+					detail: { topic: contactTopic },
+				}));
 			} catch (error) {
 				status.dataset.state = 'error';
 				status.textContent =
