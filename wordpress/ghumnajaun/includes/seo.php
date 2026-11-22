@@ -156,11 +156,13 @@ add_action( 'wp_head', function () {
 
 		'@type' => 'WebSite',
 
-		'@id' => home_url( '/#website' ),
+		'@id' => trailingslashit( get_option( 'home' ) ) . '#website',
 
 		'name' => get_bloginfo( 'name' ),
 
-		'url' => home_url( '/' )
+		'alternateName' => 'घुम्न जाऔँ',
+
+		'url' => trailingslashit( get_option( 'home' ) )
 
 	);
 
