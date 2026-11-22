@@ -136,7 +136,7 @@ add_action( 'wp_head', function () {
 
 		'og:url' => $url,
 
-		'og:site_name' => get_bloginfo( 'name' ),
+		'og:site_name' => 'Ghumna Jaun',
 
 		'og:type' => is_singular( 'post' ) ? 'article' : 'website'
 
@@ -158,7 +158,7 @@ add_action( 'wp_head', function () {
 
 		'@id' => trailingslashit( get_option( 'home' ) ) . '#website',
 
-		'name' => get_bloginfo( 'name' ),
+		'name' => 'Ghumna Jaun',
 
 		'alternateName' => 'घुम्न जाऔँ',
 
