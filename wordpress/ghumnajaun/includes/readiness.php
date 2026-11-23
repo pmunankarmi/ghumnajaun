@@ -120,7 +120,11 @@ add_action( 'admin_post_gj_apply_readiness_repair', function () {
 	}
 	$targets = array();
 	foreach ( $payload as $row ) {
-		$posts = get_posts( array( 'post_type' => $row['type'], 'name' => $row['slug'], 'post_status' => 'publish', 'lang' => 'en', 'posts_per_page' => -1 ) );
+		// Shared Polylang slugs can cause a name lookup to select the other translation.
+		$posts = get_posts( array( 'post_type' => $row['type'], 'post_status' => 'publish', 'lang' => '', 'suppress_filters' => true, 'posts_per_page' => -1 ) );
+		$posts = array_values( array_filter( $posts, function ( $post ) use ( $row ) {
+			return $post->post_name === $row['slug'] && ( ! function_exists( 'pll_get_post_language' ) || pll_get_post_language( $post->ID ) === 'en' );
+		} ) );
 		if ( count( $posts ) !== 1 ) {
 			wp_die( 'Content changed; review target: ' . esc_html( $row['slug'] ) );
 		}
