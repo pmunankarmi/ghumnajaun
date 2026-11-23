@@ -10,6 +10,28 @@ defined( 'ABSPATH' ) || exit;
 function gj_external_seo() {
 	return defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'AIOSEO_VERSION' );
 }
+/** Normalize editor copy without exposing shortcodes or HTML in metadata. */
+function gj_seo_text( $text ) {
+	return trim( preg_replace( '/\s+/u', ' ', wp_strip_all_tags( strip_shortcodes( (string) $text ) ) ) );
+}
+
+/** Match the URL used by WordPress, including multipage posts and archive pagination. */
+function gj_seo_url() {
+	$url = is_singular() ? wp_get_canonical_url( get_queried_object_id() ) : get_pagenum_link( max( 1, (int) get_query_var( 'paged' ) ), false );
+	return remove_query_arg( array( 'from', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'fbclid' ), $url ?: get_permalink() );
+}
+
+function gj_seo_description( $id ) {
+	if ( $id && post_password_required( $id ) ) {
+		return gj_seo_text( get_bloginfo( 'description' ) );
+	}
+	$description = gj_seo_text( $id ? gj_value( 'seo_description', $id ) : ( gj_archive_seo()['description'] ?? '' ) );
+	if ( ! $description && $id ) {
+		$description = wp_trim_words( gj_seo_text( get_post_field( 'post_excerpt', $id ) ?: get_post_field( 'post_content', $id ) ), 30, '' );
+	}
+	return gj_seo_text( $description ?: get_bloginfo( 'description' ) );
+}
+
 // The configured Posts page is an archive, so WordPress does not mark it singular.
 function gj_seo_page_id() {
 	if ( is_singular() ) {
@@ -89,7 +111,7 @@ add_filter( 'pre_get_document_title', function ( $title ) {
 
 	$page = max( (int) get_query_var( 'paged' ), (int) get_query_var( 'page' ) );
 
-	return $custom . ( $page > 1 ? ( ( function_exists( 'gj_is_nepali' ) && gj_is_nepali() ) ? ' — पृष्ठ ' : ' — Page ' ) . $page : '' );
+	return gj_seo_text( $custom ) . ( $page > 1 ? ( ( function_exists( 'gj_is_nepali' ) && gj_is_nepali() ) ? ' — पृष्ठ ' : ' — Page ' ) . $page : '' );
 } );
 function gj_seo_filtered_discovery() {
 	return ( is_post_type_archive( 'destination' ) || is_tax( array( 'outing', 'place_city', 'place_type' ) ) ) && ( isset( $_GET['q'] ) || isset( $_GET['city'] ) || isset( $_GET['category'] ) || isset( $_GET['from'] ) );
@@ -98,29 +120,62 @@ function gj_seo_filtered_discovery() {
 add_filter( 'wp_robots', function ( $robots ) {
 	$id = gj_seo_page_id();
 
-	if ( ( $id && gj_value( 'seo_noindex', $id ) ) || is_search() || is_404() || is_author() || gj_seo_filtered_discovery() ) {
+	if ( ( $id && gj_value( 'seo_noindex', $id ) ) || is_search() || is_404() || is_author() || ( is_singular() && post_password_required( $id ) ) || gj_seo_filtered_discovery() ) {
 		$robots['noindex'] = true;
 		unset( $robots['index'] );
 	}
 
 	return $robots;
 } );
+// Keep intentionally hidden and password-protected content out of the core sitemap.
+add_filter( 'wp_sitemaps_posts_query_args', function ( $args ) {
+	if ( gj_external_seo() ) {
+		return $args;
+	}
+	$visible = array(
+		'relation' => 'OR',
+		array( 'key' => 'seo_noindex', 'compare' => 'NOT EXISTS' ),
+		array( 'key' => 'seo_noindex', 'value' => '1', 'compare' => '!=' ),
+	);
+	$args['meta_query'] = empty( $args['meta_query'] ) ? $visible : array( 'relation' => 'AND', $args['meta_query'], $visible );
+	$args['has_password'] = false;
+	return $args;
+} );
+
 // Empty account archives are not editorial landing pages.
 add_filter( 'wp_sitemaps_add_provider', function ( $provider, $name ) {
 	return $name === 'users' ? false : $provider;
 }, 10, 2 );
 add_action( 'wp_head', function () {
-	if ( gj_external_seo() ) {
+	if ( gj_external_seo() || is_404() || is_search() || is_feed() || is_preview() ) {
 		return;
 	}
 
 	$id = gj_seo_page_id();
 	$singular = is_singular();
-	$url = $singular ? get_permalink( $id ) : ( is_front_page() ? home_url( '/' ) : get_pagenum_link() );
-	$description = $id ? gj_value( 'seo_description', $id, wp_trim_words( wp_strip_all_tags( get_post_field( 'post_excerpt', $id ) ?: get_post_field( 'post_content', $id ) ), 30 ) ) : ( gj_archive_seo()['description'] ?? get_bloginfo( 'description' ) );
-	$url = remove_query_arg( array( 'from', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'fbclid' ), $url );
+	$url = gj_seo_url();
+	$description = gj_seo_description( $id );
 	$title = wp_get_document_title();
-	$image = $singular ? get_the_post_thumbnail_url( $id, 'large' ) : wp_get_attachment_image_url( gj_option( 'home_cover' ), 'large' );
+	$protected = $id && post_password_required( $id );
+	// Try each source in order; a deleted attachment must not prevent the fallback.
+	$image_ids = array(
+		! $protected && $id ? (int) gj_value( 'seo_image', $id ) : 0,
+		! $protected && $id ? (int) get_post_thumbnail_id( $id ) : 0,
+		! $protected && $id ? (int) gj_value( 'feature_image', $id ) : 0,
+		(int) gj_option( 'seo_default_image' ),
+		(int) gj_option( 'home_cover' ),
+	);
+	$image_data = false;
+	$image_id = 0;
+	foreach ( array_unique( array_filter( $image_ids ) ) as $candidate ) {
+		$image_data = wp_get_attachment_image_src( $candidate, 'full' );
+		if ( $image_data ) {
+			$image_id = $candidate;
+			break;
+		}
+	}
+	$image = $image_data ? $image_data[0] : '';
+
 	echo '<meta name="description" content="' . esc_attr( $description ) . '">' . "\n";
 
 	// WordPress emits the singular canonical itself.
@@ -136,7 +191,9 @@ add_action( 'wp_head', function () {
 
 		'og:url' => $url,
 
-		'og:site_name' => 'Ghumna Jaun',
+		'og:site_name' => get_bloginfo( 'name' ),
+
+		'og:locale' => str_replace( '-', '_', get_bloginfo( 'language' ) ),
 
 		'og:type' => is_singular( 'post' ) ? 'article' : 'website'
 
@@ -144,10 +201,40 @@ add_action( 'wp_head', function () {
 		echo '<meta property="' . esc_attr( $key ) . '" content="' . esc_attr( $value ) . '">' . "\n";
 	}
 
-	echo '<meta name="twitter:card" content="summary_large_image">';
+	// Publish only locales with an actual linked translation.
+	if ( $id && function_exists( 'pll_get_post_translations' ) ) {
+		foreach ( pll_get_post_translations( $id ) as $translation_id ) {
+			if ( (int) $translation_id === (int) $id ) {
+				continue;
+			}
+			$locale = pll_get_post_language( $translation_id, 'locale' );
+			if ( $locale ) {
+				echo '<meta property="og:locale:alternate" content="' . esc_attr( str_replace( '-', '_', $locale ) ) . '">' . "\n";
+			}
+		}
+	}
+	foreach ( array( 'twitter:card' => $image ? 'summary_large_image' : 'summary', 'twitter:title' => $title, 'twitter:description' => $description ) as $key => $value ) {
+		echo '<meta name="' . esc_attr( $key ) . '" content="' . esc_attr( $value ) . '">' . "\n";
+	}
 
 	if ( $image ) {
-		echo '<meta property="og:image" content="' . esc_url( $image ) . '">';
+		echo '<meta property="og:image" content="' . esc_url( $image ) . '">' . "\n";
+		echo '<meta property="og:image:width" content="' . (int) $image_data[1] . '">' . "\n";
+		echo '<meta property="og:image:height" content="' . (int) $image_data[2] . '">' . "\n";
+		$mime = get_post_mime_type( $image_id );
+		if ( $mime ) {
+			echo '<meta property="og:image:type" content="' . esc_attr( $mime ) . '">' . "\n";
+		}
+		echo '<meta name="twitter:image" content="' . esc_url( $image ) . '">' . "\n";
+		$alt = gj_seo_text( get_post_meta( $image_id, '_wp_attachment_image_alt', true ) );
+		if ( $alt ) {
+			echo '<meta property="og:image:alt" content="' . esc_attr( $alt ) . '">' . "\n";
+			echo '<meta name="twitter:image:alt" content="' . esc_attr( $alt ) . '">' . "\n";
+		}
+	}
+
+	if ( $protected ) {
+		return;
 	}
 
 	$schema = array(
@@ -173,7 +260,7 @@ add_action( 'wp_head', function () {
 
 			'@type' => 'TouristAttraction',
 
-			'name' => get_the_title( $id ),
+			'name' => html_entity_decode( wp_strip_all_tags( get_the_title( $id ) ), ENT_QUOTES | ENT_HTML5, 'UTF-8' ),
 
 			'url' => $url,
 
@@ -188,7 +275,7 @@ add_action( 'wp_head', function () {
 		$lat = gj_value( 'latitude', $id );
 		$lng = gj_value( 'longitude', $id );
 
-		if ( is_numeric( $lat ) && is_numeric( $lng ) ) {
+		if ( is_numeric( $lat ) && is_numeric( $lng ) && abs( (float) $lat ) <= 90 && abs( (float) $lng ) <= 180 ) {
 			$schema['geo'] = array( '@type' => 'GeoCoordinates', 'latitude' => (float) $lat, 'longitude' => (float) $lng );
 		}
 	} elseif ( is_singular( 'post' ) ) {
@@ -206,7 +293,7 @@ add_action( 'wp_head', function () {
 
 			'@type' => 'BlogPosting',
 
-			'headline' => get_the_title( $id ),
+			'headline' => html_entity_decode( wp_strip_all_tags( get_the_title( $id ) ), ENT_QUOTES | ENT_HTML5, 'UTF-8' ),
 
 			'description' => $description,
 
@@ -216,7 +303,7 @@ add_action( 'wp_head', function () {
 
 			'datePublished' => get_post_time( 'c', true, $id ),
 
-			'dateModified' => get_post_modified_time( 'c', true, $id ),
+			'dateModified' => get_post_modified_time( 'U', true, $id ) >= get_post_time( 'U', true, $id ) ? get_post_modified_time( 'c', true, $id ) : get_post_time( 'c', true, $id ),
 
 			'author' => $author,
 
@@ -229,7 +316,28 @@ add_action( 'wp_head', function () {
 		}
 	}
 
-	$schema['inLanguage'] = get_bloginfo( 'language' );
+	if ( is_singular( 'destination' ) ) {
+		// Language describes the guide, rather than the physical attraction.
+		unset( $schema['@context'] );
+		$schema['@id'] = $url . '#place';
+		$schema = array(
+			'@context' => 'https://schema.org',
+			'@graph' => array(
+				array(
+					'@type' => 'WebPage',
+					'@id' => $url . '#webpage',
+					'url' => $url,
+					'name' => html_entity_decode( wp_strip_all_tags( get_the_title( $id ) ), ENT_QUOTES | ENT_HTML5, 'UTF-8' ),
+					'description' => $description,
+					'inLanguage' => get_bloginfo( 'language' ),
+					'mainEntity' => array( '@id' => $url . '#place' )
+				),
+				$schema
+			)
+		);
+	} else {
+		$schema['inLanguage'] = get_bloginfo( 'language' );
+	}
 	echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT ) . '</script>';
 }, 5 );
 // Redirect legacy prototype URLs to the permanent server-rendered destination.

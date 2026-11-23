@@ -190,6 +190,8 @@ add_action( 'acf/init', function () {
 
 			$field( 'home_cover', 'Homepage cover', 'image', array( 'return_format' => 'id' ) ),
 
+			$field( 'seo_default_image', 'Default social sharing image', 'image', array( 'return_format' => 'id', 'instructions' => 'Used when a page has no sharing or featured image. Prefer a 1200 × 630 image.' ) ),
+
 			$field( 'featured_destinations', 'Featured destinations', 'relationship', array( 'post_type' => array( 'destination' ), 'return_format' => 'id' ) ),
 
 			$field( 'contact_recipient', 'Contact recipient', 'email' ),
@@ -266,6 +268,8 @@ add_action( 'acf/init', function () {
 			$field( 'seo_title', 'SEO title' ),
 
 			$field( 'seo_description', 'Meta description', 'textarea', array( 'rows' => 2 ) ),
+
+			$field( 'seo_image', 'Social sharing image', 'image', array( 'return_format' => 'id', 'instructions' => 'Optional. Falls back to the featured image, guide photo, then site default.' ) ),
 
 			$field( 'seo_noindex', 'Hide from search engines', 'true_false' )
 
