@@ -110,6 +110,9 @@ function gj_site_data() {
 	);
 
 	foreach ( get_posts( array( 'post_type' => 'attachment', 'post_status' => 'inherit', 'posts_per_page' => -1 ) ) as $image ) {
+		if ( ! gj_photo_publishable( $image->ID ) ) {
+			continue;
+		}
 		$photo = array(
 			'attachment_id' => $image->ID,
 			'src' => wp_get_attachment_image_url( $image->ID, 'large' ),
@@ -197,7 +200,7 @@ function gj_site_data() {
 
 		$gallery = array_values( array_filter( array_map( fn ( $image ) => 'media-' . $image, $f['gallery'] ?? array() ), fn ( $key ) => isset( $out['photos'][$key] ) ) );
 
-		if ( ! $gallery && $cover ) {
+		if ( ! $gallery && $cover && isset( $out['photos']['media-' . $cover] ) ) {
 			$gallery = array( 'media-' . $cover );
 		}
 		$out['destinationGalleries'][$name] = $gallery;
@@ -477,6 +480,7 @@ function gj_site_data() {
 		$out['bannerPlaces'] = array_slice( array_values( $names ), 0, 1 );
 	}
 
+	$out['bannerPlaces'] = array_values( array_filter( $out['bannerPlaces'], fn ( $name ) => isset( $out['photos'][$name] ) ) );
 	if ( is_singular( 'destination' ) ) {
 		$out['currentPlace'] = gj_canonical_title( get_queried_object_id() );
 		$out['currentAddress'] = gj_value( 'address', get_queried_object_id(), $out['currentPlace'] );
@@ -609,7 +613,9 @@ function gj_footer_navigation() {
 	};
 	echo '<nav class="footer-columns" aria-label="' . esc_attr( $label( 'Footer navigation', 'फुटर नेभिगेसन' ) ) . '"><div><h2>' . esc_html( $label( 'Explore', 'घुमघाम' ) ) . '</h2>';
 	$link( '/explore/', 'Places to visit', 'घुम्ने ठाउँ' );
-	$link( '/explore/?category=Scenic%20dining', 'Scenic dining', 'दृश्यसँगै खानपान' );
+	if ( gj_has_scenic_dining() ) {
+		$link( '/explore/?category=Scenic%20dining', 'Scenic dining', 'दृश्यसँगै खानपान' );
+	}
 	$link( '/explore/?category=Dharmik', 'Dharmik places', 'धार्मिक स्थल' );
 	$link( '/blog/', 'Travel articles', 'यात्रा लेखहरू' );
 	echo '</div><div><h2>' . esc_html( $label( 'About & help', 'हाम्रो बारेमा र सहयोग' ) ) . '</h2>';
@@ -644,7 +650,9 @@ function gj_credits_html() {
 		$license = $p['license'] ?? '';
 		$credit = '';
 
-		if ( $license === 'PD' ) {
+		if ( $license === 'CC0' || ( $p['source'] ?? '' ) === 'https://wordpress.org/photos/photo/3716aacc1b/' ) {
+			$credit = 'by ' . esc_html( $p['author'] ) . ' · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>';
+		} elseif ( $license === 'PD' ) {
 			$credit = 'by ' . esc_html( $p['author'] ) . ' · Public domain';
 		} elseif ( $license ) {
 			$by = $license === 'BY';

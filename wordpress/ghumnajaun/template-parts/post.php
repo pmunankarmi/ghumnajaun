@@ -11,6 +11,7 @@ defined( 'ABSPATH' ) || exit;
 		<p class="eyebrow" id="gj-post-category"><?php echo gj_blog_category_links( get_the_ID() ); ?></p>
 		<h1 id="gj-post-title"><?php the_title(); ?></h1>
 		<p class="post-intro" id="gj-post-intro"><?php echo esc_html( get_the_excerpt() ); ?></p>
+		<?php gj_publisher_byline(); ?>
 	</header>
 	<?php the_post_thumbnail( 'large', array( 'class' => 'post-image', 'id' => 'gj-post-image' ) ); ?>
 	<div class="post-body" id="gj-post-body"><?php echo gj_article_reading_html( apply_filters( 'the_content', get_the_content() ), get_the_ID() ); ?></div>

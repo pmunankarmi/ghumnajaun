@@ -42,6 +42,7 @@ $guide = $context['guide'];
 	</div>
 	<div class="body trip-heading">
 		<div class="trip-summary">
+			<?php gj_publisher_byline(); ?>
 			<p class="trip-intro" data-trip-intro=""><?php echo esc_html( $guide['summary'] ); ?></p>
 			<a
 				class="action trip-action"

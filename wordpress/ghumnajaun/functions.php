@@ -12,6 +12,7 @@ $gj_modules = array(
 	'link-repairs', // Compatibility for retired external references.
 	'setup',          // Theme supports, menus, assets and logo synchronization.
 	'languages',      // English and Nepali routing and translations.
+	'readiness',      // Consent, image rights, disabled ads and explicit editorial repair.
 	'fields',         // ACF guide fields and theme options.
 	'content',        // Public guide data and REST endpoints.
 	'content-formatting', // Helpers for links in editor-authored content.

@@ -63,6 +63,12 @@ $banner_place = $data['bannerPlaces'][0] ?? '';
 		</a>
 	</div>
 	<div class="body home-content">
+		<?php if ( ! gj_is_nepali() && gj_option( 'home_intro' ) ) : ?>
+		<section aria-label="Plan a trip near Kathmandu">
+			<p><?php echo esc_html( gj_option( 'home_intro' ) ); ?></p>
+		</section>
+		<?php endif; ?>
+
 		<div class="browse">
 			<h2 data-reveal="fade-up"><?php esc_html_e( 'Find your kind of outing', 'ghumnajaun' ); ?></h2>
 			<div class="chips" id="gj-home-chips"><?php echo gj_home_categories_html(); ?></div>
@@ -91,6 +97,13 @@ $banner_place = $data['bannerPlaces'][0] ?? '';
 				<?php echo gj_destination_cards_html( $data['featured'], $data ); ?>
 			</div>
 		</section>
+		<?php
+		// Keep the English trip shortlist editable in the native homepage editor.
+		if ( ! gj_is_nepali() && trim( get_post_field( 'post_content', get_queried_object_id() ) ) ) : ?>
+		<div class="home-trip-shortlist">
+			<?php echo apply_filters( 'the_content', get_post_field( 'post_content', get_queried_object_id() ) ); ?>
+		</div>
+		<?php endif; ?>
 		<section aria-labelledby="gj-family-heading">
 			<div class="flex-heading" data-reveal="fade-up">
 				<h2 id="gj-family-heading"><?php esc_html_e( 'Family trips with kids', 'ghumnajaun' ); ?></h2>
@@ -106,6 +119,7 @@ $banner_place = $data['bannerPlaces'][0] ?? '';
 				<?php echo gj_destination_cards_html( gj_family_destinations(), $data ); ?>
 			</div>
 		</section>
+		<?php if ( gj_has_scenic_dining() ) : ?>
 		<aside class="dining-callout">
 			<div class="row g-0 align-items-center">
 				<div class="col-12 col-md-6" data-reveal="fade-up">
@@ -126,6 +140,7 @@ $banner_place = $data['bannerPlaces'][0] ?? '';
 				</div>
 			</div>
 		</aside>
+		<?php endif; ?>
 		<section aria-labelledby="gj-blog-heading">
 			<div class="flex-heading" data-reveal="fade-up">
 				<h2 id="gj-blog-heading"><?php esc_html_e( 'From the blog', 'ghumnajaun' ); ?></h2>

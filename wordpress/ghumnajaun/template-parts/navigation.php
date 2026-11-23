@@ -15,9 +15,11 @@ defined( 'ABSPATH' ) || exit;
 	<a href="<?php echo esc_url( gj_home_url( '/explore/' ) ); ?>" data-filter="All" class="page-link">
 		<?php esc_html_e( 'Explore', 'ghumnajaun' ); ?>
 	</a>
+	<?php if ( gj_has_scenic_dining() ) : ?>
 	<a href="<?php echo esc_url( gj_home_url( '/explore/?category=Scenic%20dining' ) ); ?>" data-filter="Scenic dining" class="page-link">
 		<?php esc_html_e( 'Scenic dining', 'ghumnajaun' ); ?>
 	</a>
+	<?php endif; ?>
 	<a href="<?php echo esc_url( gj_home_url( '/explore/?category=Dharmik' ) ); ?>" data-filter="Dharmik" class="page-link">
 		<?php esc_html_e( 'Dharmik', 'ghumnajaun' ); ?>
 	</a>

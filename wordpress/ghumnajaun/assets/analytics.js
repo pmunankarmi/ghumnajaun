@@ -12,7 +12,7 @@
 	};
 	function track(name, parameters) {
 		// Do not create a tag or bypass Site Kit's tracking exclusions.
-		if (typeof window.gtag !== 'function') return;
+		if (window.gjAnalyticsConsent !== true || typeof window.gtag !== 'function') return;
 		try {
 			window.gtag('event', name, {
 				send_to: measurementId,

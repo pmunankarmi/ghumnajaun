@@ -1106,7 +1106,7 @@
   "Ghumna Jaun:": "घुम्न जाऔँ:",
   "Invalid form fields.": "फारमका विवरण ठीक छैनन्।",
   "Optional maps and videos connect to OpenStreetMap and YouTube. Choose whether to load them.": "वैकल्पिक नक्सा र भिडियो लोड गर्दा OpenStreetMap र YouTube सँग जडान हुन्छ। तिनलाई लोड गर्ने कि नगर्ने रोज्नुहोस्।",
-  "Photo pending": "तस्बिर आउन बाँकी छ",
+  "Photo pending": "तस्बिर उपलब्ध छैन",
   "Please check your name, email, topic and message.": "कृपया आफ्नो नाम, इमेल, विषय र सन्देश जाँच गर्नुहोस्।",
   "Please reload the page and try again.": "पृष्ठ फेरि खोलेर प्रयास गर्नुहोस्।",
   "Please wait 15 minutes before trying again.": "फेरि प्रयास गर्नुअघि 15 मिनेट पर्खनुहोस्।",
@@ -1197,5 +1197,13 @@
   "From %s": "%sबाट",
   "Search results for “%s”": "“%s” को खोज परिणाम",
   "≈ %d km away": "करिब %d किमि टाढा",
-  "Under 1 km away": "१ किमिभन्दा कम दूरीमा"
+  "Under 1 km away": "१ किमिभन्दा कम दूरीमा",
+  "Optional analytics helps us understand site use. Maps and videos connect to external providers. Accept all, reject all, or choose each separately in Cookie preferences.": "वैकल्पिक एनालिटिक्सले साइटको प्रयोग बुझ्न मद्दत गर्छ। नक्सा र भिडियो बाह्य सेवासँग जोडिन्छन्। सबै स्वीकार वा अस्वीकार गर्नुहोस्, अथवा कुकी प्राथमिकतामा छुट्टाछुट्टै रोज्नुहोस्।",
+  "Choose optional analytics separately from maps and videos. Rejecting keeps those services blocked. Ads are not enabled.": "एनालिटिक्स र नक्सा/भिडियो छुट्टाछुट्टै रोज्नुहोस्। अस्वीकार गर्दा ती सेवा रोकिन्छन्। विज्ञापन सक्षम गरिएको छैन।",
+  "Google Analytics": "Google Analytics",
+  "Optional maps and videos": "वैकल्पिक नक्सा र भिडियो",
+  "Accept all": "सबै स्वीकार",
+  "Reject all": "सबै अस्वीकार",
+  "Save choices": "रोजाइ सुरक्षित गर्नुहोस्",
+  "Destination photo unavailable": "गन्तव्यको तस्बिर उपलब्ध छैन"
 }

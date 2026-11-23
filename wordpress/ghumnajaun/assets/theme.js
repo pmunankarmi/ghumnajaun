@@ -1146,7 +1146,8 @@
 			try {
 				const saved = JSON.parse(localStorage.getItem(storageKey));
 				if (
-					saved?.version === 2 &&
+					saved?.version === 3 &&
+					typeof saved.analytics === 'boolean' &&
 					typeof saved.embeds === 'boolean' &&
 					Number.isFinite(saved.savedAt) &&
 					saved.savedAt <= Date.now() &&
@@ -1162,18 +1163,20 @@
 			`
    <section class="cookie-banner" id="gj-cookie-banner" aria-labelledby="gj-cookie-title" hidden>
      <div class="cookie-banner-copy"><h2 id="gj-cookie-title">Your privacy choices</h2>
-       <p>Optional maps and videos connect to Google Maps, OpenStreetMap and YouTube. Choose whether to load them. <a href="${window.GJ.pages['privacy-policy.html']}">Privacy Policy</a></p>
+       <p>Optional analytics helps us understand site use. Maps and videos connect to external providers. Accept all, reject all, or choose each separately in Cookie preferences. <a href="${window.GJ.pages['privacy-policy.html']}">Privacy Policy</a></p>
      </div>
-     <div class="cookie-actions"><button type="button" data-embed-consent="reject">Reject</button><button type="button" data-embed-consent="accept">Accept</button></div>
+     <div class="cookie-actions"><button type="button" data-embed-consent="reject">Reject all</button><button type="button" data-embed-consent="accept">Accept all</button><button type="button" data-cookie-preferences>Cookie preferences</button></div>
    </section>
    <dialog class="search-dialog cookie-dialog" id="gj-cookie-dialog" aria-labelledby="gj-cookie-dialog-title">
      <div class="search-dialog-heading"><h2 id="gj-cookie-dialog-title">Cookie preferences</h2>
        <button class="search-close" type="button" id="gj-cookie-close" aria-label="Close cookie preferences"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
      </div>
-     <p>Choose whether Google Maps, OpenStreetMap maps and YouTube videos can load. These providers receive connection information and may use their own cookies or storage.</p>
+     <p>Choose optional analytics separately from maps and videos. Rejecting keeps those services blocked. Ads are not enabled.</p>
      <p>Your theme preference is stored separately. Photos, fonts and site files also load from their providers. <a href="${window.GJ.pages['privacy-policy.html']}">Read our Privacy Policy</a>.</p>
+     <p><label><input type="checkbox" id="gj-consent-analytics"> Google Analytics</label></p>
+     <p><label><input type="checkbox" id="gj-consent-embeds"> Optional maps and videos</label></p>
      <p id="gj-cookie-current" role="status"></p>
-     <div class="cookie-actions"><button type="button" data-embed-consent="reject" autofocus>Reject</button><button type="button" data-embed-consent="accept">Accept</button></div>
+     <div class="cookie-actions"><button type="button" data-embed-consent="reject" autofocus>Reject all</button><button type="button" data-embed-consent="accept">Accept all</button><button type="button" id="gj-consent-save">Save choices</button></div>
    </dialog>`,
 		);
 		const banner = find('cookie-banner');
@@ -1257,14 +1260,52 @@
 			bannerAnimation?.cancel();
 			updateBannerSpace();
 		}
+		let analyticsLoaded = false;
+		function applyAnalyticsConsent(allowed) {
+			const wasAllowed = window.gjAnalyticsConsent === true;
+			window.gjAnalyticsConsent = allowed;
+			window['ga-disable-G-6L88WJ5X6E'] = !allowed;
+			if (allowed && !analyticsLoaded) {
+				analyticsLoaded = true;
+				// Site Kit emits inert tags using its documented block_on_consent hook.
+				document.querySelectorAll('script[type="text/plain"][data-block-on-consent]').forEach((blocked) => {
+					const script = document.createElement('script');
+					for (const attribute of blocked.attributes) {
+						if (!['type', 'data-block-on-consent'].includes(attribute.name))
+							script.setAttribute(attribute.name, attribute.value);
+					}
+					script.textContent = blocked.textContent;
+					blocked.replaceWith(script);
+				});
+			}
+			if (typeof window.gtag === 'function') {
+				window.gtag('consent', 'update', {
+					analytics_storage: allowed ? 'granted' : 'denied',
+					ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+				});
+			}
+			if (!allowed) {
+				for (const cookie of document.cookie.split(';')) {
+					const name = cookie.trim().split('=')[0];
+					if (!/^_ga(?:_|$)|^_gid$|^_gat/.test(name)) continue;
+					const domains = ['', location.hostname, '.' + location.hostname];
+					for (const domain of domains)
+						document.cookie = name + '=; Max-Age=0; path=/' + (domain ? '; domain=' + domain : '') + '; SameSite=Lax';
+				}
+				// Unload an already accepted tag when consent is withdrawn (including another tab).
+				if (wasAllowed) location.reload();
+			}
+		}
 		function applyChoice() {
+			applyAnalyticsConsent(choice?.analytics === true);
+			find('consent-analytics').checked = choice?.analytics === true;
+			find('consent-embeds').checked = choice?.embeds === true;
 			updateBannerVisibility();
-			find('cookie-current').textContent =
-				choice === null
-					? 'No choice saved yet.'
-					: choice.embeds
-						? 'Current choice · Optional maps and videos accepted.'
-						: 'Current choice · Optional maps and videos rejected.';
+			const ne = document.documentElement.lang.startsWith('ne');
+			find('cookie-current').textContent = choice === null
+				? (ne ? 'अहिलेसम्म रोजाइ सुरक्षित गरिएको छैन।' : 'No choice saved yet.')
+				: (ne ? 'एनालिटिक्स: ' : 'Analytics: ') + (choice.analytics ? (ne ? 'स्वीकृत' : 'accepted') : (ne ? 'अस्वीकृत' : 'rejected')) +
+				  (ne ? ' · नक्सा र भिडियो: ' : ' · Maps and videos: ') + (choice.embeds ? (ne ? 'स्वीकृत' : 'accepted') : (ne ? 'अस्वीकृत' : 'rejected'));
 			root.querySelectorAll('.consent-embed').forEach((container) => {
 				const frame = container.querySelector('iframe[data-consent-src]');
 				const allowed = choice?.embeds === true;
@@ -1280,19 +1321,20 @@
 			button.hidden = false;
 			button.addEventListener('click', openPreferences);
 		});
+		function saveChoice(analytics, embeds) {
+			choice = { version: 3, analytics, embeds, savedAt: Date.now() };
+			try { localStorage.setItem(storageKey, JSON.stringify(choice)); } catch {}
+			applyChoice();
+			closePreferences();
+		}
 		root.querySelectorAll('[data-embed-consent]').forEach((button) =>
 			button.addEventListener('click', () => {
-				choice = {
-					version: 2,
-					embeds: button.dataset.embedConsent === 'accept',
-					savedAt: Date.now(),
-				};
-				try {
-					localStorage.setItem(storageKey, JSON.stringify(choice));
-				} catch {}
-				applyChoice();
-				closePreferences();
+				const accepted = button.dataset.embedConsent === 'accept';
+				saveChoice(accepted, accepted);
 			}),
+		);
+		find('consent-save').addEventListener('click', () =>
+			saveChoice(find('consent-analytics').checked, find('consent-embeds').checked),
 		);
 		find('cookie-close').addEventListener('click', closePreferences);
 		dialog.addEventListener('cancel', (event) => {
