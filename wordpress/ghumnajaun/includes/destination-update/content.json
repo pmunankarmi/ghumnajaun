@@ -1,0 +1,160 @@
+{
+  "summary": "Karya Binayak Temple is a Ganesh shrine near Bungamati in Lalitpur. Combine a temple visit with a walk through Bungamati and neighbouring Khokana for a day of Newar heritage, traditional craftsmanship and local food. Visit Rato Machhindranath Temple, explore village lanes and ask about seeing Khokana’s traditional mustard-oil production.",
+  "summary_ne": "ललितपुरको बुङ्गमतीनजिक रहेको कार्यविनायक गणेश मन्दिर हो। मन्दिर दर्शनसँगै बुङ्गमती र छिमेकी खोकना घुमेर नेवार सम्पदा, परम्परागत सीप र स्थानीय खानाको अनुभव लिन सकिन्छ। रातो मच्छिन्द्रनाथ मन्दिर दर्शन गर्नुहोस्, बस्तीका गल्ली घुम्नुहोस् र खोकनामा परम्परागत तोरीको तेल उत्पादन हेर्न मिल्छ कि भनेर बुझ्नुहोस्।",
+  "fields": {
+    "destination_description": "<p>Begin with a visit to Karya Binayak Temple, then take time to explore the surrounding settlements. In Bungamati, visit Rato Machhindranath Temple and its square, notice the carved wooden windows and look for opportunities to see local woodcarvers at work. The village’s temples, courtyards and craft traditions give the outing a rich cultural setting.</p><p>Continue to Khokana to explore its lanes and public squares. Traditional mustard-oil production is an important part of the village’s living heritage. Ask locally which traditional mill is operating and whether visitors may watch; a working demonstration depends on the production schedule. Ask permission before photographing workers or entering a workshop.</p><p>If you have more time, extend the outing to <a href=\"{{shikali}}\">Shikali Temple</a> outside Khokana. Choose a few stops and leave time for a meal, photographs and conversations along the way.</p>",
+    "destination_description_ne": "<p>कार्यविनायक मन्दिर दर्शनबाट यात्रा सुरु गरेर वरपरका बस्ती घुम्न समय छुट्याउनुहोस्। बुङ्गमतीको रातो मच्छिन्द्रनाथ मन्दिर र चोक घुम्नुहोस्, काठमा कुँदिएका झ्याल नियाल्नुहोस् र स्थानीय काष्ठकलाकारको काम हेर्न मिल्छ कि भनेर बुझ्नुहोस्। यहाँका मन्दिर, चोक र परम्परागत सीपले घुमघामलाई सांस्कृतिक अनुभव बनाउँछन्।</p><p>त्यसपछि खोकनाका गल्ली र सार्वजनिक चोक घुम्नुहोस्। परम्परागत तोरीको तेल उत्पादन यस बस्तीको जीवित सम्पदाको महत्त्वपूर्ण अंश हो। कुन परम्परागत कोल चलिरहेको छ र आगन्तुकले हेर्न मिल्छ कि भनेर स्थानीयसँग बुझ्नुहोस्; उत्पादन हेर्न पाइने कुरा कामको तालिकामा निर्भर हुन्छ। कामदारको फोटो खिच्न वा कार्यशालामा पस्नुअघि अनुमति लिनुहोस्।</p><p>समय भए खोकनाबाहिरको <a href=\"{{shikali_ne}}\">सिकाली मन्दिर</a>सम्म घुमघाम बढाउनुहोस्। केही ठाउँ छानेर खाना, फोटो र कुराकानीका लागि पनि समय राख्नुहोस्।</p>",
+    "video_title": "Karya Binayak, Bungamati & Khokana: our travel vlog",
+    "video_title_ne": "कार्यविनायक, बुङ्गमती र खोकना: हाम्रो यात्रा भिडियो",
+    "video_intro": "Follow our visit to Karya Binayak, Bungamati and Khokana, with temple stops, village walks and a closer look at traditional mustard-oil production.",
+    "video_intro_ne": "मन्दिर दर्शन, बस्तीको पैदल भ्रमण र परम्परागत तोरीको तेल उत्पादन समेटिएको हाम्रो कार्यविनायक, बुङ्गमती र खोकना यात्राको भिडियो हेर्नुहोस्।",
+    "meal_note": "Leave time for a local meal in Bungamati or Khokana. Ask what is freshly available and confirm prices before ordering. You can plan this as a day trip without an overnight stay.",
+    "meal_note_ne": "बुङ्गमती वा खोकनामा स्थानीय खाना खान समय राख्नुहोस्। ताजा के उपलब्ध छ र मूल्य कति पर्छ भनेर पहिले बुझ्नुहोस्। एक रात नबसी पनि यो घुमघाम मिलाउन सकिन्छ।",
+    "nearby_note": "Within the village visits, consider Bungamati’s woodcarving workshops, Hayagriva Bhairav Temple and Rudrayani Temple in Khokana. Shikali is an optional extension. Taudaha Lake and Jal Binayak at Chobhar require additional transport planning; choose one extension rather than rushing every stop.",
+    "nearby_note_ne": "बस्ती घुम्दा बुङ्गमतीका काष्ठकला कार्यशाला, हयग्रीव भैरव मन्दिर र खोकनाको रुद्रायणी मन्दिर पनि समेट्न सकिन्छ। सिकालीलाई थप बिसौनीका रूपमा रोज्न सकिन्छ। टौदह र चोभारको जलविनायकका लागि थप यातायात योजना चाहिन्छ; सबै ठाउँ भ्याउन हतार गर्नुभन्दा एउटा थप बिसौनी छान्नुहोस्।",
+    "stops": [
+      {
+        "stop_title": "Karya Binayak Temple",
+        "stop_title_ne": "कार्यविनायक मन्दिर",
+        "stop_description": "Visit the Ganesh shrine and take time to enjoy its surroundings before continuing into the villages. Follow local guidance around worship and photography.",
+        "stop_description_ne": "गणेश मन्दिर दर्शन गरेर वरपरको वातावरणमा केही समय बिताउनुहोस्। त्यसपछि बस्तीको घुमघाम जारी राख्नुहोस्। पूजा र फोटोसम्बन्धी स्थानीय निर्देशन पालना गर्नुहोस्।",
+        "stop_map": "Karya Binayak Temple Bungamati Nepal",
+        "stop_slug": null,
+        "stop_photo_key": "Karya Binayak original IMG_9140"
+      },
+      {
+        "stop_title": "Bungamati village walk",
+        "stop_title_ne": "बुङ्गमती बस्तीको पैदल भ्रमण",
+        "stop_description": "Explore courtyards, carved wooden windows and village lanes. Ask before entering a woodcarving workshop or photographing people at work.",
+        "stop_description_ne": "चोक, काठमा कुँदिएका झ्याल र बस्तीका गल्ली घुम्नुहोस्। काष्ठकला कार्यशालामा पस्न वा काम गरिरहेका व्यक्तिको फोटो खिच्नुअघि अनुमति लिनुहोस्।",
+        "stop_map": "Bungamati Lalitpur Nepal",
+        "stop_slug": null,
+        "stop_photo_key": "Bungamati village life"
+      },
+      {
+        "stop_title": "Rato Machhindranath Temple",
+        "stop_title_ne": "रातो मच्छिन्द्रनाथ मन्दिर",
+        "stop_description": "Include the temple and its square in your Bungamati walk. The shrine is central to the settlement’s religious and cultural life.",
+        "stop_description_ne": "बुङ्गमती घुम्दा मन्दिर र यसको चोक पनि समेट्नुहोस्। यो मन्दिर बस्तीको धार्मिक र सांस्कृतिक जीवनसँग जोडिएको छ।",
+        "stop_map": "Rato Machhindranath Temple Bungamati Nepal",
+        "stop_slug": "rato-machhindranath-temple",
+        "stop_photo_key": "Rato Machhindranath Temple"
+      },
+      {
+        "stop_title": "Khokana village visit",
+        "stop_title_ne": "खोकना बस्ती भ्रमण",
+        "stop_description": "Walk through the lanes and public squares, and include Rudrayani Temple in the village centre. Leave time for a meal and a slower look at local life.",
+        "stop_description_ne": "गल्ली र सार्वजनिक चोक घुमेर बस्तीको बीचमा रहेको रुद्रायणी मन्दिर पनि समेट्नुहोस्। खाना र स्थानीय जीवन नियाल्न समय राख्नुहोस्।",
+        "stop_map": "Khokana Lalitpur Nepal",
+        "stop_slug": null,
+        "stop_photo_key": "Rudrayani Temple"
+      },
+      {
+        "stop_title": "Traditional mustard-oil production",
+        "stop_title_ne": "परम्परागत तोरीको तेल उत्पादन",
+        "stop_description": "Ask which traditional kol is working and whether you may watch the process. Production is scheduled work, so a demonstration is not guaranteed. If buying oil, ask the producer about the product and price.",
+        "stop_description_ne": "कुन परम्परागत कोल चलिरहेको छ र उत्पादन हेर्न मिल्छ कि भनेर बुझ्नुहोस्। उत्पादन कामको तालिकाअनुसार हुने भएकाले सधैँ हेर्न पाइन्छ भन्ने हुँदैन। तेल किन्ने भए उत्पादकसँग तेल र मूल्यबारे बुझ्नुहोस्।",
+        "stop_map": "Traditional mustard oil mill Khokana Nepal",
+        "stop_slug": null,
+        "stop_photo_key": "Khokana traditional mustard oil production"
+      },
+      {
+        "stop_title": "Shikali Temple: optional extension",
+        "stop_title_ne": "सिकाली मन्दिर: थप घुमघाम",
+        "stop_description": "If time and energy allow, continue to Shikali Temple outside Khokana. Open the dedicated destination guide to plan this extra stop.",
+        "stop_description_ne": "समय र ऊर्जा भए खोकनाबाहिरको सिकाली मन्दिर जानुहोस्। यस थप बिसौनीको योजना बनाउन सिकालीको छुट्टै गन्तव्य जानकारी पढ्नुहोस्।",
+        "stop_map": "Shikali Temple Khokana Nepal",
+        "stop_slug": "shikali-temple",
+        "stop_photo_key": "Shikali Temple"
+      }
+    ],
+    "day_plan": [
+      {
+        "stage_title": "Morning",
+        "stage_title_ne": "बिहान",
+        "stage_description": "Visit Karya Binayak, then explore Bungamati and Rato Machhindranath Temple.",
+        "stage_description_ne": "कार्यविनायक दर्शनपछि बुङ्गमती र रातो मच्छिन्द्रनाथ मन्दिर घुम्नुहोस्।",
+        "stage_link_label": "",
+        "stage_link_label_ne": "",
+        "stage_link_url": "",
+        "stage_link_url_ne": ""
+      },
+      {
+        "stage_title": "Lunch and Khokana",
+        "stage_title_ne": "खाना र खोकना",
+        "stage_description": "Take a meal break, explore Khokana and ask about visiting an operating traditional oil mill.",
+        "stage_description_ne": "खाना खान रोकिएर खोकना घुम्नुहोस् र चलिरहेको परम्परागत कोल हेर्न मिल्छ कि भनेर बुझ्नुहोस्।",
+        "stage_link_label": "",
+        "stage_link_label_ne": "",
+        "stage_link_url": "",
+        "stage_link_url_ne": ""
+      },
+      {
+        "stage_title": "Optional final stop",
+        "stage_title_ne": "अन्तिम थप बिसौनी",
+        "stage_description": "Continue to Shikali Temple if your group has time and energy, then begin your return journey.",
+        "stage_description_ne": "समूहसँग समय र ऊर्जा भए सिकाली मन्दिर गएर फर्कने यात्रा सुरु गर्नुहोस्।",
+        "stage_link_label": "Shikali Temple",
+        "stage_link_label_ne": "सिकाली मन्दिर",
+        "stage_link_url": "{{shikali}}",
+        "stage_link_url_ne": "{{shikali_ne}}"
+      }
+    ],
+    "visit_notes": "<div class=\"trip-card\"><h3>For groups</h3><p>Combine the two village walks, temple stops and a local meal. Arrange an oil-mill visit in advance where possible, and agree a meeting point before splitting up.</p></div>\n<div class=\"trip-card\"><h3>For couples</h3><p>Choose an unhurried Bungamati–Khokana walk with photographs and a meal. Add Shikali if you have time; keep Taudaha as a separate transport extension.</p></div>\n<div class=\"trip-card\"><h3>For families</h3><p>Keep the route shorter for young children or older relatives. Use transport between settlements as needed and ask about steps, toilets and drop-off points locally.</p></div>\n<div class=\"trip-card\"><h3>Before you go</h3><p>Confirm the oil mill’s operating schedule, return transport and current access. Ask permission before filming people or work areas. Keep temple visits separate from picnic plans and ask where eating is permitted.</p></div>",
+    "visit_notes_ne": "<div class=\"trip-card\"><h3>समूहका लागि</h3><p>दुई बस्तीको पैदल भ्रमण, मन्दिर दर्शन र स्थानीय खाना मिलाउनुहोस्। सम्भव भए कोल हेर्ने कुरा पहिले मिलाउनुहोस् र छुट्टाछुट्टै घुम्नुअघि भेट्ने ठाउँ तय गर्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>जोडीका लागि</h3><p>फोटो र खाना समेटेर बुङ्गमती–खोकना फुर्सदसँग घुम्नुहोस्। समय भए सिकाली थप्नुहोस्; टौदहका लागि छुट्टै यातायात योजना राख्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>परिवारका लागि</h3><p>साना बालबालिका वा ज्येष्ठ सदस्यसँग जाँदा छोटो रुट रोज्नुहोस्। आवश्यकताअनुसार बस्तीबीच गाडी प्रयोग गर्नुहोस् र सिँढी, शौचालय तथा ओर्लने ठाउँबारे स्थानीयसँग बुझ्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>जानुअघि</h3><p>कोल चल्ने समय, फर्कने यातायात र पुग्ने बाटोको अवस्था बुझ्नुहोस्। व्यक्ति वा काम गर्ने ठाउँको भिडियो खिच्नुअघि अनुमति लिनुहोस्। मन्दिर दर्शन र पिकनिकको योजना अलग राखेर खाना खान मिल्ने ठाउँ बुझ्नुहोस्।</p></div>",
+    "nearby_stops": [
+      {
+        "nearby_label": "Shikali Temple",
+        "nearby_label_ne": "सिकाली मन्दिर",
+        "nearby_slug": "shikali-temple"
+      },
+      {
+        "nearby_label": "Rudrayani Temple, Khokana",
+        "nearby_label_ne": "रुद्रायणी मन्दिर, खोकना",
+        "nearby_slug": "rudrayani-temple"
+      },
+      {
+        "nearby_label": "Rato Machhindranath Temple, Bungamati",
+        "nearby_label_ne": "रातो मच्छिन्द्रनाथ मन्दिर, बुङ्गमती",
+        "nearby_slug": "rato-machhindranath-temple"
+      },
+      {
+        "nearby_label": "Jal Binayak Temple, Chobhar — extra transport",
+        "nearby_label_ne": "जलविनायक मन्दिर, चोभार — थप यातायात",
+        "nearby_slug": "jal-binayak-temple"
+      }
+    ],
+    "guide_links": [
+      {
+        "guide_link_label": "Bungamati heritage documentation",
+        "guide_link_label_ne": "बुङ्गमतीको सम्पदा अभिलेखीकरण",
+        "guide_link_url": "https://www.fid4sa.de/en/themen/nepal-heritage-documentation-project-nhdp/heritage-focus-areas/bungamati"
+      },
+      {
+        "guide_link_label": "Khokana and mustard-oil heritage — UNESCO Tentative List",
+        "guide_link_label_ne": "खोकना र तोरीको तेलसम्बन्धी सम्पदा — युनेस्कोको सम्भावित सूची",
+        "guide_link_url": "https://whc.unesco.org/en/tentativelists/844/"
+      }
+    ]
+  },
+  "vlog": {
+    "title": "Karya Binayak, Bungamati & Khokana: temples, village walks and mustard oil",
+    "title_ne": "कार्यविनायक, बुङ्गमती र खोकना: मन्दिर, बस्ती भ्रमण र तोरीको तेल",
+    "content": "<p>Karya Binayak Temple is a Ganesh shrine near Bungamati in Lalitpur. Combine a temple visit with a walk through Bungamati and neighbouring Khokana for a day of Newar heritage, traditional craftsmanship and local food. Visit Rato Machhindranath Temple, explore village lanes and ask about seeing Khokana’s traditional mustard-oil production.</p><h2>Suggested day-trip route</h2><p>Karya Binayak → Bungamati and Rato Machhindranath Temple → lunch → Khokana and a traditional oil mill, when operating → optional Shikali Temple.</p><p>Begin with a visit to Karya Binayak Temple, then take time to explore the surrounding settlements. In Bungamati, visit Rato Machhindranath Temple and its square, notice the carved wooden windows and look for opportunities to see local woodcarvers at work. The village’s temples, courtyards and craft traditions give the outing a rich cultural setting.</p><p>Continue to Khokana to explore its lanes and public squares. Traditional mustard-oil production is an important part of the village’s living heritage. Ask locally which traditional mill is operating and whether visitors may watch; a working demonstration depends on the production schedule. Ask permission before photographing workers or entering a workshop.</p><p>If you have more time, extend the outing to <a href=\"{{shikali}}\">Shikali Temple</a> outside Khokana. Choose a few stops and leave time for a meal, photographs and conversations along the way.</p><h2>Plan the outing</h2><div class=\"trip-card\"><h3>For groups</h3><p>Combine the two village walks, temple stops and a local meal. Arrange an oil-mill visit in advance where possible, and agree a meeting point before splitting up.</p></div>\n<div class=\"trip-card\"><h3>For couples</h3><p>Choose an unhurried Bungamati–Khokana walk with photographs and a meal. Add Shikali if you have time; keep Taudaha as a separate transport extension.</p></div>\n<div class=\"trip-card\"><h3>For families</h3><p>Keep the route shorter for young children or older relatives. Use transport between settlements as needed and ask about steps, toilets and drop-off points locally.</p></div>\n<div class=\"trip-card\"><h3>Before you go</h3><p>Confirm the oil mill’s operating schedule, return transport and current access. Ask permission before filming people or work areas. Keep temple visits separate from picnic plans and ask where eating is permitted.</p></div><h2>Destination guide</h2><p><a href=\"{{karya}}\">Read the Karya Binayak destination guide</a> for the gallery, transport information and nearby stops.</p>",
+    "content_ne": "<p>ललितपुरको बुङ्गमतीनजिक रहेको कार्यविनायक गणेश मन्दिर हो। मन्दिर दर्शनसँगै बुङ्गमती र छिमेकी खोकना घुमेर नेवार सम्पदा, परम्परागत सीप र स्थानीय खानाको अनुभव लिन सकिन्छ। रातो मच्छिन्द्रनाथ मन्दिर दर्शन गर्नुहोस्, बस्तीका गल्ली घुम्नुहोस् र खोकनामा परम्परागत तोरीको तेल उत्पादन हेर्न मिल्छ कि भनेर बुझ्नुहोस्।</p><h2>एकदिने यात्राको सुझाव</h2><p>कार्यविनायक → बुङ्गमती र रातो मच्छिन्द्रनाथ मन्दिर → खाना → खोकना र सञ्चालनमा रहेको परम्परागत कोल → समय भए सिकाली मन्दिर।</p><p>कार्यविनायक मन्दिर दर्शनबाट यात्रा सुरु गरेर वरपरका बस्ती घुम्न समय छुट्याउनुहोस्। बुङ्गमतीको रातो मच्छिन्द्रनाथ मन्दिर र चोक घुम्नुहोस्, काठमा कुँदिएका झ्याल नियाल्नुहोस् र स्थानीय काष्ठकलाकारको काम हेर्न मिल्छ कि भनेर बुझ्नुहोस्। यहाँका मन्दिर, चोक र परम्परागत सीपले घुमघामलाई सांस्कृतिक अनुभव बनाउँछन्।</p><p>त्यसपछि खोकनाका गल्ली र सार्वजनिक चोक घुम्नुहोस्। परम्परागत तोरीको तेल उत्पादन यस बस्तीको जीवित सम्पदाको महत्त्वपूर्ण अंश हो। कुन परम्परागत कोल चलिरहेको छ र आगन्तुकले हेर्न मिल्छ कि भनेर स्थानीयसँग बुझ्नुहोस्; उत्पादन हेर्न पाइने कुरा कामको तालिकामा निर्भर हुन्छ। कामदारको फोटो खिच्न वा कार्यशालामा पस्नुअघि अनुमति लिनुहोस्।</p><p>समय भए खोकनाबाहिरको <a href=\"{{shikali_ne}}\">सिकाली मन्दिर</a>सम्म घुमघाम बढाउनुहोस्। केही ठाउँ छानेर खाना, फोटो र कुराकानीका लागि पनि समय राख्नुहोस्।</p><h2>घुमघामको योजना</h2><div class=\"trip-card\"><h3>समूहका लागि</h3><p>दुई बस्तीको पैदल भ्रमण, मन्दिर दर्शन र स्थानीय खाना मिलाउनुहोस्। सम्भव भए कोल हेर्ने कुरा पहिले मिलाउनुहोस् र छुट्टाछुट्टै घुम्नुअघि भेट्ने ठाउँ तय गर्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>जोडीका लागि</h3><p>फोटो र खाना समेटेर बुङ्गमती–खोकना फुर्सदसँग घुम्नुहोस्। समय भए सिकाली थप्नुहोस्; टौदहका लागि छुट्टै यातायात योजना राख्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>परिवारका लागि</h3><p>साना बालबालिका वा ज्येष्ठ सदस्यसँग जाँदा छोटो रुट रोज्नुहोस्। आवश्यकताअनुसार बस्तीबीच गाडी प्रयोग गर्नुहोस् र सिँढी, शौचालय तथा ओर्लने ठाउँबारे स्थानीयसँग बुझ्नुहोस्।</p></div>\n<div class=\"trip-card\"><h3>जानुअघि</h3><p>कोल चल्ने समय, फर्कने यातायात र पुग्ने बाटोको अवस्था बुझ्नुहोस्। व्यक्ति वा काम गर्ने ठाउँको भिडियो खिच्नुअघि अनुमति लिनुहोस्। मन्दिर दर्शन र पिकनिकको योजना अलग राखेर खाना खान मिल्ने ठाउँ बुझ्नुहोस्।</p></div><h2>गन्तव्य जानकारी</h2><p>ग्यालरी, यातायात र नजिकका बिसौनीका लागि <a href=\"{{karya_ne}}\">कार्यविनायकको गन्तव्य जानकारी पढ्नुहोस्</a>।</p>"
+  },
+  "owner_gallery": [
+    "Karya Binayak original IMG_9140",
+    "Karya Binayak original IMG_9132",
+    "Karya Binayak original IMG_9164",
+    "Karya Binayak original IMG_9163",
+    "Karya Binayak original IMG_9151",
+    "Karya Binayak original IMG_9153",
+    "Karya Binayak original IMG_9159",
+    "Karya Binayak original IMG_9138"
+  ],
+  "hero_key": "Karya Binayak original IMG_9140",
+  "feature_key": "Karya Binayak original IMG_9164",
+  "feature_caption": "Decorative metalwork at the temple entrance.",
+  "feature_caption_ne": "मन्दिरको प्रवेशद्वारमा सजावटी धातुकला।"
+}

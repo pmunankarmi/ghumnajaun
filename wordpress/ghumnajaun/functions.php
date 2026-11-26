@@ -23,6 +23,7 @@ $gj_modules = array(
 	'performance',    // Responsive images and asset delivery.
 	'seo',            // Metadata and structured data.
 	'contact',        // Contact form processing.
+	'destination-update', // Explicit, authenticated import of the reviewed Karya Binayak update.
 	'updates',        // Existing theme update integration.
 );
 

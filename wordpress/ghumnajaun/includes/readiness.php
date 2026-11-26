@@ -25,7 +25,7 @@ function gj_photo_publishable( $id ) {
 	if ( ! $source ) {
 		return in_array( (int) $id, array_filter( array( (int) get_theme_mod( 'custom_logo' ), (int) gj_option( 'site_logo_dark' ), (int) get_option( 'site_icon' ) ) ), true ) || $rights === 'original';
 	}
-	if ( in_array( $license, array( 'PD', 'CC0', 'BY', '3.0', '4.0' ), true ) ) {
+	if ( in_array( $license, array( 'PD', 'CC0', 'BY', 'BY-2.0', '3.0', '4.0' ), true ) ) {
 		return true;
 	}
 	// A previously checked WordPress Photo Directory image has explicit CC0 rights.

@@ -56,3 +56,10 @@ Keep short labels in single-line fields and long descriptions in multiline field
 Use the existing PHP formatter with the repository configuration, check PHP syntax and run `git diff --check`. The formatting configuration follows WordPress presentation conventions but is not a full WordPress Coding Standards certification.
 
 Before publishing, check desktop and mobile pages in both languages, including search, filters, origin changes, photo dialogs, theme switching, map/video consent, article categories and contact validation. Never send a real contact message as an automated test.
+
+
+## Destination galleries and selected heroes
+
+The destination Photo gallery uses the existing ACF gallery with native Media captions and a deduplicated full-screen viewer. An optional Hero banner image keeps a selected wide photo separate from portrait gallery images; leaving it empty retains the existing gallery slider. The description and video heading/introduction remain editable bilingual ACF fields. Video content is hidden until a URL is set.
+
+Tools → Karya Binayak update is an explicit, administrator-only import of the reviewed 26 November 2026 content and photo bundle. It verifies file hashes and linked destination records, saves private backups on affected posts, maps Media and post IDs on the current site, and records completion to prevent repeat writes. It updates only the linked Karya Binayak destinations and creates linked companion articles as drafts. The current video URL, other destinations and site settings are preserved. Original image copies contain no EXIF/GPS data; third-party photos retain their recorded source and license.

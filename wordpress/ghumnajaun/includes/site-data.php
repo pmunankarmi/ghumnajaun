@@ -117,6 +117,7 @@ function gj_site_data() {
 			'attachment_id' => $image->ID,
 			'src' => wp_get_attachment_image_url( $image->ID, 'large' ),
 			'alt' => get_post_meta( $image->ID, '_wp_attachment_image_alt', true ),
+			'caption' => wp_strip_all_tags( $image->post_excerpt ),
 			'author' => gj_value( 'photo_author', $image->ID ),
 			'source' => gj_value( 'photo_source', $image->ID ),
 			'license' => gj_value( 'photo_license', $image->ID )
@@ -211,11 +212,17 @@ function gj_site_data() {
 		foreach ( $f['stops'] ?? array() as $s ) {
 			$photo = ! empty( $s['stop_image'] ) ? 'media-' . $s['stop_image'] : null;
 			$stops[] = array( $s['stop_title'], $s['stop_description'], $photo );
+			$linked = (int) ( $s['stop_destination'] ?? 0 );
+
+			if ( $linked && function_exists( 'pll_get_post' ) ) {
+				$linked = pll_get_post( $linked, pll_current_language() ) ?: $linked;
+			}
 			$activities[] = array(
 				esc_html( $s['stop_title'] ),
 				esc_html( $s['stop_description'] ),
 				! empty( $s['stop_map'] ) ? 'https://www.google.com/maps/search/?api=1&query=' . rawurlencode( $s['stop_map'] ) : null,
-				$photo
+				$photo,
+				$linked && get_post_status( $linked ) === 'publish' ? get_permalink( $linked ) : null
 			);
 		}
 
@@ -340,6 +347,11 @@ function gj_site_data() {
 		}
 
 		$detail = &$out['tripDetails'][$name];
+		$hero_key = 'media-' . ( $f['hero_image'] ?? 0 );
+
+		if ( isset( $out['photos'][$hero_key] ) ) {
+			$detail['heroPhoto'] = $hero_key;
+		}
 		$detail['transportHtml'] = array( gj_transport_html( $f['bus'] ?? '' ), gj_transport_html( $f['car'] ?? '' ) );
 		$detail['mealNote'] = $f['meal_note'] ?? '';
 		$detail['nearbyNote'] = $f['nearby_note'] ?? '';
@@ -481,6 +493,7 @@ function gj_site_data() {
 	}
 
 	$out['bannerPlaces'] = array_values( array_filter( $out['bannerPlaces'], fn ( $name ) => isset( $out['photos'][$name] ) ) );
+
 	if ( is_singular( 'destination' ) ) {
 		$out['currentPlace'] = gj_canonical_title( get_queried_object_id() );
 		$out['currentAddress'] = gj_value( 'address', get_queried_object_id(), $out['currentPlace'] );
@@ -561,7 +574,7 @@ function gj_runtime_data() {
 
 		if ( $current ) {
 			$detail = $data['tripDetails'][$current] ?? array();
-			$keys = array_merge( $keys, $detail['photos'] ?? array(), array( $detail['featurePhoto'] ?? '' ) );
+			$keys = array_merge( $keys, $detail['photos'] ?? array(), array( $detail['featurePhoto'] ?? '', $detail['heroPhoto'] ?? '' ) );
 
 			foreach ( $detail['activities'] ?? array() as $activity ) {
 				$keys[] = $activity[3] ?? '';
@@ -613,6 +626,7 @@ function gj_footer_navigation() {
 	};
 	echo '<nav class="footer-columns" aria-label="' . esc_attr( $label( 'Footer navigation', 'फुटर नेभिगेसन' ) ) . '"><div><h2>' . esc_html( $label( 'Explore', 'घुमघाम' ) ) . '</h2>';
 	$link( '/explore/', 'Places to visit', 'घुम्ने ठाउँ' );
+
 	if ( gj_has_scenic_dining() ) {
 		$link( '/explore/?category=Scenic%20dining', 'Scenic dining', 'दृश्यसँगै खानपान' );
 	}
@@ -655,9 +669,10 @@ function gj_credits_html() {
 		} elseif ( $license === 'PD' ) {
 			$credit = 'by ' . esc_html( $p['author'] ) . ' · Public domain';
 		} elseif ( $license ) {
-			$by = $license === 'BY';
-			$label = $by ? 'CC BY 4.0' : 'CC BY-SA ' . $license;
-			$url = 'https://creativecommons.org/licenses/' . ( $by ? 'by/4.0/' : 'by-sa/' . rawurlencode( $license ) . '/' );
+			$by = in_array( $license, array( 'BY', 'BY-2.0' ), true );
+			$version = $license === 'BY-2.0' ? '2.0' : '4.0';
+			$label = $by ? 'CC BY ' . $version : 'CC BY-SA ' . $license;
+			$url = 'https://creativecommons.org/licenses/' . ( $by ? 'by/' . $version . '/' : 'by-sa/' . rawurlencode( $license ) . '/' );
 			$credit = 'by ' . esc_html( $p['author'] ) . ' · <a href="' . esc_url( $url ) . '">' . esc_html( $label ) . '</a>';
 		} else {
 			$credit = '· Photo source: ' . esc_html( $p['author'] );

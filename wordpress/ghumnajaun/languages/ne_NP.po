@@ -108,6 +108,18 @@ msgstr "></div>"
 msgid "A Barahi shrine stands in a wooded grove outside Chapagaon. The visit combines worship with a short walk among the trees, with Chapagaon nearby for a stop in town."
 msgstr "चापागाउँबाहिर रूखले घेरिएको ठाउँमा वज्रवाराही मन्दिर छ। दर्शनपछि वरपर छोटो हिँडडुल गर्न सकिन्छ। नजिकैको चापागाउँ बजार पनि घुम्न सकिन्छ।"
 
+msgid "A carved shrine decorated with flowers and vermilion"
+msgstr "फूल र सिन्दूरले सजाइएको मूर्तिसहितको सानो देवस्थल"
+
+msgid "A carved shrine decorated with flowers and vermilion."
+msgstr "फूल र सिन्दूरले सजाइएको मूर्तिसहितको सानो देवस्थल।"
+
+msgid "A close view of the bells at Karya Binayak"
+msgstr "कार्यविनायकमा रहेका घण्टीहरूको नजिकको दृश्य"
+
+msgid "A close view of the bells at Karya Binayak."
+msgstr "कार्यविनायकमा रहेका घण्टीहरूको नजिकको दृश्य।"
+
 msgid "A compact amusement park in Bhrikutimandap, Kathmandu Fun Park is a central stop for families looking for a few rides and a snack break. Its location makes it easy to combine with a short walk around Ratna Park or a longer outing to Basantapur."
 msgstr "भृकुटीमण्डपको काठमाडौं फन पार्क परिवारसँग केही खेल खेल्न र खाजा खान पुग्न मिल्ने सानो मनोरञ्जन पार्क हो। यहाँको घुमघामसँगै रत्नपार्कमा छोटो हिँडडुल गर्न वा बसन्तपुरसम्म जान सकिन्छ।"
 
@@ -162,11 +174,17 @@ msgstr "बारेमा"
 msgid "About Ghumna Jaun"
 msgstr "घुम्न जाऔँबारे"
 
+msgid "About this destination"
+msgstr "यस गन्तव्यबारे"
+
 msgid "About us"
 msgstr "हाम्रो बारेमा"
 
 msgid "Accept"
 msgstr "स्वीकार गर्नुहोस्"
+
+msgid "Accept all"
+msgstr "सबै स्वीकार"
 
 msgid "Acceptable use"
 msgstr "प्रयोग गर्दा पालना गर्नुपर्ने कुरा"
@@ -245,6 +263,12 @@ msgstr "मनोरञ्जनात्मक खेल"
 
 msgid "Amusement rides · Bhrikutimandap"
 msgstr "मनोरञ्जनात्मक खेल · भृकुटीमण्डप"
+
+msgid "Another view of Karya Binayak Temple and its courtyard"
+msgstr "कार्यविनायक मन्दिर र प्राङ्गणको अर्को दृश्य"
+
+msgid "Another view of Karya Binayak Temple and its courtyard."
+msgstr "कार्यविनायक मन्दिर र प्राङ्गणको अर्को दृश्य।"
 
 msgid "Ashapuri Mahadev Temple"
 msgstr "आशापुरी महादेव मन्दिर"
@@ -477,6 +501,12 @@ msgstr "CC BY-SA"
 msgid "COUNTRYSIDE OUTING"
 msgstr "गाउँघरतिर घुमघाम"
 
+msgid "Carved stone detail on the temple wall"
+msgstr "मन्दिरको भित्तामा रहेको ढुङ्गाको कलाकृति"
+
+msgid "Carved stone detail on the temple wall."
+msgstr "मन्दिरको भित्तामा रहेको ढुङ्गाको कलाकृति।"
+
 msgid "Central Zoo"
 msgstr "सदर चिडियाखाना"
 
@@ -651,6 +681,9 @@ msgstr "समूहका सदस्यको हिँडडुल गर्
 msgid "Choose between the waterslides and amusement rides based on what is open."
 msgstr "सञ्चालनमा रहेका खेल हेरेर पानीमा खेल्ने स्लाइड वा अन्य मनोरञ्जनात्मक खेल रोज्नुहोस्।"
 
+msgid "Choose optional analytics separately from maps and videos. Rejecting keeps those services blocked. Ads are not enabled."
+msgstr "एनालिटिक्स र नक्सा/भिडियो छुट्टाछुट्टै रोज्नुहोस्। अस्वीकार गर्दा ती सेवा रोकिन्छन्। विज्ञापन सक्षम गरिएको छैन।"
+
 msgid "Choose the old town or the lower end of the 1,000 Steps as your drop-off, depending on where you want to start."
 msgstr "घुमघाम कहाँबाट सुरु गर्ने हो, त्यसअनुसार पुरानो बजार वा हजार सिँढीको तल्लो भागमा ओर्लनुहोस्।"
 
@@ -801,11 +834,20 @@ msgstr "काठमाडौं उपत्यकाबाट एकदिन�
 msgid "Day trips, heritage walks and family outings around Kathmandu Valley."
 msgstr "काठमाडौं उपत्यका वरपर एकदिने यात्रा, सम्पदा पदयात्रा र पारिवारिक घुमघाम।"
 
+msgid "Decorative metalwork at the temple entrance"
+msgstr "मन्दिरको प्रवेशद्वारमा सजावटी धातुकला"
+
+msgid "Decorative metalwork at the temple entrance."
+msgstr "मन्दिरको प्रवेशद्वारमा सजावटी धातुकला।"
+
 msgid "Department of Tourism listing"
 msgstr "पर्यटन विभागको विवरण"
 
 msgid "Destination guides"
 msgstr "गन्तव्यसम्बन्धी मार्गदर्शन"
+
+msgid "Destination photo unavailable"
+msgstr "गन्तव्यको तस्बिर उपलब्ध छैन"
 
 msgid "Destination search and filters currently run in your browser. Search terms, selected cities, categories and starting points can appear in page URLs. When you open or share a URL, those values can be included in browser history, hosting logs or the shared link."
 msgstr "हाल गन्तव्य खोज्ने र छनोट गर्ने काम तपाईंको ब्राउजरमै हुन्छ। खोजेको शब्द, रोजेको सहर, वर्ग र यात्रा सुरु गर्ने ठाउँ पृष्ठको URL मा देखिन सक्छन्। त्यो URL खोल्दा वा अरूलाई पठाउँदा यी विवरण ब्राउजरको इतिहास, होस्टिङ अभिलेख वा पठाइएको लिङ्कमा समावेश हुन सक्छन्।"
@@ -1188,6 +1230,9 @@ msgstr "सिपाडोलको डोलेश्वर महादेव 
 msgid "Gold-roofed shrine at Ashapuri Mahadev Temple in Suryabinayak"
 msgstr "सूर्यविनायकको आशापुरी महादेव मन्दिरको सुनौलो छाना"
 
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
 msgid "Google’s Privacy Policy"
 msgstr "Google को गोपनीयता नीति"
 
@@ -1442,6 +1487,12 @@ msgstr "कमलादी, काठमाडौं"
 
 msgid "Karya Binayak Temple"
 msgstr "कार्यविनायक मन्दिर"
+
+msgid "Karya Binayak Temple beneath a clear blue sky"
+msgstr "सफा नीलो आकाशमुनि कार्यविनायक मन्दिर"
+
+msgid "Karya Binayak Temple beneath a clear blue sky."
+msgstr "सफा नीलो आकाशमुनि कार्यविनायक मन्दिर।"
 
 msgid "Karya Binayak Temple in Bungamati"
 msgstr "बुङ्गमतीको कार्यविनायक मन्दिर"
@@ -1920,6 +1971,12 @@ msgstr "बाटोमा"
 msgid "ON THE WAY BACK"
 msgstr "फर्कने बाटोमा"
 
+msgid "Offerings and sacred stone figures in the temple courtyard"
+msgstr "मन्दिरको प्राङ्गणमा चढाइएका फूल र पूजनीय ढुङ्गाका आकृतिहरू"
+
+msgid "Offerings and sacred stone figures in the temple courtyard."
+msgstr "मन्दिरको प्राङ्गणमा चढाइएका फूल र पूजनीय ढुङ्गाका आकृतिहरू।"
+
 msgid "Official garden map"
 msgstr "उद्यानको आधिकारिक नक्सा"
 
@@ -1946,6 +2003,12 @@ msgstr "खुल्ने समय"
 
 msgid "Opening hours, fees and transport arrangements can change. Check the linked source or contact the venue when those details matter to your visit."
 msgstr "खुल्ने समय, शुल्क र यातायातको व्यवस्था बदलिन सक्छ। तपाईंको भ्रमणका लागि यी विवरण आवश्यक छन् भने दिइएको स्रोतमा हेर्नुहोस् वा सम्बन्धित ठाउँमा सम्पर्क गर्नुहोस्।"
+
+msgid "Optional analytics helps us understand site use. Maps and videos connect to external providers. Accept all, reject all, or choose each separately in Cookie preferences."
+msgstr "वैकल्पिक एनालिटिक्सले साइटको प्रयोग बुझ्न मद्दत गर्छ। नक्सा र भिडियो बाह्य सेवासँग जोडिन्छन्। सबै स्वीकार वा अस्वीकार गर्नुहोस्, अथवा कुकी प्राथमिकतामा छुट्टाछुट्टै रोज्नुहोस्।"
+
+msgid "Optional maps and videos"
+msgstr "वैकल्पिक नक्सा र भिडियो"
 
 msgid "Optional maps and videos connect to Google Maps, OpenStreetMap and YouTube. Choose whether to load them."
 msgstr "वैकल्पिक नक्सा र भिडियो लोड गर्दा Google Maps, OpenStreetMap र YouTube सँग जडान हुन्छ। तिनलाई लोड गर्ने कि नगर्ने रोज्नुहोस्।"
@@ -2067,8 +2130,11 @@ msgstr "तस्बिरको श्रेय"
 msgid "Photo credits page"
 msgstr "तस्बिरको श्रेयसम्बन्धी पृष्ठ"
 
+msgid "Photo gallery"
+msgstr "तस्बिर ग्यालरी"
+
 msgid "Photo pending"
-msgstr "तस्बिर आउन बाँकी छ"
+msgstr "तस्बिर उपलब्ध छैन"
 
 msgid "Photographer and license information is listed on the"
 msgstr "तस्बिर खिच्ने व्यक्ति र इजाजतपत्रको जानकारी:"
@@ -2214,6 +2280,9 @@ msgstr "बुङ्गमतीको रातो मच्छिन्द्�
 msgid "Rato Machhindranath Temple, Bungamati"
 msgstr "रातो मच्छिन्द्रनाथ मन्दिर, बुङ्गमती"
 
+msgid "Read destination guide"
+msgstr "गन्तव्य जानकारी पढ्नुहोस्"
+
 msgid "Read guide"
 msgstr "मार्गदर्शन पढ्नुहोस्"
 
@@ -2231,6 +2300,9 @@ msgstr "रेस्टुरेन्ट, बासस्थान र या�
 
 msgid "Reject"
 msgstr "अस्वीकार गर्नुहोस्"
+
+msgid "Reject all"
+msgstr "सबै अस्वीकार"
 
 msgid "Related destinations"
 msgstr "सम्बन्धित गन्तव्यहरू"
@@ -2360,6 +2432,9 @@ msgstr "सन्तानेश्वर महादेव मन्दिर,
 
 msgid "Santaneshwor Mahadev is a Shiva shrine in Jharuwarasi, Lalitpur. Set aside time for worship and the approach to the temple, then continue toward Godawari if you want a second stop in the area."
 msgstr "ललितपुरको झरुवारासीमा रहेको सन्तानेश्वर महादेव शिव मन्दिर हो। मन्दिर पुग्न र दर्शन गर्न समय छुट्याउनुहोस्। वरपर अर्को ठाउँ पनि घुम्न मन भए गोदावरीतिर जानुहोस्।"
+
+msgid "Save choices"
+msgstr "रोजाइ सुरक्षित गर्नुहोस्"
 
 msgid "Scenic dining"
 msgstr "दृश्यसँगै खानपान"
@@ -2916,6 +2991,12 @@ msgstr "यात्रा सुरु गर्ने ठाउँका ल�
 msgid "The stepped route climbs from Dhulikhel toward Kalidevi Temple. Make the staircase the main outing and take breaks on the way up, or combine part of the climb with an old-town walk."
 msgstr "धुलिखेलबाट सिँढीको बाटो हुँदै कालीदेवी मन्दिरतिर उक्लन सकिन्छ। सिँढी चढ्नुलाई मुख्य घुमघाम बनाएर बीचबीचमा आराम गर्नुहोस्। वा केही भाग मात्रै चढेर पुरानो बस्तीको पैदल यात्रा पनि समेट्नुहोस्।"
 
+msgid "The temple entrance and hanging bells"
+msgstr "मन्दिरको प्रवेशद्वार र झुन्डिएका घण्टीहरू"
+
+msgid "The temple entrance and hanging bells."
+msgstr "मन्दिरको प्रवेशद्वार र झुन्डिएका घण्टीहरू।"
+
 msgid "The terms for using Ghumna Jaun’s destination guides, articles, photographs and links."
 msgstr "घुम्न जाऔँका गन्तव्यसम्बन्धी मार्गदर्शन, लेख, तस्बिर र लिङ्क प्रयोग गर्ने सर्तहरू।"
 
@@ -3308,6 +3389,9 @@ msgstr "पैदल यात्रा र पिकनिकको तया�
 
 msgid "Wander through the lanes and squares for a gentler outing before the hill climb."
 msgstr "डाँडा चढ्नुअघि गल्ली र चोकहरूमा फुर्सदसँग घुम्नुहोस्।"
+
+msgid "Watch the vlog"
+msgstr "यात्रा भिडियो हेर्नुहोस्"
 
 msgid "Water and amusement park"
 msgstr "वाटर पार्क र मनोरञ्जनस्थल"

@@ -39,6 +39,8 @@ add_action( 'acf/init', function () {
 
 		$field( 'guide_location', 'Guide location label' ),
 
+		$field( 'destination_description', 'About this destination', 'wysiwyg' ),
+
 		$field( 'history', 'History', 'wysiwyg' ),
 
 		$field( 'history_source_title', 'History source name' ),
@@ -50,6 +52,8 @@ add_action( 'acf/init', function () {
 		$field( 'feature_caption', 'Feature photo caption' ),
 
 		$row( 'guide_links', 'Guide references', array( $field( 'guide_link_label', 'Link label' ), $field( 'guide_link_url', 'URL', 'url' ) ) ),
+
+		$field( 'hero_image', 'Hero banner image', 'image', array( 'return_format' => 'id', 'instructions' => 'Optional wide image for the hero. Leave empty to use the destination gallery slider.' ) ),
 
 		$field( 'gallery', 'Photo gallery', 'gallery', array( 'return_format' => 'id' ) ),
 
@@ -132,6 +136,10 @@ add_action( 'acf/init', function () {
 		$row( 'sources', 'Sources', array( $field( 'source_title', 'Source name' ), $field( 'source_url', 'URL', 'url' ) ) ),
 
 		$field( 'verification_date', 'Last verified', 'date_picker', array( 'return_format' => 'Y-m-d' ) ),
+
+		$field( 'video_title', 'Video heading' ),
+
+		$field( 'video_intro', 'Video introduction', 'textarea' ),
 
 		$field( 'video_url', 'Video URL', 'url' ),
 

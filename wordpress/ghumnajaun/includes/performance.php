@@ -72,7 +72,7 @@ add_action( 'wp_head', function () {
 		$photo = $data['bannerPhotos'][$name] ?? $data['photos'][$name] ?? null;
 	} elseif ( is_singular( 'destination' ) ) {
 		$name = $data['currentPlace'] ?? '';
-		$key = $data['tripDetails'][$name]['photos'][0] ?? '';
+		$key = $data['tripDetails'][$name]['heroPhoto'] ?? $data['tripDetails'][$name]['photos'][0] ?? '';
 		$photo = $data['photos'][$key] ?? null;
 	}
 

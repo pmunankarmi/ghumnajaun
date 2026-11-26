@@ -475,7 +475,9 @@
 		const photoDialog = find('stop-photo-dialog');
 		const largePhoto = find('stop-photo-large');
 		const photoStatus = find('stop-photo-status');
-		const stopImages = [...trip.querySelectorAll('.trip-stop-photo')];
+		const photoTriggers = [...trip.querySelectorAll('.trip-stop-photo, .trip-gallery-photo')];
+		const stopImages = photoTriggers.filter((image, index) => photoTriggers.findIndex((candidate) => candidate.dataset.tripPhoto === image.dataset.tripPhoto) === index);
+		const photoTitle = (image) => image.dataset.photoTitle || image.closest('li')?.querySelector('h3')?.textContent || image.alt;
 		const photoPosition = find('stop-photo-position');
 		const photoThumbnails = find('stop-photo-thumbnails');
 		const thumbnailButtons = stopImages.map((image, index) => {
@@ -483,7 +485,7 @@
 			button.type = 'button';
 			button.setAttribute(
 				'aria-label',
-				'Show photo of ' + image.closest('li').querySelector('h3').textContent,
+				'Show photo of ' + photoTitle(image),
 			);
 			button.setAttribute('aria-pressed', 'false');
 			const preview = document.createElement('img');
@@ -539,10 +541,8 @@
 			}
 			largePhoto.style.opacity = '0';
 			photoFade?.cancel();
-			find('stop-photo-title').textContent = image
-				.closest('li')
-				.querySelector('h3').textContent;
-			find('stop-photo-caption').textContent = photo.alt;
+			find('stop-photo-title').textContent = photoTitle(image);
+			find('stop-photo-caption').textContent = photo.caption || photo.alt;
 			photoPosition.textContent = activePhoto + 1 + ' of ' + stopImages.length;
 			thumbnailButtons.forEach((button, index) =>
 				button.setAttribute('aria-pressed', String(index === activePhoto)),
@@ -597,17 +597,22 @@
 			event.preventDefault();
 			showStopPhoto(activePhoto + (event.key === 'ArrowRight' ? 1 : -1));
 		});
-		stopImages.forEach((image, index) => {
-			const button = document.createElement('button');
-			button.type = 'button';
-			button.className = 'trip-stop-photo-button';
-			const title = image.closest('li').querySelector('h3').textContent;
+		photoTriggers.forEach((image) => {
+			const index = stopImages.findIndex((candidate) => candidate.dataset.tripPhoto === image.dataset.tripPhoto);
+			const button = image.closest('[data-gallery-link]') || document.createElement('button');
+			const title = photoTitle(image);
+			if (button.tagName === 'BUTTON') {
+				button.type = 'button';
+				button.className = 'trip-stop-photo-button';
+				image.before(button);
+				button.append(image);
+			}
 			button.setAttribute('aria-label', 'View larger photo of ' + title);
 			button.setAttribute('aria-haspopup', 'dialog');
 			button.setAttribute('aria-controls', photoDialog.id);
-			image.before(button);
-			button.append(image);
-			button.addEventListener('click', () => {
+			button.addEventListener('click', (event) => {
+				if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+				event.preventDefault();
 				showStopPhoto(index);
 				photoDialog.showModal();
 				revealActiveThumbnail();

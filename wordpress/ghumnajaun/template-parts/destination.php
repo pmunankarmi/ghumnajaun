@@ -6,6 +6,7 @@ $data = $context['data'];
 $name = $context['name'];
 $details = $context['details'];
 $guide = $context['guide'];
+$description = gj_value( 'destination_description', get_the_ID() );
 ?>
 <section class="destination-trip" data-screen="detail">
 	<div class="trip-hero">
@@ -57,11 +58,20 @@ $guide = $context['guide'];
 		<dl class="trip-facts" data-trip-facts=""><?php get_template_part( 'template-parts/destination/facts', null, $context ); ?></dl>
 	</div>
 	<nav aria-label="On this page" class="body trip-jumps container-xl">
+		<?php if ( $description ) : ?>
+		<a class="page-link" href="#gj-about"><?php esc_html_e( 'About this destination', 'ghumnajaun' ); ?></a>
+		<?php endif; ?>
 		<a class="page-link" href="#gj-things"><?php esc_html_e( 'Things to do', 'ghumnajaun' ); ?></a>
 		<?php if ( ! empty( $guide['history'] ) ) : ?>
 		<a class="page-link" data-trip-history-jump="" href="#gj-history">
 			<?php esc_html_e( 'History', 'ghumnajaun' ); ?>
 		</a>
+		<?php endif; ?>
+		<?php if ( ! empty( $details['videoUrl'] ) ) : ?>
+		<a class="page-link" href="#gj-vlog-title"><?php esc_html_e( 'Watch the vlog', 'ghumnajaun' ); ?></a>
+		<?php endif; ?>
+		<?php if ( ! empty( $details['photos'] ) ) : ?>
+		<a class="page-link" href="#gj-gallery"><?php esc_html_e( 'Photo gallery', 'ghumnajaun' ); ?></a>
 		<?php endif; ?>
 		<a class="page-link" href="#gj-visit"><?php esc_html_e( 'Plan your visit', 'ghumnajaun' ); ?></a>
 		<a class="page-link" href="#gj-getting"><?php esc_html_e( 'Getting there', 'ghumnajaun' ); ?></a>
@@ -69,6 +79,12 @@ $guide = $context['guide'];
 		<a class="page-link" href="#gj-day"><?php esc_html_e( 'Make a day of it', 'ghumnajaun' ); ?></a>
 	</nav>
 	<div class="body trip-main container-xl">
+		<?php if ( $description ) : ?>
+		<section aria-labelledby="gj-about-title" id="gj-about">
+			<h2 id="gj-about-title"><?php esc_html_e( 'About this destination', 'ghumnajaun' ); ?></h2>
+			<div class="trip-description"><?php echo wp_kses_post( wpautop( $description ) ); ?></div>
+		</section>
+		<?php endif; ?>
 		<section aria-labelledby="gj-things-title" id="gj-things">
 			<div class="trip-section-grid">
 				<div>
@@ -80,9 +96,11 @@ $guide = $context['guide'];
 						<?php get_template_part( 'template-parts/destination/sources', null, $context ); ?>
 					</div>
 				</div>
+				<?php if ( isset( $data['photos'][$details['featurePhoto'] ?? $details['photos'][1] ?? ''] ) ) : ?>
 				<figure class="trip-feature-photo" data-trip-feature="">
 					<?php get_template_part( 'template-parts/destination/feature', null, $context ); ?>
 				</figure>
+				<?php endif; ?>
 			</div>
 		</section>
 		<?php if ( ! empty( $guide['history'] ) ) : ?>
@@ -98,7 +116,11 @@ $guide = $context['guide'];
 		<?php endif;
 
 if ( ! empty( $details['videoUrl'] ) ) : ?>
-		<section aria-label="<?php echo esc_attr( get_the_title() . ' video' ); ?>" id="gj-vlog-title">
+		<section aria-labelledby="gj-vlog-heading" id="gj-vlog-title">
+			<h2 id="gj-vlog-heading"><?php echo esc_html( gj_value( 'video_title', get_the_ID(), __( 'Watch the vlog', 'ghumnajaun' ) ) ); ?></h2>
+			<?php if ( gj_value( 'video_intro', get_the_ID() ) ) : ?>
+			<p><?php echo esc_html( gj_value( 'video_intro', get_the_ID() ) ); ?></p>
+			<?php endif; ?>
 			<div class="trip-vlog-player consent-embed consent-video">
 				<div class="consent-placeholder">
 					<p><?php esc_html_e( 'This video loads after you accept optional embedded content.', 'ghumnajaun' ); ?></p>
@@ -118,6 +140,7 @@ if ( ! empty( $details['videoUrl'] ) ) : ?>
 			</div>
 		</section>
 		<?php endif; ?>
+		<?php get_template_part( 'template-parts/destination/photo-gallery', null, $context ); ?>
 		<section aria-labelledby="gj-visit-title" id="gj-visit">
 			<h2 id="gj-visit-title"><?php esc_html_e( 'Plan your visit', 'ghumnajaun' ); ?></h2>
 			<div class="trip-section-grid" data-trip-visit="">
