@@ -30,7 +30,7 @@ $guide = $context['guide'];
 				role="group"
 			></div>
 		</div>
-		<div class="body trip-hero-inner">
+		<div class="body trip-hero-inner container-xl">
 			<a class="trip-back" data-page="results" href="<?php echo esc_url( gj_home_url( '/explore/' ) ); ?>">
 				<?php esc_html_e( '← Back to places', 'ghumnajaun' ); ?>
 			</a>
@@ -40,9 +40,8 @@ $guide = $context['guide'];
 			</div>
 		</div>
 	</div>
-	<div class="body trip-heading">
+	<div class="body trip-heading container-xl">
 		<div class="trip-summary">
-			<?php gj_publisher_byline(); ?>
 			<p class="trip-intro" data-trip-intro=""><?php echo esc_html( $guide['summary'] ); ?></p>
 			<a
 				class="action trip-action"
@@ -57,7 +56,7 @@ $guide = $context['guide'];
 		</div>
 		<dl class="trip-facts" data-trip-facts=""><?php get_template_part( 'template-parts/destination/facts', null, $context ); ?></dl>
 	</div>
-	<nav aria-label="On this page" class="body trip-jumps">
+	<nav aria-label="On this page" class="body trip-jumps container-xl">
 		<a class="page-link" href="#gj-things"><?php esc_html_e( 'Things to do', 'ghumnajaun' ); ?></a>
 		<?php if ( ! empty( $guide['history'] ) ) : ?>
 		<a class="page-link" data-trip-history-jump="" href="#gj-history">
@@ -69,7 +68,7 @@ $guide = $context['guide'];
 		<a class="page-link" href="#gj-eat"><?php esc_html_e( 'Eat & stay', 'ghumnajaun' ); ?></a>
 		<a class="page-link" href="#gj-day"><?php esc_html_e( 'Make a day of it', 'ghumnajaun' ); ?></a>
 	</nav>
-	<div class="body trip-main">
+	<div class="body trip-main container-xl">
 		<section aria-labelledby="gj-things-title" id="gj-things">
 			<div class="trip-section-grid">
 				<div>
@@ -168,7 +167,7 @@ if ( ! empty( $details['videoUrl'] ) ) : ?>
 			</div>
 		</section>
 	</div>
-	<section aria-labelledby="gj-related-title" class="body trip-related">
+	<section aria-labelledby="gj-related-title" class="body trip-related container-xl">
 		<h2 id="gj-related-title"><?php esc_html_e( 'Related destinations', 'ghumnajaun' ); ?></h2>
 		<div
 			class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 place-row"

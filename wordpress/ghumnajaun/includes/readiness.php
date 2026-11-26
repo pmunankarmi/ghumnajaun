@@ -63,8 +63,11 @@ add_filter( 'wp_nav_menu_objects', function ( $items ) {
 } );
 
 function gj_publisher_byline() {
-	$ne = gj_is_nepali();
-	echo '<p class="post-byline"><a href="' . esc_url( gj_home_url( '/about/' ) . '#editorial-responsibility' ) . '">' . esc_html( $ne ? 'प्रकाशक: घुम्न जाऔँ' : 'Published by Ghumna Jaun' ) . '</a> · ' . esc_html( $ne ? 'परिमार्जित: ' : 'Updated: ' ) . '<time datetime="' . esc_attr( get_the_modified_date( 'c' ) ) . '">' . esc_html( get_the_modified_date( 'j F Y' ) ) . '</time></p>';
+	if ( ! is_singular( 'post' ) ) {
+		return;
+	}
+
+	echo '<p class="post-byline"><span class="post-author">' . esc_html( get_the_author() ) . '</span> · <time datetime="' . esc_attr( get_the_date( 'c' ) ) . '">' . esc_html( get_the_date( 'j F Y' ) ) . '</time></p>';
 }
 
 // These fields remain ordinary ACF Pro media fields; no external permission is inferred.

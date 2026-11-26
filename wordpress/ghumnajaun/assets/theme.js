@@ -1060,6 +1060,7 @@
 	if (banner && !motion.matches) bannerTimer.hidden = false;
 	if (banner) setTimeout(() => loadBannerPhoto(1), 3000);
 	const aos = motion.matches ? null : window.AOS;
+	let revealFrame;
 	function refreshReveals() {
 		if (!aos) return;
 		root
@@ -1067,18 +1068,41 @@
 			.forEach((element) => {
 				element.dataset.aos = element.dataset.reveal;
 			});
-		requestAnimationFrame(() => aos.refreshHard());
+		cancelAnimationFrame(revealFrame);
+		revealFrame = requestAnimationFrame(() => aos.refreshHard());
 	}
 	if (aos) {
 		root.classList.add('aos-enabled');
 		refreshReveals();
 		aos.init({
 			once: true,
-			duration: 480,
+			duration: 600,
 			offset: 35,
 			easing: 'ease-out-cubic',
 			disableMutationObserver: true,
 		});
+		// Filters replace cards after initialization; register their reveal targets too.
+		new MutationObserver((records) => {
+			if (
+				records.some((record) =>
+					[...record.addedNodes].some(
+						(node) =>
+							node.nodeType === 1 &&
+							(node.matches('[data-reveal]') ||
+								node.querySelector('[data-reveal]')),
+					),
+				)
+			) refreshReveals();
+		}).observe(root, { childList: true, subtree: true });
+		// Late images and fonts can move the scroll positions of subsequent sections.
+		root.addEventListener(
+			'load',
+			(event) => {
+				if (event.target.tagName === 'IMG') refreshReveals();
+			},
+			true,
+		);
+		document.fonts?.ready.then(refreshReveals);
 	}
 
 	root.addEventListener(

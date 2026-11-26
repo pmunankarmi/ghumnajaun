@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
 		<a class="screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'ghumnajaun' ); ?></a>
 		<div id="gj" data-view="<?php echo esc_attr( gj_current_view() ); ?>">
 			<header>
-				<div class="header-inner">
+				<div class="header-inner container-xl">
 					<a
 						href="<?php echo esc_url( gj_home_url( '/' ) ); ?>"
 						class="brand page-link"

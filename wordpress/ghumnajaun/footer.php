@@ -1,5 +1,5 @@
 </main>
-			<footer class="site-footer">
+			<footer class="site-footer container-xl">
 				<div class="footer-main">
 					<div class="footer-brand">
 						<a

@@ -62,7 +62,7 @@ $banner_place = $data['bannerPlaces'][0] ?? '';
 			<span aria-hidden="true" class="link-arrow">↗</span>
 		</a>
 	</div>
-	<div class="body home-content">
+	<div class="body home-content container-xl">
 		<?php if ( ! gj_is_nepali() && gj_option( 'home_intro' ) ) : ?>
 		<section aria-label="Plan a trip near Kathmandu">
 			<p><?php echo esc_html( gj_option( 'home_intro' ) ); ?></p>

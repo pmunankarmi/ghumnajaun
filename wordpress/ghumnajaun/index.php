@@ -8,7 +8,7 @@ elseif ( is_home() ) :
 	get_template_part( 'template-parts/blog' );
 else :
 	?>
-	<div class="body">
+	<div class="body container-xl">
 		<h1><?php echo esc_html( get_the_archive_title() ); ?></h1>
 		<?php while ( have_posts() ) : ?>
 			<?php the_post(); ?>

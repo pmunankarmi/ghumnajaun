@@ -2,7 +2,7 @@
 /** Missing page template. @package Ghumnajaun */
 get_header();
 ?>
-<div class="body wp-guide">
+<div class="body wp-guide container-xl">
 	<h1><?php esc_html_e( 'That place wasn’t found', 'ghumnajaun' ); ?></h1>
 	<p><?php esc_html_e( 'Explore the guides to find your next day out.', 'ghumnajaun' ); ?></p>
 	<a class="action" href="<?php echo esc_url( gj_home_url( '/explore/' ) ); ?>">

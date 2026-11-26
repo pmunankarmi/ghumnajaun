@@ -37,14 +37,14 @@ while ( have_posts() ) :
 		echo $page_content;
 	elseif ( is_page( 'photo-credits' ) ) :
 		?>
-		<section class="body photo-credits">
+		<section class="body photo-credits container-xl">
 			<h1 data-reveal="fade-up"><?php the_title(); ?></h1>
 			<p><?php esc_html_e( 'Follow each photo’s source link to view the original. Photos may be cropped to fit the layout.', 'ghumnajaun' ); ?></p>
 			<ul id="gj-credits"><?php echo gj_credits_html(); ?></ul>
 		</section>
 		<?php else :
 			?>
-		<section class="body wp-content">
+		<section class="body wp-content container-xl">
 			<h1><?php the_title(); ?></h1>
 			<?php echo $page_content; ?>
 		</section>

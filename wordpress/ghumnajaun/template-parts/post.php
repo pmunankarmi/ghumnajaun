@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<article class="body blog-article" id="gj-post">
+<article class="body blog-article container-xl" id="gj-post">
 	<a class="page-link" data-page="blog" href="<?php echo esc_url( gj_home_url( '/blog/' ) ); ?>">
 		<?php esc_html_e( '← All travel guides', 'ghumnajaun' ); ?>
 	</a>

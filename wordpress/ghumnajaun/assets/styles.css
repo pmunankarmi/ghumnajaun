@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap');
 #gj {
+	--gj-container-width: 100%;
+	--gj-container-gutter: 24px;
+	--gj-container-inset: max(calc(var(--gj-container-gutter) / 2), calc((100% - var(--gj-container-width) + var(--gj-container-gutter)) / 2));
 	background: var(--paper);
 	color: var(--ink);
 	font:
@@ -294,10 +297,10 @@ html:has(.search-dialog[open]) {
 #gj .header-inner,
 #gj .body,
 #gj footer {
-	max-width: 1240px;
+	max-width: var(--gj-container-width);
 	width: 100%;
 	margin-inline: auto;
-	padding-inline: clamp(20px, 5vw, 62px);
+	padding-inline: calc(var(--gj-container-gutter) / 2);
 }
 #gj .header-inner {
 	min-height: 78px;
@@ -542,8 +545,9 @@ html:has(.search-dialog[open]) {
 	background: var(--surface);
 }
 #gj .hero {
-	min-height: clamp(385px, 52vw, 610px);
-	padding: clamp(23px, 7vw, 100px) max(5vw, calc((100vw - 1116px) / 2));
+	min-height: clamp(420px, 65vh, 900px);
+	min-height: clamp(420px, 65svh, 900px);
+	padding: clamp(23px, 7vw, 100px) var(--gj-container-inset);
 	gap: 26px;
 }
 #gj .hero::before {
@@ -778,7 +782,7 @@ html:has(.search-dialog[open]) {
 	gap: 18px;
 	max-height: 85dvh;
 	overflow: auto;
-	padding: 20px max(20px, calc((100vw - 1116px) / 2));
+	padding: 20px var(--gj-container-inset);
 	padding-bottom: calc(20px + env(safe-area-inset-bottom));
 	border-top: 1px solid var(--line);
 	background: var(--surface);
@@ -1364,7 +1368,7 @@ html:has(.search-dialog[open]) {
 }
 #gj .home-hero .hero-location {
 	z-index: 3;
-	right: max(5vw, calc((100vw - 1116px) / 2));
+	right: var(--gj-container-inset);
 	bottom: 48px;
 	background: #17382ce6;
 	color: white;
@@ -1507,7 +1511,7 @@ html:has(.search-dialog[open]) {
 	gap: 10px;
 }
 #gj .blog-article {
-	max-width: 1240px;
+	max-width: var(--gj-container-width);
 }
 #gj .post-heading {
 	display: block;
@@ -1601,7 +1605,8 @@ html:has(.search-dialog[open]) {
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 36px;
-	min-height: clamp(340px, 41vw, 500px);
+	min-height: clamp(340px, 50vh, 720px);
+	min-height: clamp(340px, 50svh, 720px);
 	padding-block: clamp(16px, 3vw, 36px) 76px;
 	pointer-events: none;
 }
@@ -1748,7 +1753,7 @@ html:has(.search-dialog[open]) {
 	flex-wrap: nowrap;
 	gap: 6px;
 	overflow-x: auto;
-	padding: 6px max(20px, 5vw, calc((100% - 1116px) / 2));
+	padding: 6px var(--gj-container-inset);
 	background: var(--paper);
 	border-bottom: 1px solid var(--line);
 }
@@ -2410,6 +2415,7 @@ html:lang(ne) #gj .footer-columns h2 {
 }
 /* Editorial articles use the same link treatment and rhythm in both layouts. */
 #gj .post-body {
+	max-width: 76ch;
 	line-height: 1.8;
 }
 #gj .post-body h2 {
@@ -2777,5 +2783,22 @@ html:lang(ne) #gj .about-lead {
 		position: relative;
 		top: auto;
 		max-height: 420px;
+	}
+}
+
+/* Shared Bootstrap container edges, including full-width banner overlays. */
+@media (min-width: 1200px) {
+	#gj {
+		--gj-container-width: 1140px;
+	}
+}
+@media (min-width: 1400px) {
+	#gj {
+		--gj-container-width: 1440px;
+	}
+}
+@media (min-width: 1920px) {
+	#gj {
+		--gj-container-width: 1600px;
 	}
 }

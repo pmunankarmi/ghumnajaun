@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 $data = gj_site_data();
 $listing = gj_destination_listing( $data );
 ?>
-<section class="body" data-screen="results">
+<section class="body container-xl" data-screen="results">
 	<div class="flex-heading" data-reveal="fade-up">
 		<div>
 			<p class="meta" id="gj-origin"><?php echo esc_html( $listing['origin'] ); ?></p>

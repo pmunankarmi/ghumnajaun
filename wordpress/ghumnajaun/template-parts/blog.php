@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 ?>
-<section class="body blog-index">
+<section class="body blog-index container-xl">
 	<h1 data-reveal="fade-up"><?php echo esc_html( is_category() ? single_cat_title( '', false ) : __( 'Travel guides', 'ghumnajaun' ) ); ?></h1>
 	<div id="gj-blog-categories"><?php echo gj_blog_category_navigation(); ?></div>
 	<div
